@@ -336,6 +336,12 @@
 		DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */; };
 		DECCF08327FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */; };
 		DECCF08527FD8825007BA99C /* SmallerThanCurrentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */; };
+		DECCF08727FD8DDD007BA99C /* GoalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08627FD8DDD007BA99C /* GoalParser.swift */; };
+		DECCF08827FD8DDD007BA99C /* GoalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08627FD8DDD007BA99C /* GoalParser.swift */; };
+		DECCF08A27FD8ED6007BA99C /* GoalParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */; };
+		DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
+		DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
+		DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -567,6 +573,10 @@
 		DECCF06527FCFEE3007BA99C /* RestoreString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreString.swift; sourceTree = "<group>"; };
 		DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrent.swift; sourceTree = "<group>"; };
 		DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SmallerThanCurrentTest.swift; path = SwiftChallengesTests/Lab/numbers/SmallerThanCurrentTest.swift; sourceTree = SOURCE_ROOT; };
+		DECCF08627FD8DDD007BA99C /* GoalParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalParser.swift; sourceTree = "<group>"; };
+		DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalParserTest.swift; sourceTree = "<group>"; };
+		DECCF08B27FD9034007BA99C /* SortingSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentence.swift; sourceTree = "<group>"; };
+		DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentenceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -960,6 +970,8 @@
 		DECCEF1227FCF9C1007BA99C /* texts */ = {
 			isa = PBXGroup;
 			children = (
+				DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */,
+				DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */,
 				DECCEF1327FCF9C1007BA99C /* StringArraysEquivalentTest.swift */,
 				DECCEF1427FCF9C1007BA99C /* RestoreStringTest.swift */,
 				DECCEF1527FCF9C1007BA99C /* StringPracticesTest.swift */,
@@ -1366,16 +1378,18 @@
 			isa = PBXGroup;
 			children = (
 				DECCF05B27FCFEE3007BA99C /* CharacterCaseConversion.swift */,
-				DECCF05C27FCFEE3007BA99C /* ExtractNumberSum.swift */,
-				DECCF05D27FCFEE3007BA99C /* StringArraysEquivalent.swift */,
-				DECCF05E27FCFEE3007BA99C /* StringPractices.swift */,
-				DECCF05F27FCFEE3007BA99C /* ReverseOnlyLetters.swift */,
 				DECCF06027FCFEE3007BA99C /* CharacterExpansion.swift */,
 				DECCF06127FCFEE3007BA99C /* ComputeStringSum.swift */,
+				DECCF05C27FCFEE3007BA99C /* ExtractNumberSum.swift */,
+				DECCF08627FD8DDD007BA99C /* GoalParser.swift */,
 				DECCF06227FCFEE3007BA99C /* IPDefanger.swift */,
 				DECCF06327FCFEE3007BA99C /* NumberOfJewelsInStones.swift */,
-				DECCF06427FCFEE3007BA99C /* TruncateSentence.swift */,
 				DECCF06527FCFEE3007BA99C /* RestoreString.swift */,
+				DECCF05F27FCFEE3007BA99C /* ReverseOnlyLetters.swift */,
+				DECCF08B27FD9034007BA99C /* SortingSentence.swift */,
+				DECCF05E27FCFEE3007BA99C /* StringPractices.swift */,
+				DECCF05D27FCFEE3007BA99C /* StringArraysEquivalent.swift */,
+				DECCF06427FCFEE3007BA99C /* TruncateSentence.swift */,
 			);
 			path = texts;
 			sourceTree = "<group>";
@@ -1587,9 +1601,11 @@
 				DECCF06E27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DECCEFDD27FCFB99007BA99C /* HeapSort.swift in Sources */,
 				DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */,
+				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00227FCFBD3007BA99C /* GraphUtils.swift in Sources */,
 				DECCF05627FCFE49007BA99C /* BSTKthElement.swift in Sources */,
 				DECCEE9A27FCF8B4007BA99C /* HttpJsonExample.swift in Sources */,
+				DECCF08727FD8DDD007BA99C /* GoalParser.swift in Sources */,
 				DECCEE7827FCF8B4007BA99C /* DegreeOfArray.swift in Sources */,
 				DECCEFCA27FCFB4C007BA99C /* Stack.swift in Sources */,
 				DECCEFC527FCFB28007BA99C /* LFUCache.swift in Sources */,
@@ -1653,6 +1669,7 @@
 				DECCEEC527FCF942007BA99C /* DuplicateNumber.swift in Sources */,
 				DECCEFED27FCFBAE007BA99C /* BinarySearchTree.swift in Sources */,
 				DECCEF6127FCF9C1007BA99C /* RelativeSortArrayTest.swift in Sources */,
+				DECCF08827FD8DDD007BA99C /* GoalParser.swift in Sources */,
 				DECCEED727FCF95A007BA99C /* HttpClientExample.swift in Sources */,
 				DECCEECA27FCF942007BA99C /* RelativeSortArray.swift in Sources */,
 				DECCEEBE27FCF932007BA99C /* ArrayLuckyNumber.swift in Sources */,
@@ -1725,6 +1742,7 @@
 				DECCEF9827FCF9C1007BA99C /* ProductSumDifferenceTest.swift in Sources */,
 				DECCEF5E27FCF9C1007BA99C /* HeightCheckerTest.swift in Sources */,
 				DECCEF6327FCF9C1007BA99C /* LargestMissingNumberTest.swift in Sources */,
+				DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00127FCFBD3007BA99C /* Graph.swift in Sources */,
 				DECCEEB827FCF919007BA99C /* ListReverse.swift in Sources */,
 				DECCEEDE27FCF966007BA99C /* Phone.swift in Sources */,
@@ -1778,6 +1796,7 @@
 				DECCF07927FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DECCEF7527FCF9C1007BA99C /* ComputeStringSumTest.swift in Sources */,
 				DECCEF5427FCF9C1007BA99C /* DegreeOfArrayTest.swift in Sources */,
+				DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */,
 				DECCEF9B27FCF9C1007BA99C /* RansomNotesTest.swift in Sources */,
 				DECCEEB227FCF8E6007BA99C /* TopKElements.swift in Sources */,
 				DECCEEB927FCF91C007BA99C /* SumOfTwoLists.swift in Sources */,
@@ -1807,6 +1826,7 @@
 				DECCF07B27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEF9D27FCF9C1007BA99C /* DetectCyclicListTest.swift in Sources */,
 				DECCEF9927FCF9C1007BA99C /* EnvironmentFetchTest.swift in Sources */,
+				DECCF08A27FD8ED6007BA99C /* GoalParserTest.swift in Sources */,
 				DECCEF8D27FCF9C1007BA99C /* EvenNumberDigitsTest.swift in Sources */,
 				DECCEF9E27FCF9C1007BA99C /* ListReverseTest.swift in Sources */,
 				DECCEF8527FCF9C1007BA99C /* MakeSoundTest.swift in Sources */,
