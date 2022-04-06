@@ -333,6 +333,9 @@
 		DECCF07E27FCFF30007BA99C /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFBD27FCFB28007BA99C /* LRUCache.swift */; };
 		DECCF07F27FCFF30007BA99C /* LFUCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFBE27FCFB28007BA99C /* LFUCacheItem.swift */; };
 		DECCF08027FCFF30007BA99C /* LFUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFC027FCFB28007BA99C /* LFUCache.swift */; };
+		DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */; };
+		DECCF08327FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */; };
+		DECCF08527FD8825007BA99C /* SmallerThanCurrentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -562,6 +565,8 @@
 		DECCF06327FCFEE3007BA99C /* NumberOfJewelsInStones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfJewelsInStones.swift; sourceTree = "<group>"; };
 		DECCF06427FCFEE3007BA99C /* TruncateSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruncateSentence.swift; sourceTree = "<group>"; };
 		DECCF06527FCFEE3007BA99C /* RestoreString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreString.swift; sourceTree = "<group>"; };
+		DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerThanCurrent.swift; sourceTree = "<group>"; };
+		DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SmallerThanCurrentTest.swift; path = SwiftChallengesTests/Lab/numbers/SmallerThanCurrentTest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -709,6 +714,7 @@
 				DECCEE3327FCF8B3007BA99C /* RichestCustomerWealth.swift */,
 				DECCEE2427FCF8B3007BA99C /* RunningSumArray.swift */,
 				DECCEE3227FCF8B3007BA99C /* SingleNumber.swift */,
+				DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -906,6 +912,7 @@
 				DECCEEFA27FCF9C1007BA99C /* RichestCustomerWealthTest.swift */,
 				DECCEEF127FCF9C1007BA99C /* RunningSumArrayTest.swift */,
 				DECCEEF727FCF9C1007BA99C /* SingleNumberTest.swift */,
+				DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -1496,6 +1503,7 @@
 				DECCEE7A27FCF8B4007BA99C /* BusyStudent.swift in Sources */,
 				DECCEE7D27FCF8B4007BA99C /* DailyTemperatures.swift in Sources */,
 				DECCEFDF27FCFB99007BA99C /* Sorter.swift in Sources */,
+				DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DECCEFC127FCFB28007BA99C /* Pair.swift in Sources */,
 				DECCEE9727FCF8B4007BA99C /* BasicCombineExample.swift in Sources */,
 				DECCEE8B27FCF8B4007BA99C /* ListReverse.swift in Sources */,
@@ -1614,6 +1622,7 @@
 				DECCEEC327FCF942007BA99C /* DailyTemperatures.swift in Sources */,
 				DECCEF9227FCF9C1007BA99C /* BasicCombineExampleTest.swift in Sources */,
 				DECCEF7A27FCF9C1007BA99C /* CharacterCaseConversionTest.swift in Sources */,
+				DECCF08527FD8825007BA99C /* SmallerThanCurrentTest.swift in Sources */,
 				DECCEF9527FCF9C1007BA99C /* LongestCommonPrefixTest.swift in Sources */,
 				DECCEFE027FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */,
@@ -1761,6 +1770,7 @@
 				DECCEF8627FCF9C1007BA99C /* ConvertTypesTest.swift in Sources */,
 				DECCEF6227FCF9C1007BA99C /* BusyStudentTest.swift in Sources */,
 				DECCEF6C27FCF9C1007BA99C /* HeightBalancedTreeTest.swift in Sources */,
+				DECCF08327FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DECCF00927FCFBD3007BA99C /* Dijkstra.swift in Sources */,
 				DECCF03827FCFC36007BA99C /* QuickSortTest.swift in Sources */,
 				DECCEEAB27FCF8D4007BA99C /* ThreeColorSorting.swift in Sources */,
