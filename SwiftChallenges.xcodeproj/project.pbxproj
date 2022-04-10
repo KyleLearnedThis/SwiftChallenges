@@ -16,6 +16,9 @@
 		DE1CA2FF27FEDCA7001D8BD1 /* PrintTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2FE27FEDCA7001D8BD1 /* PrintTriangle.swift */; };
 		DE1CA30027FEDCA7001D8BD1 /* PrintTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2FE27FEDCA7001D8BD1 /* PrintTriangle.swift */; };
 		DE1CA30327FEDE88001D8BD1 /* PrintTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA30227FEDE88001D8BD1 /* PrintTriangleTest.swift */; };
+		DE1CA3452802B39D001D8BD1 /* SpiralTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */; };
+		DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */; };
+		DE1CA3482802B76B001D8BD1 /* SpiralTraversalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -370,6 +373,8 @@
 		DE1CA2FA27FED90A001D8BD1 /* NumberPlusMinusTeest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPlusMinusTeest.swift; sourceTree = "<group>"; };
 		DE1CA2FE27FEDCA7001D8BD1 /* PrintTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTriangle.swift; sourceTree = "<group>"; };
 		DE1CA30227FEDE88001D8BD1 /* PrintTriangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTriangleTest.swift; sourceTree = "<group>"; };
+		DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpiralTraversal.swift; path = SwiftChallenges/Lab/collections/SpiralTraversal.swift; sourceTree = SOURCE_ROOT; };
+		DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralTraversalTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -768,6 +773,7 @@
 				DECCEE3C27FCF8B3007BA99C /* CountNegativeMatrix.swift */,
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
 				DECCEE3B27FCF8B3007BA99C /* RansomNotes.swift */,
+				DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -1137,6 +1143,7 @@
 				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
 				DECCEF4827FCF9C1007BA99C /* RansomNotesTest.swift */,
+				DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -1576,6 +1583,7 @@
 				DECCEE8227FCF8B4007BA99C /* RichestCustomerWealth.swift in Sources */,
 				DECCEE9F27FCF8B4007BA99C /* Cat.swift in Sources */,
 				DECCF04827FCFE49007BA99C /* BSTMaxHeight.swift in Sources */,
+				DE1CA3452802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DECCEE7F27FCF8B4007BA99C /* EvenNumberDigits.swift in Sources */,
 				DECCEFB627FCFA73007BA99C /* Node.swift in Sources */,
 				DECCEE8D27FCF8B4007BA99C /* DetectCyclicList.swift in Sources */,
@@ -1748,6 +1756,7 @@
 				DECCEF8427FCF9C1007BA99C /* HttpJsonExampleTest.swift in Sources */,
 				DECCEEDB27FCF966007BA99C /* Sound.swift in Sources */,
 				DECCF04927FCFE49007BA99C /* BSTMaxHeight.swift in Sources */,
+				DE1CA3482802B76B001D8BD1 /* SpiralTraversalTest.swift in Sources */,
 				DECCEF9A27FCF9C1007BA99C /* CountNegativeMatrixTest.swift in Sources */,
 				DECCEEB127FCF8E3007BA99C /* StockTrading.swift in Sources */,
 				DECCF04D27FCFE49007BA99C /* BSTInversion.swift in Sources */,
@@ -1848,6 +1857,7 @@
 				DECCEF7727FCF9C1007BA99C /* CharacterExpansionTest.swift in Sources */,
 				DECCEF4E27FCF9C1007BA99C /* MoveZeroesInArrayTest.swift in Sources */,
 				DECCEF7D27FCF9C1007BA99C /* FileOpenerTest.swift in Sources */,
+				DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DECCEF6927FCF9C1007BA99C /* BalanceBSTTest.swift in Sources */,
 				DECCEF5627FCF9C1007BA99C /* RunningSumArrayTest.swift in Sources */,
 				DE1CA2F927FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
