@@ -26,4 +26,27 @@ class BinarySearchArray {
         }
         return -1
     }
+
+    static func customSearch(_ input: [BasicPair], target: Int) -> BasicPair? {
+        var result: BasicPair? = nil
+
+        var left = 0
+        var right = input.count
+        var mid = 0
+
+        while left < right {
+            mid = left + (right - left)/2
+            let item = input[mid]
+            if item.key == target {
+                result = item
+                return result
+            } else if item.key > target {
+                right = mid
+            } else {
+                left = mid
+            }
+        }
+
+        return nil
+    }
 }
