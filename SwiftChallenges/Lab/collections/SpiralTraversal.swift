@@ -31,7 +31,6 @@ class SpiralTraversal {
 
         while (u < d) && (l < r) {
             i = l
-
             /* Print the first row from the remaining rows */
             while i < r {
                 result.append(input[u][i])
