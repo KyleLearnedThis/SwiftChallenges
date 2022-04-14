@@ -33,4 +33,31 @@ class ValidParenthesesTest: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
 
+    func testBalancedV01() {
+        let expected = true
+        let input = "{[()]}"
+        let actual = ValidParentheses.isBalanced(s: input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testBalancedV02() {
+        let expected = true
+        let input = "{}()"
+        let actual = ValidParentheses.isBalanced(s: input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testBalancedV03() {
+        let expected = false
+        let input = "{(})"
+        let actual = ValidParentheses.isBalanced(s: input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testBalancedV04() {
+        let expected = false
+        let input = "("
+        let actual = ValidParentheses.isBalanced(s: input)
+        XCTAssertEqual(expected, actual)
+    }
 }
