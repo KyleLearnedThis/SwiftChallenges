@@ -28,6 +28,9 @@
 		DE604CA82808D9AB00C62CE6 /* NumberOfWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA72808D9AB00C62CE6 /* NumberOfWays.swift */; };
 		DE604CA92808D9AB00C62CE6 /* NumberOfWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA72808D9AB00C62CE6 /* NumberOfWays.swift */; };
 		DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CAA2808DA8E00C62CE6 /* NumberOfWaysTest.swift */; };
+		DE604CAD2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CAC2808E1F700C62CE6 /* RevenueMilestones.swift */; };
+		DE604CAE2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CAC2808E1F700C62CE6 /* RevenueMilestones.swift */; };
+		DE604CB02808E23100C62CE6 /* RevenueMilestonesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CAF2808E23100C62CE6 /* RevenueMilestonesTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -390,6 +393,8 @@
 		DE604CA52808136D00C62CE6 /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
 		DE604CA72808D9AB00C62CE6 /* NumberOfWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfWays.swift; sourceTree = "<group>"; };
 		DE604CAA2808DA8E00C62CE6 /* NumberOfWaysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfWaysTest.swift; sourceTree = "<group>"; };
+		DE604CAC2808E1F700C62CE6 /* RevenueMilestones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueMilestones.swift; sourceTree = "<group>"; };
+		DE604CAF2808E23100C62CE6 /* RevenueMilestonesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueMilestonesTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -766,6 +771,7 @@
 				DECCEE1E27FCF8B3007BA99C /* RankTransformArray.swift */,
 				DECCEE2527FCF8B3007BA99C /* RelativeSortArray.swift */,
 				DECCEE3427FCF8B3007BA99C /* RepeatTwoNArray.swift */,
+				DE604CAC2808E1F700C62CE6 /* RevenueMilestones.swift */,
 				DECCEE3327FCF8B3007BA99C /* RichestCustomerWealth.swift */,
 				DECCEE2427FCF8B3007BA99C /* RunningSumArray.swift */,
 				DECCEE3227FCF8B3007BA99C /* SingleNumber.swift */,
@@ -947,6 +953,7 @@
 		DECCEEE827FCF9C1007BA99C /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DE604CAF2808E23100C62CE6 /* RevenueMilestonesTest.swift */,
 				DE604CA52808136D00C62CE6 /* TwoSumTest.swift */,
 				DECCEEF527FCF9C1007BA99C /* ArrayLuckyNumberTest.swift */,
 				DECCEEF627FCF9C1007BA99C /* BinarySearchArrayTest.swift */,
@@ -1568,6 +1575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE604CAD2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */,
 				DECCEE8127FCF8B4007BA99C /* SingleNumber.swift in Sources */,
 				DECCEE1527FCF839007BA99C /* NumberToBinary.swift in Sources */,
 				DECCEE8E27FCF8B4007BA99C /* AirportRoute.swift in Sources */,
@@ -1793,6 +1801,7 @@
 				DECCEF5027FCF9C1007BA99C /* DaysOfYearTest.swift in Sources */,
 				DECCEF6D27FCF9C1007BA99C /* BSTKthElementTest.swift in Sources */,
 				DECCEF5F27FCF9C1007BA99C /* RichestCustomerWealthTest.swift in Sources */,
+				DE604CAE2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */,
 				DECCEF6827FCF9C1007BA99C /* BSTPathSumTest.swift in Sources */,
 				DECCEF6427FCF9C1007BA99C /* RepeatTwoNArrayTest.swift in Sources */,
 				DECCEED827FCF95A007BA99C /* HttpJsonExample.swift in Sources */,
@@ -1851,6 +1860,7 @@
 				DECCEFF127FCFBAE007BA99C /* TreeNode.swift in Sources */,
 				DECCEF5927FCF9C1007BA99C /* DailyTemperaturesTest.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
+				DE604CB02808E23100C62CE6 /* RevenueMilestonesTest.swift in Sources */,
 				DE604CA62808136D00C62CE6 /* TwoSumTest.swift in Sources */,
 				DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */,
 				DECCEF5127FCF9C1007BA99C /* DuplicateNumberTest.swift in Sources */,
