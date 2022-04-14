@@ -19,6 +19,12 @@
 		DE1CA3452802B39D001D8BD1 /* SpiralTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */; };
 		DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */; };
 		DE1CA3482802B76B001D8BD1 /* SpiralTraversalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */; };
+		DE604C9E2806116000C62CE6 /* RotationalCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604C9D2806116000C62CE6 /* RotationalCipher.swift */; };
+		DE604C9F2806116000C62CE6 /* RotationalCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604C9D2806116000C62CE6 /* RotationalCipher.swift */; };
+		DE604CA1280611ED00C62CE6 /* RotationalCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA0280611ED00C62CE6 /* RotationalCipherTest.swift */; };
+		DE604CA32806218800C62CE6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA22806218800C62CE6 /* TwoSum.swift */; };
+		DE604CA42806218800C62CE6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA22806218800C62CE6 /* TwoSum.swift */; };
+		DE604CA62808136D00C62CE6 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA52808136D00C62CE6 /* TwoSumTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -375,6 +381,10 @@
 		DE1CA30227FEDE88001D8BD1 /* PrintTriangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTriangleTest.swift; sourceTree = "<group>"; };
 		DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpiralTraversal.swift; path = SwiftChallenges/Lab/collections/SpiralTraversal.swift; sourceTree = SOURCE_ROOT; };
 		DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralTraversalTest.swift; sourceTree = "<group>"; };
+		DE604C9D2806116000C62CE6 /* RotationalCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalCipher.swift; sourceTree = "<group>"; };
+		DE604CA0280611ED00C62CE6 /* RotationalCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalCipherTest.swift; sourceTree = "<group>"; };
+		DE604CA22806218800C62CE6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		DE604CA52808136D00C62CE6 /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -754,6 +764,7 @@
 				DECCEE2427FCF8B3007BA99C /* RunningSumArray.swift */,
 				DECCEE3227FCF8B3007BA99C /* SingleNumber.swift */,
 				DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */,
+				DE604CA22806218800C62CE6 /* TwoSum.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -930,6 +941,7 @@
 		DECCEEE827FCF9C1007BA99C /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DE604CA52808136D00C62CE6 /* TwoSumTest.swift */,
 				DECCEEF527FCF9C1007BA99C /* ArrayLuckyNumberTest.swift */,
 				DECCEEF627FCF9C1007BA99C /* BinarySearchArrayTest.swift */,
 				DECCEEFD27FCF9C1007BA99C /* BusyStudentTest.swift */,
@@ -1013,6 +1025,7 @@
 				DECCEF1A27FCF9C1007BA99C /* NumberOfJewelsInStonesTest.swift */,
 				DECCEF1427FCF9C1007BA99C /* RestoreStringTest.swift */,
 				DECCEF1D27FCF9C1007BA99C /* ReverseOnlyLettersTest.swift */,
+				DE604CA0280611ED00C62CE6 /* RotationalCipherTest.swift */,
 				DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */,
 				DECCEF1527FCF9C1007BA99C /* StringPracticesTest.swift */,
 				DECCEF1327FCF9C1007BA99C /* StringArraysEquivalentTest.swift */,
@@ -1422,6 +1435,7 @@
 				DECCF06327FCFEE3007BA99C /* NumberOfJewelsInStones.swift */,
 				DECCF06527FCFEE3007BA99C /* RestoreString.swift */,
 				DECCF05F27FCFEE3007BA99C /* ReverseOnlyLetters.swift */,
+				DE604C9D2806116000C62CE6 /* RotationalCipher.swift */,
 				DECCF08B27FD9034007BA99C /* SortingSentence.swift */,
 				DECCF05E27FCFEE3007BA99C /* StringPractices.swift */,
 				DECCF05D27FCFEE3007BA99C /* StringArraysEquivalent.swift */,
@@ -1569,6 +1583,7 @@
 				DECCEEA027FCF8B4007BA99C /* Phone.swift in Sources */,
 				DECCF05827FCFE49007BA99C /* MergeTwoBST.swift in Sources */,
 				DE1CA2FF27FEDCA7001D8BD1 /* PrintTriangle.swift in Sources */,
+				DE604CA32806218800C62CE6 /* TwoSum.swift in Sources */,
 				DECCEE7627FCF8B4007BA99C /* HeightChecker.swift in Sources */,
 				DECCEE8927FCF8B4007BA99C /* CountNegativeMatrix.swift in Sources */,
 				DECCF00827FCFBD3007BA99C /* Dijkstra.swift in Sources */,
@@ -1620,6 +1635,7 @@
 				DECCEFC227FCFB28007BA99C /* LRUCache.swift in Sources */,
 				DECCEEA527FCF8B4007BA99C /* ComputeClosure.swift in Sources */,
 				DE1CA2F327FE5350001D8BD1 /* DiagonalSumDifference.swift in Sources */,
+				DE604C9E2806116000C62CE6 /* RotationalCipher.swift in Sources */,
 				DECCEE8327FCF8B4007BA99C /* RepeatTwoNArray.swift in Sources */,
 				DECCF05227FCFE49007BA99C /* BSTPathSum.swift in Sources */,
 				DECCF07427FCFEE3007BA99C /* IPDefanger.swift in Sources */,
@@ -1695,6 +1711,7 @@
 				DECCEF7B27FCF9C1007BA99C /* TruncateSentenceTest.swift in Sources */,
 				DECCF05527FCFE49007BA99C /* BalanceBST.swift in Sources */,
 				DE1CA2F627FE548F001D8BD1 /* DiagonalSumDifference.swift in Sources */,
+				DE604C9F2806116000C62CE6 /* RotationalCipher.swift in Sources */,
 				DECCF07527FCFEE3007BA99C /* IPDefanger.swift in Sources */,
 				DECCEEC427FCF942007BA99C /* BinarySearchArray.swift in Sources */,
 				DECCEFE227FCFB99007BA99C /* BaseSort.swift in Sources */,
@@ -1749,6 +1766,7 @@
 				DECCEEAD27FCF8DA007BA99C /* Palindrome.swift in Sources */,
 				DECCEF8F27FCF9C1007BA99C /* AnagramTest.swift in Sources */,
 				DECCEECC27FCF942007BA99C /* DaysOfYear.swift in Sources */,
+				DE604CA1280611ED00C62CE6 /* RotationalCipherTest.swift in Sources */,
 				DECCEF6727FCF9C1007BA99C /* UnivaluedBinaryTreeTest.swift in Sources */,
 				DECCEF8B27FCF9C1007BA99C /* MappingTransformTest.swift in Sources */,
 				DECCEEE427FCF978007BA99C /* Regex.swift in Sources */,
@@ -1823,6 +1841,7 @@
 				DECCEFF127FCFBAE007BA99C /* TreeNode.swift in Sources */,
 				DECCEF5927FCF9C1007BA99C /* DailyTemperaturesTest.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
+				DE604CA62808136D00C62CE6 /* TwoSumTest.swift in Sources */,
 				DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */,
 				DECCEF5127FCF9C1007BA99C /* DuplicateNumberTest.swift in Sources */,
 				DECCEECF27FCF942007BA99C /* ProductSumDifference.swift in Sources */,
@@ -1852,6 +1871,7 @@
 				DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */,
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
 				DECCEF8927FCF9C1007BA99C /* OrderedDictionaryExampleTest.swift in Sources */,
+				DE604CA42806218800C62CE6 /* TwoSum.swift in Sources */,
 				DECCEEAC27FCF8D7007BA99C /* FizzBuzz.swift in Sources */,
 				DECCEF6B27FCF9C1007BA99C /* AllPathsTest.swift in Sources */,
 				DECCEF7727FCF9C1007BA99C /* CharacterExpansionTest.swift in Sources */,

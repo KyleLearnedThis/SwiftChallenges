@@ -21,6 +21,31 @@ class ValidParentheses {
                 stack.removeLast()
             }
         }
-        return stack.count == 0
+        return stack.isEmpty
+    }
+
+    // Balanced Brackets
+    static func isBalanced(s: String) -> Bool {
+        var stack = [Character]()
+        let input = Array(s)
+        for ch in input {
+            if ch == "{" || ch == "(" || ch == "[" {
+                stack.append(ch)
+            } else {
+                if stack.isEmpty {
+                    return false
+                } else {
+                    let cr = stack.removeLast()
+                    if ch == "}" && cr != "{" {
+                        return false
+                    } else if ch == ")" && cr != "(" {
+                        return false
+                    } else if ch == "]" && cr != "[" {
+                        return false
+                    }
+                }
+            }
+        }
+        return stack.isEmpty
     }
 }
