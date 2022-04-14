@@ -23,7 +23,7 @@ class FindAllPairsGivenSum {
         return result
     }
 
-    // Hasing Solution -> O(max(n, m))
+    // Hashing Solution -> O(max(n, m))
     static func allPairsV2(_ a: [Int], _ b: [Int], _ n: Int) -> [(l: Int, r: Int)] {
         var result = [(l: Int, r: Int)]()
         var dict = [Int:Int]()
