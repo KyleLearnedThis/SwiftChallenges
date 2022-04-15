@@ -32,4 +32,36 @@ class MergeSortedArray {
             j = j - 1
         }
     }
+
+    static func mergeV2(_ a: [Int], _ b: [Int]) -> [Int] {
+        var result = [Int](repeating: -1, count: a.count + b.count)
+        var i = 0 // current index on a
+        var j = 0 // current index on b
+        var k = 0 // current index on result
+
+        while i < a.count && j < b.count {
+            if a[i] < b[j] {
+                result[k] = a[i]
+                i+=1
+            } else {
+                result[k] = b[j]
+                j+=1
+            }
+            k+=1
+        }
+
+        while i < a.count {
+            result[k] = a[i]
+            k+=1
+            i+=1
+        }
+
+        while j < b.count {
+            result[k] = b[j]
+            k+=1
+            j+=1
+        }
+
+        return result
+    }
 }
