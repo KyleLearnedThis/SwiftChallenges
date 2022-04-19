@@ -9,19 +9,21 @@ import Foundation
 
 class ReverseOnlyLetters {
     static func reverseOnlyLetters(_ S: String) -> String {
-        var letters = Array<Character>()
-        for c in Array(S) {
-            if c.isLetter {
-                letters.append(c)
+        var stack = Array<Character>()
+        let charArray = Array(S)
+        for ch in charArray {
+            if ch.isLetter {
+                stack.append(ch)
             }
         }
 
         var ans = ""
-        for c in Array(S) {
-            if c.isLetter {
-                ans = ans + String(letters.popLast()!)
+        charArray.forEach { ch in
+            if ch.isLetter {
+                let ltr = stack.popLast()!
+                ans = ans + String(ltr)
             } else {
-                ans = ans + String(c)
+                ans = ans + String(ch)
             }
         }
 
