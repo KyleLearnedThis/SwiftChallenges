@@ -24,6 +24,9 @@
 		DE2E0F8D280EBE11006D06FA /* WrongAnswerOnlyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0F8C280EBE11006D06FA /* WrongAnswerOnlyTest.swift */; };
 		DE2E0F8F280EBF44006D06FA /* BattleshipProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0F8E280EBF44006D06FA /* BattleshipProbability.swift */; };
 		DE2E0F90280EBF44006D06FA /* BattleshipProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0F8E280EBF44006D06FA /* BattleshipProbability.swift */; };
+		DE2E0F9B280FEF7E006D06FA /* KaitenzushiPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0F9A280FEF7E006D06FA /* KaitenzushiPuzzle.swift */; };
+		DE2E0F9C280FEF7E006D06FA /* KaitenzushiPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0F9A280FEF7E006D06FA /* KaitenzushiPuzzle.swift */; };
+		DE2E0F9E280FF017006D06FA /* KaitenzushiPuzzleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0F9D280FF017006D06FA /* KaitenzushiPuzzleTest.swift */; };
 		DE604C9E2806116000C62CE6 /* RotationalCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604C9D2806116000C62CE6 /* RotationalCipher.swift */; };
 		DE604C9F2806116000C62CE6 /* RotationalCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604C9D2806116000C62CE6 /* RotationalCipher.swift */; };
 		DE604CA1280611ED00C62CE6 /* RotationalCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE604CA0280611ED00C62CE6 /* RotationalCipherTest.swift */; };
@@ -398,6 +401,8 @@
 		DE2E0F89280EBD98006D06FA /* WrongAnswerOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerOnly.swift; sourceTree = "<group>"; };
 		DE2E0F8C280EBE11006D06FA /* WrongAnswerOnlyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerOnlyTest.swift; sourceTree = "<group>"; };
 		DE2E0F8E280EBF44006D06FA /* BattleshipProbability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleshipProbability.swift; sourceTree = "<group>"; };
+		DE2E0F9A280FEF7E006D06FA /* KaitenzushiPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaitenzushiPuzzle.swift; sourceTree = "<group>"; };
+		DE2E0F9D280FF017006D06FA /* KaitenzushiPuzzleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaitenzushiPuzzleTest.swift; sourceTree = "<group>"; };
 		DE604C9D2806116000C62CE6 /* RotationalCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalCipher.swift; sourceTree = "<group>"; };
 		DE604CA0280611ED00C62CE6 /* RotationalCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalCipherTest.swift; sourceTree = "<group>"; };
 		DE604CA22806218800C62CE6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -771,6 +776,7 @@
 				DECCEE3027FCF8B3007BA99C /* EvenNumberDigits.swift */,
 				DECCEE1F27FCF8B3007BA99C /* FindAllPairsGivenSum.swift */,
 				DECCEE2727FCF8B3007BA99C /* HeightChecker.swift */,
+				DE2E0F9A280FEF7E006D06FA /* KaitenzushiPuzzle.swift */,
 				DECCEE2827FCF8B3007BA99C /* LargestMissingNumber.swift */,
 				DECCEE2027FCF8B3007BA99C /* LeadersInArray.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
@@ -980,6 +986,7 @@
 				DECCEEF227FCF9C1007BA99C /* DuplicateZerosTest.swift */,
 				DECCEEF327FCF9C1007BA99C /* FindAllPairsGivenSumTest.swift */,
 				DECCEEF927FCF9C1007BA99C /* HeightCheckerTest.swift */,
+				DE2E0F9D280FF017006D06FA /* KaitenzushiPuzzleTest.swift */,
 				DECCEEFE27FCF9C1007BA99C /* LargestMissingNumberTest.swift */,
 				DECCEEED27FCF9C1007BA99C /* LeadersInArrayTest.swift */,
 				DECCEEF027FCF9C1007BA99C /* MedianOfTwoSortedArraysTest.swift */,
@@ -1659,6 +1666,7 @@
 				DECCEEA927FCF8B4007BA99C /* OrderedDictionaryExample.swift in Sources */,
 				DECCEE8027FCF8B4007BA99C /* MedianOfTwoSortedArrays.swift in Sources */,
 				DECCF07627FCFEE3007BA99C /* NumberOfJewelsInStones.swift in Sources */,
+				DE2E0F9B280FEF7E006D06FA /* KaitenzushiPuzzle.swift in Sources */,
 				DECCEE9227FCF8B4007BA99C /* LongestCommonPrefix.swift in Sources */,
 				DE2E0F8A280EBD98006D06FA /* WrongAnswerOnly.swift in Sources */,
 				DECCEE9B27FCF8B4007BA99C /* HttpJsonFormat.swift in Sources */,
@@ -1787,6 +1795,7 @@
 				DECCF03B27FCFC36007BA99C /* LFUCacheTest.swift in Sources */,
 				DECCEED027FCF942007BA99C /* SingleNumber.swift in Sources */,
 				DECCF07F27FCFF30007BA99C /* LFUCacheItem.swift in Sources */,
+				DE2E0F9E280FF017006D06FA /* KaitenzushiPuzzleTest.swift in Sources */,
 				DECCEF9127FCF9C1007BA99C /* PalindromeTest.swift in Sources */,
 				DECCEF6A27FCF9C1007BA99C /* MergeTwoBSTTest.swift in Sources */,
 				DECCEECE27FCF942007BA99C /* EvenNumberDigits.swift in Sources */,
@@ -1889,6 +1898,7 @@
 				DE604CA62808136D00C62CE6 /* TwoSumTest.swift in Sources */,
 				DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */,
 				DECCEF5127FCF9C1007BA99C /* DuplicateNumberTest.swift in Sources */,
+				DE2E0F9C280FEF7E006D06FA /* KaitenzushiPuzzle.swift in Sources */,
 				DECCEECF27FCF942007BA99C /* ProductSumDifference.swift in Sources */,
 				DECCEF9427FCF9C1007BA99C /* HttpClientExampleTest.swift in Sources */,
 				DECCEF8627FCF9C1007BA99C /* ConvertTypesTest.swift in Sources */,
