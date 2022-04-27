@@ -9,7 +9,7 @@ import Foundation
 
 class UniformIntegers {
 
-    static func getUniformIntegerCountInInterval(_ A: Int,
+    static func getUniformIntegerCountInIntervalV2(_ A: Int,
                                                  _ B: Int,
                                                  _ closure: (([Character])->Bool)
     ) -> Int {
@@ -40,5 +40,34 @@ class UniformIntegers {
 
     static func isUniformV2(_ cur: [Character]) -> Bool {
         return cur.dropFirst().allSatisfy({ $0 == cur.first })
+    }
+
+    static func getUniformIntegerCountInIntervalV1(_ A: Int, _ B: Int) -> Int {
+        var result = 0
+        for num in A...B {
+            if isUniformNumber(num) {
+                result += 1
+            }
+        }
+        return result
+    }
+
+    static func isUniformNumber(_ input: Int) -> Bool {
+        if (0...9).contains(input) {
+            return true
+        }
+        let base = 10
+        var cur = input
+        var prevMod = cur % base
+        while cur > 0 {
+            let curMod = cur % base
+            cur = cur / base
+            if prevMod != curMod {
+                return false
+            } else {
+                prevMod = curMod
+            }
+        }
+        return true
     }
 }
