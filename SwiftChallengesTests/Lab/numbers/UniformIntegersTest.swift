@@ -33,8 +33,6 @@ class UniformIntegersTest: XCTestCase {
         XCTAssertEqual(expected, actual)
     }
 
-
-
     func testBasicV02_01() throws {
         let a = 75
         let b = 300
