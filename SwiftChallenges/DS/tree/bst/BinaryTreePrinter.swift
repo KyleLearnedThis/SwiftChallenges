@@ -38,7 +38,9 @@ public class BinaryTreePrinter<T: Comparable> {
 
     private static func printNodeInternal(nodes: [TreeNode<T>?], level: Int, maxLevel: Int) {
 
-        guard nodes.isEmpty || isAllElementsNull(list: nodes) else { return }
+        if(nodes.isEmpty || BinaryTreePrinter.isAllElementsNull(list: nodes)){
+            return
+        }
 
         let floor = maxLevel - level
         let edgeLines = intValue(value: pow(2, max(floor - 1, 0)))

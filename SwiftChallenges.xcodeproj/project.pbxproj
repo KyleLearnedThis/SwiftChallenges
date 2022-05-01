@@ -1499,15 +1499,15 @@
 		DECCF03E27FCFE49007BA99C /* bst */ = {
 			isa = PBXGroup;
 			children = (
-				DECCF03F27FCFE49007BA99C /* BSTMaxHeight.swift */,
-				DECCF04027FCFE49007BA99C /* UnivaluedBinaryTree.swift */,
-				DECCF04127FCFE49007BA99C /* BSTInversion.swift */,
 				DECCF04227FCFE49007BA99C /* AllPaths.swift */,
-				DECCF04327FCFE49007BA99C /* HeightBalancedTree.swift */,
-				DECCF04427FCFE49007BA99C /* BSTPathSum.swift */,
 				DECCF04527FCFE49007BA99C /* BalanceBST.swift */,
+				DECCF04127FCFE49007BA99C /* BSTInversion.swift */,
 				DECCF04627FCFE49007BA99C /* BSTKthElement.swift */,
+				DECCF03F27FCFE49007BA99C /* BSTMaxHeight.swift */,
+				DECCF04427FCFE49007BA99C /* BSTPathSum.swift */,
+				DECCF04327FCFE49007BA99C /* HeightBalancedTree.swift */,
 				DECCF04727FCFE49007BA99C /* MergeTwoBST.swift */,
+				DECCF04027FCFE49007BA99C /* UnivaluedBinaryTree.swift */,
 			);
 			path = bst;
 			sourceTree = "<group>";
