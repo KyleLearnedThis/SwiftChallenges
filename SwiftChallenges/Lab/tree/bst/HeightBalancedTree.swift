@@ -9,7 +9,7 @@ import Foundation
 
 public class HeightBalancedTree {
     public func sortedArrayToBST(nums: Array<Int>) -> TreeNode<Int>? {
-        if nums.count == 0 {
+        if nums.isEmpty {
             return nil
         }
         return sortedArrayToBST(nums: nums, low: 0, high: nums.count - 1)

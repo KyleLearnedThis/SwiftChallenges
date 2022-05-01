@@ -8,8 +8,7 @@
 import XCTest
 
 class BSTPathSumTest: XCTestCase {
-
-    func testBasic() {
+    func testBasic() throws {
         let input = [1,2,3,4,5,6,7,8,9,10,11]
         let tree = HeightBalancedTree()
         if let root = tree.sortedArrayToBST(nums: input) {
@@ -20,5 +19,4 @@ class BSTPathSumTest: XCTestCase {
             XCTAssertEqual(true, list.count >= 1)
         }
     }
-
 }
