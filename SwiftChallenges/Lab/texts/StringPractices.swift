@@ -27,6 +27,20 @@ class StringPractices {
         }
     }
 
+    func reverseWords(_ input: String) -> String {
+        let words = input.split(separator: " ")
+        let size = words.count
+        var result = ""
+        for i in words.indices {
+            let word = words[size - 1 - i]
+            result += word
+            if i != size - 1 {
+                result += " "
+            }
+        }
+        return result
+    }
+
     static func toLowerCase(_ str: String) -> String {
         var result = ""
         for i in str.indices {
