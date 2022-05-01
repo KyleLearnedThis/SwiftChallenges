@@ -27,12 +27,7 @@ public class BinaryTreePrinter<T: Comparable> {
     }
 
     private static func isAllElementsNull(list: [TreeNode<T>?] ) -> Bool {
-        for item in list {
-            if(item != nil) {
-                return false
-            }
-        }
-        return true
+        return list.allSatisfy{ $0 == nil }
     }
 
     public static func printNode(root: TreeNode<T>) {
@@ -43,9 +38,7 @@ public class BinaryTreePrinter<T: Comparable> {
 
     private static func printNodeInternal(nodes: [TreeNode<T>?], level: Int, maxLevel: Int) {
 
-        if(nodes.isEmpty || BinaryTreePrinter.isAllElementsNull(list: nodes)){
-            return
-        }
+        guard nodes.isEmpty || isAllElementsNull(list: nodes) else { return }
 
         let floor = maxLevel - level
         let edgeLines = intValue(value: pow(2, max(floor - 1, 0)))
