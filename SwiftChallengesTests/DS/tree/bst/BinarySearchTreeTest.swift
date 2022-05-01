@@ -30,6 +30,13 @@ class BinarySearchTreeTest: XCTestCase {
         BinaryTreePrinter.printNode(root: bst.getRoot()!)
     }
 
+    func testLevelOrder() {
+        let input = [15, 6, 18, 3, 7, 17, 20, 2, 4, 13, 9]
+        let bst = BinarySearchTree<Int>(input: input)
+        BinaryTreePrinter.printNode(root: bst.getRoot()!)
+        bst.printLevelOrder()
+    }
+
     func testSearch() {
         let input = [15, 8, 30, 4, 10, 20, 40]
         let bst = BinarySearchTree<Int>(input: input)

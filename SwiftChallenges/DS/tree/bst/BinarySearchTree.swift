@@ -113,6 +113,34 @@ public class BinarySearchTree<T: Comparable> {
         }
     }
 
+    func printLevelOrder() {
+        guard let node = root else { return }
+        var queue = [TreeNode<T>?]()
+
+        queue.append(node)
+        var value = node.data
+        printString(value)
+
+        while !queue.isEmpty {
+            let cur: TreeNode<T>? = queue.removeFirst()
+            if let left = cur?.left {
+                queue.append(left)
+                value = left.data
+                printString(value)
+            }
+            if let right = cur?.right {
+                queue.append(right)
+                value = right.data
+                printString(value)
+            }
+        }
+        print()
+    }
+
+    private func printString(_ value: T) {
+        print("[\(String(describing: value))]", terminator: " ")
+    }
+
     public func maxLevel(node: TreeNode<T>?) -> Int {
         if(node != nil) {
             return max(maxLevel(node: node?.left), maxLevel(node: node?.right)) + 1
