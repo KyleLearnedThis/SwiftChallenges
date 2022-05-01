@@ -26,6 +26,15 @@ class StringPracticesTest: XCTestCase {
         XCTAssertEqual(input, expected)
     }
 
+    func testReverseWords() throws {
+        let input = "To be or not to be is the question"
+        let expected = "question the is be to not or be To"
+        let sp = StringPractices()
+        let actual = sp.reverseWords(input)
+        print("===== actual: \(actual) =====")
+        XCTAssertEqual(expected, actual)
+    }
+
     func testLowerCase() {
         let input = "HELLO"
         let expected = "hello"
