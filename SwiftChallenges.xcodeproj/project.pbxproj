@@ -69,6 +69,9 @@
 		DE71A32C281FED860003DD95 /* QueueRemovals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A32B281FED860003DD95 /* QueueRemovals.swift */; };
 		DE71A32D281FED8D0003DD95 /* QueueRemovals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A32B281FED860003DD95 /* QueueRemovals.swift */; };
 		DE71A32F281FEDBD0003DD95 /* QueueRemovalsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A32E281FEDBD0003DD95 /* QueueRemovalsTest.swift */; };
+		DE71A33128208E930003DD95 /* BSTAverageLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A33028208E930003DD95 /* BSTAverageLevel.swift */; };
+		DE71A33228208E930003DD95 /* BSTAverageLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A33028208E930003DD95 /* BSTAverageLevel.swift */; };
+		DE71A334282090460003DD95 /* BSTAverageLevelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A333282090460003DD95 /* BSTAverageLevelTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -458,6 +461,8 @@
 		DE71A323281FB7950003DD95 /* EncryptedWordsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedWordsTest.swift; sourceTree = "<group>"; };
 		DE71A32B281FED860003DD95 /* QueueRemovals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRemovals.swift; sourceTree = "<group>"; };
 		DE71A32E281FEDBD0003DD95 /* QueueRemovalsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRemovalsTest.swift; sourceTree = "<group>"; };
+		DE71A33028208E930003DD95 /* BSTAverageLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTAverageLevel.swift; sourceTree = "<group>"; };
+		DE71A333282090460003DD95 /* BSTAverageLevelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTAverageLevelTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -713,6 +718,7 @@
 			isa = PBXGroup;
 			children = (
 				DE2E0F8E280EBF44006D06FA /* BattleshipProbability.swift */,
+				DE71A33028208E930003DD95 /* BSTAverageLevel.swift */,
 				DE71A320281FB5290003DD95 /* EncryptedWords.swift */,
 				DE2E0F9A280FEF7E006D06FA /* KaitenzushiPuzzle.swift */,
 				DE604CA72808D9AB00C62CE6 /* NumberOfWays.swift */,
@@ -730,6 +736,7 @@
 		DE71A315281E692E0003DD95 /* Meta */ = {
 			isa = PBXGroup;
 			children = (
+				DE71A333282090460003DD95 /* BSTAverageLevelTest.swift */,
 				DE71A323281FB7950003DD95 /* EncryptedWordsTest.swift */,
 				DE2E0F9D280FF017006D06FA /* KaitenzushiPuzzleTest.swift */,
 				DE604CAA2808DA8E00C62CE6 /* NumberOfWaysTest.swift */,
@@ -1793,6 +1800,7 @@
 				DECCF00227FCFBD3007BA99C /* GraphUtils.swift in Sources */,
 				DECCF05627FCFE49007BA99C /* BSTKthElement.swift in Sources */,
 				DECCEE9A27FCF8B4007BA99C /* HttpJsonExample.swift in Sources */,
+				DE71A33128208E930003DD95 /* BSTAverageLevel.swift in Sources */,
 				DE71A308281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
 				DECCF08727FD8DDD007BA99C /* GoalParser.swift in Sources */,
 				DECCEE7827FCF8B4007BA99C /* DegreeOfArray.swift in Sources */,
@@ -1827,6 +1835,7 @@
 				DE221EEB2819490100CAE40D /* SimpleLinkedListTest.swift in Sources */,
 				DECCEEC327FCF942007BA99C /* DailyTemperatures.swift in Sources */,
 				DECCEF9227FCF9C1007BA99C /* BasicCombineExampleTest.swift in Sources */,
+				DE71A334282090460003DD95 /* BSTAverageLevelTest.swift in Sources */,
 				DECCEF7A27FCF9C1007BA99C /* CharacterCaseConversionTest.swift in Sources */,
 				DE604CA92808D9AB00C62CE6 /* NumberOfWays.swift in Sources */,
 				DECCF08527FD8825007BA99C /* SmallerThanCurrentTest.swift in Sources */,
@@ -1842,6 +1851,7 @@
 				DECCF06727FCFEE3007BA99C /* CharacterCaseConversion.swift in Sources */,
 				DECCF02F27FCFC36007BA99C /* LinkedListTest.swift in Sources */,
 				DECCEFBA27FCFA7F007BA99C /* LinkedList.swift in Sources */,
+				DE71A33228208E930003DD95 /* BSTAverageLevel.swift in Sources */,
 				DECCEF9027FCF9C1007BA99C /* ValidParenthesesTest.swift in Sources */,
 				DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */,
 				DECCEECD27FCF942007BA99C /* RichestCustomerWealth.swift in Sources */,
