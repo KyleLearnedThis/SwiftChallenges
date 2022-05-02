@@ -66,6 +66,9 @@
 		DE71A321281FB5290003DD95 /* EncryptedWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A320281FB5290003DD95 /* EncryptedWords.swift */; };
 		DE71A322281FB5290003DD95 /* EncryptedWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A320281FB5290003DD95 /* EncryptedWords.swift */; };
 		DE71A324281FB7950003DD95 /* EncryptedWordsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A323281FB7950003DD95 /* EncryptedWordsTest.swift */; };
+		DE71A32C281FED860003DD95 /* QueueRemovals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A32B281FED860003DD95 /* QueueRemovals.swift */; };
+		DE71A32D281FED8D0003DD95 /* QueueRemovals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A32B281FED860003DD95 /* QueueRemovals.swift */; };
+		DE71A32F281FEDBD0003DD95 /* QueueRemovalsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71A32E281FEDBD0003DD95 /* QueueRemovalsTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -453,6 +456,8 @@
 		DE71A31E281F92A60003DD95 /* PartitionEqualSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionEqualSumTest.swift; sourceTree = "<group>"; };
 		DE71A320281FB5290003DD95 /* EncryptedWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedWords.swift; sourceTree = "<group>"; };
 		DE71A323281FB7950003DD95 /* EncryptedWordsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedWordsTest.swift; sourceTree = "<group>"; };
+		DE71A32B281FED860003DD95 /* QueueRemovals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRemovals.swift; sourceTree = "<group>"; };
+		DE71A32E281FEDBD0003DD95 /* QueueRemovalsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRemovalsTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -712,6 +717,7 @@
 				DE2E0F9A280FEF7E006D06FA /* KaitenzushiPuzzle.swift */,
 				DE604CA72808D9AB00C62CE6 /* NumberOfWays.swift */,
 				DE71A31B281F92530003DD95 /* PartitionEqualSum.swift */,
+				DE71A32B281FED860003DD95 /* QueueRemovals.swift */,
 				DE604CAC2808E1F700C62CE6 /* RevenueMilestones.swift */,
 				DE71A30F281E645D0003DD95 /* RotaryLock.swift */,
 				DE604C9D2806116000C62CE6 /* RotationalCipher.swift */,
@@ -728,6 +734,7 @@
 				DE2E0F9D280FF017006D06FA /* KaitenzushiPuzzleTest.swift */,
 				DE604CAA2808DA8E00C62CE6 /* NumberOfWaysTest.swift */,
 				DE71A31E281F92A60003DD95 /* PartitionEqualSumTest.swift */,
+				DE71A32E281FEDBD0003DD95 /* QueueRemovalsTest.swift */,
 				DE604CAF2808E23100C62CE6 /* RevenueMilestonesTest.swift */,
 				DE71A312281E66FF0003DD95 /* RotaryLockTest.swift */,
 				DE604CA0280611ED00C62CE6 /* RotationalCipherTest.swift */,
@@ -1756,6 +1763,7 @@
 				DECCEE7427FCF8B4007BA99C /* RelativeSortArray.swift in Sources */,
 				DECCEFC227FCFB28007BA99C /* LRUCache.swift in Sources */,
 				DECCEEA527FCF8B4007BA99C /* ComputeClosure.swift in Sources */,
+				DE71A32C281FED860003DD95 /* QueueRemovals.swift in Sources */,
 				DE1CA2F327FE5350001D8BD1 /* DiagonalSumDifference.swift in Sources */,
 				DE604C9E2806116000C62CE6 /* RotationalCipher.swift in Sources */,
 				DE604CA82808D9AB00C62CE6 /* NumberOfWays.swift in Sources */,
@@ -1830,6 +1838,7 @@
 				DECCEF7927FCF9C1007BA99C /* NumberOfJewelsInStonesTest.swift in Sources */,
 				DECCEFB827FCFA7F007BA99C /* BasicEntry.swift in Sources */,
 				DECCF06F27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
+				DE71A32D281FED8D0003DD95 /* QueueRemovals.swift in Sources */,
 				DECCF06727FCFEE3007BA99C /* CharacterCaseConversion.swift in Sources */,
 				DECCF02F27FCFC36007BA99C /* LinkedListTest.swift in Sources */,
 				DECCEFBA27FCFA7F007BA99C /* LinkedList.swift in Sources */,
@@ -1848,6 +1857,7 @@
 				DECCF08027FCFF30007BA99C /* LFUCache.swift in Sources */,
 				DECCEED627FCF954007BA99C /* FileOpener.swift in Sources */,
 				DECCEF8827FCF9C1007BA99C /* RegexTest.swift in Sources */,
+				DE71A32F281FEDBD0003DD95 /* QueueRemovalsTest.swift in Sources */,
 				DECCEF7827FCF9C1007BA99C /* ExtractNumberSumTest.swift in Sources */,
 				DECCEEE127FCF96B007BA99C /* Person.swift in Sources */,
 				DECCEEC027FCF93A007BA99C /* MergeSortedArray.swift in Sources */,
