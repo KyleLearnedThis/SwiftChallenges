@@ -40,13 +40,10 @@ extension WidgetNode {
                     print("[\(data)]", terminator: " ")
                     result += 1
                 }
-
-                let left = cur?.left
-                let right = cur?.right
-                if left != nil {
+                if let left = cur?.left {
                     queue.append(left)
                 }
-                if right != nil {
+                if let right = cur?.right {
                     queue.append(right)
                 }
             }
