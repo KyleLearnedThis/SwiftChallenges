@@ -116,22 +116,16 @@ public class BinarySearchTree<T: Comparable> {
     func printLevelOrder() {
         guard let node = root else { return }
         var queue = [TreeNode<T>?]()
-
         queue.append(node)
-        var value = node.data
-        printString(value)
 
         while !queue.isEmpty {
             let cur: TreeNode<T>? = queue.removeFirst()
+            printString(cur!.data)
             if let left = cur?.left {
                 queue.append(left)
-                value = left.data
-                printString(value)
             }
             if let right = cur?.right {
                 queue.append(right)
-                value = right.data
-                printString(value)
             }
         }
         print()
