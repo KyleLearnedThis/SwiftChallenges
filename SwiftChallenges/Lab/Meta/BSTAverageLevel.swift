@@ -23,7 +23,6 @@ class BSTAverageLevel {
             for _ in 0..<queue.count {
                 let cur = queue.removeFirst()
                 sum += Double(cur!.data)
-
                 if let left = cur?.left {
                     queue.append(left)
                 }
@@ -68,7 +67,6 @@ class BSTAverageLevel {
 
         dfsWork(level+1, node?.left, &map)
         dfsWork(level+1, node?.right, &map)
-
     }
 
     static func height(node: TreeNode<Int>?) -> Int {
