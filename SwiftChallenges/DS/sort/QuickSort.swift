@@ -1,40 +1,39 @@
 //
 //  QuickSort.swift
 //  SwiftDS
-//
-//  Copyright © 2019 kylelearnedthis. All rights reserved.
-//
+//  https://github.com/zafersevik/algorithms-in-swift/blob/master/QuickSort.playground/Contents.swift
 
 import Foundation
 
 class QuickSort: BaseSort {
+
+    func partition(array: inout [Int], startIndex: Int, endIndex: Int) -> Int {
+        var q = startIndex
+        for index in startIndex..<endIndex {
+            if array[index] < array[endIndex] {
+                array.swapAt(q, index)
+                q += 1
+            }
+        }
+        array.swapAt(q, endIndex)
+        return q
+    }
+
     func sort() -> [Int] {
         if input.isEmpty {
             return input
         }
-        quickSort(low: 0, high: input.count - 1)
+        quickSort(array: &input, startIndex: 0, endIndex: input.count-1)
         return input
     }
 
-    func quickSort(low: Int, high: Int) {
-        var i = low
-        var j = high
-        let pivotIndex = low + (high - low) / 2
-        let pivotValue = input[pivotIndex]
-
-        while i <= j {
-            while (input[i] < pivotValue) {
-                i = i + 1
-            }
-            while (input[j] > pivotValue) {
-                j = j - 1
-            }
-
-            if (i <= j) {
-                input.swapAt(i, j)
-                i = i + 1
-                j = j - 1
-            }
+    func quickSort(array: inout [Int], startIndex: Int, endIndex: Int) {
+        // Base case
+        if startIndex >= endIndex {
+            return
         }
+        let pivotIndex = partition(array: &array, startIndex: startIndex, endIndex: endIndex)
+        quickSort(array: &array, startIndex: startIndex, endIndex: pivotIndex-1)
+        quickSort(array: &array, startIndex: pivotIndex+1, endIndex: endIndex)
     }
 }
