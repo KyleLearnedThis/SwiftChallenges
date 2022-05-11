@@ -81,6 +81,11 @@
 		DEA5C1D6282B3250004AE296 /* StudentGrading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1D5282B3250004AE296 /* StudentGrading.swift */; };
 		DEA5C1D7282B3250004AE296 /* StudentGrading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1D5282B3250004AE296 /* StudentGrading.swift */; };
 		DEA5C1D9282B34AD004AE296 /* StudentGradingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */; };
+		DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */; };
+		DEA5C1DC282B7E83004AE296 /* PersonalScoresCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */; };
+		DEA5C1DE282B812D004AE296 /* ChocobarSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */; };
+		DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */; };
+		DEA5C1E1282B82FF004AE296 /* ChocobarSegmentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -478,6 +483,9 @@
 		DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxSumTest.swift; sourceTree = "<group>"; };
 		DEA5C1D5282B3250004AE296 /* StudentGrading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudentGrading.swift; path = SwiftChallenges/Lab/HackerRank/StudentGrading.swift; sourceTree = SOURCE_ROOT; };
 		DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGradingTest.swift; sourceTree = "<group>"; };
+		DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalScoresCount.swift; sourceTree = "<group>"; };
+		DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocobarSegment.swift; sourceTree = "<group>"; };
+		DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocobarSegmentTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -771,8 +779,10 @@
 		DEA5C1C9282B248B004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */,
 				DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
+				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
 			);
 			path = HackerRank;
@@ -781,6 +791,7 @@
 		DEA5C1CD282B24FD004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
 				DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */,
 				DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */,
 				DEA5C1CE282B254D004AE296 /* MilitaryTimeTest.swift */,
@@ -1759,6 +1770,7 @@
 				DECCF00827FCFBD3007BA99C /* Dijkstra.swift in Sources */,
 				DECCF04C27FCFE49007BA99C /* BSTInversion.swift in Sources */,
 				DECCF06A27FCFEE3007BA99C /* StringArraysEquivalent.swift in Sources */,
+				DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
 				DECCEFB527FCFA73007BA99C /* BasicEntry.swift in Sources */,
@@ -1826,6 +1838,7 @@
 				DECCEE8727FCF8B4007BA99C /* Fibonacci.swift in Sources */,
 				DECCEE7127FCF8B4007BA99C /* DuplicateZeros.swift in Sources */,
 				DECCEFFE27FCFBD3007BA99C /* GraphError.swift in Sources */,
+				DEA5C1DE282B812D004AE296 /* ChocobarSegment.swift in Sources */,
 				DECCEE7327FCF8B4007BA99C /* RunningSumArray.swift in Sources */,
 				DECCEFB727FCFA73007BA99C /* LinkedList.swift in Sources */,
 				DECCEE7C27FCF8B4007BA99C /* DuplicateNumber.swift in Sources */,
@@ -1984,6 +1997,7 @@
 				DECCEF6427FCF9C1007BA99C /* RepeatTwoNArrayTest.swift in Sources */,
 				DECCEED827FCF95A007BA99C /* HttpJsonExample.swift in Sources */,
 				DECCF07C27FCFF30007BA99C /* Pair.swift in Sources */,
+				DEA5C1E1282B82FF004AE296 /* ChocobarSegmentTest.swift in Sources */,
 				DECCEF8727FCF9C1007BA99C /* ComputeClosureTest.swift in Sources */,
 				DECCEEB027FCF8E1007BA99C /* ValidParentheses.swift in Sources */,
 				DECCEEE627FCF97C007BA99C /* OrderedDictionaryExample.swift in Sources */,
@@ -2093,11 +2107,13 @@
 				DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DEA5C1D7282B3250004AE296 /* StudentGrading.swift in Sources */,
 				DECCEF6927FCF9C1007BA99C /* BalanceBSTTest.swift in Sources */,
+				DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */,
 				DECCEF5627FCF9C1007BA99C /* RunningSumArrayTest.swift in Sources */,
 				DE1CA2F927FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
 				DECCEED927FCF95A007BA99C /* HttpJsonFormat.swift in Sources */,
 				DECCEEBC27FCF927007BA99C /* FindAllPairsGivenSum.swift in Sources */,
 				DECCEED127FCF942007BA99C /* RandomNumber.swift in Sources */,
+				DEA5C1DC282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
 				DECCF04F27FCFE49007BA99C /* AllPaths.swift in Sources */,
 				DE1CA30027FEDCA7001D8BD1 /* PrintTriangle.swift in Sources */,
 				DE2E0FA1280FF17B006D06FA /* UniformIntegers.swift in Sources */,
