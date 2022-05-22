@@ -424,6 +424,12 @@
 		DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */; };
+		DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
+		DEE6253D283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
+		DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */; };
+		DEE62541283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */; };
+		DEE62542283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */; };
+		DEE62544283AF484003EC784 /* DaysOfRussianProgrammerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -713,6 +719,10 @@
 		DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalParserTest.swift; sourceTree = "<group>"; };
 		DECCF08B27FD9034007BA99C /* SortingSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentence.swift; sourceTree = "<group>"; };
 		DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentenceTest.swift; sourceTree = "<group>"; };
+		DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
+		DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirdsTest.swift; sourceTree = "<group>"; };
+		DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammer.swift; sourceTree = "<group>"; };
+		DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -785,11 +795,13 @@
 			isa = PBXGroup;
 			children = (
 				DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */,
+				DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */,
 				DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */,
 				DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
 				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
+				DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -797,11 +809,13 @@
 		DEA5C1CD282B24FD004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */,
 				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
 				DEA5C1E5282B8701004AE296 /* DivisibleSumPairsTest.swift */,
 				DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */,
-				DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */,
+				DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */,
 				DEA5C1CE282B254D004AE296 /* MilitaryTimeTest.swift */,
+				DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -1761,6 +1775,7 @@
 				DECCF05027FCFE49007BA99C /* HeightBalancedTree.swift in Sources */,
 				DECCEE9827FCF8B4007BA99C /* FileOpener.swift in Sources */,
 				DECCEE9127FCF8B4007BA99C /* Palindrome.swift in Sources */,
+				DEE62541283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
 				DECCF07827FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DE2E0FA0280FF17B006D06FA /* UniformIntegers.swift in Sources */,
 				DEA5C1D6282B3250004AE296 /* StudentGrading.swift in Sources */,
@@ -1806,6 +1821,7 @@
 				DECCEE8527FCF8B4007BA99C /* BinarySearchArray.swift in Sources */,
 				DECCEE8F27FCF8B4007BA99C /* ThreeColorSorting.swift in Sources */,
 				DECCF05427FCFE49007BA99C /* BalanceBST.swift in Sources */,
+				DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */,
 				DECCEFDB27FCFB99007BA99C /* BubbleSort.swift in Sources */,
 				DE71A31C281F92530003DD95 /* PartitionEqualSum.swift in Sources */,
 				DECCEE7227FCF8B4007BA99C /* MergeSortedArray.swift in Sources */,
@@ -1908,6 +1924,7 @@
 				DECCEF7927FCF9C1007BA99C /* NumberOfJewelsInStonesTest.swift in Sources */,
 				DECCEFB827FCFA7F007BA99C /* BasicEntry.swift in Sources */,
 				DECCF06F27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
+				DEE6253D283AEC8C003EC784 /* MigratoryBirds.swift in Sources */,
 				DE71A32D281FED8D0003DD95 /* QueueRemovals.swift in Sources */,
 				DECCF06727FCFEE3007BA99C /* CharacterCaseConversion.swift in Sources */,
 				DECCF02F27FCFC36007BA99C /* LinkedListTest.swift in Sources */,
@@ -2113,10 +2130,12 @@
 				DECCEF7727FCF9C1007BA99C /* CharacterExpansionTest.swift in Sources */,
 				DECCEF4E27FCF9C1007BA99C /* MoveZeroesInArrayTest.swift in Sources */,
 				DE71A318281F484C0003DD95 /* VisibleLeftmostTreeNodes.swift in Sources */,
+				DEE62542283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
 				DECCEF7D27FCF9C1007BA99C /* FileOpenerTest.swift in Sources */,
 				DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DEA5C1D7282B3250004AE296 /* StudentGrading.swift in Sources */,
 				DECCEF6927FCF9C1007BA99C /* BalanceBSTTest.swift in Sources */,
+				DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */,
 				DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */,
 				DECCEF5627FCF9C1007BA99C /* RunningSumArrayTest.swift in Sources */,
 				DE1CA2F927FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
@@ -2135,6 +2154,7 @@
 				DECCEF9D27FCF9C1007BA99C /* DetectCyclicListTest.swift in Sources */,
 				DECCEF9927FCF9C1007BA99C /* EnvironmentFetchTest.swift in Sources */,
 				DE2E0F90280EBF44006D06FA /* BattleshipProbability.swift in Sources */,
+				DEE62544283AF484003EC784 /* DaysOfRussianProgrammerTest.swift in Sources */,
 				DECCF08A27FD8ED6007BA99C /* GoalParserTest.swift in Sources */,
 				DECCEF8D27FCF9C1007BA99C /* EvenNumberDigitsTest.swift in Sources */,
 				DECCEF9E27FCF9C1007BA99C /* ListReverseTest.swift in Sources */,
