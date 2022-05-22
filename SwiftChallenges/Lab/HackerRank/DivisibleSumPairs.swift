@@ -13,7 +13,7 @@ class DivisibleSumPairs {
         var result = 0
 
         // Note that these two loops are basically permutation pairs
-        for i in 0..<size - 1 {
+        for i in 0..<size  {
             for j in i+1..<size {
                 if i == j {
                     continue
