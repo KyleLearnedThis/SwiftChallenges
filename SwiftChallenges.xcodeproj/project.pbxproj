@@ -430,6 +430,9 @@
 		DEE62541283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */; };
 		DEE62542283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */; };
 		DEE62544283AF484003EC784 /* DaysOfRussianProgrammerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */; };
+		DEE62546283B4153003EC784 /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62545283B4153003EC784 /* BetweenTwoSets.swift */; };
+		DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62545283B4153003EC784 /* BetweenTwoSets.swift */; };
+		DEE62549283B4186003EC784 /* BetweenTwoSetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -723,6 +726,8 @@
 		DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirdsTest.swift; sourceTree = "<group>"; };
 		DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammer.swift; sourceTree = "<group>"; };
 		DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammerTest.swift; sourceTree = "<group>"; };
+		DEE62545283B4153003EC784 /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
+		DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSetsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -794,14 +799,15 @@
 		DEA5C1C9282B248B004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				DEE62545283B4153003EC784 /* BetweenTwoSets.swift */,
 				DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */,
 				DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */,
 				DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */,
+				DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */,
 				DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
 				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
-				DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -809,13 +815,14 @@
 		DEA5C1CD282B24FD004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
-				DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */,
+				DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */,
 				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
+				DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */,
 				DEA5C1E5282B8701004AE296 /* DivisibleSumPairsTest.swift */,
-				DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */,
 				DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */,
 				DEA5C1CE282B254D004AE296 /* MilitaryTimeTest.swift */,
 				DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */,
+				DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -1765,6 +1772,7 @@
 				DECCEFDF27FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DECCEFC127FCFB28007BA99C /* Pair.swift in Sources */,
+				DEE62546283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
 				DECCEE9727FCF8B4007BA99C /* BasicCombineExample.swift in Sources */,
 				DECCEE8B27FCF8B4007BA99C /* ListReverse.swift in Sources */,
 				DE564C5428152533000B139A /* PivotIndex.swift in Sources */,
@@ -1919,6 +1927,7 @@
 				DECCEF9527FCF9C1007BA99C /* LongestCommonPrefixTest.swift in Sources */,
 				DECCEFE027FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */,
+				DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
 				DECCF04B27FCFE49007BA99C /* UnivaluedBinaryTree.swift in Sources */,
 				DECCF07127FCFEE3007BA99C /* CharacterExpansion.swift in Sources */,
 				DECCEF7927FCF9C1007BA99C /* NumberOfJewelsInStonesTest.swift in Sources */,
@@ -2138,6 +2147,7 @@
 				DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */,
 				DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */,
 				DECCEF5627FCF9C1007BA99C /* RunningSumArrayTest.swift in Sources */,
+				DEE62549283B4186003EC784 /* BetweenTwoSetsTest.swift in Sources */,
 				DE1CA2F927FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
 				DECCEED927FCF95A007BA99C /* HttpJsonFormat.swift in Sources */,
 				DECCEEBC27FCF927007BA99C /* FindAllPairsGivenSum.swift in Sources */,
