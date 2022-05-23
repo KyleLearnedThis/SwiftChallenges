@@ -433,6 +433,8 @@
 		DEE62546283B4153003EC784 /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62545283B4153003EC784 /* BetweenTwoSets.swift */; };
 		DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62545283B4153003EC784 /* BetweenTwoSets.swift */; };
 		DEE62549283B4186003EC784 /* BetweenTwoSetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */; };
+		DEE6254B283B4659003EC784 /* DutchBillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254A283B4659003EC784 /* DutchBillDivision.swift */; };
+		DEE6254C283B4659003EC784 /* DutchBillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254A283B4659003EC784 /* DutchBillDivision.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -728,6 +730,7 @@
 		DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammerTest.swift; sourceTree = "<group>"; };
 		DEE62545283B4153003EC784 /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSetsTest.swift; sourceTree = "<group>"; };
+		DEE6254A283B4659003EC784 /* DutchBillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchBillDivision.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -803,6 +806,7 @@
 				DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */,
 				DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */,
 				DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */,
+				DEE6254A283B4659003EC784 /* DutchBillDivision.swift */,
 				DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */,
 				DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
@@ -1829,6 +1833,7 @@
 				DECCEE8527FCF8B4007BA99C /* BinarySearchArray.swift in Sources */,
 				DECCEE8F27FCF8B4007BA99C /* ThreeColorSorting.swift in Sources */,
 				DECCF05427FCFE49007BA99C /* BalanceBST.swift in Sources */,
+				DEE6254B283B4659003EC784 /* DutchBillDivision.swift in Sources */,
 				DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */,
 				DECCEFDB27FCFB99007BA99C /* BubbleSort.swift in Sources */,
 				DE71A31C281F92530003DD95 /* PartitionEqualSum.swift in Sources */,
@@ -2172,6 +2177,7 @@
 				DECCEF8C27FCF9C1007BA99C /* FizzBuzzTest.swift in Sources */,
 				DECCF05127FCFE49007BA99C /* HeightBalancedTree.swift in Sources */,
 				DECCEF5C27FCF9C1007BA99C /* SingleNumberTest.swift in Sources */,
+				DEE6254C283B4659003EC784 /* DutchBillDivision.swift in Sources */,
 				DE1CA30327FEDE88001D8BD1 /* PrintTriangleTest.swift in Sources */,
 				DECCF07727FCFEE3007BA99C /* NumberOfJewelsInStones.swift in Sources */,
 				DECCEF8E27FCF9C1007BA99C /* TopKElementsTest.swift in Sources */,
