@@ -435,6 +435,9 @@
 		DEE62549283B4186003EC784 /* BetweenTwoSetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */; };
 		DEE6254B283B4659003EC784 /* DutchBillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254A283B4659003EC784 /* DutchBillDivision.swift */; };
 		DEE6254C283B4659003EC784 /* DutchBillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254A283B4659003EC784 /* DutchBillDivision.swift */; };
+		DEE6254E283B4CA9003EC784 /* SocksMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254D283B4CA9003EC784 /* SocksMatch.swift */; };
+		DEE6254F283B4CA9003EC784 /* SocksMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254D283B4CA9003EC784 /* SocksMatch.swift */; };
+		DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -731,6 +734,8 @@
 		DEE62545283B4153003EC784 /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSetsTest.swift; sourceTree = "<group>"; };
 		DEE6254A283B4659003EC784 /* DutchBillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchBillDivision.swift; sourceTree = "<group>"; };
+		DEE6254D283B4CA9003EC784 /* SocksMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksMatch.swift; sourceTree = "<group>"; };
+		DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksMatchTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -811,6 +816,7 @@
 				DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
 				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
+				DEE6254D283B4CA9003EC784 /* SocksMatch.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
 			);
 			path = HackerRank;
@@ -826,6 +832,7 @@
 				DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */,
 				DEA5C1CE282B254D004AE296 /* MilitaryTimeTest.swift */,
 				DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */,
+				DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */,
 				DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */,
 			);
 			path = HackerRank;
@@ -1833,6 +1840,7 @@
 				DECCEE8527FCF8B4007BA99C /* BinarySearchArray.swift in Sources */,
 				DECCEE8F27FCF8B4007BA99C /* ThreeColorSorting.swift in Sources */,
 				DECCF05427FCFE49007BA99C /* BalanceBST.swift in Sources */,
+				DEE6254E283B4CA9003EC784 /* SocksMatch.swift in Sources */,
 				DEE6254B283B4659003EC784 /* DutchBillDivision.swift in Sources */,
 				DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */,
 				DECCEFDB27FCFB99007BA99C /* BubbleSort.swift in Sources */,
@@ -1947,6 +1955,7 @@
 				DECCEF9027FCF9C1007BA99C /* ValidParenthesesTest.swift in Sources */,
 				DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */,
 				DECCEECD27FCF942007BA99C /* RichestCustomerWealth.swift in Sources */,
+				DEE6254F283B4CA9003EC784 /* SocksMatch.swift in Sources */,
 				DECCEF7B27FCF9C1007BA99C /* TruncateSentenceTest.swift in Sources */,
 				DECCF05527FCFE49007BA99C /* BalanceBST.swift in Sources */,
 				DE1CA2F627FE548F001D8BD1 /* DiagonalSumDifference.swift in Sources */,
@@ -2043,6 +2052,7 @@
 				DECCEEB027FCF8E1007BA99C /* ValidParentheses.swift in Sources */,
 				DECCEEE627FCF97C007BA99C /* OrderedDictionaryExample.swift in Sources */,
 				DECCEEB627FCF8F2007BA99C /* Fibonacci.swift in Sources */,
+				DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */,
 				DECCF06927FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
 				DECCEEBD27FCF92A007BA99C /* LeadersInArray.swift in Sources */,
 				DECCEF7027FCF9C1007BA99C /* FibonacciTest.swift in Sources */,
