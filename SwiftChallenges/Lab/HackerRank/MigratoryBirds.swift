@@ -24,5 +24,4 @@ class MigratoryBirds {
         let result = list.filter{$0.value == max}.first!.key
         return result
     }
-
 }
