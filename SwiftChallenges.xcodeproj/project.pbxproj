@@ -424,6 +424,9 @@
 		DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */; };
+		DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
+		DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
+		DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4947283CDDA300B2238B /* CountValleysTest.swift */; };
 		DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
 		DEE6253D283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
 		DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */; };
@@ -730,6 +733,8 @@
 		DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalParserTest.swift; sourceTree = "<group>"; };
 		DECCF08B27FD9034007BA99C /* SortingSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentence.swift; sourceTree = "<group>"; };
 		DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentenceTest.swift; sourceTree = "<group>"; };
+		DEDB4944283CDD7600B2238B /* CountValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleys.swift; sourceTree = "<group>"; };
+		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirdsTest.swift; sourceTree = "<group>"; };
 		DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammer.swift; sourceTree = "<group>"; };
@@ -814,6 +819,7 @@
 			children = (
 				DEE62545283B4153003EC784 /* BetweenTwoSets.swift */,
 				DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */,
+				DEDB4944283CDD7600B2238B /* CountValleys.swift */,
 				DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */,
 				DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */,
 				DEE6254A283B4659003EC784 /* DutchBillDivision.swift */,
@@ -834,6 +840,7 @@
 				DEE62555283C5499003EC784 /* PageTurnCountTest.swift */,
 				DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */,
 				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
+				DEDB4947283CDDA300B2238B /* CountValleysTest.swift */,
 				DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */,
 				DEA5C1E5282B8701004AE296 /* DivisibleSumPairsTest.swift */,
 				DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */,
@@ -1822,6 +1829,7 @@
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
 				DECCEFB527FCFA73007BA99C /* BasicEntry.swift in Sources */,
+				DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */,
 				DECCEFEE27FCFBAE007BA99C /* BinaryTreePrinter.swift in Sources */,
 				DECCF07027FCFEE3007BA99C /* CharacterExpansion.swift in Sources */,
 				DECCEE9027FCF8B4007BA99C /* FizzBuzz.swift in Sources */,
@@ -1941,6 +1949,7 @@
 				DE221EEB2819490100CAE40D /* SimpleLinkedListTest.swift in Sources */,
 				DECCEEC327FCF942007BA99C /* DailyTemperatures.swift in Sources */,
 				DECCEF9227FCF9C1007BA99C /* BasicCombineExampleTest.swift in Sources */,
+				DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */,
 				DE71A334282090460003DD95 /* BSTAverageLevelTest.swift in Sources */,
 				DECCEF7A27FCF9C1007BA99C /* CharacterCaseConversionTest.swift in Sources */,
 				DE604CA92808D9AB00C62CE6 /* NumberOfWays.swift in Sources */,
@@ -2038,6 +2047,7 @@
 				DECCEEE427FCF978007BA99C /* Regex.swift in Sources */,
 				DECCEEB527FCF8EE007BA99C /* ArrayManipulations.swift in Sources */,
 				DECCEF8427FCF9C1007BA99C /* HttpJsonExampleTest.swift in Sources */,
+				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
 				DECCEEDB27FCF966007BA99C /* Sound.swift in Sources */,
 				DECCF04927FCFE49007BA99C /* BSTMaxHeight.swift in Sources */,
 				DE1CA3482802B76B001D8BD1 /* SpiralTraversalTest.swift in Sources */,
