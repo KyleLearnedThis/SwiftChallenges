@@ -438,6 +438,9 @@
 		DEE6254E283B4CA9003EC784 /* SocksMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254D283B4CA9003EC784 /* SocksMatch.swift */; };
 		DEE6254F283B4CA9003EC784 /* SocksMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6254D283B4CA9003EC784 /* SocksMatch.swift */; };
 		DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */; };
+		DEE62553283C5467003EC784 /* PageTurnCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62552283C5467003EC784 /* PageTurnCount.swift */; };
+		DEE62554283C5467003EC784 /* PageTurnCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62552283C5467003EC784 /* PageTurnCount.swift */; };
+		DEE62556283C5499003EC784 /* PageTurnCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62555283C5499003EC784 /* PageTurnCountTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -736,6 +739,8 @@
 		DEE6254A283B4659003EC784 /* DutchBillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchBillDivision.swift; sourceTree = "<group>"; };
 		DEE6254D283B4CA9003EC784 /* SocksMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksMatch.swift; sourceTree = "<group>"; };
 		DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksMatchTest.swift; sourceTree = "<group>"; };
+		DEE62552283C5467003EC784 /* PageTurnCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTurnCount.swift; sourceTree = "<group>"; };
+		DEE62555283C5499003EC784 /* PageTurnCountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageTurnCountTest.swift; path = SwiftChallenges/Lab/HackerRank/PageTurnCountTest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -815,6 +820,7 @@
 				DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */,
 				DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */,
 				DE604CB4280A050700C62CE6 /* MinMaxSum.swift */,
+				DEE62552283C5467003EC784 /* PageTurnCount.swift */,
 				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
 				DEE6254D283B4CA9003EC784 /* SocksMatch.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
@@ -825,6 +831,7 @@
 		DEA5C1CD282B24FD004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				DEE62555283C5499003EC784 /* PageTurnCountTest.swift */,
 				DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */,
 				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
 				DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */,
@@ -1828,6 +1835,7 @@
 				DECCEE7B27FCF8B4007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DEA5C1E3282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
 				DECCEFCB27FCFB4C007BA99C /* PriorityQueue.swift in Sources */,
+				DEE62553283C5467003EC784 /* PageTurnCount.swift in Sources */,
 				DECCEE9527FCF8B4007BA99C /* StockTrading.swift in Sources */,
 				DECCEE7927FCF8B4007BA99C /* DaysOfYear.swift in Sources */,
 				DECCF04E27FCFE49007BA99C /* AllPaths.swift in Sources */,
@@ -1974,6 +1982,7 @@
 				DECCEEE127FCF96B007BA99C /* Person.swift in Sources */,
 				DECCEEC027FCF93A007BA99C /* MergeSortedArray.swift in Sources */,
 				DECCEEE227FCF96F007BA99C /* ConvertTypes.swift in Sources */,
+				DEE62556283C5499003EC784 /* PageTurnCountTest.swift in Sources */,
 				DECCEF5827FCF9C1007BA99C /* FindAllPairsGivenSumTest.swift in Sources */,
 				DECCEEC527FCF942007BA99C /* DuplicateNumber.swift in Sources */,
 				DECCEFED27FCFBAE007BA99C /* BinarySearchTree.swift in Sources */,
@@ -2059,6 +2068,7 @@
 				DE71A309281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
 				DECCEEC127FCF93D007BA99C /* RunningSumArray.swift in Sources */,
 				DECCEF7227FCF9C1007BA99C /* StringArraysEquivalentTest.swift in Sources */,
+				DEE62554283C5467003EC784 /* PageTurnCount.swift in Sources */,
 				DECCEEBF27FCF934007BA99C /* DuplicateZeros.swift in Sources */,
 				DECCF03327FCFC36007BA99C /* QueueTest.swift in Sources */,
 				DECCEEE727FCF97C007BA99C /* SortByMember.swift in Sources */,
