@@ -430,6 +430,9 @@
 		DEDB494F283DA28D00B2238B /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB494E283DA28D00B2238B /* HurdleRace.swift */; };
 		DEDB4950283DA28D00B2238B /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB494E283DA28D00B2238B /* HurdleRace.swift */; };
 		DEDB4952283DA30E00B2238B /* HurdleRaceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4951283DA30E00B2238B /* HurdleRaceTest.swift */; };
+		DEDB4954283DF75000B2238B /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4953283DF75000B2238B /* UtopianTree.swift */; };
+		DEDB4955283DF75000B2238B /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4953283DF75000B2238B /* UtopianTree.swift */; };
+		DEDB4957283DF8A000B2238B /* UtopianTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4956283DF8A000B2238B /* UtopianTreeTest.swift */; };
 		DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
 		DEE6253D283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
 		DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */; };
@@ -740,6 +743,8 @@
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		DEDB4951283DA30E00B2238B /* HurdleRaceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRaceTest.swift; sourceTree = "<group>"; };
+		DEDB4953283DF75000B2238B /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
+		DEDB4956283DF8A000B2238B /* UtopianTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTreeTest.swift; sourceTree = "<group>"; };
 		DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirdsTest.swift; sourceTree = "<group>"; };
 		DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammer.swift; sourceTree = "<group>"; };
@@ -836,6 +841,7 @@
 				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
 				DEE6254D283B4CA9003EC784 /* SocksMatch.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
+				DEDB4953283DF75000B2238B /* UtopianTree.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -843,6 +849,7 @@
 		DEA5C1CD282B24FD004AE296 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				DEDB4956283DF8A000B2238B /* UtopianTreeTest.swift */,
 				DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */,
 				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
 				DEDB4947283CDDA300B2238B /* CountValleysTest.swift */,
@@ -1798,6 +1805,7 @@
 				DECCEE8127FCF8B4007BA99C /* SingleNumber.swift in Sources */,
 				DEDB494F283DA28D00B2238B /* HurdleRace.swift in Sources */,
 				DECCEE1527FCF839007BA99C /* NumberToBinary.swift in Sources */,
+				DEDB4954283DF75000B2238B /* UtopianTree.swift in Sources */,
 				DECCEE8E27FCF8B4007BA99C /* AirportRoute.swift in Sources */,
 				DECCEE7A27FCF8B4007BA99C /* BusyStudent.swift in Sources */,
 				DECCEE7D27FCF8B4007BA99C /* DailyTemperatures.swift in Sources */,
@@ -1976,6 +1984,7 @@
 				DECCF06727FCFEE3007BA99C /* CharacterCaseConversion.swift in Sources */,
 				DECCF02F27FCFC36007BA99C /* LinkedListTest.swift in Sources */,
 				DECCEFBA27FCFA7F007BA99C /* LinkedList.swift in Sources */,
+				DEDB4957283DF8A000B2238B /* UtopianTreeTest.swift in Sources */,
 				DE71A33228208E930003DD95 /* BSTAverageLevel.swift in Sources */,
 				DECCEF9027FCF9C1007BA99C /* ValidParenthesesTest.swift in Sources */,
 				DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */,
@@ -2172,6 +2181,7 @@
 				DECCEE1A27FCF8A2007BA99C /* NumberToBinary.swift in Sources */,
 				DECCEEDD27FCF966007BA99C /* Cat.swift in Sources */,
 				DECCEF8A27FCF9C1007BA99C /* SortByMemberTest.swift in Sources */,
+				DEDB4955283DF75000B2238B /* UtopianTree.swift in Sources */,
 				DECCEF5227FCF9C1007BA99C /* LeadersInArrayTest.swift in Sources */,
 				DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */,
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
