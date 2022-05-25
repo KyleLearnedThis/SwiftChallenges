@@ -430,6 +430,12 @@
 		DEDB494F283DA28D00B2238B /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB494E283DA28D00B2238B /* HurdleRace.swift */; };
 		DEDB4950283DA28D00B2238B /* HurdleRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB494E283DA28D00B2238B /* HurdleRace.swift */; };
 		DEDB4952283DA30E00B2238B /* HurdleRaceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4951283DA30E00B2238B /* HurdleRaceTest.swift */; };
+		DEDB4954283DF75000B2238B /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4953283DF75000B2238B /* UtopianTree.swift */; };
+		DEDB4955283DF75000B2238B /* UtopianTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4953283DF75000B2238B /* UtopianTree.swift */; };
+		DEDB4957283DF8A000B2238B /* UtopianTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4956283DF8A000B2238B /* UtopianTreeTest.swift */; };
+		DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4958283E2EEA00B2238B /* CircularArrayQuery.swift */; };
+		DEDB495A283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4958283E2EEA00B2238B /* CircularArrayQuery.swift */; };
+		DEDB495C283E2F4600B2238B /* CircularArrayQueryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB495B283E2F4600B2238B /* CircularArrayQueryTest.swift */; };
 		DEE6253C283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
 		DEE6253D283AEC8C003EC784 /* MigratoryBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */; };
 		DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */; };
@@ -740,6 +746,10 @@
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
 		DEDB4951283DA30E00B2238B /* HurdleRaceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRaceTest.swift; sourceTree = "<group>"; };
+		DEDB4953283DF75000B2238B /* UtopianTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTree.swift; sourceTree = "<group>"; };
+		DEDB4956283DF8A000B2238B /* UtopianTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtopianTreeTest.swift; sourceTree = "<group>"; };
+		DEDB4958283E2EEA00B2238B /* CircularArrayQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayQuery.swift; sourceTree = "<group>"; };
+		DEDB495B283E2F4600B2238B /* CircularArrayQueryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularArrayQueryTest.swift; sourceTree = "<group>"; };
 		DEE6253B283AEC8C003EC784 /* MigratoryBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirds.swift; sourceTree = "<group>"; };
 		DEE6253E283AEDAC003EC784 /* MigratoryBirdsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratoryBirdsTest.swift; sourceTree = "<group>"; };
 		DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfRussianProgrammer.swift; sourceTree = "<group>"; };
@@ -824,6 +834,7 @@
 			children = (
 				DEE62545283B4153003EC784 /* BetweenTwoSets.swift */,
 				DEA5C1DD282B812D004AE296 /* ChocobarSegment.swift */,
+				DEDB4958283E2EEA00B2238B /* CircularArrayQuery.swift */,
 				DEDB4944283CDD7600B2238B /* CountValleys.swift */,
 				DEE62540283AF408003EC784 /* DaysOfRussianProgrammer.swift */,
 				DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */,
@@ -836,6 +847,7 @@
 				DEA5C1DA282B7E83004AE296 /* PersonalScoresCount.swift */,
 				DEE6254D283B4CA9003EC784 /* SocksMatch.swift */,
 				DEA5C1D5282B3250004AE296 /* StudentGrading.swift */,
+				DEDB4953283DF75000B2238B /* UtopianTree.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -845,6 +857,7 @@
 			children = (
 				DEE62548283B4186003EC784 /* BetweenTwoSetsTest.swift */,
 				DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */,
+				DEDB495B283E2F4600B2238B /* CircularArrayQueryTest.swift */,
 				DEDB4947283CDDA300B2238B /* CountValleysTest.swift */,
 				DEE62543283AF484003EC784 /* DaysOfRussianProgrammerTest.swift */,
 				DEA5C1E5282B8701004AE296 /* DivisibleSumPairsTest.swift */,
@@ -855,6 +868,7 @@
 				DEE62555283C5499003EC784 /* PageTurnCountTest.swift */,
 				DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */,
 				DEA5C1D8282B34AD004AE296 /* StudentGradingTest.swift */,
+				DEDB4956283DF8A000B2238B /* UtopianTreeTest.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -1798,6 +1812,7 @@
 				DECCEE8127FCF8B4007BA99C /* SingleNumber.swift in Sources */,
 				DEDB494F283DA28D00B2238B /* HurdleRace.swift in Sources */,
 				DECCEE1527FCF839007BA99C /* NumberToBinary.swift in Sources */,
+				DEDB4954283DF75000B2238B /* UtopianTree.swift in Sources */,
 				DECCEE8E27FCF8B4007BA99C /* AirportRoute.swift in Sources */,
 				DECCEE7A27FCF8B4007BA99C /* BusyStudent.swift in Sources */,
 				DECCEE7D27FCF8B4007BA99C /* DailyTemperatures.swift in Sources */,
@@ -1917,6 +1932,7 @@
 				DECCEE8C27FCF8B4007BA99C /* SumOfTwoLists.swift in Sources */,
 				DECCF06E27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DECCEFDD27FCFB99007BA99C /* HeapSort.swift in Sources */,
+				DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
 				DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */,
 				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00227FCFBD3007BA99C /* GraphUtils.swift in Sources */,
@@ -1976,6 +1992,7 @@
 				DECCF06727FCFEE3007BA99C /* CharacterCaseConversion.swift in Sources */,
 				DECCF02F27FCFC36007BA99C /* LinkedListTest.swift in Sources */,
 				DECCEFBA27FCFA7F007BA99C /* LinkedList.swift in Sources */,
+				DEDB4957283DF8A000B2238B /* UtopianTreeTest.swift in Sources */,
 				DE71A33228208E930003DD95 /* BSTAverageLevel.swift in Sources */,
 				DECCEF9027FCF9C1007BA99C /* ValidParenthesesTest.swift in Sources */,
 				DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */,
@@ -2044,6 +2061,7 @@
 				DECCEFDE27FCFB99007BA99C /* HeapSort.swift in Sources */,
 				DECCF03527FCFC36007BA99C /* BubbleSortTest.swift in Sources */,
 				DECCEEBA27FCF91E007BA99C /* DetectCyclicList.swift in Sources */,
+				DEDB495C283E2F4600B2238B /* CircularArrayQueryTest.swift in Sources */,
 				DECCF03127FCFC36007BA99C /* StackTest.swift in Sources */,
 				DECCF00727FCFBD3007BA99C /* Direction.swift in Sources */,
 				DE71A3372820A6960003DD95 /* MaximumPopulationYear.swift in Sources */,
@@ -2060,6 +2078,7 @@
 				DECCEEDB27FCF966007BA99C /* Sound.swift in Sources */,
 				DECCF04927FCFE49007BA99C /* BSTMaxHeight.swift in Sources */,
 				DE1CA3482802B76B001D8BD1 /* SpiralTraversalTest.swift in Sources */,
+				DEDB495A283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
 				DECCEF9A27FCF9C1007BA99C /* CountNegativeMatrixTest.swift in Sources */,
 				DECCEEB127FCF8E3007BA99C /* StockTrading.swift in Sources */,
 				DECCF04D27FCFE49007BA99C /* BSTInversion.swift in Sources */,
@@ -2172,6 +2191,7 @@
 				DECCEE1A27FCF8A2007BA99C /* NumberToBinary.swift in Sources */,
 				DECCEEDD27FCF966007BA99C /* Cat.swift in Sources */,
 				DECCEF8A27FCF9C1007BA99C /* SortByMemberTest.swift in Sources */,
+				DEDB4955283DF75000B2238B /* UtopianTree.swift in Sources */,
 				DECCEF5227FCF9C1007BA99C /* LeadersInArrayTest.swift in Sources */,
 				DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */,
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
