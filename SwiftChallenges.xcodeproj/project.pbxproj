@@ -424,6 +424,11 @@
 		DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */; };
+		DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
+		DED795BE2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
+		DED795C0284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
+		DED795C1284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
+		DED795C4284A06CA005EF2E7 /* TrieTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795C3284A06CA005EF2E7 /* TrieTest.swift */; };
 		DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4947283CDDA300B2238B /* CountValleysTest.swift */; };
@@ -742,6 +747,9 @@
 		DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalParserTest.swift; sourceTree = "<group>"; };
 		DECCF08B27FD9034007BA99C /* SortingSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentence.swift; sourceTree = "<group>"; };
 		DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentenceTest.swift; sourceTree = "<group>"; };
+		DED795BC2849F7C0005EF2E7 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
+		DED795BF284A016B005EF2E7 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
 		DEDB4944283CDD7600B2238B /* CountValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleys.swift; sourceTree = "<group>"; };
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
@@ -1488,6 +1496,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEFE827FCFBAE007BA99C /* bst */,
+				DED795B82849F75C005EF2E7 /* prefix */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -1613,6 +1622,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCF01E27FCFC36007BA99C /* bst */,
+				DED795C2284A0692005EF2E7 /* prefix */,
 			);
 			path = tree;
 			sourceTree = "<group>";
@@ -1689,6 +1699,23 @@
 				DE2E0F89280EBD98006D06FA /* WrongAnswerOnly.swift */,
 			);
 			path = texts;
+			sourceTree = "<group>";
+		};
+		DED795B82849F75C005EF2E7 /* prefix */ = {
+			isa = PBXGroup;
+			children = (
+				DED795BF284A016B005EF2E7 /* Trie.swift */,
+				DED795BC2849F7C0005EF2E7 /* TrieNode.swift */,
+			);
+			path = prefix;
+			sourceTree = "<group>";
+		};
+		DED795C2284A0692005EF2E7 /* prefix */ = {
+			isa = PBXGroup;
+			children = (
+				DED795C3284A06CA005EF2E7 /* TrieTest.swift */,
+			);
+			path = prefix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1900,6 +1927,7 @@
 				DECCEE9B27FCF8B4007BA99C /* HttpJsonFormat.swift in Sources */,
 				DECCF06827FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
 				DECCEFCC27FCFB4C007BA99C /* Queue.swift in Sources */,
+				DED795C0284A016B005EF2E7 /* Trie.swift in Sources */,
 				DECCEE7027FCF8B4007BA99C /* ArrayLuckyNumber.swift in Sources */,
 				DECCEE9927FCF8B4007BA99C /* HttpClientExample.swift in Sources */,
 				DECCEE7427FCF8B4007BA99C /* RelativeSortArray.swift in Sources */,
@@ -1932,6 +1960,7 @@
 				DECCEE8C27FCF8B4007BA99C /* SumOfTwoLists.swift in Sources */,
 				DECCF06E27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DECCEFDD27FCFB99007BA99C /* HeapSort.swift in Sources */,
+				DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */,
 				DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
 				DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */,
 				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
@@ -2231,7 +2260,9 @@
 				DE2E0F90280EBF44006D06FA /* BattleshipProbability.swift in Sources */,
 				DEE62544283AF484003EC784 /* DaysOfRussianProgrammerTest.swift in Sources */,
 				DECCF08A27FD8ED6007BA99C /* GoalParserTest.swift in Sources */,
+				DED795C4284A06CA005EF2E7 /* TrieTest.swift in Sources */,
 				DECCEF8D27FCF9C1007BA99C /* EvenNumberDigitsTest.swift in Sources */,
+				DED795BE2849F7C0005EF2E7 /* TrieNode.swift in Sources */,
 				DECCEF9E27FCF9C1007BA99C /* ListReverseTest.swift in Sources */,
 				DECCEF8527FCF9C1007BA99C /* MakeSoundTest.swift in Sources */,
 				DECCEF8C27FCF9C1007BA99C /* FizzBuzzTest.swift in Sources */,
@@ -2241,6 +2272,7 @@
 				DE1CA30327FEDE88001D8BD1 /* PrintTriangleTest.swift in Sources */,
 				DECCF07727FCFEE3007BA99C /* NumberOfJewelsInStones.swift in Sources */,
 				DECCEF8E27FCF9C1007BA99C /* TopKElementsTest.swift in Sources */,
+				DED795C1284A016B005EF2E7 /* Trie.swift in Sources */,
 				DECCEFD327FCFB79007BA99C /* EratosthenesSieve.swift in Sources */,
 				DE71A31F281F92A60003DD95 /* PartitionEqualSumTest.swift in Sources */,
 				DECCEF9F27FCF9C1007BA99C /* SumOfTwoListsTest.swift in Sources */,
