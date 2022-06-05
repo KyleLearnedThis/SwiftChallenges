@@ -8,16 +8,19 @@
 import Foundation
 
 class TrieNode<T: Hashable> {
-    var value: T
+    var data: T
     weak var parent: TrieNode?
     var children: [T: TrieNode<T>] = [:]
-    var isTerminating: Bool = false
+//    var isTerminating: Bool = false
+    var isTerminating: Bool {
+        return children.isEmpty
+    }
 
     init(value: T, parent: TrieNode? = nil, children: [T: TrieNode] = [:], isTerminating: Bool = false) {
-        self.value = value
+        self.data = value
         self.parent = parent
         self.children = children
-        self.isTerminating = isTerminating
+//        self.isTerminating = isTerminating
     }
 
     func add(child: T) {

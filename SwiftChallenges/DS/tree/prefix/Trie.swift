@@ -37,16 +37,16 @@ extension Trie {
             curIndex += 1
         }
 
-        if curIndex == characters.count {
-            cur.isTerminating = true
-        }
+//        if curIndex == characters.count {
+//            cur.isTerminating = true
+//        }
     }
 
     func contains(word: String) -> Bool {
         guard !word.isEmpty else { return false }
 
         var cur = root
-        let characters = Array(word) // Array(word.lowercased())
+        let characters = Array(word)
         var curIndex = 0
 
         while curIndex < characters.count {
@@ -62,6 +62,72 @@ extension Trie {
             return true
         } else {
             return false
+        }
+    }
+
+    func getPrefix(word: String) -> TrieNode<Character>? {
+        var i = 0
+        var cur: TrieNode<Character>? = root
+        let input = Array(word)
+
+        while cur != nil && i < input.count {
+            let ch = input[i]
+            cur = cur?.children[ch]
+            i += 1
+        }
+        return cur
+    }
+
+    func getPrefixString(node: TrieNode<Character>?) -> String {
+        var cur = node
+        var result = ""
+        while cur != nil && cur?.parent != nil {
+            let v = String(describing: cur!.data)
+            cur = cur?.parent
+            result = v + result
+        }
+        print("")
+        return result
+    }
+
+    func getAllPaths(node: TrieNode<Character>?) -> [String] {
+        var path = [Character]()
+        var paths = [[Character]]()
+        var result = [String]()
+        let cur: TrieNode<Character>? = node
+        let prefix = getPrefixString(node: cur)
+        getAllPathsDFS(node: cur, path: &path, paths: &paths)
+
+        for array in paths {
+            var input = ""
+            for ch in array {
+                input.append(ch)
+            }
+            result.append(prefix+input)
+        }
+        return result
+    }
+
+    func getAllPathsDFS(node: TrieNode<Character>?, path: inout [Character], paths: inout [[Character]]) {
+        let cur = node
+
+        if cur == nil {
+            return
+        } else {
+            var clone = [Character]()
+            if cur!.isTerminating {
+                paths.append(path)
+                return
+            }
+            let children = cur!.children
+            for child in children {
+                let k = child.key
+                let n = child.value
+                clone = path.map{$0}
+                clone.append(k)
+                print("=== p: [\(cur!.data)] n: [\(n.data)] ===")
+                getAllPathsDFS(node: n, path: &clone, paths: &paths)
+            }
         }
     }
 }
