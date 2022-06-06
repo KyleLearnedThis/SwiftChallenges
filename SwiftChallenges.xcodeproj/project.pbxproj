@@ -157,7 +157,7 @@
 		DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6727FCF8B4007BA99C /* Regex.swift */; };
 		DECCEEA727FCF8B4007BA99C /* SortByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6927FCF8B4007BA99C /* SortByMember.swift */; };
 		DECCEEA827FCF8B4007BA99C /* MappingTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6A27FCF8B4007BA99C /* MappingTransform.swift */; };
-		DECCEEA927FCF8B4007BA99C /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6B27FCF8B4007BA99C /* OrderedDictionaryExample.swift */; };
+		DECCEEA927FCF8B4007BA99C /* SortDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6B27FCF8B4007BA99C /* SortDictionaryExample.swift */; };
 		DECCEEAA27FCF8D1007BA99C /* AirportRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE4327FCF8B3007BA99C /* AirportRoute.swift */; };
 		DECCEEAB27FCF8D4007BA99C /* ThreeColorSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE4427FCF8B3007BA99C /* ThreeColorSorting.swift */; };
 		DECCEEAC27FCF8D7007BA99C /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE4527FCF8B3007BA99C /* FizzBuzz.swift */; };
@@ -218,7 +218,7 @@
 		DECCEEE327FCF973007BA99C /* ComputeClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6527FCF8B4007BA99C /* ComputeClosure.swift */; };
 		DECCEEE427FCF978007BA99C /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6727FCF8B4007BA99C /* Regex.swift */; };
 		DECCEEE527FCF97C007BA99C /* MappingTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6A27FCF8B4007BA99C /* MappingTransform.swift */; };
-		DECCEEE627FCF97C007BA99C /* OrderedDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6B27FCF8B4007BA99C /* OrderedDictionaryExample.swift */; };
+		DECCEEE627FCF97C007BA99C /* SortDictionaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6B27FCF8B4007BA99C /* SortDictionaryExample.swift */; };
 		DECCEEE727FCF97C007BA99C /* SortByMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE6927FCF8B4007BA99C /* SortByMember.swift */; };
 		DECCEF4E27FCF9C1007BA99C /* MoveZeroesInArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEEE927FCF9C1007BA99C /* MoveZeroesInArrayTest.swift */; };
 		DECCEF4F27FCF9C1007BA99C /* RandomNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEEEA27FCF9C1007BA99C /* RandomNumberTest.swift */; };
@@ -278,7 +278,7 @@
 		DECCEF8627FCF9C1007BA99C /* ConvertTypesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF2E27FCF9C1007BA99C /* ConvertTypesTest.swift */; };
 		DECCEF8727FCF9C1007BA99C /* ComputeClosureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3027FCF9C1007BA99C /* ComputeClosureTest.swift */; };
 		DECCEF8827FCF9C1007BA99C /* RegexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3227FCF9C1007BA99C /* RegexTest.swift */; };
-		DECCEF8927FCF9C1007BA99C /* OrderedDictionaryExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3427FCF9C1007BA99C /* OrderedDictionaryExampleTest.swift */; };
+		DECCEF8927FCF9C1007BA99C /* SortDictionaryExampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3427FCF9C1007BA99C /* SortDictionaryExampleTest.swift */; };
 		DECCEF8A27FCF9C1007BA99C /* SortByMemberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3527FCF9C1007BA99C /* SortByMemberTest.swift */; };
 		DECCEF8B27FCF9C1007BA99C /* MappingTransformTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3627FCF9C1007BA99C /* MappingTransformTest.swift */; };
 		DECCEF8C27FCF9C1007BA99C /* FizzBuzzTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF3827FCF9C1007BA99C /* FizzBuzzTest.swift */; };
@@ -429,6 +429,9 @@
 		DED795C0284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
 		DED795C1284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
 		DED795C4284A06CA005EF2E7 /* TrieTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795C3284A06CA005EF2E7 /* TrieTest.swift */; };
+		DED795C7284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */; };
+		DED795C8284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */; };
+		DED795CB284DEA39005EF2E7 /* BaseOrderedMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795CA284DEA39005EF2E7 /* BaseOrderedMapTest.swift */; };
 		DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4947283CDDA300B2238B /* CountValleysTest.swift */; };
@@ -593,7 +596,7 @@
 		DECCEE6727FCF8B4007BA99C /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		DECCEE6927FCF8B4007BA99C /* SortByMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortByMember.swift; sourceTree = "<group>"; };
 		DECCEE6A27FCF8B4007BA99C /* MappingTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingTransform.swift; sourceTree = "<group>"; };
-		DECCEE6B27FCF8B4007BA99C /* OrderedDictionaryExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryExample.swift; sourceTree = "<group>"; };
+		DECCEE6B27FCF8B4007BA99C /* SortDictionaryExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortDictionaryExample.swift; sourceTree = "<group>"; };
 		DECCEEE927FCF9C1007BA99C /* MoveZeroesInArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroesInArrayTest.swift; sourceTree = "<group>"; };
 		DECCEEEA27FCF9C1007BA99C /* RandomNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberTest.swift; sourceTree = "<group>"; };
 		DECCEEEB27FCF9C1007BA99C /* DaysOfYearTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysOfYearTest.swift; sourceTree = "<group>"; };
@@ -652,7 +655,7 @@
 		DECCEF2E27FCF9C1007BA99C /* ConvertTypesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTypesTest.swift; sourceTree = "<group>"; };
 		DECCEF3027FCF9C1007BA99C /* ComputeClosureTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputeClosureTest.swift; sourceTree = "<group>"; };
 		DECCEF3227FCF9C1007BA99C /* RegexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexTest.swift; sourceTree = "<group>"; };
-		DECCEF3427FCF9C1007BA99C /* OrderedDictionaryExampleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryExampleTest.swift; sourceTree = "<group>"; };
+		DECCEF3427FCF9C1007BA99C /* SortDictionaryExampleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortDictionaryExampleTest.swift; sourceTree = "<group>"; };
 		DECCEF3527FCF9C1007BA99C /* SortByMemberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortByMemberTest.swift; sourceTree = "<group>"; };
 		DECCEF3627FCF9C1007BA99C /* MappingTransformTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingTransformTest.swift; sourceTree = "<group>"; };
 		DECCEF3827FCF9C1007BA99C /* FizzBuzzTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzTest.swift; sourceTree = "<group>"; };
@@ -750,6 +753,8 @@
 		DED795BC2849F7C0005EF2E7 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		DED795BF284A016B005EF2E7 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
+		DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderedMap.swift; sourceTree = "<group>"; };
+		DED795CA284DEA39005EF2E7 /* BaseOrderedMapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderedMapTest.swift; sourceTree = "<group>"; };
 		DEDB4944283CDD7600B2238B /* CountValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleys.swift; sourceTree = "<group>"; };
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
@@ -1183,8 +1188,8 @@
 			children = (
 				DECCEE6A27FCF8B4007BA99C /* MappingTransform.swift */,
 				DE71A307281D325F0003DD95 /* NSOrderedSetExample.swift */,
-				DECCEE6B27FCF8B4007BA99C /* OrderedDictionaryExample.swift */,
 				DECCEE6927FCF8B4007BA99C /* SortByMember.swift */,
+				DECCEE6B27FCF8B4007BA99C /* SortDictionaryExample.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -1377,8 +1382,8 @@
 			children = (
 				DE71A30A281D33F40003DD95 /* NSOrderedSetExampleTest.swift */,
 				DECCEF3627FCF9C1007BA99C /* MappingTransformTest.swift */,
-				DECCEF3427FCF9C1007BA99C /* OrderedDictionaryExampleTest.swift */,
 				DECCEF3527FCF9C1007BA99C /* SortByMemberTest.swift */,
+				DECCEF3427FCF9C1007BA99C /* SortDictionaryExampleTest.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -1428,6 +1433,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEFBB27FCFB28007BA99C /* cache */,
+				DED795C5284DE7C5005EF2E7 /* dictionary */,
 				DECCEFF227FCFBD3007BA99C /* graph */,
 				DECCEFB127FCFA73007BA99C /* list */,
 				DECCEFD027FCFB76007BA99C /* numbers */,
@@ -1545,6 +1551,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCF02627FCFC36007BA99C /* cache */,
+				DED795C9284DEA0C005EF2E7 /* dictionary */,
 				DECCF00B27FCFC36007BA99C /* graph */,
 				DECCF01527FCFC36007BA99C /* list */,
 				DECCF01727FCFC36007BA99C /* numbers */,
@@ -1716,6 +1723,22 @@
 				DED795C3284A06CA005EF2E7 /* TrieTest.swift */,
 			);
 			path = prefix;
+			sourceTree = "<group>";
+		};
+		DED795C5284DE7C5005EF2E7 /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */,
+			);
+			path = dictionary;
+			sourceTree = "<group>";
+		};
+		DED795C9284DEA0C005EF2E7 /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DED795CA284DEA39005EF2E7 /* BaseOrderedMapTest.swift */,
+			);
+			path = dictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1917,7 +1940,7 @@
 				DE1CA2F827FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
 				DECCEE9327FCF8B4007BA99C /* Anagram.swift in Sources */,
 				DECCEE8827FCF8B4007BA99C /* RansomNotes.swift in Sources */,
-				DECCEEA927FCF8B4007BA99C /* OrderedDictionaryExample.swift in Sources */,
+				DECCEEA927FCF8B4007BA99C /* SortDictionaryExample.swift in Sources */,
 				DECCEE8027FCF8B4007BA99C /* MedianOfTwoSortedArrays.swift in Sources */,
 				DECCF07627FCFEE3007BA99C /* NumberOfJewelsInStones.swift in Sources */,
 				DE2E0F9B280FEF7E006D06FA /* KaitenzushiPuzzle.swift in Sources */,
@@ -1961,6 +1984,7 @@
 				DECCF06E27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DECCEFDD27FCFB99007BA99C /* HeapSort.swift in Sources */,
 				DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */,
+				DED795C7284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */,
 				DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
 				DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */,
 				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
@@ -2126,7 +2150,7 @@
 				DECCEF8727FCF9C1007BA99C /* ComputeClosureTest.swift in Sources */,
 				DEA5C1E4282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
 				DECCEEB027FCF8E1007BA99C /* ValidParentheses.swift in Sources */,
-				DECCEEE627FCF97C007BA99C /* OrderedDictionaryExample.swift in Sources */,
+				DECCEEE627FCF97C007BA99C /* SortDictionaryExample.swift in Sources */,
 				DECCEEB627FCF8F2007BA99C /* Fibonacci.swift in Sources */,
 				DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */,
 				DECCF06927FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
@@ -2149,6 +2173,7 @@
 				DECCEEB827FCF919007BA99C /* ListReverse.swift in Sources */,
 				DEA5C1CF282B254D004AE296 /* MilitaryTimeTest.swift in Sources */,
 				DECCEEDE27FCF966007BA99C /* Phone.swift in Sources */,
+				DED795C8284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */,
 				DECCEEE327FCF973007BA99C /* ComputeClosure.swift in Sources */,
 				DECCEF6627FCF9C1007BA99C /* DestinationCityTest.swift in Sources */,
 				DECCEEDC27FCF966007BA99C /* Dog.swift in Sources */,
@@ -2224,7 +2249,7 @@
 				DECCEF5227FCF9C1007BA99C /* LeadersInArrayTest.swift in Sources */,
 				DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */,
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
-				DECCEF8927FCF9C1007BA99C /* OrderedDictionaryExampleTest.swift in Sources */,
+				DECCEF8927FCF9C1007BA99C /* SortDictionaryExampleTest.swift in Sources */,
 				DE71A31D281F92530003DD95 /* PartitionEqualSum.swift in Sources */,
 				DE604CA42806218800C62CE6 /* TwoSum.swift in Sources */,
 				DECCEEAC27FCF8D7007BA99C /* FizzBuzz.swift in Sources */,
@@ -2237,6 +2262,7 @@
 				DECCEF7D27FCF9C1007BA99C /* FileOpenerTest.swift in Sources */,
 				DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DEA5C1D7282B3250004AE296 /* StudentGrading.swift in Sources */,
+				DED795CB284DEA39005EF2E7 /* BaseOrderedMapTest.swift in Sources */,
 				DECCEF6927FCF9C1007BA99C /* BalanceBSTTest.swift in Sources */,
 				DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */,
 				DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */,
