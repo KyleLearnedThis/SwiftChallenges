@@ -1,5 +1,5 @@
 //
-//  OrderedDictionaryExample
+//  SortDictionaryExample
 //  SwiftCodes
 //
 //  Copyright © 2019 kylelearnedthis. All rights reserved.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-class OrderedDictionaryExample {
-    static func orderByDictionaryValue(_ input: [Int], _ isDescending: Bool) -> [(Int, Int)] {
+class SortDictionaryExample {
+    static func sortByValue(_ input: [Int], _ isDescending: Bool) -> [(Int, Int)] {
         let map = makeMap(input)
         var sortedMap = [(Int, Int)]()
 
@@ -40,7 +40,7 @@ class OrderedDictionaryExample {
         }
     }
 
-    static func orderByDictionaryKey(_ input: [Int], _ isDescending: Bool) -> [(Int, Int)] {
+    static func sortByKey(_ input: [Int], _ isDescending: Bool) -> [(Int, Int)] {
         let map = makeMap(input)
         var sortedMap = [(Int, Int)]()
 

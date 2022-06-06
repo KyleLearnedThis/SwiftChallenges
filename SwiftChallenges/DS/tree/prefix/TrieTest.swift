@@ -33,7 +33,7 @@ class TrieTest: XCTestCase {
 
     func testPrefixPaths01() throws {
         let trie = Trie()
-        let input = ["appletouch", "appletini", "bee", "begin"]
+        let input = ["appletouch", "appletini", "application", "apply", "bee", "begin"]
         for word in input {
             trie.insert(word: word)
         }

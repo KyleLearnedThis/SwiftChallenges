@@ -125,7 +125,7 @@ extension Trie {
                 let n = child.value
                 clone = path.map{$0}
                 clone.append(k)
-                print("=== p: [\(cur!.data)] n: [\(n.data)] ===")
+//                print("=== p: [\(cur!.data)] n: [\(n.data)] ===")
                 getAllPathsDFS(node: n, path: &clone, paths: &paths)
             }
         }
