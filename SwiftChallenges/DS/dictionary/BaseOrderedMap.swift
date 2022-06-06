@@ -39,7 +39,14 @@ class BaseOrderedMap<S: Hashable, T: Comparable> {
     }
 
     subscript(_ key: S) -> T? {
-        let value = map[key]
-        return value
+        get {
+            let value = map[key]
+            return value
+        }
+        set {
+            list = list.filter{$0 != key}
+            list.append(key)
+            map[key] = newValue
+        }
     }
 }
