@@ -441,6 +441,9 @@
 		DED7961F284F442A005EF2E7 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7961E284F442A005EF2E7 /* RomanNumerals.swift */; };
 		DED79620284F442A005EF2E7 /* RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7961E284F442A005EF2E7 /* RomanNumerals.swift */; };
 		DED79622284F4517005EF2E7 /* RomanNumeralsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED79621284F4517005EF2E7 /* RomanNumeralsTest.swift */; };
+		DED7962428501409005EF2E7 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962328501409005EF2E7 /* NumberOfIslands.swift */; };
+		DED796252850140A005EF2E7 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962328501409005EF2E7 /* NumberOfIslands.swift */; };
+		DED7962728501667005EF2E7 /* NumberOfIslandsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */; };
 		DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4947283CDDA300B2238B /* CountValleysTest.swift */; };
@@ -770,6 +773,8 @@
 		DED7961C284F3FC0005EF2E7 /* BinaryTreeSymmetricTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BinaryTreeSymmetricTest.swift; path = SwiftChallengesTests/Lab/tree/bst/BinaryTreeSymmetricTest.swift; sourceTree = SOURCE_ROOT; };
 		DED7961E284F442A005EF2E7 /* RomanNumerals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumerals.swift; sourceTree = "<group>"; };
 		DED79621284F4517005EF2E7 /* RomanNumeralsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RomanNumeralsTest.swift; path = SwiftChallengesTests/Lab/texts/RomanNumeralsTest.swift; sourceTree = SOURCE_ROOT; };
+		DED7962328501409005EF2E7 /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
+		DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslandsTest.swift; sourceTree = "<group>"; };
 		DEDB4944283CDD7600B2238B /* CountValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleys.swift; sourceTree = "<group>"; };
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
@@ -1053,6 +1058,7 @@
 				DECCEE3D27FCF8B3007BA99C /* ArrayManipulations.swift */,
 				DECCEE3C27FCF8B3007BA99C /* CountNegativeMatrix.swift */,
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
+				DED7962328501409005EF2E7 /* NumberOfIslands.swift */,
 				DECCEE3B27FCF8B3007BA99C /* RansomNotes.swift */,
 				DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */,
 			);
@@ -1431,6 +1437,7 @@
 				DECCEF4927FCF9C1007BA99C /* ArrayManipulationsTest.swift */,
 				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
+				DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */,
 				DECCEF4827FCF9C1007BA99C /* RansomNotesTest.swift */,
 				DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */,
 			);
@@ -2035,6 +2042,7 @@
 				DECCEFFC27FCFBD3007BA99C /* Edge.swift in Sources */,
 				DECCEFC327FCFB28007BA99C /* LFUCacheItem.swift in Sources */,
 				DECCEE9427FCF8B4007BA99C /* ValidParentheses.swift in Sources */,
+				DED7962428501409005EF2E7 /* NumberOfIslands.swift in Sources */,
 				DECCEE7E27FCF8B4007BA99C /* MoneyInLeetcodeBank.swift in Sources */,
 				DECCEE9D27FCF8B4007BA99C /* Dog.swift in Sources */,
 				DECCEE9627FCF8B4007BA99C /* TopKElements.swift in Sources */,
@@ -2311,6 +2319,7 @@
 				DECCF03427FCFC36007BA99C /* BinarySearchTreeTest.swift in Sources */,
 				DECCEFCF27FCFB50007BA99C /* Queue.swift in Sources */,
 				DECCF07B27FCFEE3007BA99C /* RestoreString.swift in Sources */,
+				DED796252850140A005EF2E7 /* NumberOfIslands.swift in Sources */,
 				DECCEF9D27FCF9C1007BA99C /* DetectCyclicListTest.swift in Sources */,
 				DECCEF9927FCF9C1007BA99C /* EnvironmentFetchTest.swift in Sources */,
 				DE2E0F90280EBF44006D06FA /* BattleshipProbability.swift in Sources */,
@@ -2332,6 +2341,7 @@
 				DECCEFD327FCFB79007BA99C /* EratosthenesSieve.swift in Sources */,
 				DE71A31F281F92A60003DD95 /* PartitionEqualSumTest.swift in Sources */,
 				DECCEF9F27FCF9C1007BA99C /* SumOfTwoListsTest.swift in Sources */,
+				DED7962728501667005EF2E7 /* NumberOfIslandsTest.swift in Sources */,
 				DECCF07E27FCFF30007BA99C /* LRUCache.swift in Sources */,
 				DE71A31A281F49E60003DD95 /* VisibleLeftmostTreeNodesTest.swift in Sources */,
 				DECCF02927FCFC36007BA99C /* GraphTest.swift in Sources */,
