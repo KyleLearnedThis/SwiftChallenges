@@ -432,6 +432,12 @@
 		DED795C7284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */; };
 		DED795C8284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */; };
 		DED795CB284DEA39005EF2E7 /* BaseOrderedMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795CA284DEA39005EF2E7 /* BaseOrderedMapTest.swift */; };
+		DED79616284F1719005EF2E7 /* BSTLowestCommonAncestorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED79615284F1719005EF2E7 /* BSTLowestCommonAncestorTest.swift */; };
+		DED79617284F1C92005EF2E7 /* BSTLowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED79613284F16B1005EF2E7 /* BSTLowestCommonAncestor.swift */; };
+		DED79618284F1C93005EF2E7 /* BSTLowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED79613284F16B1005EF2E7 /* BSTLowestCommonAncestor.swift */; };
+		DED7961A284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED79619284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift */; };
+		DED7961B284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED79619284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift */; };
+		DED7961D284F3FC0005EF2E7 /* BinaryTreeSymmetricTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7961C284F3FC0005EF2E7 /* BinaryTreeSymmetricTest.swift */; };
 		DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4947283CDDA300B2238B /* CountValleysTest.swift */; };
@@ -755,6 +761,10 @@
 		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
 		DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderedMap.swift; sourceTree = "<group>"; };
 		DED795CA284DEA39005EF2E7 /* BaseOrderedMapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderedMapTest.swift; sourceTree = "<group>"; };
+		DED79613284F16B1005EF2E7 /* BSTLowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTLowestCommonAncestor.swift; sourceTree = "<group>"; };
+		DED79615284F1719005EF2E7 /* BSTLowestCommonAncestorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BSTLowestCommonAncestorTest.swift; path = SwiftChallengesTests/Lab/tree/bst/BSTLowestCommonAncestorTest.swift; sourceTree = SOURCE_ROOT; };
+		DED79619284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeSymmetric.swift; sourceTree = "<group>"; };
+		DED7961C284F3FC0005EF2E7 /* BinaryTreeSymmetricTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BinaryTreeSymmetricTest.swift; path = SwiftChallengesTests/Lab/tree/bst/BinaryTreeSymmetricTest.swift; sourceTree = SOURCE_ROOT; };
 		DEDB4944283CDD7600B2238B /* CountValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleys.swift; sourceTree = "<group>"; };
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
@@ -1249,15 +1259,17 @@
 		DECCEF0427FCF9C1007BA99C /* bst */ = {
 			isa = PBXGroup;
 			children = (
-				DECCEF0527FCF9C1007BA99C /* UnivaluedBinaryTreeTest.swift */,
-				DECCEF0627FCF9C1007BA99C /* BSTPathSumTest.swift */,
-				DECCEF0727FCF9C1007BA99C /* BalanceBSTTest.swift */,
-				DECCEF0827FCF9C1007BA99C /* MergeTwoBSTTest.swift */,
 				DECCEF0927FCF9C1007BA99C /* AllPathsTest.swift */,
-				DECCEF0A27FCF9C1007BA99C /* HeightBalancedTreeTest.swift */,
-				DECCEF0B27FCF9C1007BA99C /* BSTKthElementTest.swift */,
+				DECCEF0727FCF9C1007BA99C /* BalanceBSTTest.swift */,
+				DED7961C284F3FC0005EF2E7 /* BinaryTreeSymmetricTest.swift */,
 				DECCEF0C27FCF9C1007BA99C /* BSTInversionTest.swift */,
+				DECCEF0B27FCF9C1007BA99C /* BSTKthElementTest.swift */,
+				DED79615284F1719005EF2E7 /* BSTLowestCommonAncestorTest.swift */,
 				DECCEF0D27FCF9C1007BA99C /* BSTMaxHeightTest.swift */,
+				DECCEF0627FCF9C1007BA99C /* BSTPathSumTest.swift */,
+				DECCEF0A27FCF9C1007BA99C /* HeightBalancedTreeTest.swift */,
+				DECCEF0827FCF9C1007BA99C /* MergeTwoBSTTest.swift */,
+				DECCEF0527FCF9C1007BA99C /* UnivaluedBinaryTreeTest.swift */,
 			);
 			path = bst;
 			sourceTree = "<group>";
@@ -1676,8 +1688,10 @@
 			children = (
 				DECCF04227FCFE49007BA99C /* AllPaths.swift */,
 				DECCF04527FCFE49007BA99C /* BalanceBST.swift */,
+				DED79619284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift */,
 				DECCF04127FCFE49007BA99C /* BSTInversion.swift */,
 				DECCF04627FCFE49007BA99C /* BSTKthElement.swift */,
+				DED79613284F16B1005EF2E7 /* BSTLowestCommonAncestor.swift */,
 				DECCF03F27FCFE49007BA99C /* BSTMaxHeight.swift */,
 				DECCF04427FCFE49007BA99C /* BSTPathSum.swift */,
 				DECCF04327FCFE49007BA99C /* HeightBalancedTree.swift */,
@@ -1869,6 +1883,7 @@
 				DE71A3362820A6960003DD95 /* MaximumPopulationYear.swift in Sources */,
 				DECCEFDF27FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
+				DED7961A284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift in Sources */,
 				DECCEFC127FCFB28007BA99C /* Pair.swift in Sources */,
 				DEE62546283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
 				DECCEE9727FCF8B4007BA99C /* BasicCombineExample.swift in Sources */,
@@ -1938,6 +1953,7 @@
 				DECCEEA827FCF8B4007BA99C /* MappingTransform.swift in Sources */,
 				DECCF00027FCFBD3007BA99C /* Graph.swift in Sources */,
 				DE1CA2F827FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
+				DED79617284F1C92005EF2E7 /* BSTLowestCommonAncestor.swift in Sources */,
 				DECCEE9327FCF8B4007BA99C /* Anagram.swift in Sources */,
 				DECCEE8827FCF8B4007BA99C /* RansomNotes.swift in Sources */,
 				DECCEEA927FCF8B4007BA99C /* SortDictionaryExample.swift in Sources */,
@@ -2041,6 +2057,7 @@
 				DECCEFB827FCFA7F007BA99C /* BasicEntry.swift in Sources */,
 				DECCF06F27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DEE6253D283AEC8C003EC784 /* MigratoryBirds.swift in Sources */,
+				DED79616284F1719005EF2E7 /* BSTLowestCommonAncestorTest.swift in Sources */,
 				DE71A32D281FED8D0003DD95 /* QueueRemovals.swift in Sources */,
 				DECCF06727FCFEE3007BA99C /* CharacterCaseConversion.swift in Sources */,
 				DECCF02F27FCFC36007BA99C /* LinkedListTest.swift in Sources */,
@@ -2115,10 +2132,12 @@
 				DECCF03527FCFC36007BA99C /* BubbleSortTest.swift in Sources */,
 				DECCEEBA27FCF91E007BA99C /* DetectCyclicList.swift in Sources */,
 				DEDB495C283E2F4600B2238B /* CircularArrayQueryTest.swift in Sources */,
+				DED7961D284F3FC0005EF2E7 /* BinaryTreeSymmetricTest.swift in Sources */,
 				DECCF03127FCFC36007BA99C /* StackTest.swift in Sources */,
 				DECCF00727FCFBD3007BA99C /* Direction.swift in Sources */,
 				DE71A3372820A6960003DD95 /* MaximumPopulationYear.swift in Sources */,
 				DECCEEAD27FCF8DA007BA99C /* Palindrome.swift in Sources */,
+				DED79618284F1C93005EF2E7 /* BSTLowestCommonAncestor.swift in Sources */,
 				DECCEF8F27FCF9C1007BA99C /* AnagramTest.swift in Sources */,
 				DECCEECC27FCF942007BA99C /* DaysOfYear.swift in Sources */,
 				DE604CA1280611ED00C62CE6 /* RotationalCipherTest.swift in Sources */,
@@ -2190,6 +2209,7 @@
 				DECCF03A27FCFC36007BA99C /* LRUCacheTest.swift in Sources */,
 				DECCEEC227FCF942007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DECCF05927FCFE49007BA99C /* MergeTwoBST.swift in Sources */,
+				DED7961B284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift in Sources */,
 				DECCF03927FCFC36007BA99C /* MergeSortTest.swift in Sources */,
 				DECCEF9C27FCF9C1007BA99C /* ArrayManipulationsTest.swift in Sources */,
 				DECCF05727FCFE49007BA99C /* BSTKthElement.swift in Sources */,

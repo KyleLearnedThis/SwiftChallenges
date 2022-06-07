@@ -35,7 +35,7 @@ public class BinarySearchTree<T: Comparable> {
     
     private func insertWork(_ currentNode: TreeNode<T>, _ node: TreeNode<T>) {
         let cur = currentNode
-        
+        guard currentNode.data != node.data else { return }
         if currentNode.data > node.data {
             if let leftNode = cur.left {
                 self.insertWork(leftNode, node)
