@@ -60,4 +60,25 @@ class ValidParenthesesTest: XCTestCase {
         let actual = ValidParentheses.isBalanced(s: input)
         XCTAssertEqual(expected, actual)
     }
+
+    func testRemoveMinimum01() throws {
+        let input = "lee(t(c)o)de)"
+        let expected = "lee(t(c)o)de"
+        let actual = ValidParentheses.minRemoveToMakeValid(input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testRemoveMinimum02() throws {
+        let input = "a)b(c)d"
+        let expected = "ab(c)d"
+        let actual = ValidParentheses.minRemoveToMakeValid(input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testRemoveMinimum03() throws {
+        let input = "a(b(c)d"
+        let expected = "ab(c)d"
+        let actual = ValidParentheses.minRemoveToMakeValid(input)
+        XCTAssertEqual(expected, actual)
+    }
 }
