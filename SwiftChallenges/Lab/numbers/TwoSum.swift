@@ -18,4 +18,17 @@ class TwoSum {
         }
         return [-1,-1]
     }
+
+    static func twoSums(_ nums: [Int], _ target: Int) -> [[Int]] {
+        var result = [[Int]]()
+        var dict = [Int: Int]()
+        for (i, num) in nums.enumerated() {
+            if let lastIndex = dict[target - num] {
+                let pair = [lastIndex, i]
+                result.append(pair)
+            }
+            dict[num] = i
+        }
+        return result
+    }
 }

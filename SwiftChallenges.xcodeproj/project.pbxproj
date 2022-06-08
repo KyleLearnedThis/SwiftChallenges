@@ -444,6 +444,9 @@
 		DED7962428501409005EF2E7 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962328501409005EF2E7 /* NumberOfIslands.swift */; };
 		DED796252850140A005EF2E7 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962328501409005EF2E7 /* NumberOfIslands.swift */; };
 		DED7962728501667005EF2E7 /* NumberOfIslandsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */; };
+		DED7962C28507BB5005EF2E7 /* UniqueDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962B28507BB5005EF2E7 /* UniqueDigits.swift */; };
+		DED7962D28507BB5005EF2E7 /* UniqueDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7962B28507BB5005EF2E7 /* UniqueDigits.swift */; };
+		DED7963328507D85005EF2E7 /* UniqueDigitsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7963228507D85005EF2E7 /* UniqueDigitsTest.swift */; };
 		DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4944283CDD7600B2238B /* CountValleys.swift */; };
 		DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB4947283CDDA300B2238B /* CountValleysTest.swift */; };
@@ -775,6 +778,8 @@
 		DED79621284F4517005EF2E7 /* RomanNumeralsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RomanNumeralsTest.swift; path = SwiftChallengesTests/Lab/texts/RomanNumeralsTest.swift; sourceTree = SOURCE_ROOT; };
 		DED7962328501409005EF2E7 /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
 		DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslandsTest.swift; sourceTree = "<group>"; };
+		DED7962B28507BB5005EF2E7 /* UniqueDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueDigits.swift; sourceTree = "<group>"; };
+		DED7963228507D85005EF2E7 /* UniqueDigitsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueDigitsTest.swift; sourceTree = "<group>"; };
 		DEDB4944283CDD7600B2238B /* CountValleys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleys.swift; sourceTree = "<group>"; };
 		DEDB4947283CDDA300B2238B /* CountValleysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountValleysTest.swift; sourceTree = "<group>"; };
 		DEDB494E283DA28D00B2238B /* HurdleRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurdleRace.swift; sourceTree = "<group>"; };
@@ -1041,6 +1046,7 @@
 				DECCEE2427FCF8B3007BA99C /* RunningSumArray.swift */,
 				DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */,
 				DE604CA22806218800C62CE6 /* TwoSum.swift */,
+				DED7962B28507BB5005EF2E7 /* UniqueDigits.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -1247,6 +1253,7 @@
 				DECCEEF127FCF9C1007BA99C /* RunningSumArrayTest.swift */,
 				DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */,
 				DE604CA52808136D00C62CE6 /* TwoSumTest.swift */,
+				DED7963228507D85005EF2E7 /* UniqueDigitsTest.swift */,
 			);
 			path = numbers;
 			sourceTree = "<group>";
@@ -1911,6 +1918,7 @@
 				DECCEE9827FCF8B4007BA99C /* FileOpener.swift in Sources */,
 				DECCEE9127FCF8B4007BA99C /* Palindrome.swift in Sources */,
 				DEE62541283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
+				DED7962C28507BB5005EF2E7 /* UniqueDigits.swift in Sources */,
 				DECCF07827FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DE2E0FA0280FF17B006D06FA /* UniformIntegers.swift in Sources */,
 				DEA5C1D6282B3250004AE296 /* StudentGrading.swift in Sources */,
@@ -2121,6 +2129,7 @@
 				DECCEFE627FCFB99007BA99C /* QuickSort.swift in Sources */,
 				DECCEEB727FCF8F6007BA99C /* DestinationCity.swift in Sources */,
 				DECCEFEF27FCFBAE007BA99C /* BinaryTreePrinter.swift in Sources */,
+				DED7963328507D85005EF2E7 /* UniqueDigitsTest.swift in Sources */,
 				DECCEEBB27FCF922007BA99C /* RankTransformArray.swift in Sources */,
 				DECCEEB427FCF8EB007BA99C /* CountNegativeMatrix.swift in Sources */,
 				DECCF03027FCFC36007BA99C /* EratosthenesSieveTest.swift in Sources */,
@@ -2145,6 +2154,7 @@
 				DECCEF6F27FCF9C1007BA99C /* BSTMaxHeightTest.swift in Sources */,
 				DECCEEAA27FCF8D1007BA99C /* AirportRoute.swift in Sources */,
 				DECCEEC727FCF942007BA99C /* RepeatTwoNArray.swift in Sources */,
+				DED7962D28507BB5005EF2E7 /* UniqueDigits.swift in Sources */,
 				DECCEFDE27FCFB99007BA99C /* HeapSort.swift in Sources */,
 				DECCF03527FCFC36007BA99C /* BubbleSortTest.swift in Sources */,
 				DECCEEBA27FCF91E007BA99C /* DetectCyclicList.swift in Sources */,
