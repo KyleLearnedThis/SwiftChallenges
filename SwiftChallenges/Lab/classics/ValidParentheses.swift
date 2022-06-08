@@ -48,4 +48,26 @@ class ValidParentheses {
         }
         return stack.isEmpty
     }
+
+    // https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+    static func minRemoveToMakeValid(_ s: String) -> String {
+        var arr = Array(s)
+        var stack = [Int]()
+        for (i, c) in arr.enumerated() {
+            if c == "(" {
+                stack.append(i)
+            } else if c == ")" {
+                if !stack.isEmpty {
+                    stack.removeLast()
+                } else {
+                    arr[i] = "*"
+                }
+            }
+        }
+        while !stack.isEmpty {
+            let i = stack.removeLast()
+            arr[i] = "*"
+        }
+        return String(arr).replacingOccurrences(of: "*", with: "")
+    }
 }

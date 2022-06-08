@@ -968,6 +968,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEE1427FCF839007BA99C /* NumberToBinary.swift */,
+				DECCEE3227FCF8B3007BA99C /* SingleNumber.swift */,
 			);
 			path = bits;
 			sourceTree = "<group>";
@@ -995,6 +996,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEE1827FCF848007BA99C /* NumberToBinaryTest.swift */,
+				DECCEEF727FCF9C1007BA99C /* SingleNumberTest.swift */,
 			);
 			path = bits;
 			sourceTree = "<group>";
@@ -1037,7 +1039,6 @@
 				DECCEE3427FCF8B3007BA99C /* RepeatTwoNArray.swift */,
 				DECCEE3327FCF8B3007BA99C /* RichestCustomerWealth.swift */,
 				DECCEE2427FCF8B3007BA99C /* RunningSumArray.swift */,
-				DECCEE3227FCF8B3007BA99C /* SingleNumber.swift */,
 				DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */,
 				DE604CA22806218800C62CE6 /* TwoSum.swift */,
 			);
@@ -1244,7 +1245,6 @@
 				DECCEEFF27FCF9C1007BA99C /* RepeatTwoNArrayTest.swift */,
 				DECCEEFA27FCF9C1007BA99C /* RichestCustomerWealthTest.swift */,
 				DECCEEF127FCF9C1007BA99C /* RunningSumArrayTest.swift */,
-				DECCEEF727FCF9C1007BA99C /* SingleNumberTest.swift */,
 				DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */,
 				DE604CA52808136D00C62CE6 /* TwoSumTest.swift */,
 			);
