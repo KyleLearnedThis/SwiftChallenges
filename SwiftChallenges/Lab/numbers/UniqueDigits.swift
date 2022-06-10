@@ -29,4 +29,22 @@ class UniqueDigits {
         result = result.filter { Set(Array(String($0))).count == Array(String($0)).count }
         return result
     }
+
+    func countNumbersWithUniqueDigits(_ n: Int) -> Int {
+        if n == 0 {
+            return 1
+        }
+
+        if n == 1 {
+            return 10
+        }
+
+        var result = 10
+        var base = 9
+        for i in 2 ... n {
+            base = base * (9 - i + 2)
+            result += base
+        }
+        return result
+    }
 }
