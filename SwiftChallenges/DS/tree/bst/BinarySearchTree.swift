@@ -27,26 +27,29 @@ public class BinarySearchTree<T: Comparable> {
     func insert(element: T) {
         let node = TreeNode(data: element)
         if let rootNode = self.root {
+            // starts from root
             self.insertWork(rootNode, node)
         } else {
+            // root is nil
             self.root = node
         }
     }
-    
-    private func insertWork(_ currentNode: TreeNode<T>, _ node: TreeNode<T>) {
+
+    private func insertWork(_ currentNode: TreeNode<T>?, _ node: TreeNode<T>) {
         let cur = currentNode
-        guard currentNode.data != node.data else { return }
-        if currentNode.data > node.data {
-            if let leftNode = cur.left {
+        // If this is dupilcate, don't insert
+        guard cur?.data != node.data else { return }
+        if cur!.data > node.data {
+            if let leftNode = cur?.left {
                 self.insertWork(leftNode, node)
             } else {
-                cur.left = node
+                cur?.left = node
             }
         } else {
-            if let right = cur.right {
+            if let right = cur?.right {
                 self.insertWork(right, node)
             } else {
-                cur.right = node
+                cur?.right = node
             }
         }
     }

@@ -50,7 +50,6 @@ class SpiralTraversal {
             if u < d {
                 i = r - 1
                 while i >= l {
-
                     // System.out.print(" " + matrix[d - 1][i]);
                     result.append(input[d - 1][i])
                     i-=1

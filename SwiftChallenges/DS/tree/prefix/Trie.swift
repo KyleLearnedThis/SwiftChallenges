@@ -13,10 +13,6 @@ class Trie {
     init(root: TrieNode<Character> = TrieNode<Character>(value: "-")){
         self.root = root
     }
-
-    init() {
-        self.root = TrieNode<Character>(value: "-")
-    }
 }
 
 extension Trie {
@@ -36,10 +32,6 @@ extension Trie {
             }
             curIndex += 1
         }
-
-//        if curIndex == characters.count {
-//            cur.isTerminating = true
-//        }
     }
 
     func contains(word: String) -> Bool {
@@ -58,6 +50,7 @@ extension Trie {
                 return false
             }
         }
+
         if curIndex == characters.count && cur.isTerminating {
             return true
         } else {
@@ -94,6 +87,11 @@ extension Trie {
         var path = [Character]()
         var paths = [[Character]]()
         var result = [String]()
+
+        if node == nil {
+            return result
+        }
+
         let cur: TrieNode<Character>? = node
         let prefix = getPrefixString(node: cur)
         getAllPathsDFS(node: cur, path: &path, paths: &paths)
