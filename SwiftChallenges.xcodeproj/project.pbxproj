@@ -430,6 +430,9 @@
 		DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08B27FD9034007BA99C /* SortingSentence.swift */; };
 		DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */; };
+		DECD6261286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */; };
+		DECD6262286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */; };
+		DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD6263286B07DB000221F6 /* MaximumFrequencyStackTest.swift */; };
 		DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
 		DED795BE2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
 		DED795C0284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
@@ -775,6 +778,8 @@
 		DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalParserTest.swift; sourceTree = "<group>"; };
 		DECCF08B27FD9034007BA99C /* SortingSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentence.swift; sourceTree = "<group>"; };
 		DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentenceTest.swift; sourceTree = "<group>"; };
+		DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumFrequencyStack.swift; sourceTree = "<group>"; };
+		DECD6263286B07DB000221F6 /* MaximumFrequencyStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumFrequencyStackTest.swift; sourceTree = "<group>"; };
 		DED795BC2849F7C0005EF2E7 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		DED795BF284A016B005EF2E7 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
@@ -1516,6 +1521,7 @@
 		DECCEFC627FCFB4C007BA99C /* queue */ = {
 			isa = PBXGroup;
 			children = (
+				DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */,
 				DECCEFC727FCFB4C007BA99C /* Stack.swift */,
 				DECCEFC827FCFB4C007BA99C /* PriorityQueue.swift */,
 				DECCEFC927FCFB4C007BA99C /* Queue.swift */,
@@ -1664,6 +1670,7 @@
 		DECCF01927FCFC36007BA99C /* queue */ = {
 			isa = PBXGroup;
 			children = (
+				DECD6263286B07DB000221F6 /* MaximumFrequencyStackTest.swift */,
 				DECCF01A27FCFC36007BA99C /* StackTest.swift */,
 				DECCF01B27FCFC36007BA99C /* PriorityQueueTest.swift */,
 				DECCF01C27FCFC36007BA99C /* QueueTest.swift */,
@@ -1915,6 +1922,7 @@
 				DECCEE8E27FCF8B4007BA99C /* AirportRoute.swift in Sources */,
 				DECCEE7A27FCF8B4007BA99C /* BusyStudent.swift in Sources */,
 				DECCEE7D27FCF8B4007BA99C /* DailyTemperatures.swift in Sources */,
+				DECD6261286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */,
 				DE71A3362820A6960003DD95 /* MaximumPopulationYear.swift in Sources */,
 				DECCEFDF27FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
@@ -2253,6 +2261,7 @@
 				DECCEF9727FCF9C1007BA99C /* ThreeColorSortingTest.swift in Sources */,
 				DECCEEC827FCF942007BA99C /* DegreeOfArray.swift in Sources */,
 				DECCEF7C27FCF9C1007BA99C /* ReverseOnlyLettersTest.swift in Sources */,
+				DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */,
 				DECCF03A27FCFC36007BA99C /* LRUCacheTest.swift in Sources */,
 				DECCEEC227FCF942007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DECCF05927FCFE49007BA99C /* MergeTwoBST.swift in Sources */,
@@ -2316,6 +2325,7 @@
 				DECCEF5227FCF9C1007BA99C /* LeadersInArrayTest.swift in Sources */,
 				DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */,
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
+				DECD6262286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */,
 				DECCEF8927FCF9C1007BA99C /* SortDictionaryExampleTest.swift in Sources */,
 				DE71A31D281F92530003DD95 /* PartitionEqualSum.swift in Sources */,
 				DE604CA42806218800C62CE6 /* TwoSum.swift in Sources */,
