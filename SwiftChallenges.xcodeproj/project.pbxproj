@@ -92,6 +92,9 @@
 		DEA5C1E3282B8676004AE296 /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */; };
 		DEA5C1E4282B8676004AE296 /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */; };
 		DEA5C1E6282B8701004AE296 /* DivisibleSumPairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1E5282B8701004AE296 /* DivisibleSumPairsTest.swift */; };
+		DEB3D0C2286E5D4E00F1D24B /* TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3D0C1286E5D4E00F1D24B /* TinyURL.swift */; };
+		DEB3D0C3286E5D4E00F1D24B /* TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3D0C1286E5D4E00F1D24B /* TinyURL.swift */; };
+		DEB3D0C5286F97CE00F1D24B /* TinyURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3D0C4286F97CE00F1D24B /* TinyURLTest.swift */; };
 		DEC91D8F28578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */; };
 		DEC91D9028578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */; };
 		DEC91D9228578D5000DB8BDA /* NumberOfLineJumpsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D9128578D5000DB8BDA /* NumberOfLineJumpsTest.swift */; };
@@ -554,6 +557,8 @@
 		DEA5C1E0282B82FF004AE296 /* ChocobarSegmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocobarSegmentTest.swift; sourceTree = "<group>"; };
 		DEA5C1E2282B8676004AE296 /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
 		DEA5C1E5282B8701004AE296 /* DivisibleSumPairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairsTest.swift; sourceTree = "<group>"; };
+		DEB3D0C1286E5D4E00F1D24B /* TinyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyURL.swift; sourceTree = "<group>"; };
+		DEB3D0C4286F97CE00F1D24B /* TinyURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyURLTest.swift; sourceTree = "<group>"; };
 		DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLineJumps.swift; sourceTree = "<group>"; };
 		DEC91D9128578D5000DB8BDA /* NumberOfLineJumpsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLineJumpsTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1111,6 +1116,7 @@
 				DE1CA2FE27FEDCA7001D8BD1 /* PrintTriangle.swift */,
 				DECCEE4A27FCF8B3007BA99C /* StockTrading.swift */,
 				DECCEE4427FCF8B3007BA99C /* ThreeColorSorting.swift */,
+				DEB3D0C1286E5D4E00F1D24B /* TinyURL.swift */,
 				DECCEE4B27FCF8B3007BA99C /* TopKElements.swift */,
 				DECCEE4927FCF8B3007BA99C /* ValidParentheses.swift */,
 			);
@@ -1451,6 +1457,7 @@
 				DE1CA30227FEDE88001D8BD1 /* PrintTriangleTest.swift */,
 				DECCEF4227FCF9C1007BA99C /* StockTradingTest.swift */,
 				DECCEF4327FCF9C1007BA99C /* ThreeColorSortingTest.swift */,
+				DEB3D0C4286F97CE00F1D24B /* TinyURLTest.swift */,
 				DECCEF3A27FCF9C1007BA99C /* TopKElementsTest.swift */,
 				DECCEF3C27FCF9C1007BA99C /* ValidParenthesesTest.swift */,
 			);
@@ -1961,6 +1968,7 @@
 				DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
+				DEB3D0C2286E5D4E00F1D24B /* TinyURL.swift in Sources */,
 				DECCEFB527FCFA73007BA99C /* BasicEntry.swift in Sources */,
 				DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */,
 				DECCEFEE27FCFBAE007BA99C /* BinaryTreePrinter.swift in Sources */,
@@ -2174,6 +2182,7 @@
 				DECCEFDC27FCFB99007BA99C /* BubbleSort.swift in Sources */,
 				DECCEFFD27FCFBD3007BA99C /* Edge.swift in Sources */,
 				DE221EE92819473800CAE40D /* SimpleLinkedList.swift in Sources */,
+				DEB3D0C5286F97CE00F1D24B /* TinyURLTest.swift in Sources */,
 				DECCF00327FCFBD3007BA99C /* GraphUtils.swift in Sources */,
 				DECCEEC627FCF942007BA99C /* LargestMissingNumber.swift in Sources */,
 				DECCEF6F27FCF9C1007BA99C /* BSTMaxHeightTest.swift in Sources */,
@@ -2282,6 +2291,7 @@
 				DECCEED427FCF942007BA99C /* BusyStudent.swift in Sources */,
 				DECCF07D27FCFF30007BA99C /* LFUMapEntry.swift in Sources */,
 				DECCF06D27FCFEE3007BA99C /* StringPractices.swift in Sources */,
+				DEB3D0C3286E5D4E00F1D24B /* TinyURL.swift in Sources */,
 				DECCEFF127FCFBAE007BA99C /* TreeNode.swift in Sources */,
 				DECCEF5927FCF9C1007BA99C /* DailyTemperaturesTest.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
