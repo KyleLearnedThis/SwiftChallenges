@@ -5,7 +5,6 @@
 //  Created by KyleLearnedThis on 4/12/22.
 //  https://leetcode.com/problems/two-sum/
 
-import Foundation
 
 class TwoSum {
     static func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -30,5 +29,29 @@ class TwoSum {
             dict[num] = i
         }
         return result
+    }
+
+    // https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+    func findTarget(_ root: TreeNode<Int>?, _ k: Int) -> Bool {
+        var nums: [Int] = []
+        var cache: [Int: Bool] = [:]
+
+        traverse(root, nums: &nums)
+
+        for (_, num) in nums.enumerated() {
+            if cache[k - num] != nil {
+                return true
+            }
+            cache[num] = true
+        }
+
+        return false
+    }
+
+    private func traverse(_ tree: TreeNode<Int>?, nums: inout [Int]) {
+        guard let tree = tree else { return }
+        nums.append(tree.data)
+        traverse(tree.left, nums: &nums)
+        traverse(tree.right, nums: &nums)
     }
 }
