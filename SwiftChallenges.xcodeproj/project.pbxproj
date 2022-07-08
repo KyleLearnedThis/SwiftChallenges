@@ -439,6 +439,11 @@
 		DED076F02878289D005419F1 /* PreOrderBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076EF2878289D005419F1 /* PreOrderBST.swift */; };
 		DED076F12878289D005419F1 /* PreOrderBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076EF2878289D005419F1 /* PreOrderBST.swift */; };
 		DED076F3287829B2005419F1 /* PreOrderBSTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076F2287829B2005419F1 /* PreOrderBSTTest.swift */; };
+		DED076F52878E16C005419F1 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076F42878E16C005419F1 /* UniquePaths.swift */; };
+		DED076F62878E16C005419F1 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076F42878E16C005419F1 /* UniquePaths.swift */; };
+		DED076F82878E80D005419F1 /* AscendingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076F72878E80D005419F1 /* AscendingArray.swift */; };
+		DED076F92878E80D005419F1 /* AscendingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076F72878E80D005419F1 /* AscendingArray.swift */; };
+		DED076FB2878E83F005419F1 /* AscendingArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076FA2878E83F005419F1 /* AscendingArrayTest.swift */; };
 		DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
 		DED795BE2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
 		DED795C0284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
@@ -790,6 +795,9 @@
 		DECD6263286B07DB000221F6 /* MaximumFrequencyStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumFrequencyStackTest.swift; sourceTree = "<group>"; };
 		DED076EF2878289D005419F1 /* PreOrderBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderBST.swift; sourceTree = "<group>"; };
 		DED076F2287829B2005419F1 /* PreOrderBSTTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderBSTTest.swift; sourceTree = "<group>"; };
+		DED076F42878E16C005419F1 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
+		DED076F72878E80D005419F1 /* AscendingArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendingArray.swift; sourceTree = "<group>"; };
+		DED076FA2878E83F005419F1 /* AscendingArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendingArrayTest.swift; sourceTree = "<group>"; };
 		DED795BC2849F7C0005EF2E7 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		DED795BF284A016B005EF2E7 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
@@ -1045,6 +1053,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEE2127FCF8B3007BA99C /* ArrayLuckyNumber.swift */,
+				DED076F72878E80D005419F1 /* AscendingArray.swift */,
 				DECCEE3627FCF8B3007BA99C /* BinarySearchArray.swift */,
 				DECCEE2B27FCF8B3007BA99C /* BusyStudent.swift */,
 				DECCEE2E27FCF8B3007BA99C /* DailyTemperatures.swift */,
@@ -1096,6 +1105,7 @@
 				DED7962328501409005EF2E7 /* NumberOfIslands.swift */,
 				DECCEE3B27FCF8B3007BA99C /* RansomNotes.swift */,
 				DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */,
+				DED076F42878E16C005419F1 /* UniquePaths.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -1255,6 +1265,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEEF527FCF9C1007BA99C /* ArrayLuckyNumberTest.swift */,
+				DED076FA2878E83F005419F1 /* AscendingArrayTest.swift */,
 				DECCEEF627FCF9C1007BA99C /* BinarySearchArrayTest.swift */,
 				DECCEEFD27FCF9C1007BA99C /* BusyStudentTest.swift */,
 				DECCEEF427FCF9C1007BA99C /* DailyTemperaturesTest.swift */,
@@ -2067,6 +2078,7 @@
 				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00227FCFBD3007BA99C /* GraphUtils.swift in Sources */,
 				DECCF05627FCFE49007BA99C /* BSTKthElement.swift in Sources */,
+				DED076F52878E16C005419F1 /* UniquePaths.swift in Sources */,
 				DECCEE9A27FCF8B4007BA99C /* HttpJsonExample.swift in Sources */,
 				DE71A33128208E930003DD95 /* BSTAverageLevel.swift in Sources */,
 				DE71A308281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
@@ -2090,6 +2102,7 @@
 				DECCEFFC27FCFBD3007BA99C /* Edge.swift in Sources */,
 				DECCEFC327FCFB28007BA99C /* LFUCacheItem.swift in Sources */,
 				DECCEE9427FCF8B4007BA99C /* ValidParentheses.swift in Sources */,
+				DED076F82878E80D005419F1 /* AscendingArray.swift in Sources */,
 				DED7962428501409005EF2E7 /* NumberOfIslands.swift in Sources */,
 				DECCEE7E27FCF8B4007BA99C /* MoneyInLeetcodeBank.swift in Sources */,
 				DECCEE9D27FCF8B4007BA99C /* Dog.swift in Sources */,
@@ -2194,6 +2207,7 @@
 				DEB3D0C5286F97CE00F1D24B /* TinyURLTest.swift in Sources */,
 				DECCF00327FCFBD3007BA99C /* GraphUtils.swift in Sources */,
 				DECCEEC627FCF942007BA99C /* LargestMissingNumber.swift in Sources */,
+				DED076F92878E80D005419F1 /* AscendingArray.swift in Sources */,
 				DECCEF6F27FCF9C1007BA99C /* BSTMaxHeightTest.swift in Sources */,
 				DECCEEAA27FCF8D1007BA99C /* AirportRoute.swift in Sources */,
 				DECCEEC727FCF942007BA99C /* RepeatTwoNArray.swift in Sources */,
@@ -2323,6 +2337,7 @@
 				DECCF00927FCFBD3007BA99C /* Dijkstra.swift in Sources */,
 				DECCF03827FCFC36007BA99C /* QuickSortTest.swift in Sources */,
 				DECCEEAB27FCF8D4007BA99C /* ThreeColorSorting.swift in Sources */,
+				DED076F62878E16C005419F1 /* UniquePaths.swift in Sources */,
 				DE71A324281FB7950003DD95 /* EncryptedWordsTest.swift in Sources */,
 				DECCEFE427FCFB99007BA99C /* MergeSort.swift in Sources */,
 				DED076F3287829B2005419F1 /* PreOrderBSTTest.swift in Sources */,
@@ -2344,6 +2359,7 @@
 				DEDB4955283DF75000B2238B /* UtopianTree.swift in Sources */,
 				DECCEF5227FCF9C1007BA99C /* LeadersInArrayTest.swift in Sources */,
 				DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */,
+				DED076FB2878E83F005419F1 /* AscendingArrayTest.swift in Sources */,
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
 				DECD6262286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */,
 				DECCEF8927FCF9C1007BA99C /* SortDictionaryExampleTest.swift in Sources */,
