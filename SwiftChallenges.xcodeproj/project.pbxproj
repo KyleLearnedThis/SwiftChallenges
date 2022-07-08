@@ -436,6 +436,9 @@
 		DECD6261286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */; };
 		DECD6262286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */; };
 		DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD6263286B07DB000221F6 /* MaximumFrequencyStackTest.swift */; };
+		DED076F02878289D005419F1 /* PreOrderBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076EF2878289D005419F1 /* PreOrderBST.swift */; };
+		DED076F12878289D005419F1 /* PreOrderBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076EF2878289D005419F1 /* PreOrderBST.swift */; };
+		DED076F3287829B2005419F1 /* PreOrderBSTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED076F2287829B2005419F1 /* PreOrderBSTTest.swift */; };
 		DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
 		DED795BE2849F7C0005EF2E7 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BC2849F7C0005EF2E7 /* TrieNode.swift */; };
 		DED795C0284A016B005EF2E7 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED795BF284A016B005EF2E7 /* Trie.swift */; };
@@ -785,6 +788,8 @@
 		DECCF08E27FD90AA007BA99C /* SortingSentenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSentenceTest.swift; sourceTree = "<group>"; };
 		DECD6260286B049F000221F6 /* MaximumFrequencyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumFrequencyStack.swift; sourceTree = "<group>"; };
 		DECD6263286B07DB000221F6 /* MaximumFrequencyStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumFrequencyStackTest.swift; sourceTree = "<group>"; };
+		DED076EF2878289D005419F1 /* PreOrderBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderBST.swift; sourceTree = "<group>"; };
+		DED076F2287829B2005419F1 /* PreOrderBSTTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderBSTTest.swift; sourceTree = "<group>"; };
 		DED795BC2849F7C0005EF2E7 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		DED795BF284A016B005EF2E7 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
@@ -1312,6 +1317,7 @@
 				DECCEF0627FCF9C1007BA99C /* BSTPathSumTest.swift */,
 				DECCEF0A27FCF9C1007BA99C /* HeightBalancedTreeTest.swift */,
 				DECCEF0827FCF9C1007BA99C /* MergeTwoBSTTest.swift */,
+				DED076F2287829B2005419F1 /* PreOrderBSTTest.swift */,
 				DECCEF0527FCF9C1007BA99C /* UnivaluedBinaryTreeTest.swift */,
 			);
 			path = bst;
@@ -1744,6 +1750,7 @@
 				DECCF04427FCFE49007BA99C /* BSTPathSum.swift */,
 				DECCF04327FCFE49007BA99C /* HeightBalancedTree.swift */,
 				DECCF04727FCFE49007BA99C /* MergeTwoBST.swift */,
+				DED076EF2878289D005419F1 /* PreOrderBST.swift */,
 				DECCF04027FCFE49007BA99C /* UnivaluedBinaryTree.swift */,
 			);
 			path = bst;
@@ -2079,6 +2086,7 @@
 				DECCEEA727FCF8B4007BA99C /* SortByMember.swift in Sources */,
 				DECCEE6E27FCF8B4007BA99C /* FindAllPairsGivenSum.swift in Sources */,
 				DECCF00427FCFBD3007BA99C /* Vertex.swift in Sources */,
+				DED076F02878289D005419F1 /* PreOrderBST.swift in Sources */,
 				DECCEFFC27FCFBD3007BA99C /* Edge.swift in Sources */,
 				DECCEFC327FCFB28007BA99C /* LFUCacheItem.swift in Sources */,
 				DECCEE9427FCF8B4007BA99C /* ValidParentheses.swift in Sources */,
@@ -2131,6 +2139,7 @@
 				DE604C9F2806116000C62CE6 /* RotationalCipher.swift in Sources */,
 				DECCF07527FCFEE3007BA99C /* IPDefanger.swift in Sources */,
 				DECCEEC427FCF942007BA99C /* BinarySearchArray.swift in Sources */,
+				DED076F12878289D005419F1 /* PreOrderBST.swift in Sources */,
 				DECCEFE227FCFB99007BA99C /* BaseSort.swift in Sources */,
 				DE604CB6280A050700C62CE6 /* MinMaxSum.swift in Sources */,
 				DECCF02A27FCFC36007BA99C /* GraphUtilsTest.swift in Sources */,
@@ -2316,6 +2325,7 @@
 				DECCEEAB27FCF8D4007BA99C /* ThreeColorSorting.swift in Sources */,
 				DE71A324281FB7950003DD95 /* EncryptedWordsTest.swift in Sources */,
 				DECCEFE427FCFB99007BA99C /* MergeSort.swift in Sources */,
+				DED076F3287829B2005419F1 /* PreOrderBSTTest.swift in Sources */,
 				DECCF07927FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DECCEF7527FCF9C1007BA99C /* ComputeStringSumTest.swift in Sources */,
 				DECCEF5427FCF9C1007BA99C /* DegreeOfArrayTest.swift in Sources */,
