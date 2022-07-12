@@ -32,4 +32,30 @@ class Palindrome {
         }
         return true
     }
+
+    // https://leetcode.com/problems/longest-palindrome/
+    static func longestPalindrome(_ s: String) -> Int {
+        if s.count == 0 {
+            return 0
+        }
+        var result = s.count
+        var dict = [Character:Int]()
+
+        s.forEach{ ch in
+            let value = dict[ch, default: 0] + 1
+            dict[ch] = value
+        }
+
+        var oddFound = false
+        for (_,v) in dict {
+            if v % 2 == 1 {
+                if !oddFound {
+                    oddFound = true
+                } else {
+                    result -= 1
+                }
+            }
+        }
+        return result
+    }
 }
