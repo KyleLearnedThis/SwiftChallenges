@@ -810,7 +810,7 @@
 		DED076FA2878E83F005419F1 /* AscendingArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendingArrayTest.swift; sourceTree = "<group>"; };
 		DED795BC2849F7C0005EF2E7 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
 		DED795BF284A016B005EF2E7 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
-		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallenges/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
+		DED795C3284A06CA005EF2E7 /* TrieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrieTest.swift; path = SwiftChallengesTests/DS/tree/prefix/TrieTest.swift; sourceTree = SOURCE_ROOT; };
 		DED795C6284DE7DA005EF2E7 /* BaseOrderedMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderedMap.swift; sourceTree = "<group>"; };
 		DED795CA284DEA39005EF2E7 /* BaseOrderedMapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderedMapTest.swift; sourceTree = "<group>"; };
 		DED79613284F16B1005EF2E7 /* BSTLowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTLowestCommonAncestor.swift; sourceTree = "<group>"; };
