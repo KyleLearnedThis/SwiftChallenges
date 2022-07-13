@@ -98,6 +98,9 @@
 		DEC3D7C3287E360D00EB14F8 /* BSTMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3D7C2287E360D00EB14F8 /* BSTMode.swift */; };
 		DEC3D7C4287E360D00EB14F8 /* BSTMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3D7C2287E360D00EB14F8 /* BSTMode.swift */; };
 		DEC3D7C6287E384400EB14F8 /* BSTModeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3D7C5287E384400EB14F8 /* BSTModeTest.swift */; };
+		DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3D822287EB74100EB14F8 /* ReshapeMatrix.swift */; };
+		DEC3D824287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3D822287EB74100EB14F8 /* ReshapeMatrix.swift */; };
+		DEC3D826287EB80900EB14F8 /* ReshapeMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3D825287EB80900EB14F8 /* ReshapeMatrixTest.swift */; };
 		DEC91D8F28578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */; };
 		DEC91D9028578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */; };
 		DEC91D9228578D5000DB8BDA /* NumberOfLineJumpsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D9128578D5000DB8BDA /* NumberOfLineJumpsTest.swift */; };
@@ -572,6 +575,8 @@
 		DEB3D0C4286F97CE00F1D24B /* TinyURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyURLTest.swift; sourceTree = "<group>"; };
 		DEC3D7C2287E360D00EB14F8 /* BSTMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTMode.swift; sourceTree = "<group>"; };
 		DEC3D7C5287E384400EB14F8 /* BSTModeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTModeTest.swift; sourceTree = "<group>"; };
+		DEC3D822287EB74100EB14F8 /* ReshapeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeMatrix.swift; sourceTree = "<group>"; };
+		DEC3D825287EB80900EB14F8 /* ReshapeMatrixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReshapeMatrixTest.swift; path = SwiftChallengesTests/Lab/collections/ReshapeMatrixTest.swift; sourceTree = SOURCE_ROOT; };
 		DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLineJumps.swift; sourceTree = "<group>"; };
 		DEC91D9128578D5000DB8BDA /* NumberOfLineJumpsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLineJumpsTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1109,6 +1114,7 @@
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
 				DED7962328501409005EF2E7 /* NumberOfIslands.swift */,
 				DECCEE3B27FCF8B3007BA99C /* RansomNotes.swift */,
+				DEC3D822287EB74100EB14F8 /* ReshapeMatrix.swift */,
 				DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */,
 				DED076F42878E16C005419F1 /* UniquePaths.swift */,
 			);
@@ -1495,6 +1501,7 @@
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
 				DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */,
 				DECCEF4827FCF9C1007BA99C /* RansomNotesTest.swift */,
+				DEC3D825287EB80900EB14F8 /* ReshapeMatrixTest.swift */,
 				DE1CA3472802B76B001D8BD1 /* SpiralTraversalTest.swift */,
 			);
 			path = collections;
@@ -1991,6 +1998,7 @@
 				DECCF04C27FCFE49007BA99C /* BSTInversion.swift in Sources */,
 				DECCF06A27FCFEE3007BA99C /* StringArraysEquivalent.swift in Sources */,
 				DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
+				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
 				DEB3D0C2286E5D4E00F1D24B /* TinyURL.swift in Sources */,
@@ -2219,6 +2227,7 @@
 				DECCEEC627FCF942007BA99C /* LargestMissingNumber.swift in Sources */,
 				DED076F92878E80D005419F1 /* AscendingArray.swift in Sources */,
 				DECCEF6F27FCF9C1007BA99C /* BSTMaxHeightTest.swift in Sources */,
+				DEC3D824287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCEEAA27FCF8D1007BA99C /* AirportRoute.swift in Sources */,
 				DECCEEC727FCF942007BA99C /* RepeatTwoNArray.swift in Sources */,
 				DED7962D28507BB5005EF2E7 /* UniqueDigits.swift in Sources */,
@@ -2331,6 +2340,7 @@
 				DE2E0FA3280FF350006D06FA /* UniformIntegersTest.swift in Sources */,
 				DE604CB02808E23100C62CE6 /* RevenueMilestonesTest.swift in Sources */,
 				DE604CA62808136D00C62CE6 /* TwoSumTest.swift in Sources */,
+				DEC3D826287EB80900EB14F8 /* ReshapeMatrixTest.swift in Sources */,
 				DE71A313281E66FF0003DD95 /* RotaryLockTest.swift in Sources */,
 				DE71A311281E645D0003DD95 /* RotaryLock.swift in Sources */,
 				DEDB4950283DA28D00B2238B /* HurdleRace.swift in Sources */,
