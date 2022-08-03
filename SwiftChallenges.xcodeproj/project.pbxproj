@@ -45,6 +45,14 @@
 		DE4B8F4A289A257300DF9D4C /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */; };
 		DE4B8F4B289A257300DF9D4C /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */; };
 		DE4B8F4D289A25F300DF9D4C /* ClimbStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F4C289A25F300DF9D4C /* ClimbStairsTest.swift */; };
+		DE4B8F4F289A62D700DF9D4C /* CanBeIncreasingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F4E289A62D700DF9D4C /* CanBeIncreasingArray.swift */; };
+		DE4B8F50289A62D700DF9D4C /* CanBeIncreasingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F4E289A62D700DF9D4C /* CanBeIncreasingArray.swift */; };
+		DE4B8F52289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */; };
+		DE4B8F53289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */; };
+		DE4B8F55289A68C400DF9D4C /* HauntedMatrixSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F54289A68C400DF9D4C /* HauntedMatrixSumTest.swift */; };
+		DE4B8F57289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F56289A6A2300DF9D4C /* AllLongestStrings.swift */; };
+		DE4B8F58289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F56289A6A2300DF9D4C /* AllLongestStrings.swift */; };
+		DE4B8F5A289A6BD700DF9D4C /* AllLongestStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F59289A6BD700DF9D4C /* AllLongestStringsTest.swift */; };
 		DE564C5428152533000B139A /* PivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564C5328152533000B139A /* PivotIndex.swift */; };
 		DE564C5528152533000B139A /* PivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564C5328152533000B139A /* PivotIndex.swift */; };
 		DE564C5728152564000B139A /* PivotIndexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564C5628152564000B139A /* PivotIndexTest.swift */; };
@@ -558,6 +566,11 @@
 		DE4B8F44289A21C000DF9D4C /* KeyboardRowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRowTest.swift; sourceTree = "<group>"; };
 		DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 		DE4B8F4C289A25F300DF9D4C /* ClimbStairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairsTest.swift; sourceTree = "<group>"; };
+		DE4B8F4E289A62D700DF9D4C /* CanBeIncreasingArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanBeIncreasingArray.swift; sourceTree = "<group>"; };
+		DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedMatrixSum.swift; sourceTree = "<group>"; };
+		DE4B8F54289A68C400DF9D4C /* HauntedMatrixSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedMatrixSumTest.swift; sourceTree = "<group>"; };
+		DE4B8F56289A6A2300DF9D4C /* AllLongestStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLongestStrings.swift; sourceTree = "<group>"; };
+		DE4B8F59289A6BD700DF9D4C /* AllLongestStringsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLongestStringsTest.swift; sourceTree = "<group>"; };
 		DE564C5328152533000B139A /* PivotIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotIndex.swift; sourceTree = "<group>"; };
 		DE564C5628152564000B139A /* PivotIndexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotIndexTest.swift; sourceTree = "<group>"; };
 		DE604C9D2806116000C62CE6 /* RotationalCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalCipher.swift; sourceTree = "<group>"; };
@@ -1100,6 +1113,7 @@
 				DED076F72878E80D005419F1 /* AscendingArray.swift */,
 				DECCEE3627FCF8B3007BA99C /* BinarySearchArray.swift */,
 				DECCEE2B27FCF8B3007BA99C /* BusyStudent.swift */,
+				DE4B8F4E289A62D700DF9D4C /* CanBeIncreasingArray.swift */,
 				DECCEE2E27FCF8B3007BA99C /* DailyTemperatures.swift */,
 				DECCEE2A27FCF8B3007BA99C /* DaysOfYear.swift */,
 				DECCEE2927FCF8B3007BA99C /* DegreeOfArray.swift */,
@@ -1148,6 +1162,7 @@
 				DECCEE3D27FCF8B3007BA99C /* ArrayManipulations.swift */,
 				DECCEE3C27FCF8B3007BA99C /* CountNegativeMatrix.swift */,
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
+				DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */,
 				DED7962328501409005EF2E7 /* NumberOfIslands.swift */,
 				DECCEE3B27FCF8B3007BA99C /* RansomNotes.swift */,
 				DEC3D822287EB74100EB14F8 /* ReshapeMatrix.swift */,
@@ -1395,6 +1410,7 @@
 		DECCEF1227FCF9C1007BA99C /* texts */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B8F59289A6BD700DF9D4C /* AllLongestStringsTest.swift */,
 				DECCEF1627FCF9C1007BA99C /* ComputeStringSumTest.swift */,
 				DECCEF1B27FCF9C1007BA99C /* CharacterCaseConversionTest.swift */,
 				DECCEF1827FCF9C1007BA99C /* CharacterExpansionTest.swift */,
@@ -1537,8 +1553,9 @@
 			isa = PBXGroup;
 			children = (
 				DECCEF4927FCF9C1007BA99C /* ArrayManipulationsTest.swift */,
-				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
+				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
+				DE4B8F54289A68C400DF9D4C /* HauntedMatrixSumTest.swift */,
 				DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */,
 				DECCEF4827FCF9C1007BA99C /* RansomNotesTest.swift */,
 				DEC3D825287EB80900EB14F8 /* ReshapeMatrixTest.swift */,
@@ -1824,6 +1841,7 @@
 		DECCF05A27FCFEE3007BA99C /* texts */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B8F56289A6A2300DF9D4C /* AllLongestStrings.swift */,
 				DECCF05B27FCFEE3007BA99C /* CharacterCaseConversion.swift */,
 				DECCF06027FCFEE3007BA99C /* CharacterExpansion.swift */,
 				DECCF06127FCFEE3007BA99C /* ComputeStringSum.swift */,
@@ -2005,6 +2023,7 @@
 				DECCEE7D27FCF8B4007BA99C /* DailyTemperatures.swift in Sources */,
 				DECD6261286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */,
 				DE71A3362820A6960003DD95 /* MaximumPopulationYear.swift in Sources */,
+				DE4B8F4F289A62D700DF9D4C /* CanBeIncreasingArray.swift in Sources */,
 				DECCEFDF27FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DED7961A284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift in Sources */,
@@ -2088,6 +2107,7 @@
 				DECCEE9327FCF8B4007BA99C /* Anagram.swift in Sources */,
 				DECCEE8827FCF8B4007BA99C /* RansomNotes.swift in Sources */,
 				DECCEEA927FCF8B4007BA99C /* SortDictionaryExample.swift in Sources */,
+				DE4B8F57289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */,
 				DECCEE8027FCF8B4007BA99C /* MedianOfTwoSortedArrays.swift in Sources */,
 				DEC3D828287EC21A00EB14F8 /* RobotOrigin.swift in Sources */,
 				DECCF07627FCFEE3007BA99C /* NumberOfJewelsInStones.swift in Sources */,
@@ -2148,6 +2168,7 @@
 				DECCEE7827FCF8B4007BA99C /* DegreeOfArray.swift in Sources */,
 				DEC3D832287F7C4800EB14F8 /* BeautifulDays.swift in Sources */,
 				DECCEFCA27FCFB4C007BA99C /* Stack.swift in Sources */,
+				DE4B8F52289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */,
 				DE4B8F4A289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DECCEFC527FCFB28007BA99C /* LFUCache.swift in Sources */,
 				DECCEEA227FCF8B4007BA99C /* BasicPair.swift in Sources */,
@@ -2190,6 +2211,7 @@
 				DECCF08527FD8825007BA99C /* SmallerThanCurrentTest.swift in Sources */,
 				DECCEF9527FCF9C1007BA99C /* LongestCommonPrefixTest.swift in Sources */,
 				DECCEFE027FCFB99007BA99C /* Sorter.swift in Sources */,
+				DE4B8F58289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */,
 				DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */,
 				DE4B8F4B289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
@@ -2272,6 +2294,7 @@
 				DECCF06B27FCFEE3007BA99C /* StringArraysEquivalent.swift in Sources */,
 				DECCEF7427FCF9C1007BA99C /* StringPracticesTest.swift in Sources */,
 				DECCEFDC27FCFB99007BA99C /* BubbleSort.swift in Sources */,
+				DE4B8F53289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */,
 				DECCEFFD27FCFBD3007BA99C /* Edge.swift in Sources */,
 				DE221EE92819473800CAE40D /* SimpleLinkedList.swift in Sources */,
 				DEC3D835287F7C9600EB14F8 /* BeautifulDaysTest.swift in Sources */,
@@ -2447,17 +2470,20 @@
 				DECCEF7727FCF9C1007BA99C /* CharacterExpansionTest.swift in Sources */,
 				DECCEF4E27FCF9C1007BA99C /* MoveZeroesInArrayTest.swift in Sources */,
 				DE71A318281F484C0003DD95 /* VisibleLeftmostTreeNodes.swift in Sources */,
+				DE4B8F55289A68C400DF9D4C /* HauntedMatrixSumTest.swift in Sources */,
 				DE4B8EF6287FFF1A00DF9D4C /* PhoneLetterCombinations.swift in Sources */,
 				DEE62542283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
 				DECCEF7D27FCF9C1007BA99C /* FileOpenerTest.swift in Sources */,
 				DE1CA3462802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DEA5C1D7282B3250004AE296 /* StudentGrading.swift in Sources */,
+				DE4B8F5A289A6BD700DF9D4C /* AllLongestStringsTest.swift in Sources */,
 				DED795CB284DEA39005EF2E7 /* BaseOrderedMapTest.swift in Sources */,
 				DECCEF6927FCF9C1007BA99C /* BalanceBSTTest.swift in Sources */,
 				DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */,
 				DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */,
 				DECCEF5627FCF9C1007BA99C /* RunningSumArrayTest.swift in Sources */,
 				DEC3D833287F7C4800EB14F8 /* BeautifulDays.swift in Sources */,
+				DE4B8F50289A62D700DF9D4C /* CanBeIncreasingArray.swift in Sources */,
 				DEE62549283B4186003EC784 /* BetweenTwoSetsTest.swift in Sources */,
 				DEC3D838287F917900EB14F8 /* StickCut.swift in Sources */,
 				DE1CA2F927FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
