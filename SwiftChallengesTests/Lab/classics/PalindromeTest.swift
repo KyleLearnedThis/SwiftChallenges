@@ -36,4 +36,28 @@ class PalindromeTest: XCTestCase {
         let actual = Palindrome.longestPalindrome(input)
         XCTAssertEqual(expected, actual)
     }
+
+    func testBasicII01() throws {
+        let input = "aba"
+        let expected = true
+        let p = Palindrome()
+        let actual = p.validPalindromeII(input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testBasicII02() throws {
+        let input = "abca"
+        let expected = true
+        let p = Palindrome()
+        let actual = p.validPalindromeII(input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testBasicII03() throws {
+        let input = "abc"
+        let expected = false
+        let p = Palindrome()
+        let actual = p.validPalindromeII(input)
+        XCTAssertEqual(expected, actual)
+    }
 }

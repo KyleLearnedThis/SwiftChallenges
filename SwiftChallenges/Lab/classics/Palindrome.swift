@@ -58,4 +58,32 @@ class Palindrome {
         }
         return result
     }
+
+    // https://leetcode.com/problems/valid-palindrome-ii/
+    func validPalindromeII(_ s: String) -> Bool {
+        let array = Array(s.lowercased())
+        var i = 0
+        var j = array.count - 1
+        while(i < j){
+            if(array[i] != array[j]){
+                return isPalindromeII(array, i+1, j) || isPalindromeII(array, i, j-1)
+            }
+            i += 1
+            j -= 1
+        }
+        return true
+    }
+
+    func isPalindromeII(_ array : [Character], _ i :  Int,_ j :  Int) -> Bool {
+        var i = i
+        var j = j
+        while(i < j){
+            if (array[i] != array[j]){
+                return false
+            }
+            i += 1
+            j -= 1
+        }
+        return true
+    }
 }

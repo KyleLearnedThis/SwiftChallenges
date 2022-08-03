@@ -39,6 +39,12 @@
 		DE4B8EF5287FFF1A00DF9D4C /* PhoneLetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8EF4287FFF1A00DF9D4C /* PhoneLetterCombinations.swift */; };
 		DE4B8EF6287FFF1A00DF9D4C /* PhoneLetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8EF4287FFF1A00DF9D4C /* PhoneLetterCombinations.swift */; };
 		DE4B8EF8287FFFF400DF9D4C /* PhoneLetterCombinationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8EF7287FFFF400DF9D4C /* PhoneLetterCombinationsTest.swift */; };
+		DE4B8F42289A1F1F00DF9D4C /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F41289A1F1F00DF9D4C /* KeyboardRow.swift */; };
+		DE4B8F43289A1F1F00DF9D4C /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F41289A1F1F00DF9D4C /* KeyboardRow.swift */; };
+		DE4B8F45289A21C000DF9D4C /* KeyboardRowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F44289A21C000DF9D4C /* KeyboardRowTest.swift */; };
+		DE4B8F4A289A257300DF9D4C /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */; };
+		DE4B8F4B289A257300DF9D4C /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */; };
+		DE4B8F4D289A25F300DF9D4C /* ClimbStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B8F4C289A25F300DF9D4C /* ClimbStairsTest.swift */; };
 		DE564C5428152533000B139A /* PivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564C5328152533000B139A /* PivotIndex.swift */; };
 		DE564C5528152533000B139A /* PivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564C5328152533000B139A /* PivotIndex.swift */; };
 		DE564C5728152564000B139A /* PivotIndexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564C5628152564000B139A /* PivotIndexTest.swift */; };
@@ -548,6 +554,10 @@
 		DE300C8B2852E2D40075B018 /* SortByCriteriaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByCriteriaTest.swift; sourceTree = "<group>"; };
 		DE4B8EF4287FFF1A00DF9D4C /* PhoneLetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLetterCombinations.swift; sourceTree = "<group>"; };
 		DE4B8EF7287FFFF400DF9D4C /* PhoneLetterCombinationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLetterCombinationsTest.swift; sourceTree = "<group>"; };
+		DE4B8F41289A1F1F00DF9D4C /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
+		DE4B8F44289A21C000DF9D4C /* KeyboardRowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRowTest.swift; sourceTree = "<group>"; };
+		DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
+		DE4B8F4C289A25F300DF9D4C /* ClimbStairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairsTest.swift; sourceTree = "<group>"; };
 		DE564C5328152533000B139A /* PivotIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotIndex.swift; sourceTree = "<group>"; };
 		DE564C5628152564000B139A /* PivotIndexTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotIndexTest.swift; sourceTree = "<group>"; };
 		DE604C9D2806116000C62CE6 /* RotationalCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalCipher.swift; sourceTree = "<group>"; };
@@ -1126,6 +1136,7 @@
 		DECCEE3827FCF8B3007BA99C /* dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B8F49289A257300DF9D4C /* ClimbStairs.swift */,
 				DECCEE3927FCF8B3007BA99C /* Fibonacci.swift */,
 			);
 			path = dynamic;
@@ -1375,6 +1386,7 @@
 		DECCEF0E27FCF9C1007BA99C /* dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B8F4C289A25F300DF9D4C /* ClimbStairsTest.swift */,
 				DECCEF0F27FCF9C1007BA99C /* FibonacciTest.swift */,
 			);
 			path = dynamic;
@@ -1389,6 +1401,7 @@
 				DECCEF1927FCF9C1007BA99C /* ExtractNumberSumTest.swift */,
 				DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */,
 				DECCEF1727FCF9C1007BA99C /* IPDefangerTest.swift */,
+				DE4B8F44289A21C000DF9D4C /* KeyboardRowTest.swift */,
 				DECCEF1A27FCF9C1007BA99C /* NumberOfJewelsInStonesTest.swift */,
 				DECCEF1427FCF9C1007BA99C /* RestoreStringTest.swift */,
 				DECCEF1D27FCF9C1007BA99C /* ReverseOnlyLettersTest.swift */,
@@ -1817,6 +1830,7 @@
 				DECCF05C27FCFEE3007BA99C /* ExtractNumberSum.swift */,
 				DECCF08627FD8DDD007BA99C /* GoalParser.swift */,
 				DECCF06227FCFEE3007BA99C /* IPDefanger.swift */,
+				DE4B8F41289A1F1F00DF9D4C /* KeyboardRow.swift */,
 				DECCF06327FCFEE3007BA99C /* NumberOfJewelsInStones.swift */,
 				DECCF06527FCFEE3007BA99C /* RestoreString.swift */,
 				DECCF05F27FCFEE3007BA99C /* ReverseOnlyLetters.swift */,
@@ -2115,6 +2129,7 @@
 				DECCEE8A27FCF8B4007BA99C /* ArrayManipulations.swift in Sources */,
 				DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */,
 				DECCEE8627FCF8B4007BA99C /* PerfectNumber.swift in Sources */,
+				DE4B8F42289A1F1F00DF9D4C /* KeyboardRow.swift in Sources */,
 				DECCEE8C27FCF8B4007BA99C /* SumOfTwoLists.swift in Sources */,
 				DECCF06E27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DECCEFDD27FCFB99007BA99C /* HeapSort.swift in Sources */,
@@ -2133,6 +2148,7 @@
 				DECCEE7827FCF8B4007BA99C /* DegreeOfArray.swift in Sources */,
 				DEC3D832287F7C4800EB14F8 /* BeautifulDays.swift in Sources */,
 				DECCEFCA27FCFB4C007BA99C /* Stack.swift in Sources */,
+				DE4B8F4A289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DECCEFC527FCFB28007BA99C /* LFUCache.swift in Sources */,
 				DECCEEA227FCF8B4007BA99C /* BasicPair.swift in Sources */,
 				DEC91D8F28578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */,
@@ -2175,6 +2191,7 @@
 				DECCEF9527FCF9C1007BA99C /* LongestCommonPrefixTest.swift in Sources */,
 				DECCEFE027FCFB99007BA99C /* Sorter.swift in Sources */,
 				DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */,
+				DE4B8F4B289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
 				DEC3D7C4287E360D00EB14F8 /* BSTMode.swift in Sources */,
 				DECCF04B27FCFE49007BA99C /* UnivaluedBinaryTree.swift in Sources */,
@@ -2195,6 +2212,7 @@
 				DECCEF9027FCF9C1007BA99C /* ValidParenthesesTest.swift in Sources */,
 				DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */,
 				DECCEECD27FCF942007BA99C /* RichestCustomerWealth.swift in Sources */,
+				DE4B8F43289A1F1F00DF9D4C /* KeyboardRow.swift in Sources */,
 				DEE6254F283B4CA9003EC784 /* SocksMatch.swift in Sources */,
 				DECCEF7B27FCF9C1007BA99C /* TruncateSentenceTest.swift in Sources */,
 				DECCF05527FCFE49007BA99C /* BalanceBST.swift in Sources */,
@@ -2209,6 +2227,7 @@
 				DECCF08027FCFF30007BA99C /* LFUCache.swift in Sources */,
 				DECCEED627FCF954007BA99C /* FileOpener.swift in Sources */,
 				DECCEF8827FCF9C1007BA99C /* RegexTest.swift in Sources */,
+				DE4B8F4D289A25F300DF9D4C /* ClimbStairsTest.swift in Sources */,
 				DEA5C1E6282B8701004AE296 /* DivisibleSumPairsTest.swift in Sources */,
 				DE71A32F281FEDBD0003DD95 /* QueueRemovalsTest.swift in Sources */,
 				DECCEF7827FCF9C1007BA99C /* ExtractNumberSumTest.swift in Sources */,
@@ -2305,6 +2324,7 @@
 				DECCEF6427FCF9C1007BA99C /* RepeatTwoNArrayTest.swift in Sources */,
 				DECCEED827FCF95A007BA99C /* HttpJsonExample.swift in Sources */,
 				DECCF07C27FCFF30007BA99C /* Pair.swift in Sources */,
+				DE4B8F45289A21C000DF9D4C /* KeyboardRowTest.swift in Sources */,
 				DEA5C1E1282B82FF004AE296 /* ChocobarSegmentTest.swift in Sources */,
 				DECCEF8727FCF9C1007BA99C /* ComputeClosureTest.swift in Sources */,
 				DEA5C1E4282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
