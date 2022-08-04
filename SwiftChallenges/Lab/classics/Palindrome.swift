@@ -86,4 +86,22 @@ class Palindrome {
         }
         return true
     }
+
+    // CodeSignal: palindromeRearranging
+    func canMakePalindrome(inputString: String) -> Bool {
+        var map = [Character:Int]()
+        let array = Array(inputString)
+        array.forEach{
+            let key = $0
+            let value = map[key, default: 0] + 1
+            map[key] = value
+        }
+        var oddCount = 0
+        for (_,v) in map {
+            if v % 2 == 1 {
+                oddCount += 1
+            }
+        }
+        return oddCount <= 1
+    }
 }
