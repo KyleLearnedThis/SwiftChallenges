@@ -60,4 +60,20 @@ class PalindromeTest: XCTestCase {
         let actual = p.validPalindromeII(input)
         XCTAssertEqual(expected, actual)
     }
+
+    func testCanMakePalindrome01() throws {
+        let input = "aabb"
+        let expected = true
+        let p = Palindrome()
+        let actual = p.canMakePalindrome(inputString: input)
+        XCTAssertEqual(expected, actual)
+    }
+
+    func testCanMakePalindrome02() throws {
+        let input = "abc"
+        let expected = false
+        let p = Palindrome()
+        let actual = p.canMakePalindrome(inputString: input)
+        XCTAssertEqual(expected, actual)
+    }
 }
