@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE15996D28B4306C0081E2BE /* IPChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15996C28B4306C0081E2BE /* IPChecker.swift */; };
+		DE15996E28B4306C0081E2BE /* IPChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15996C28B4306C0081E2BE /* IPChecker.swift */; };
+		DE15997028B4314E0081E2BE /* IPCheckerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15996F28B4314E0081E2BE /* IPCheckerTest.swift */; };
 		DE1CA2F327FE5350001D8BD1 /* DiagonalSumDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */; };
 		DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */; };
 		DE1CA2F627FE548F001D8BD1 /* DiagonalSumDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */; };
@@ -558,6 +561,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE15996C28B4306C0081E2BE /* IPChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPChecker.swift; sourceTree = "<group>"; };
+		DE15996F28B4314E0081E2BE /* IPCheckerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPCheckerTest.swift; sourceTree = "<group>"; };
 		DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSumDifference.swift; sourceTree = "<group>"; };
 		DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSumDifferenceTest.swift; sourceTree = "<group>"; };
 		DE1CA2F727FED812001D8BD1 /* NumberPlusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPlusMinus.swift; sourceTree = "<group>"; };
@@ -1452,6 +1457,7 @@
 				DECCEF1627FCF9C1007BA99C /* ComputeStringSumTest.swift */,
 				DECCEF1927FCF9C1007BA99C /* ExtractNumberSumTest.swift */,
 				DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */,
+				DE15996F28B4314E0081E2BE /* IPCheckerTest.swift */,
 				DECCEF1727FCF9C1007BA99C /* IPDefangerTest.swift */,
 				DE4B8F44289A21C000DF9D4C /* KeyboardRowTest.swift */,
 				DECCEF1A27FCF9C1007BA99C /* NumberOfJewelsInStonesTest.swift */,
@@ -1885,6 +1891,7 @@
 				DECCF06127FCFEE3007BA99C /* ComputeStringSum.swift */,
 				DECCF05C27FCFEE3007BA99C /* ExtractNumberSum.swift */,
 				DECCF08627FD8DDD007BA99C /* GoalParser.swift */,
+				DE15996C28B4306C0081E2BE /* IPChecker.swift */,
 				DECCF06227FCFEE3007BA99C /* IPDefanger.swift */,
 				DE4B8F41289A1F1F00DF9D4C /* KeyboardRow.swift */,
 				DECCF06327FCFEE3007BA99C /* NumberOfJewelsInStones.swift */,
@@ -2072,6 +2079,7 @@
 				DEE62546283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
 				DECCEE9727FCF8B4007BA99C /* BasicCombineExample.swift in Sources */,
 				DECCEE8B27FCF8B4007BA99C /* ListReverse.swift in Sources */,
+				DE15996D28B4306C0081E2BE /* IPChecker.swift in Sources */,
 				DE564C5428152533000B139A /* PivotIndex.swift in Sources */,
 				DECCEFE527FCFB99007BA99C /* QuickSort.swift in Sources */,
 				DE71A321281FB5290003DD95 /* EncryptedWords.swift in Sources */,
@@ -2260,6 +2268,7 @@
 				DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */,
 				DE4B8F4B289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
+				DE15997028B4314E0081E2BE /* IPCheckerTest.swift in Sources */,
 				DEC3D7C4287E360D00EB14F8 /* BSTMode.swift in Sources */,
 				DECCF04B27FCFE49007BA99C /* UnivaluedBinaryTree.swift in Sources */,
 				DE4B8F64289B268D00DF9D4C /* LuckTicketTest.swift in Sources */,
@@ -2484,6 +2493,7 @@
 				DECCEF8627FCF9C1007BA99C /* ConvertTypesTest.swift in Sources */,
 				DECCEF6227FCF9C1007BA99C /* BusyStudentTest.swift in Sources */,
 				DECCEF6C27FCF9C1007BA99C /* HeightBalancedTreeTest.swift in Sources */,
+				DE15996E28B4306C0081E2BE /* IPChecker.swift in Sources */,
 				DECCF08327FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DECCF00927FCFBD3007BA99C /* Dijkstra.swift in Sources */,
 				DECCF03827FCFC36007BA99C /* QuickSortTest.swift in Sources */,
