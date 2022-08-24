@@ -13,12 +13,9 @@ class RelativeSortArray {
         var result = [Int]()
         // Key: number, Value: occurrence
         var frequency = [Int:Int]()
-        for n1 in arr1 {
-            if let value = frequency[n1] {
-                frequency[n1] = value + 1
-            } else {
-                frequency[n1] = 1
-            }
+        arr1.forEach { i in
+            let value = frequency[i, default: 0] + 1
+            frequency[i] = value
         }
 
         var arr3 = Array(arr1)
