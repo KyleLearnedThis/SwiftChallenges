@@ -21,6 +21,12 @@
 		DE15998228B6CF260081E2BE /* ArithmeticSubArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998128B6CF260081E2BE /* ArithmeticSubArrays.swift */; };
 		DE15998328B6CF260081E2BE /* ArithmeticSubArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998128B6CF260081E2BE /* ArithmeticSubArrays.swift */; };
 		DE15998528B6D0530081E2BE /* ArithmeticSubArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998428B6D0530081E2BE /* ArithmeticSubArraysTest.swift */; };
+		DE15998728B754F10081E2BE /* BattleShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998628B754F10081E2BE /* BattleShip.swift */; };
+		DE15998928B755220081E2BE /* BattleShipTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998828B755220081E2BE /* BattleShipTest.swift */; };
+		DE15998A28B755CB0081E2BE /* BattleShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998628B754F10081E2BE /* BattleShip.swift */; };
+		DE15998C28B773F00081E2BE /* ArrayPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998B28B773F00081E2BE /* ArrayPermutations.swift */; };
+		DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998B28B773F00081E2BE /* ArrayPermutations.swift */; };
+		DE15998F28B7743E0081E2BE /* ArrayPermutationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE15998E28B7743E0081E2BE /* ArrayPermutationsTest.swift */; };
 		DE1CA2F327FE5350001D8BD1 /* DiagonalSumDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */; };
 		DE1CA2F527FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */; };
 		DE1CA2F627FE548F001D8BD1 /* DiagonalSumDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */; };
@@ -581,6 +587,10 @@
 		DE15997F28B4C9B10081E2BE /* MinimizeMaxPairSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizeMaxPairSumTest.swift; sourceTree = "<group>"; };
 		DE15998128B6CF260081E2BE /* ArithmeticSubArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSubArrays.swift; sourceTree = "<group>"; };
 		DE15998428B6D0530081E2BE /* ArithmeticSubArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSubArraysTest.swift; sourceTree = "<group>"; };
+		DE15998628B754F10081E2BE /* BattleShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip.swift; sourceTree = "<group>"; };
+		DE15998828B755220081E2BE /* BattleShipTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShipTest.swift; sourceTree = "<group>"; };
+		DE15998B28B773F00081E2BE /* ArrayPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPermutations.swift; sourceTree = "<group>"; };
+		DE15998E28B7743E0081E2BE /* ArrayPermutationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPermutationsTest.swift; sourceTree = "<group>"; };
 		DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSumDifference.swift; sourceTree = "<group>"; };
 		DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalSumDifferenceTest.swift; sourceTree = "<group>"; };
 		DE1CA2F727FED812001D8BD1 /* NumberPlusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPlusMinus.swift; sourceTree = "<group>"; };
@@ -1164,6 +1174,7 @@
 				DE4B8F6F289BB19600DF9D4C /* ArrayChange.swift */,
 				DECCEE2127FCF8B3007BA99C /* ArrayLuckyNumber.swift */,
 				DE4B8F74289C657800DF9D4C /* ArrayMaxAdjacent.swift */,
+				DE15998B28B773F00081E2BE /* ArrayPermutations.swift */,
 				DE4B8F6A289BACAD00DF9D4C /* ArraySimiliar.swift */,
 				DED076F72878E80D005419F1 /* AscendingArray.swift */,
 				DECCEE3627FCF8B3007BA99C /* BinarySearchArray.swift */,
@@ -1218,6 +1229,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEE3D27FCF8B3007BA99C /* ArrayManipulations.swift */,
+				DE15998628B754F10081E2BE /* BattleShip.swift */,
 				DECCEE3C27FCF8B3007BA99C /* CountNegativeMatrix.swift */,
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
 				DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */,
@@ -1388,6 +1400,7 @@
 				DE15998428B6D0530081E2BE /* ArithmeticSubArraysTest.swift */,
 				DE4B8F72289BB53700DF9D4C /* ArrayChangeTest.swift */,
 				DECCEEF527FCF9C1007BA99C /* ArrayLuckyNumberTest.swift */,
+				DE15998E28B7743E0081E2BE /* ArrayPermutationsTest.swift */,
 				DE4B8F6D289BAD1900DF9D4C /* ArraySimiliarTest.swift */,
 				DED076FA2878E83F005419F1 /* AscendingArrayTest.swift */,
 				DECCEEF627FCF9C1007BA99C /* BinarySearchArrayTest.swift */,
@@ -1621,6 +1634,7 @@
 			isa = PBXGroup;
 			children = (
 				DECCEF4927FCF9C1007BA99C /* ArrayManipulationsTest.swift */,
+				DE15998828B755220081E2BE /* BattleShipTest.swift */,
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
 				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
 				DE4B8F54289A68C400DF9D4C /* HauntedMatrixSumTest.swift */,
@@ -2194,6 +2208,7 @@
 				DECCEE9B27FCF8B4007BA99C /* HttpJsonFormat.swift in Sources */,
 				DE15998228B6CF260081E2BE /* ArithmeticSubArrays.swift in Sources */,
 				DECCF06827FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
+				DE15998728B754F10081E2BE /* BattleShip.swift in Sources */,
 				DE15997228B4B7F90081E2BE /* SubrectangleQueries.swift in Sources */,
 				DECCEFCC27FCFB4C007BA99C /* Queue.swift in Sources */,
 				DED795C0284A016B005EF2E7 /* Trie.swift in Sources */,
@@ -2207,6 +2222,7 @@
 				DE1CA2F327FE5350001D8BD1 /* DiagonalSumDifference.swift in Sources */,
 				DE604C9E2806116000C62CE6 /* RotationalCipher.swift in Sources */,
 				DE604CA82808D9AB00C62CE6 /* NumberOfWays.swift in Sources */,
+				DE15998C28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DECCEE8327FCF8B4007BA99C /* RepeatTwoNArray.swift in Sources */,
 				DECCF05227FCFE49007BA99C /* BSTPathSum.swift in Sources */,
 				DECCF07427FCFEE3007BA99C /* IPDefanger.swift in Sources */,
@@ -2420,6 +2436,7 @@
 				DECCEEB527FCF8EE007BA99C /* ArrayManipulations.swift in Sources */,
 				DECCEF8427FCF9C1007BA99C /* HttpJsonExampleTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
+				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
 				DECCEEDB27FCF966007BA99C /* Sound.swift in Sources */,
 				DECCF04927FCFE49007BA99C /* BSTMaxHeight.swift in Sources */,
@@ -2492,6 +2509,7 @@
 				DECCF03927FCFC36007BA99C /* MergeSortTest.swift in Sources */,
 				DECCEF9C27FCF9C1007BA99C /* ArrayManipulationsTest.swift in Sources */,
 				DECCF05727FCFE49007BA99C /* BSTKthElement.swift in Sources */,
+				DE15998F28B7743E0081E2BE /* ArrayPermutationsTest.swift in Sources */,
 				DECCF00527FCFBD3007BA99C /* Vertex.swift in Sources */,
 				DECCEFFF27FCFBD3007BA99C /* GraphError.swift in Sources */,
 				DECCEECB27FCF942007BA99C /* PerfectNumber.swift in Sources */,
@@ -2550,6 +2568,7 @@
 				DECCF03627FCFC36007BA99C /* BaseSortTest.swift in Sources */,
 				DECCEF5527FCF9C1007BA99C /* MedianOfTwoSortedArraysTest.swift in Sources */,
 				DECCEE1A27FCF8A2007BA99C /* NumberToBinary.swift in Sources */,
+				DE15998928B755220081E2BE /* BattleShipTest.swift in Sources */,
 				DECCEEDD27FCF966007BA99C /* Cat.swift in Sources */,
 				DECCEF8A27FCF9C1007BA99C /* SortByMemberTest.swift in Sources */,
 				DEDB4955283DF75000B2238B /* UtopianTree.swift in Sources */,
@@ -2565,6 +2584,7 @@
 				DE604CA42806218800C62CE6 /* TwoSum.swift in Sources */,
 				DECCEEAC27FCF8D7007BA99C /* FizzBuzz.swift in Sources */,
 				DEA5C1D9282B34AD004AE296 /* StudentGradingTest.swift in Sources */,
+				DE15998A28B755CB0081E2BE /* BattleShip.swift in Sources */,
 				DECCEF6B27FCF9C1007BA99C /* AllPathsTest.swift in Sources */,
 				DECCEF7727FCF9C1007BA99C /* CharacterExpansionTest.swift in Sources */,
 				DECCEF4E27FCF9C1007BA99C /* MoveZeroesInArrayTest.swift in Sources */,
