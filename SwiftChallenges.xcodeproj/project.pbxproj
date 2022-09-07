@@ -172,6 +172,16 @@
 		DECA9DE628C8188000E88CCD /* BoxBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE528C8188000E88CCD /* BoxBlur.swift */; };
 		DECA9DE728C8188000E88CCD /* BoxBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE528C8188000E88CCD /* BoxBlur.swift */; };
 		DECA9DE928C818C100E88CCD /* BoxBlurTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE828C818C100E88CCD /* BoxBlurTest.swift */; };
+		DECA9DEB28C94DA900E88CCD /* MineSweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DEA28C94DA900E88CCD /* MineSweeper.swift */; };
+		DECA9DEC28C94DA900E88CCD /* MineSweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DEA28C94DA900E88CCD /* MineSweeper.swift */; };
+		DECA9DEE28C9524500E88CCD /* MineSweeperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DED28C9524500E88CCD /* MineSweeperTest.swift */; };
+		DECA9DF028C954CF00E88CCD /* EvenDigitsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DEF28C954CF00E88CCD /* EvenDigitsOnly.swift */; };
+		DECA9DF128C954CF00E88CCD /* EvenDigitsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DEF28C954CF00E88CCD /* EvenDigitsOnly.swift */; };
+		DECA9DF328C958DE00E88CCD /* ValidVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DF228C958DE00E88CCD /* ValidVariableName.swift */; };
+		DECA9DF428C958DE00E88CCD /* ValidVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DF228C958DE00E88CCD /* ValidVariableName.swift */; };
+		DECA9DF628C95E7500E88CCD /* ChessBoardCellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DF528C95E7500E88CCD /* ChessBoardCellColor.swift */; };
+		DECA9DF728C95E7500E88CCD /* ChessBoardCellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DF528C95E7500E88CCD /* ChessBoardCellColor.swift */; };
+		DECA9DF928C95EA200E88CCD /* ChessBoardCellColorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DF828C95EA200E88CCD /* ChessBoardCellColorTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -691,6 +701,12 @@
 		DECA9DE228C8127B00E88CCD /* AvoidObstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidObstacles.swift; sourceTree = "<group>"; };
 		DECA9DE528C8188000E88CCD /* BoxBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBlur.swift; sourceTree = "<group>"; };
 		DECA9DE828C818C100E88CCD /* BoxBlurTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBlurTest.swift; sourceTree = "<group>"; };
+		DECA9DEA28C94DA900E88CCD /* MineSweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeper.swift; sourceTree = "<group>"; };
+		DECA9DED28C9524500E88CCD /* MineSweeperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperTest.swift; sourceTree = "<group>"; };
+		DECA9DEF28C954CF00E88CCD /* EvenDigitsOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenDigitsOnly.swift; sourceTree = "<group>"; };
+		DECA9DF228C958DE00E88CCD /* ValidVariableName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidVariableName.swift; sourceTree = "<group>"; };
+		DECA9DF528C95E7500E88CCD /* ChessBoardCellColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardCellColor.swift; sourceTree = "<group>"; };
+		DECA9DF828C95EA200E88CCD /* ChessBoardCellColorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardCellColorTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -1243,6 +1259,7 @@
 				DECCEE3C27FCF8B3007BA99C /* CountNegativeMatrix.swift */,
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
 				DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */,
+				DECA9DEA28C94DA900E88CCD /* MineSweeper.swift */,
 				DED7962328501409005EF2E7 /* NumberOfIslands.swift */,
 				DECCEE3B27FCF8B3007BA99C /* RansomNotes.swift */,
 				DEC3D822287EB74100EB14F8 /* ReshapeMatrix.swift */,
@@ -1501,6 +1518,7 @@
 				DE4B8F59289A6BD700DF9D4C /* AllLongestStringsTest.swift */,
 				DECCEF1B27FCF9C1007BA99C /* CharacterCaseConversionTest.swift */,
 				DECCEF1827FCF9C1007BA99C /* CharacterExpansionTest.swift */,
+				DECA9DF828C95EA200E88CCD /* ChessBoardCellColorTest.swift */,
 				DE4B8F5E289A707500DF9D4C /* CommonCharacterCountTest.swift */,
 				DECCEF1627FCF9C1007BA99C /* ComputeStringSumTest.swift */,
 				DECCEF1927FCF9C1007BA99C /* ExtractNumberSumTest.swift */,
@@ -1649,6 +1667,7 @@
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
 				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
 				DE4B8F54289A68C400DF9D4C /* HauntedMatrixSumTest.swift */,
+				DECA9DED28C9524500E88CCD /* MineSweeperTest.swift */,
 				DED7962628501667005EF2E7 /* NumberOfIslandsTest.swift */,
 				DECCEF4827FCF9C1007BA99C /* RansomNotesTest.swift */,
 				DEC3D825287EB80900EB14F8 /* ReshapeMatrixTest.swift */,
@@ -1937,8 +1956,10 @@
 				DE4B8F56289A6A2300DF9D4C /* AllLongestStrings.swift */,
 				DECCF05B27FCFEE3007BA99C /* CharacterCaseConversion.swift */,
 				DECCF06027FCFEE3007BA99C /* CharacterExpansion.swift */,
+				DECA9DF528C95E7500E88CCD /* ChessBoardCellColor.swift */,
 				DE4B8F5B289A6F4500DF9D4C /* CommonCharacterCount.swift */,
 				DECCF06127FCFEE3007BA99C /* ComputeStringSum.swift */,
+				DECA9DEF28C954CF00E88CCD /* EvenDigitsOnly.swift */,
 				DECCF05C27FCFEE3007BA99C /* ExtractNumberSum.swift */,
 				DECCF08627FD8DDD007BA99C /* GoalParser.swift */,
 				DE15996C28B4306C0081E2BE /* IPChecker.swift */,
@@ -1954,6 +1975,7 @@
 				DECCF05E27FCFEE3007BA99C /* StringPractices.swift */,
 				DECCF05D27FCFEE3007BA99C /* StringArraysEquivalent.swift */,
 				DECCF06427FCFEE3007BA99C /* TruncateSentence.swift */,
+				DECA9DF228C958DE00E88CCD /* ValidVariableName.swift */,
 				DE2E0F89280EBD98006D06FA /* WrongAnswerOnly.swift */,
 			);
 			path = texts;
@@ -2112,6 +2134,7 @@
 				DE604CAD2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */,
 				DECCEE8127FCF8B4007BA99C /* SingleNumber.swift in Sources */,
 				DEDB494F283DA28D00B2238B /* HurdleRace.swift in Sources */,
+				DECA9DF628C95E7500E88CCD /* ChessBoardCellColor.swift in Sources */,
 				DECCEE1527FCF839007BA99C /* NumberToBinary.swift in Sources */,
 				DEDB4954283DF75000B2238B /* UtopianTree.swift in Sources */,
 				DECCEE8E27FCF8B4007BA99C /* AirportRoute.swift in Sources */,
@@ -2122,6 +2145,7 @@
 				DE71A3362820A6960003DD95 /* MaximumPopulationYear.swift in Sources */,
 				DE4B8F4F289A62D700DF9D4C /* CanBeIncreasingArray.swift in Sources */,
 				DECCEFDF27FCFB99007BA99C /* Sorter.swift in Sources */,
+				DECA9DF328C958DE00E88CCD /* ValidVariableName.swift in Sources */,
 				DECCF08227FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DED7961A284F1F1B005EF2E7 /* BinaryTreeSymmetric.swift in Sources */,
 				DE4B8F6B289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
@@ -2191,6 +2215,7 @@
 				DECCEE6C27FCF8B4007BA99C /* DestinationCity.swift in Sources */,
 				DECCEE9E27FCF8B4007BA99C /* Car.swift in Sources */,
 				DECCEE6D27FCF8B4007BA99C /* RankTransformArray.swift in Sources */,
+				DECA9DEB28C94DA900E88CCD /* MineSweeper.swift in Sources */,
 				DECCEE8527FCF8B4007BA99C /* BinarySearchArray.swift in Sources */,
 				DECCEE8F27FCF8B4007BA99C /* ThreeColorSorting.swift in Sources */,
 				DECCF05427FCFE49007BA99C /* BalanceBST.swift in Sources */,
@@ -2271,6 +2296,7 @@
 				DED076F52878E16C005419F1 /* UniquePaths.swift in Sources */,
 				DECCEE9A27FCF8B4007BA99C /* HttpJsonExample.swift in Sources */,
 				DE71A33128208E930003DD95 /* BSTAverageLevel.swift in Sources */,
+				DECA9DF028C954CF00E88CCD /* EvenDigitsOnly.swift in Sources */,
 				DE71A308281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
 				DECCF08727FD8DDD007BA99C /* GoalParser.swift in Sources */,
 				DECCEE7827FCF8B4007BA99C /* DegreeOfArray.swift in Sources */,
@@ -2381,6 +2407,7 @@
 				DECCEED727FCF95A007BA99C /* HttpClientExample.swift in Sources */,
 				DE71A322281FB5290003DD95 /* EncryptedWords.swift in Sources */,
 				DECCEECA27FCF942007BA99C /* RelativeSortArray.swift in Sources */,
+				DECA9DF428C958DE00E88CCD /* ValidVariableName.swift in Sources */,
 				DECCEEBE27FCF932007BA99C /* ArrayLuckyNumber.swift in Sources */,
 				DECCEF5727FCF9C1007BA99C /* DuplicateZerosTest.swift in Sources */,
 				DECCEF6527FCF9C1007BA99C /* MoneyInLeetcodeBankTest.swift in Sources */,
@@ -2509,6 +2536,7 @@
 				DECCEF7627FCF9C1007BA99C /* IPDefangerTest.swift in Sources */,
 				DECCEF6027FCF9C1007BA99C /* MergeSortedArrayTest.swift in Sources */,
 				DEC91D9228578D5000DB8BDA /* NumberOfLineJumpsTest.swift in Sources */,
+				DECA9DF128C954CF00E88CCD /* EvenDigitsOnly.swift in Sources */,
 				DECCEEDF27FCF966007BA99C /* Car.swift in Sources */,
 				DECCEEAF27FCF8E0007BA99C /* Anagram.swift in Sources */,
 				DECCEF6E27FCF9C1007BA99C /* BSTInversionTest.swift in Sources */,
@@ -2525,6 +2553,7 @@
 				DECCEF9C27FCF9C1007BA99C /* ArrayManipulationsTest.swift in Sources */,
 				DECCF05727FCFE49007BA99C /* BSTKthElement.swift in Sources */,
 				DE15998F28B7743E0081E2BE /* ArrayPermutationsTest.swift in Sources */,
+				DECA9DF728C95E7500E88CCD /* ChessBoardCellColor.swift in Sources */,
 				DECCF00527FCFBD3007BA99C /* Vertex.swift in Sources */,
 				DECCEFFF27FCFBD3007BA99C /* GraphError.swift in Sources */,
 				DECCEECB27FCF942007BA99C /* PerfectNumber.swift in Sources */,
@@ -2542,6 +2571,7 @@
 				DEB3D0C3286E5D4E00F1D24B /* TinyURL.swift in Sources */,
 				DECCEFF127FCFBAE007BA99C /* TreeNode.swift in Sources */,
 				DECCEF5927FCF9C1007BA99C /* DailyTemperaturesTest.swift in Sources */,
+				DECA9DEC28C94DA900E88CCD /* MineSweeper.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
 				DE2E0FA3280FF350006D06FA /* UniformIntegersTest.swift in Sources */,
 				DE604CB02808E23100C62CE6 /* RevenueMilestonesTest.swift in Sources */,
@@ -2551,6 +2581,7 @@
 				DE71A313281E66FF0003DD95 /* RotaryLockTest.swift in Sources */,
 				DE71A311281E645D0003DD95 /* RotaryLock.swift in Sources */,
 				DEDB4950283DA28D00B2238B /* HurdleRace.swift in Sources */,
+				DECA9DF928C95EA200E88CCD /* ChessBoardCellColorTest.swift in Sources */,
 				DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */,
 				DECCEF5127FCF9C1007BA99C /* DuplicateNumberTest.swift in Sources */,
 				DE564C5528152533000B139A /* PivotIndex.swift in Sources */,
@@ -2616,6 +2647,7 @@
 				DECCEF6927FCF9C1007BA99C /* BalanceBSTTest.swift in Sources */,
 				DEE6253F283AEDAC003EC784 /* MigratoryBirdsTest.swift in Sources */,
 				DEA5C1DF282B812D004AE296 /* ChocobarSegment.swift in Sources */,
+				DECA9DEE28C9524500E88CCD /* MineSweeperTest.swift in Sources */,
 				DECCEF5627FCF9C1007BA99C /* RunningSumArrayTest.swift in Sources */,
 				DEC3D833287F7C4800EB14F8 /* BeautifulDays.swift in Sources */,
 				DE4B8F50289A62D700DF9D4C /* CanBeIncreasingArray.swift in Sources */,
