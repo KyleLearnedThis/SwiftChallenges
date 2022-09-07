@@ -167,6 +167,11 @@
 		DEC91D8F28578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */; };
 		DEC91D9028578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */; };
 		DEC91D9228578D5000DB8BDA /* NumberOfLineJumpsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC91D9128578D5000DB8BDA /* NumberOfLineJumpsTest.swift */; };
+		DECA9DE328C8127B00E88CCD /* AvoidObstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE228C8127B00E88CCD /* AvoidObstacles.swift */; };
+		DECA9DE428C8127B00E88CCD /* AvoidObstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE228C8127B00E88CCD /* AvoidObstacles.swift */; };
+		DECA9DE628C8188000E88CCD /* BoxBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE528C8188000E88CCD /* BoxBlur.swift */; };
+		DECA9DE728C8188000E88CCD /* BoxBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE528C8188000E88CCD /* BoxBlur.swift */; };
+		DECA9DE928C818C100E88CCD /* BoxBlurTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA9DE828C818C100E88CCD /* BoxBlurTest.swift */; };
 		DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */ = {isa = PBXBuildFile; fileRef = DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */; };
 		DECCEE0227FCF814007BA99C /* SwiftChallenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */; };
 		DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */; };
@@ -683,6 +688,9 @@
 		DEC3D839287F924000EB14F8 /* StickCutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickCutTest.swift; sourceTree = "<group>"; };
 		DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLineJumps.swift; sourceTree = "<group>"; };
 		DEC91D9128578D5000DB8BDA /* NumberOfLineJumpsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLineJumpsTest.swift; sourceTree = "<group>"; };
+		DECA9DE228C8127B00E88CCD /* AvoidObstacles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidObstacles.swift; sourceTree = "<group>"; };
+		DECA9DE528C8188000E88CCD /* BoxBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBlur.swift; sourceTree = "<group>"; };
+		DECA9DE828C818C100E88CCD /* BoxBlurTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBlurTest.swift; sourceTree = "<group>"; };
 		DECCEDF727FCF814007BA99C /* SwiftChallenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftChallenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftChallenges.h; sourceTree = "<group>"; };
 		DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftChallenges.docc; sourceTree = "<group>"; };
@@ -1177,6 +1185,7 @@
 				DE15998B28B773F00081E2BE /* ArrayPermutations.swift */,
 				DE4B8F6A289BACAD00DF9D4C /* ArraySimiliar.swift */,
 				DED076F72878E80D005419F1 /* AscendingArray.swift */,
+				DECA9DE228C8127B00E88CCD /* AvoidObstacles.swift */,
 				DECCEE3627FCF8B3007BA99C /* BinarySearchArray.swift */,
 				DECCEE2B27FCF8B3007BA99C /* BusyStudent.swift */,
 				DE4B8F4E289A62D700DF9D4C /* CanBeIncreasingArray.swift */,
@@ -1230,6 +1239,7 @@
 			children = (
 				DECCEE3D27FCF8B3007BA99C /* ArrayManipulations.swift */,
 				DE15998628B754F10081E2BE /* BattleShip.swift */,
+				DECA9DE528C8188000E88CCD /* BoxBlur.swift */,
 				DECCEE3C27FCF8B3007BA99C /* CountNegativeMatrix.swift */,
 				DE1CA2F227FE5350001D8BD1 /* DiagonalSumDifference.swift */,
 				DE4B8F51289A64C800DF9D4C /* HauntedMatrixSum.swift */,
@@ -1635,6 +1645,7 @@
 			children = (
 				DECCEF4927FCF9C1007BA99C /* ArrayManipulationsTest.swift */,
 				DE15998828B755220081E2BE /* BattleShipTest.swift */,
+				DECA9DE828C818C100E88CCD /* BoxBlurTest.swift */,
 				DECCEF4727FCF9C1007BA99C /* CountNegativeMatrixTest.swift */,
 				DE1CA2F427FE547D001D8BD1 /* DiagonalSumDifferenceTest.swift */,
 				DE4B8F54289A68C400DF9D4C /* HauntedMatrixSumTest.swift */,
@@ -2245,6 +2256,7 @@
 				DECCEDFC27FCF814007BA99C /* SwiftChallenges.docc in Sources */,
 				DECCEE8627FCF8B4007BA99C /* PerfectNumber.swift in Sources */,
 				DE4B8F42289A1F1F00DF9D4C /* KeyboardRow.swift in Sources */,
+				DECA9DE328C8127B00E88CCD /* AvoidObstacles.swift in Sources */,
 				DECCEE8C27FCF8B4007BA99C /* SumOfTwoLists.swift in Sources */,
 				DECCF06E27FCFEE3007BA99C /* ReverseOnlyLetters.swift in Sources */,
 				DECCEFDD27FCFB99007BA99C /* HeapSort.swift in Sources */,
@@ -2267,6 +2279,7 @@
 				DE4B8F52289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */,
 				DE4B8F4A289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DECCEFC527FCFB28007BA99C /* LFUCache.swift in Sources */,
+				DECA9DE628C8188000E88CCD /* BoxBlur.swift in Sources */,
 				DECCEEA227FCF8B4007BA99C /* BasicPair.swift in Sources */,
 				DEC91D8F28578D2F00DB8BDA /* NumberOfLineJumps.swift in Sources */,
 				DECCF00627FCFBD3007BA99C /* Direction.swift in Sources */,
@@ -2381,6 +2394,7 @@
 				DE4B8F71289BB1B100DF9D4C /* ArrayChange.swift in Sources */,
 				DECCEEBB27FCF922007BA99C /* RankTransformArray.swift in Sources */,
 				DECCEEB427FCF8EB007BA99C /* CountNegativeMatrix.swift in Sources */,
+				DECA9DE728C8188000E88CCD /* BoxBlur.swift in Sources */,
 				DECCF03027FCFC36007BA99C /* EratosthenesSieveTest.swift in Sources */,
 				DECCEEE027FCF96B007BA99C /* BasicPair.swift in Sources */,
 				DECCEE1927FCF848007BA99C /* NumberToBinaryTest.swift in Sources */,
@@ -2502,6 +2516,7 @@
 				DECCEEC827FCF942007BA99C /* DegreeOfArray.swift in Sources */,
 				DECCEF7C27FCF9C1007BA99C /* ReverseOnlyLettersTest.swift in Sources */,
 				DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */,
+				DECA9DE928C818C100E88CCD /* BoxBlurTest.swift in Sources */,
 				DECCF03A27FCFC36007BA99C /* LRUCacheTest.swift in Sources */,
 				DECCEEC227FCF942007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DECCF05927FCFE49007BA99C /* MergeTwoBST.swift in Sources */,
@@ -2611,6 +2626,7 @@
 				DECCEEBC27FCF927007BA99C /* FindAllPairsGivenSum.swift in Sources */,
 				DECCEED127FCF942007BA99C /* RandomNumber.swift in Sources */,
 				DEA5C1DC282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
+				DECA9DE428C8127B00E88CCD /* AvoidObstacles.swift in Sources */,
 				DECCF04F27FCFE49007BA99C /* AllPaths.swift in Sources */,
 				DE1CA30027FEDCA7001D8BD1 /* PrintTriangle.swift in Sources */,
 				DE2E0FA1280FF17B006D06FA /* UniformIntegers.swift in Sources */,
