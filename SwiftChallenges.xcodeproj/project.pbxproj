@@ -134,6 +134,14 @@
 		DE7979DA28D298FF00696ACD /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979D928D298FF00696ACD /* CombinationSum.swift */; };
 		DE7979DB28D298FF00696ACD /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979D928D298FF00696ACD /* CombinationSum.swift */; };
 		DE7979DD28D29B7E00696ACD /* CombinationSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979DC28D29B7E00696ACD /* CombinationSumTest.swift */; };
+		DE7979E128D4364800696ACD /* MinimumFourDigitsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E028D4364800696ACD /* MinimumFourDigitsSum.swift */; };
+		DE7979E228D4364800696ACD /* MinimumFourDigitsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E028D4364800696ACD /* MinimumFourDigitsSum.swift */; };
+		DE7979E428D4369300696ACD /* MinimumFourDigitsSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E328D4369300696ACD /* MinimumFourDigitsSumTest.swift */; };
+		DE7979E628D43A3100696ACD /* SummaryRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E528D43A3100696ACD /* SummaryRanges.swift */; };
+		DE7979E728D43A3100696ACD /* SummaryRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E528D43A3100696ACD /* SummaryRanges.swift */; };
+		DE7979E928D441CC00696ACD /* DecodeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E828D441CC00696ACD /* DecodeMessage.swift */; };
+		DE7979EA28D441CC00696ACD /* DecodeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979E828D441CC00696ACD /* DecodeMessage.swift */; };
+		DE7979EC28D443C800696ACD /* DecodeMessageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7979EB28D443C800696ACD /* DecodeMessageTest.swift */; };
 		DEA5C1CB282B24C2004AE296 /* MilitaryTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */; };
 		DEA5C1CC282B24C2004AE296 /* MilitaryTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */; };
 		DEA5C1CF282B254D004AE296 /* MilitaryTimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5C1CE282B254D004AE296 /* MilitaryTimeTest.swift */; };
@@ -682,6 +690,11 @@
 		DE71A3382820A7060003DD95 /* MaximumPopulationYearTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumPopulationYearTest.swift; sourceTree = "<group>"; };
 		DE7979D928D298FF00696ACD /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		DE7979DC28D29B7E00696ACD /* CombinationSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumTest.swift; sourceTree = "<group>"; };
+		DE7979E028D4364800696ACD /* MinimumFourDigitsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumFourDigitsSum.swift; sourceTree = "<group>"; };
+		DE7979E328D4369300696ACD /* MinimumFourDigitsSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MinimumFourDigitsSumTest.swift; path = SwiftChallenges/Lab/numbers/MinimumFourDigitsSumTest.swift; sourceTree = SOURCE_ROOT; };
+		DE7979E528D43A3100696ACD /* SummaryRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRanges.swift; sourceTree = "<group>"; };
+		DE7979E828D441CC00696ACD /* DecodeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeMessage.swift; sourceTree = "<group>"; };
+		DE7979EB28D443C800696ACD /* DecodeMessageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DecodeMessageTest.swift; path = SwiftChallengesTests/Lab/texts/DecodeMessageTest.swift; sourceTree = SOURCE_ROOT; };
 		DEA5C1CA282B24C2004AE296 /* MilitaryTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryTime.swift; sourceTree = "<group>"; };
 		DEA5C1CE282B254D004AE296 /* MilitaryTimeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryTimeTest.swift; sourceTree = "<group>"; };
 		DEA5C1D3282B2E15004AE296 /* MiniMaxSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxSumTest.swift; sourceTree = "<group>"; };
@@ -1232,6 +1245,7 @@
 				DECCEE2327FCF8B3007BA99C /* MergeSortedArray.swift */,
 				DECCEE3127FCF8B3007BA99C /* MedianOfTwoSortedArrays.swift */,
 				DE15997C28B4C9730081E2BE /* MinimizeMaxPairSum.swift */,
+				DE7979E028D4364800696ACD /* MinimumFourDigitsSum.swift */,
 				DEC91D8E28578D2F00DB8BDA /* NumberOfLineJumps.swift */,
 				DE1CA2F727FED812001D8BD1 /* NumberPlusMinus.swift */,
 				DECCEE3727FCF8B3007BA99C /* PerfectNumber.swift */,
@@ -1245,6 +1259,7 @@
 				DECCEE3327FCF8B3007BA99C /* RichestCustomerWealth.swift */,
 				DECCEE2427FCF8B3007BA99C /* RunningSumArray.swift */,
 				DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */,
+				DE7979E528D43A3100696ACD /* SummaryRanges.swift */,
 				DE15997428B4C4050081E2BE /* TriangularSum.swift */,
 				DE604CA22806218800C62CE6 /* TwoSum.swift */,
 				DED7962B28507BB5005EF2E7 /* UniqueDigits.swift */,
@@ -1436,6 +1451,7 @@
 		DECCEEE827FCF9C1007BA99C /* numbers */ = {
 			isa = PBXGroup;
 			children = (
+				DE7979E328D4369300696ACD /* MinimumFourDigitsSumTest.swift */,
 				DE15998428B6D0530081E2BE /* ArithmeticSubArraysTest.swift */,
 				DE4B8F72289BB53700DF9D4C /* ArrayChangeTest.swift */,
 				DECCEEF527FCF9C1007BA99C /* ArrayLuckyNumberTest.swift */,
@@ -1534,6 +1550,7 @@
 				DECA9DF828C95EA200E88CCD /* ChessBoardCellColorTest.swift */,
 				DE4B8F5E289A707500DF9D4C /* CommonCharacterCountTest.swift */,
 				DECCEF1627FCF9C1007BA99C /* ComputeStringSumTest.swift */,
+				DE7979EB28D443C800696ACD /* DecodeMessageTest.swift */,
 				DECCEF1927FCF9C1007BA99C /* ExtractNumberSumTest.swift */,
 				DECCF08927FD8ED6007BA99C /* GoalParserTest.swift */,
 				DE15996F28B4314E0081E2BE /* IPCheckerTest.swift */,
@@ -1973,6 +1990,7 @@
 				DECA9DF528C95E7500E88CCD /* ChessBoardCellColor.swift */,
 				DE4B8F5B289A6F4500DF9D4C /* CommonCharacterCount.swift */,
 				DECCF06127FCFEE3007BA99C /* ComputeStringSum.swift */,
+				DE7979E828D441CC00696ACD /* DecodeMessage.swift */,
 				DECA9DEF28C954CF00E88CCD /* EvenDigitsOnly.swift */,
 				DECCF05C27FCFEE3007BA99C /* ExtractNumberSum.swift */,
 				DECCF08627FD8DDD007BA99C /* GoalParser.swift */,
@@ -2086,7 +2104,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					DECCEDF627FCF814007BA99C = {
 						CreatedOnToolsVersion = 13.3;
@@ -2205,6 +2223,7 @@
 				DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */,
 				DECCEFEE27FCFBAE007BA99C /* BinaryTreePrinter.swift in Sources */,
 				DED7961F284F442A005EF2E7 /* RomanNumerals.swift in Sources */,
+				DE7979E128D4364800696ACD /* MinimumFourDigitsSum.swift in Sources */,
 				DECCF07027FCFEE3007BA99C /* CharacterExpansion.swift in Sources */,
 				DECCEE9027FCF8B4007BA99C /* FizzBuzz.swift in Sources */,
 				DECCEE8227FCF8B4007BA99C /* RichestCustomerWealth.swift in Sources */,
@@ -2218,6 +2237,7 @@
 				DECCEE7B27FCF8B4007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DEA5C1E3282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
 				DECCEFCB27FCFB4C007BA99C /* PriorityQueue.swift in Sources */,
+				DE7979E628D43A3100696ACD /* SummaryRanges.swift in Sources */,
 				DEE62553283C5467003EC784 /* PageTurnCount.swift in Sources */,
 				DECCEE9527FCF8B4007BA99C /* StockTrading.swift in Sources */,
 				DEC3D7C3287E360D00EB14F8 /* BSTMode.swift in Sources */,
@@ -2246,6 +2266,7 @@
 				DED79617284F1C92005EF2E7 /* BSTLowestCommonAncestor.swift in Sources */,
 				DECCEE9327FCF8B4007BA99C /* Anagram.swift in Sources */,
 				DECCEE8827FCF8B4007BA99C /* RansomNotes.swift in Sources */,
+				DE7979E928D441CC00696ACD /* DecodeMessage.swift in Sources */,
 				DECCEEA927FCF8B4007BA99C /* SortDictionaryExample.swift in Sources */,
 				DE4B8F57289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */,
 				DECCEE8027FCF8B4007BA99C /* MedianOfTwoSortedArrays.swift in Sources */,
@@ -2460,6 +2481,7 @@
 				DE15997328B4B7FD0081E2BE /* SubrectangleQueries.swift in Sources */,
 				DE221EE92819473800CAE40D /* SimpleLinkedList.swift in Sources */,
 				DEC3D835287F7C9600EB14F8 /* BeautifulDaysTest.swift in Sources */,
+				DE7979EA28D441CC00696ACD /* DecodeMessage.swift in Sources */,
 				DEB3D0C5286F97CE00F1D24B /* TinyURLTest.swift in Sources */,
 				DECCF00327FCFBD3007BA99C /* GraphUtils.swift in Sources */,
 				DEC3D829287EC21A00EB14F8 /* RobotOrigin.swift in Sources */,
@@ -2512,6 +2534,7 @@
 				DECCEF6827FCF9C1007BA99C /* BSTPathSumTest.swift in Sources */,
 				DEA5C1D4282B2E15004AE296 /* MiniMaxSumTest.swift in Sources */,
 				DECCEF6427FCF9C1007BA99C /* RepeatTwoNArrayTest.swift in Sources */,
+				DE7979E228D4364800696ACD /* MinimumFourDigitsSum.swift in Sources */,
 				DECCEED827FCF95A007BA99C /* HttpJsonExample.swift in Sources */,
 				DECCF07C27FCFF30007BA99C /* Pair.swift in Sources */,
 				DE4B8F45289A21C000DF9D4C /* KeyboardRowTest.swift in Sources */,
@@ -2523,6 +2546,7 @@
 				DECCEEB627FCF8F2007BA99C /* Fibonacci.swift in Sources */,
 				DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */,
 				DECCF06927FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
+				DE7979E428D4369300696ACD /* MinimumFourDigitsSumTest.swift in Sources */,
 				DECCEEBD27FCF92A007BA99C /* LeadersInArray.swift in Sources */,
 				DECCEF7027FCF9C1007BA99C /* FibonacciTest.swift in Sources */,
 				DE71A309281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
@@ -2548,6 +2572,7 @@
 				DE15998528B6D0530081E2BE /* ArithmeticSubArraysTest.swift in Sources */,
 				DECCEEDC27FCF966007BA99C /* Dog.swift in Sources */,
 				DECCEED227FCF942007BA99C /* MoneyInLeetcodeBank.swift in Sources */,
+				DE7979EC28D443C800696ACD /* DecodeMessageTest.swift in Sources */,
 				DECCEF9327FCF9C1007BA99C /* AirportRouteTest.swift in Sources */,
 				DECCEF7627FCF9C1007BA99C /* IPDefangerTest.swift in Sources */,
 				DECCEF6027FCF9C1007BA99C /* MergeSortedArrayTest.swift in Sources */,
@@ -2582,6 +2607,7 @@
 				DECCF03227FCFC36007BA99C /* PriorityQueueTest.swift in Sources */,
 				DE4B8F76289C657800DF9D4C /* ArrayMaxAdjacent.swift in Sources */,
 				DECCEF5327FCF9C1007BA99C /* PerfectNumberTest.swift in Sources */,
+				DE7979E728D43A3100696ACD /* SummaryRanges.swift in Sources */,
 				DECCEED427FCF942007BA99C /* BusyStudent.swift in Sources */,
 				DECCF07D27FCFF30007BA99C /* LFUMapEntry.swift in Sources */,
 				DECCF06D27FCFEE3007BA99C /* StringPractices.swift in Sources */,
