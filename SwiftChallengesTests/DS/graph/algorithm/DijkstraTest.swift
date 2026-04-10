@@ -10,7 +10,11 @@ import XCTest
 class DijkstraTest: XCTestCase {
 
     func testBasic() {
-        let dir = "dev/iOS/SwiftChallenges/SwiftChallengesTests/DS/graph/resources/"
+        let dir = URL(fileURLWithPath: #filePath)
+            .deletingLastPathComponent()   // algorithm/
+            .deletingLastPathComponent()   // graph/
+            .appendingPathComponent("resources")
+            .path + "/"
         let fileName = "test02.json"
         let dijkstra = Dijkstra(inputDir: dir, fileName: fileName)
         let source = "1"

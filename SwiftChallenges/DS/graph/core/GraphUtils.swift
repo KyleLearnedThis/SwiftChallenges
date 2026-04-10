@@ -11,10 +11,10 @@ public class GraphUtils {
     public static func openHomeFile(inputDirectory: String, fileName: String) -> String {
         var input = ""
         let x = fileName.components(separatedBy: ".")
-        let home = FileManager.default.homeDirectoryForCurrentUser
-        let url = home.appendingPathComponent(inputDirectory)
-            .appendingPathComponent(x[0])
-            .appendingPathExtension(x[1])
+        let base = inputDirectory.hasPrefix("/")
+            ? URL(fileURLWithPath: inputDirectory)
+            : FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent(inputDirectory)
+        let url = base.appendingPathComponent(x[0]).appendingPathExtension(x[1])
         do {
             input = try String(contentsOf: url, encoding: .utf8)
         } catch {
