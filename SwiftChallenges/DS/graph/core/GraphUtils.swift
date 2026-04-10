@@ -23,42 +23,36 @@ public class GraphUtils {
         return input
     }
 
-    public static func parseGraphJsonFile(inputDirectory: String, fileName: String) -> Dictionary<String, Vertex<String>> {
+    public static func parseGraphJsonFile(inputDirectory: String, fileName: String) -> [String: Vertex<String>] {
+        struct EdgeJSON: Decodable {
+            let id: String
+            let weight: String
+            let direction: String
+        }
+        struct VertexJSON: Decodable {
+            let id: String
+            let edge: [EdgeJSON]?
+        }
+        struct VertexWrapper: Decodable {
+            let vertex: VertexJSON
+        }
+        struct GraphJSON: Decodable {
+            let graph: [VertexWrapper]
+        }
+
         let inputString = openHomeFile(inputDirectory: inputDirectory, fileName: fileName)
-        let data = inputString.data(using: String.Encoding.utf8)!
-        let json = try? JSONSerialization.jsonObject(with: data, options: [])
-        var vertexMap: Dictionary<String, Vertex<String>> = [:]
-        
-        if let dict1 = json as? [String: Any] {
-            if let vertexJsonArray = dict1["graph"] as? [Any] {
-                for vertexJson in vertexJsonArray {
-                    if let dict2 = vertexJson as? [String: Any] {
-                        let vertexValue = dict2["vertex"]
-                        if let dict3 = vertexValue as? [String: Any] {
-                            let vertexId: String = dict3["id"]! as! String
-                            // print("======== VertexId: \(vertexId) ========")
-                            let v = Vertex<String>(id: vertexId)
-                            if let edgeJsonArray = dict3["edge"] as? [Any] {
-                                for edgeJson in edgeJsonArray {
-                                    if let edgeValue = edgeJson as? [String: String] {
-                                        let edgeId = edgeValue["id"]!
-                                        let edgeWeight = edgeValue["weight"]!
-                                        let edgeDirection = edgeValue["direction"]!
-                                        let direction = chooseDirection(inputString: edgeDirection)
-                                        // print("========== EdgeId: \(edgeId) ==========")
-                                        // print("========== EdgeWeight: \(edgeWeight) ==========")
-                                        // print("========== EdgeDirection: \(edgeDirection) ==========")
-                                        let edgeWeightValue = Int(edgeWeight)!
-                                        let edge = Edge(x: vertexId, y: edgeId, weight: edgeWeightValue, direction: direction)
-                                        v.edgeList.append(edge)
-                                    }
-                                }
-                            }
-                            vertexMap[vertexId] = v
-                        }
-                    }
-                }
+        guard let data = inputString.data(using: .utf8),
+              let graphJSON = try? JSONDecoder().decode(GraphJSON.self, from: data) else { return [:] }
+
+        var vertexMap: [String: Vertex<String>] = [:]
+        for wrapper in graphJSON.graph {
+            let vj = wrapper.vertex
+            let v = Vertex<String>(id: vj.id)
+            for ej in vj.edge ?? [] {
+                let edge = Edge(x: vj.id, y: ej.id, weight: Int(ej.weight) ?? 0, direction: chooseDirection(inputString: ej.direction))
+                v.edgeList.append(edge)
             }
+            vertexMap[vj.id] = v
         }
         return vertexMap
     }
