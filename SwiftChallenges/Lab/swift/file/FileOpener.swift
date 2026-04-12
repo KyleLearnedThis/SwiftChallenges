@@ -74,7 +74,7 @@ public class FileOpener {
             // Then reading it back from the file
             var inString = ""
             do {
-                inString = try String(contentsOf: fileURL)
+                inString = try String(contentsOf: fileURL, encoding: .utf8)
             } catch {
                 print("Failed reading from URL: \(fileURL), Error: " + error.localizedDescription)
             }
