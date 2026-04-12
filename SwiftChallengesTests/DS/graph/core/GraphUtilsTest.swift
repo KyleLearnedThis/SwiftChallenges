@@ -16,7 +16,9 @@ class GraphUtilsTest: XCTestCase {
             .appendingPathComponent("resources")
             .path + "/"
         let fileName = "test02.json"
-        _ = GraphUtils.parseGraphJsonFile(inputDirectory: dir, fileName: fileName)
+        let result = GraphUtils.parseGraphJsonFile(inputDirectory: dir, fileName: fileName)
+        XCTAssertEqual(result.count, 4)
+        XCTAssertNotNil(result["1"])
     }
 
 }
