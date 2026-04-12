@@ -90,7 +90,7 @@ public class Dijkstra {
             if vertex.id == v.id {
                 queue.remove(v)
                 queue.push(v)
-                return
+                return // must return immediately — mutating queue while iterating is only safe because we stop here
             }
         }
     }
