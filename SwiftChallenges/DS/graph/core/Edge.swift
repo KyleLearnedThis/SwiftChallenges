@@ -17,5 +17,6 @@ public class Edge<T: Comparable> {
         self.x = x
         self.y = y
         self.weight = weight
+        self.direction = direction
     }
 }

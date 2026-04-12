@@ -58,17 +58,10 @@ public class GraphUtils {
     }
 
     private static func chooseDirection(inputString: String) -> Direction {
-        var direction: Direction
-        switch(inputString) {
-        case "X_TO_Y":
-            direction = .X_TO_Y
-        case "Y_TO_X":
-            direction = .Y_TO_X
-        case "BOTH":
-            direction = .BOTH
-        default:
-            direction = .BOTH
+        switch inputString {
+        case "X_TO_Y": return .X_TO_Y
+        case "Y_TO_X": return .Y_TO_X
+        default:        return .BOTH
         }
-        return direction
     }
 }
