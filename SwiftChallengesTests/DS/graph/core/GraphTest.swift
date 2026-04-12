@@ -11,7 +11,11 @@ import XCTest
 class GraphTest: XCTestCase {
 
     func testBFS() throws {
-        let dir = "dev/iOS/SwiftChallenges/SwiftChallengesTests/DS/graph/resources/"
+        let dir = URL(fileURLWithPath: #filePath)
+            .deletingLastPathComponent()   // core/
+            .deletingLastPathComponent()   // graph/
+            .appendingPathComponent("resources")
+            .path + "/"
         let fileName = "test01.json"
         let graph = Graph(docFileDir: dir, fileName: fileName)
         let starCity = "San Francisco"
@@ -21,7 +25,11 @@ class GraphTest: XCTestCase {
     }
 
     func testDFS() throws {
-        let dir = "dev/iOS/SwiftChallenges/SwiftChallengesTests/DS/graph/resources/"
+        let dir = URL(fileURLWithPath: #filePath)
+            .deletingLastPathComponent()   // core/
+            .deletingLastPathComponent()   // graph/
+            .appendingPathComponent("resources")
+            .path + "/"
         let fileName = "test01.json"
         let graph = Graph(docFileDir: dir, fileName: fileName)
         let startCity = "San Francisco"

@@ -50,7 +50,7 @@ public class Dijkstra {
                 if alt < neighborWeight {
                     v.cost = alt
                     v.previous = u
-                    refreshQueue(queue: queue, vertex: v)
+                    refreshQueue(queue: &queue, vertex: v)
                 }
             }
         }
@@ -85,12 +85,12 @@ public class Dijkstra {
             - queue: priority queue
             - vertex: element in queue that changed weight after insertion
      */
-    func refreshQueue(queue: PriorityQueue<Vertex<String>>, vertex: Vertex<String>) {
-        var q = queue
-        for v in q {
+    func refreshQueue(queue: inout PriorityQueue<Vertex<String>>, vertex: Vertex<String>) {
+        for v in queue {
             if vertex.id == v.id {
-                q.remove(v)
-                q.push(v)
+                queue.remove(v)
+                queue.push(v)
+                return // must return immediately — mutating queue while iterating is only safe because we stop here
             }
         }
     }

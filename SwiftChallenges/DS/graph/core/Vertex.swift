@@ -10,11 +10,11 @@ import Foundation
 public class Vertex<T: Comparable> : Comparable {
     
     public static func < (lhs: Vertex<T>, rhs: Vertex<T>) -> Bool {
-        return lhs.cost > rhs.cost
+        return lhs.cost > rhs.cost // reversed: lower cost = higher priority in min-heap
     }
 
     public static func == (lhs: Vertex<T>, rhs: Vertex<T>) -> Bool {
-        return lhs.cost == rhs.cost
+        return lhs.id == rhs.id
     }
     
     public var id: T
@@ -25,9 +25,9 @@ public class Vertex<T: Comparable> : Comparable {
 
     public init(id: T, edgeList: Array<Edge<T>> = [], isVisited: Bool = false, cost: Int = 0, previous: Vertex<T>? = nil) {
         self.id = id
-        self.edgeList = []
-        self.isVisited = false
-        self.cost = 0
-        self.previous = nil
+        self.edgeList = edgeList
+        self.isVisited = isVisited
+        self.cost = cost
+        self.previous = previous
     }
 }

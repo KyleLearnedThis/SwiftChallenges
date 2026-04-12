@@ -10,9 +10,15 @@ import XCTest
 class GraphUtilsTest: XCTestCase {
 
     func testBasic() {
-        let dir = "dev/iOS/SwiftChallenges/SwiftChallengesTests/DS/graph/resources/"
+        let dir = URL(fileURLWithPath: #filePath)
+            .deletingLastPathComponent()   // core/
+            .deletingLastPathComponent()   // graph/
+            .appendingPathComponent("resources")
+            .path + "/"
         let fileName = "test02.json"
-        _ = GraphUtils.parseGraphJsonFile(inputDirectory: dir, fileName: fileName)
+        let result = GraphUtils.parseGraphJsonFile(inputDirectory: dir, fileName: fileName)
+        XCTAssertEqual(result.count, 4)
+        XCTAssertNotNil(result["1"])
     }
 
 }
