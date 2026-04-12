@@ -7,6 +7,22 @@
 
 import Foundation
 
+private struct EdgeJSON: Decodable {
+    let id: String
+    let weight: String
+    let direction: String
+}
+private struct VertexJSON: Decodable {
+    let id: String
+    let edge: [EdgeJSON]?
+}
+private struct VertexWrapper: Decodable {
+    let vertex: VertexJSON
+}
+private struct GraphJSON: Decodable {
+    let graph: [VertexWrapper]
+}
+
 public class GraphUtils {
     public static func openHomeFile(inputDirectory: String, fileName: String) -> String {
         var input = ""
@@ -24,22 +40,6 @@ public class GraphUtils {
     }
 
     public static func parseGraphJsonFile(inputDirectory: String, fileName: String) -> [String: Vertex<String>] {
-        struct EdgeJSON: Decodable {
-            let id: String
-            let weight: String
-            let direction: String
-        }
-        struct VertexJSON: Decodable {
-            let id: String
-            let edge: [EdgeJSON]?
-        }
-        struct VertexWrapper: Decodable {
-            let vertex: VertexJSON
-        }
-        struct GraphJSON: Decodable {
-            let graph: [VertexWrapper]
-        }
-
         let inputString = openHomeFile(inputDirectory: inputDirectory, fileName: fileName)
         guard let data = inputString.data(using: .utf8),
               let graphJSON = try? JSONDecoder().decode(GraphJSON.self, from: data) else { return [:] }
