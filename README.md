@@ -65,6 +65,6 @@ Closures, Combine framework, networking (URLSession), OOP patterns (protocols, g
 
 ## Requirements
 
-- Xcode 14+
-- Swift 5.7+
-- macOS
+- Xcode 26+
+- Swift 6+
+- macOS 26+
