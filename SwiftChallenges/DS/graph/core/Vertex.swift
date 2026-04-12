@@ -10,7 +10,7 @@ import Foundation
 public class Vertex<T: Comparable> : Comparable {
     
     public static func < (lhs: Vertex<T>, rhs: Vertex<T>) -> Bool {
-        return lhs.cost > rhs.cost
+        return lhs.cost > rhs.cost // reversed: lower cost = higher priority in min-heap
     }
 
     public static func == (lhs: Vertex<T>, rhs: Vertex<T>) -> Bool {
