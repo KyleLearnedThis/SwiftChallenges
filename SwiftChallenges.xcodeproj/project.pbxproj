@@ -597,6 +597,9 @@
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
+		FBB267552F95948300CF0DB9 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267542F95948300CF0DB9 /* MaxProfit.swift */; };
+		FBB267562F95948300CF0DB9 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267542F95948300CF0DB9 /* MaxProfit.swift */; };
+		FBB267592F9594EB00CF0DB9 /* MaxProfitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -998,6 +1001,8 @@
 		DEE62555283C5499003EC784 /* PageTurnCountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageTurnCountTest.swift; path = SwiftChallenges/Lab/HackerRank/PageTurnCountTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
+		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
+		FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfitTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1167,6 +1172,7 @@
 				DECCEE3E27FCF8B3007BA99C /* list */,
 				DE71A314281E68510003DD95 /* Meta */,
 				DECCEE1D27FCF8B3007BA99C /* numbers */,
+				FBB267532F95943400CF0DB9 /* SlidingWindow */,
 				DECCEE4C27FCF8B3007BA99C /* swift */,
 				DECCF05A27FCFEE3007BA99C /* texts */,
 				DECCF03D27FCFE49007BA99C /* tree */,
@@ -1195,6 +1201,7 @@
 				DECCEF4A27FCF9C1007BA99C /* list */,
 				DE71A315281E692E0003DD95 /* Meta */,
 				DECCEEE827FCF9C1007BA99C /* numbers */,
+				FBB267572F9594C300CF0DB9 /* SlidingWindow */,
 				DECCEF1E27FCF9C1007BA99C /* swift */,
 				DECCEF1227FCF9C1007BA99C /* texts */,
 				DECCEF0327FCF9C1007BA99C /* tree */,
@@ -2053,6 +2060,22 @@
 			path = dictionary;
 			sourceTree = "<group>";
 		};
+		FBB267532F95943400CF0DB9 /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				FBB267542F95948300CF0DB9 /* MaxProfit.swift */,
+			);
+			path = SlidingWindow;
+			sourceTree = "<group>";
+		};
+		FBB267572F9594C300CF0DB9 /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */,
+			);
+			path = SlidingWindow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2205,6 +2228,7 @@
 				DEE62541283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
 				DE300C892852E0B00075B018 /* SortByCriteria.swift in Sources */,
 				DED7962C28507BB5005EF2E7 /* UniqueDigits.swift in Sources */,
+				FBB267552F95948300CF0DB9 /* MaxProfit.swift in Sources */,
 				DECCF07827FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DE2E0FA0280FF17B006D06FA /* UniformIntegers.swift in Sources */,
 				DEA5C1D6282B3250004AE296 /* StudentGrading.swift in Sources */,
@@ -2385,6 +2409,7 @@
 				DECCEEB327FCF8E9007BA99C /* RansomNotes.swift in Sources */,
 				DE221EEB2819490100CAE40D /* SimpleLinkedListTest.swift in Sources */,
 				DECCEEC327FCF942007BA99C /* DailyTemperatures.swift in Sources */,
+				FBB267592F9594EB00CF0DB9 /* MaxProfitTest.swift in Sources */,
 				DECCEF9227FCF9C1007BA99C /* BasicCombineExampleTest.swift in Sources */,
 				DEDB4948283CDDA300B2238B /* CountValleysTest.swift in Sources */,
 				DE71A334282090460003DD95 /* BSTAverageLevelTest.swift in Sources */,
@@ -2459,6 +2484,7 @@
 				DECCEF6527FCF9C1007BA99C /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE2E0F8D280EBE11006D06FA /* WrongAnswerOnlyTest.swift in Sources */,
 				DEDB4952283DA30E00B2238B /* HurdleRaceTest.swift in Sources */,
+				FBB267562F95948300CF0DB9 /* MaxProfit.swift in Sources */,
 				DECCEFCD27FCFB50007BA99C /* Stack.swift in Sources */,
 				DECCEFE627FCFB99007BA99C /* QuickSort.swift in Sources */,
 				DECCEEB727FCF8F6007BA99C /* DestinationCity.swift in Sources */,
