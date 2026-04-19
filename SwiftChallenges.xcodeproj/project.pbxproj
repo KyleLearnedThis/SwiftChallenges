@@ -594,6 +594,9 @@
 		DEE62553283C5467003EC784 /* PageTurnCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62552283C5467003EC784 /* PageTurnCount.swift */; };
 		DEE62554283C5467003EC784 /* PageTurnCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62552283C5467003EC784 /* PageTurnCount.swift */; };
 		DEE62556283C5499003EC784 /* PageTurnCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE62555283C5499003EC784 /* PageTurnCountTest.swift */; };
+		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
+		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
+		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -993,6 +996,8 @@
 		DEE62550283B4DA2003EC784 /* SocksMatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksMatchTest.swift; sourceTree = "<group>"; };
 		DEE62552283C5467003EC784 /* PageTurnCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTurnCount.swift; sourceTree = "<group>"; };
 		DEE62555283C5499003EC784 /* PageTurnCountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageTurnCountTest.swift; path = SwiftChallenges/Lab/HackerRank/PageTurnCountTest.swift; sourceTree = SOURCE_ROOT; };
+		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
+		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1292,6 +1297,7 @@
 				DE1CA3442802B39D001D8BD1 /* SpiralTraversal.swift */,
 				DE15997128B4B7F90081E2BE /* SubrectangleQueries.swift */,
 				DED076F42878E16C005419F1 /* UniquePaths.swift */,
+				FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -1692,6 +1698,7 @@
 		DECCEF4627FCF9C1007BA99C /* collections */ = {
 			isa = PBXGroup;
 			children = (
+				FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */,
 				DECCEF4927FCF9C1007BA99C /* ArrayManipulationsTest.swift */,
 				DE15998828B755220081E2BE /* BattleShipTest.swift */,
 				DECA9DE828C818C100E88CCD /* BoxBlurTest.swift */,
@@ -2218,6 +2225,7 @@
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
+				FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */,
 				DEB3D0C2286E5D4E00F1D24B /* TinyURL.swift in Sources */,
 				DECCEFB527FCFA73007BA99C /* BasicEntry.swift in Sources */,
 				DEDB4945283CDD7600B2238B /* CountValleys.swift in Sources */,
@@ -2443,6 +2451,7 @@
 				DECCF08827FD8DDD007BA99C /* GoalParser.swift in Sources */,
 				DECCEED727FCF95A007BA99C /* HttpClientExample.swift in Sources */,
 				DE71A322281FB5290003DD95 /* EncryptedWords.swift in Sources */,
+				FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */,
 				DECCEECA27FCF942007BA99C /* RelativeSortArray.swift in Sources */,
 				DECA9DF428C958DE00E88CCD /* ValidVariableName.swift in Sources */,
 				DECCEEBE27FCF932007BA99C /* ArrayLuckyNumber.swift in Sources */,
@@ -2455,6 +2464,7 @@
 				DECCEEB727FCF8F6007BA99C /* DestinationCity.swift in Sources */,
 				DECCEFEF27FCFBAE007BA99C /* BinaryTreePrinter.swift in Sources */,
 				DED7963328507D85005EF2E7 /* UniqueDigitsTest.swift in Sources */,
+				FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */,
 				DE4B8F71289BB1B100DF9D4C /* ArrayChange.swift in Sources */,
 				DECCEEBB27FCF922007BA99C /* RankTransformArray.swift in Sources */,
 				DECCEEB427FCF8EB007BA99C /* CountNegativeMatrix.swift in Sources */,
