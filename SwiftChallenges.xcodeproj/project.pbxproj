@@ -603,6 +603,9 @@
 		FBB2675B2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */; };
 		FBB2675C2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */; };
 		FBB267602F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */; };
+		FBB267622F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */; };
+		FBB267632F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */; };
+		FBB267672F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1008,6 +1011,8 @@
 		FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfitTest.swift; sourceTree = "<group>"; };
 		FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstringTest.swift; sourceTree = "<group>"; };
+		FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstring.swift; sourceTree = "<group>"; };
+		FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2070,6 +2075,7 @@
 			children = (
 				FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */,
 				FBB267542F95948300CF0DB9 /* MaxProfit.swift */,
+				FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */,
 			);
 			path = SlidingWindow;
 			sourceTree = "<group>";
@@ -2079,6 +2085,7 @@
 			children = (
 				FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */,
 				FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */,
+				FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */,
 			);
 			path = SlidingWindow;
 			sourceTree = "<group>";
@@ -2365,6 +2372,7 @@
 				DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */,
 				DED795C7284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */,
 				DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
+				FBB267622F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */,
 				DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */,
 				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00227FCFBD3007BA99C /* GraphUtils.swift in Sources */,
@@ -2585,11 +2593,13 @@
 				DEA5C1E1282B82FF004AE296 /* ChocobarSegmentTest.swift in Sources */,
 				DECCEF8727FCF9C1007BA99C /* ComputeClosureTest.swift in Sources */,
 				DEA5C1E4282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
+				FBB267672F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift in Sources */,
 				DECCEEB027FCF8E1007BA99C /* ValidParentheses.swift in Sources */,
 				DECCEEE627FCF97C007BA99C /* SortDictionaryExample.swift in Sources */,
 				DECCEEB627FCF8F2007BA99C /* Fibonacci.swift in Sources */,
 				DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */,
 				DECCF06927FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
+				FBB267632F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */,
 				DE7979E428D4369300696ACD /* MinimumFourDigitsSumTest.swift in Sources */,
 				DECCEEBD27FCF92A007BA99C /* LeadersInArray.swift in Sources */,
 				DECCEF7027FCF9C1007BA99C /* FibonacciTest.swift in Sources */,
