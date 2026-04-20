@@ -600,6 +600,9 @@
 		FBB267552F95948300CF0DB9 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267542F95948300CF0DB9 /* MaxProfit.swift */; };
 		FBB267562F95948300CF0DB9 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267542F95948300CF0DB9 /* MaxProfit.swift */; };
 		FBB267592F9594EB00CF0DB9 /* MaxProfitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */; };
+		FBB2675B2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */; };
+		FBB2675C2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */; };
+		FBB267602F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1003,6 +1006,8 @@
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfitTest.swift; sourceTree = "<group>"; };
+		FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
+		FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstringTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2063,6 +2068,7 @@
 		FBB267532F95943400CF0DB9 /* SlidingWindow */ = {
 			isa = PBXGroup;
 			children = (
+				FBB2675A2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift */,
 				FBB267542F95948300CF0DB9 /* MaxProfit.swift */,
 			);
 			path = SlidingWindow;
@@ -2071,6 +2077,7 @@
 		FBB267572F9594C300CF0DB9 /* SlidingWindow */ = {
 			isa = PBXGroup;
 			children = (
+				FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */,
 				FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */,
 			);
 			path = SlidingWindow;
@@ -2328,6 +2335,7 @@
 				DE604CA82808D9AB00C62CE6 /* NumberOfWays.swift in Sources */,
 				DE15998C28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DECCEE8327FCF8B4007BA99C /* RepeatTwoNArray.swift in Sources */,
+				FBB2675B2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift in Sources */,
 				DECCF05227FCFE49007BA99C /* BSTPathSum.swift in Sources */,
 				DECCF07427FCFEE3007BA99C /* IPDefanger.swift in Sources */,
 				DECCEFF027FCFBAE007BA99C /* TreeNode.swift in Sources */,
@@ -2611,6 +2619,7 @@
 				DE7979EC28D443C800696ACD /* DecodeMessageTest.swift in Sources */,
 				DECCEF9327FCF9C1007BA99C /* AirportRouteTest.swift in Sources */,
 				DECCEF7627FCF9C1007BA99C /* IPDefangerTest.swift in Sources */,
+				FBB2675C2F959AD000CF0DB9 /* LengthOfLongestSubstring.swift in Sources */,
 				DECCEF6027FCF9C1007BA99C /* MergeSortedArrayTest.swift in Sources */,
 				DE7979DB28D298FF00696ACD /* CombinationSum.swift in Sources */,
 				DEC91D9228578D5000DB8BDA /* NumberOfLineJumpsTest.swift in Sources */,
@@ -2681,6 +2690,7 @@
 				DED076F3287829B2005419F1 /* PreOrderBSTTest.swift in Sources */,
 				DECCF07927FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DECCEF7527FCF9C1007BA99C /* ComputeStringSumTest.swift in Sources */,
+				FBB267602F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift in Sources */,
 				DECCEF5427FCF9C1007BA99C /* DegreeOfArrayTest.swift in Sources */,
 				DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */,
 				DE1CA2FB27FED90A001D8BD1 /* NumberPlusMinusTeest.swift in Sources */,
