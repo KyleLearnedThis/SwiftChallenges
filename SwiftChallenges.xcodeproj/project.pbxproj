@@ -2089,8 +2089,8 @@
 		FBB267572F9594C300CF0DB9 /* SlidingWindow */ = {
 			isa = PBXGroup;
 			children = (
-				FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */,
 				FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */,
+				FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */,
 				FBB267582F9594EB00CF0DB9 /* MaxProfitTest.swift */,
 				FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */,
 			);

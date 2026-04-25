@@ -19,14 +19,13 @@ class LongestRepeatingCharacterReplacement {
 
             // replacements needed = window size - count of the most frequent char
             // if that exceeds k, the window is invalid — shrink from the left
-            let currentWindow = r - l + 1
-            while currentWindow - (frequency.values.max() ?? 0) > k {
+            while r - l + 1 - (frequency.values.max() ?? 0) > k {
                 frequency[S[l], default: 0] -= 1
                 l += 1
             }
 
             // window is now valid; record its length
-            res = max(res, currentWindow)
+            res = max(res, r - l + 1)
         }
         return res
     }
@@ -46,7 +45,6 @@ class LongestRepeatingCharacterReplacement {
             // if the window is invalid, shift it right by one (never shrink — window only grows)
             // maxFrequency may be stale but that's fine: a stale high value just means we don't
             // grow until a char catches up, which is correct
-
             if (r - l + 1) - maxFrequency > k {
                 frequency[S[l], default: 0] -= 1
                 l += 1
