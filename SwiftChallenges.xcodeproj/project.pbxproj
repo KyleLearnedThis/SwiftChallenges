@@ -603,6 +603,9 @@
 		FB49A3892F9DEAAA0013680A /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3882F9DEAAA0013680A /* ThreeSum.swift */; };
 		FB49A38A2F9DEAAA0013680A /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3882F9DEAAA0013680A /* ThreeSum.swift */; };
 		FB49A38C2F9DEB110013680A /* ThreeSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */; };
+		FB49A38E2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */; };
+		FB49A38F2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */; };
+		FB49A3912F9DF3CB0013680A /* ContainerWithMostWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1020,6 +1023,8 @@
 		FB49A3862F9D8F7D0013680A /* TwoSum2Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2Test.swift; sourceTree = "<group>"; };
 		FB49A3882F9DEAAA0013680A /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumTest.swift; sourceTree = "<group>"; };
+		FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -2088,6 +2093,7 @@
 		FB49A3842F9D8F120013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */,
 				DECCEE4627FCF8B3007BA99C /* Palindrome.swift */,
 				FB49A3882F9DEAAA0013680A /* ThreeSum.swift */,
 				FB49A3812F9D8D140013680A /* TwoSum2.swift */,
@@ -2098,6 +2104,7 @@
 		FB49A3852F9D8F470013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */,
 				DECCEF3D27FCF9C1007BA99C /* PalindromeTest.swift */,
 				FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */,
 				FB49A3862F9D8F7D0013680A /* TwoSum2Test.swift */,
@@ -2320,6 +2327,7 @@
 				DECCEE7B27FCF8B4007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DEA5C1E3282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
 				DECCEFCB27FCFB4C007BA99C /* PriorityQueue.swift in Sources */,
+				FB49A38E2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */,
 				DE7979E628D43A3100696ACD /* SummaryRanges.swift in Sources */,
 				DEE62553283C5467003EC784 /* PageTurnCount.swift in Sources */,
 				DECCEE9527FCF8B4007BA99C /* StockTrading.swift in Sources */,
@@ -2683,6 +2691,7 @@
 				DECCEF9727FCF9C1007BA99C /* ThreeColorSortingTest.swift in Sources */,
 				DECCEEC827FCF942007BA99C /* DegreeOfArray.swift in Sources */,
 				DECCEF7C27FCF9C1007BA99C /* ReverseOnlyLettersTest.swift in Sources */,
+				FB49A3912F9DF3CB0013680A /* ContainerWithMostWaterTest.swift in Sources */,
 				DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */,
 				DECA9DE928C818C100E88CCD /* BoxBlurTest.swift in Sources */,
 				DECCF03A27FCFC36007BA99C /* LRUCacheTest.swift in Sources */,
@@ -2713,6 +2722,7 @@
 				DEB3D0C3286E5D4E00F1D24B /* TinyURL.swift in Sources */,
 				DECCEFF127FCFBAE007BA99C /* TreeNode.swift in Sources */,
 				DECCEF5927FCF9C1007BA99C /* DailyTemperaturesTest.swift in Sources */,
+				FB49A38F2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */,
 				DECA9DEC28C94DA900E88CCD /* MineSweeper.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
 				DE2E0FA3280FF350006D06FA /* UniformIntegersTest.swift in Sources */,
