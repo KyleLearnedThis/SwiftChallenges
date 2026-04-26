@@ -600,6 +600,9 @@
 		FB49A3822F9D8D140013680A /* TwoSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3812F9D8D140013680A /* TwoSum2.swift */; };
 		FB49A3832F9D8D140013680A /* TwoSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3812F9D8D140013680A /* TwoSum2.swift */; };
 		FB49A3872F9D8F7D0013680A /* TwoSum2Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3862F9D8F7D0013680A /* TwoSum2Test.swift */; };
+		FB49A3892F9DEAAA0013680A /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3882F9DEAAA0013680A /* ThreeSum.swift */; };
+		FB49A38A2F9DEAAA0013680A /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3882F9DEAAA0013680A /* ThreeSum.swift */; };
+		FB49A38C2F9DEB110013680A /* ThreeSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1015,6 +1018,8 @@
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
 		FB49A3862F9D8F7D0013680A /* TwoSum2Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2Test.swift; sourceTree = "<group>"; };
+		FB49A3882F9DEAAA0013680A /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -1349,7 +1354,6 @@
 				DE7979D928D298FF00696ACD /* CombinationSum.swift */,
 				DECCEE4527FCF8B3007BA99C /* FizzBuzz.swift */,
 				DECCEE4727FCF8B3007BA99C /* LongestCommonPrefix.swift */,
-				DECCEE4627FCF8B3007BA99C /* Palindrome.swift */,
 				DE1CA2FE27FEDCA7001D8BD1 /* PrintTriangle.swift */,
 				DECCEE4A27FCF8B3007BA99C /* StockTrading.swift */,
 				DECCEE4427FCF8B3007BA99C /* ThreeColorSorting.swift */,
@@ -1713,7 +1717,6 @@
 				DECCEF3927FCF9C1007BA99C /* EvenNumberDigitsTest.swift */,
 				DECCEF3827FCF9C1007BA99C /* FizzBuzzTest.swift */,
 				DECCEF4127FCF9C1007BA99C /* LongestCommonPrefixTest.swift */,
-				DECCEF3D27FCF9C1007BA99C /* PalindromeTest.swift */,
 				DE1CA30227FEDE88001D8BD1 /* PrintTriangleTest.swift */,
 				DECCEF4227FCF9C1007BA99C /* StockTradingTest.swift */,
 				DECCEF4327FCF9C1007BA99C /* ThreeColorSortingTest.swift */,
@@ -2085,6 +2088,8 @@
 		FB49A3842F9D8F120013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				DECCEE4627FCF8B3007BA99C /* Palindrome.swift */,
+				FB49A3882F9DEAAA0013680A /* ThreeSum.swift */,
 				FB49A3812F9D8D140013680A /* TwoSum2.swift */,
 			);
 			path = TwoPointers;
@@ -2093,6 +2098,8 @@
 		FB49A3852F9D8F470013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				DECCEF3D27FCF9C1007BA99C /* PalindromeTest.swift */,
+				FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */,
 				FB49A3862F9D8F7D0013680A /* TwoSum2Test.swift */,
 			);
 			path = TwoPointers;
@@ -2439,6 +2446,7 @@
 				DED076F02878289D005419F1 /* PreOrderBST.swift in Sources */,
 				DECCEFFC27FCFBD3007BA99C /* Edge.swift in Sources */,
 				DE15997528B4C4050081E2BE /* TriangularSum.swift in Sources */,
+				FB49A3892F9DEAAA0013680A /* ThreeSum.swift in Sources */,
 				DECCEFC327FCFB28007BA99C /* LFUCacheItem.swift in Sources */,
 				DECCEE9427FCF8B4007BA99C /* ValidParentheses.swift in Sources */,
 				DED076F82878E80D005419F1 /* AscendingArray.swift in Sources */,
@@ -2559,6 +2567,7 @@
 				DEA5C1CC282B24C2004AE296 /* MilitaryTime.swift in Sources */,
 				DE4B8F5D289A6F4500DF9D4C /* CommonCharacterCount.swift in Sources */,
 				DECCF06B27FCFEE3007BA99C /* StringArraysEquivalent.swift in Sources */,
+				FB49A38C2F9DEB110013680A /* ThreeSumTest.swift in Sources */,
 				DECCEF7427FCF9C1007BA99C /* StringPracticesTest.swift in Sources */,
 				DECCEFDC27FCFB99007BA99C /* BubbleSort.swift in Sources */,
 				DE4B8F53289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */,
@@ -2763,6 +2772,7 @@
 				DE71A31D281F92530003DD95 /* PartitionEqualSum.swift in Sources */,
 				DE604CA42806218800C62CE6 /* TwoSum.swift in Sources */,
 				DECCEEAC27FCF8D7007BA99C /* FizzBuzz.swift in Sources */,
+				FB49A38A2F9DEAAA0013680A /* ThreeSum.swift in Sources */,
 				DEA5C1D9282B34AD004AE296 /* StudentGradingTest.swift in Sources */,
 				DE15998A28B755CB0081E2BE /* BattleShip.swift in Sources */,
 				DECCEF6B27FCF9C1007BA99C /* AllPathsTest.swift in Sources */,
