@@ -30,6 +30,8 @@ class ContainerWithMostWater {
             let area = w * h
             maxArea = max(maxArea, area)
             
+            // Trick is to move shorter side inward because of greedy insight.
+            // move higher side will probably break even or lose.
             if height[l] < height[r] {
                 l = l + 1
             } else {

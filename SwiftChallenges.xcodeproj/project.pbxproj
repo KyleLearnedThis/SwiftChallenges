@@ -606,6 +606,9 @@
 		FB49A38E2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */; };
 		FB49A38F2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */; };
 		FB49A3912F9DF3CB0013680A /* ContainerWithMostWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */; };
+		FB49A3932F9EC4CA0013680A /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */; };
+		FB49A3942F9EC4CA0013680A /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */; };
+		FB49A3962F9EC7770013680A /* TrappingRainWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3952F9EC7770013680A /* TrappingRainWaterTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1025,6 +1028,8 @@
 		FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumTest.swift; sourceTree = "<group>"; };
 		FB49A38D2F9DF3950013680A /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTest.swift; sourceTree = "<group>"; };
+		FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
+		FB49A3952F9EC7770013680A /* TrappingRainWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWaterTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -2097,6 +2102,7 @@
 				DECCEE4627FCF8B3007BA99C /* Palindrome.swift */,
 				FB49A3882F9DEAAA0013680A /* ThreeSum.swift */,
 				FB49A3812F9D8D140013680A /* TwoSum2.swift */,
+				FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -2104,6 +2110,7 @@
 		FB49A3852F9D8F470013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				FB49A3952F9EC7770013680A /* TrappingRainWaterTest.swift */,
 				FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */,
 				DECCEF3D27FCF9C1007BA99C /* PalindromeTest.swift */,
 				FB49A38B2F9DEB110013680A /* ThreeSumTest.swift */,
@@ -2431,6 +2438,7 @@
 				DE71A308281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
 				DECCF08727FD8DDD007BA99C /* GoalParser.swift in Sources */,
 				DECCEE7827FCF8B4007BA99C /* DegreeOfArray.swift in Sources */,
+				FB49A3932F9EC4CA0013680A /* TrappingRainWater.swift in Sources */,
 				DEC3D832287F7C4800EB14F8 /* BeautifulDays.swift in Sources */,
 				DECCEFCA27FCFB4C007BA99C /* Stack.swift in Sources */,
 				DE4B8F52289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */,
@@ -2757,6 +2765,7 @@
 				FBB267602F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift in Sources */,
 				DECCEF5427FCF9C1007BA99C /* DegreeOfArrayTest.swift in Sources */,
 				DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */,
+				FB49A3962F9EC7770013680A /* TrappingRainWaterTest.swift in Sources */,
 				DE1CA2FB27FED90A001D8BD1 /* NumberPlusMinusTeest.swift in Sources */,
 				DECCEF9B27FCF9C1007BA99C /* RansomNotesTest.swift in Sources */,
 				DE71A3392820A7060003DD95 /* MaximumPopulationYearTest.swift in Sources */,
@@ -2825,6 +2834,7 @@
 				DECCF07B27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DED796252850140A005EF2E7 /* NumberOfIslands.swift in Sources */,
 				DECCEF9D27FCF9C1007BA99C /* DetectCyclicListTest.swift in Sources */,
+				FB49A3942F9EC4CA0013680A /* TrappingRainWater.swift in Sources */,
 				DECCEF9927FCF9C1007BA99C /* EnvironmentFetchTest.swift in Sources */,
 				DE2E0F90280EBF44006D06FA /* BattleshipProbability.swift in Sources */,
 				DEE62544283AF484003EC784 /* DaysOfRussianProgrammerTest.swift in Sources */,
