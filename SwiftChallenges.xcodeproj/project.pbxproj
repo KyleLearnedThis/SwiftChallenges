@@ -622,6 +622,7 @@
 		FB49A3AE2F9F1B710013680A /* GroupAnagramsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3AD2F9F1B710013680A /* GroupAnagramsTest.swift */; };
 		FB49A3B32F9F1C9F0013680A /* LinkedListCycle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3B22F9F1C9F0013680A /* LinkedListCycle2.swift */; };
 		FB49A3B42F9F1C9F0013680A /* LinkedListCycle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3B22F9F1C9F0013680A /* LinkedListCycle2.swift */; };
+		FB49A3B62F9F264A0013680A /* LinkedListCycle2Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1051,6 +1052,7 @@
 		FB49A3AA2F9F1B640013680A /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		FB49A3AD2F9F1B710013680A /* GroupAnagramsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagramsTest.swift; sourceTree = "<group>"; };
 		FB49A3B22F9F1C9F0013680A /* LinkedListCycle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle2.swift; sourceTree = "<group>"; };
+		FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle2Test.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -2191,6 +2193,7 @@
 		FB49A3A42F9F157E0013680A /* FastSlowPointers */ = {
 			isa = PBXGroup;
 			children = (
+				FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */,
 				FB49A3A52F9F15990013680A /* LinkedListCycleTest.swift */,
 			);
 			path = FastSlowPointers;
@@ -2799,6 +2802,7 @@
 				DECCF03927FCFC36007BA99C /* MergeSortTest.swift in Sources */,
 				DECCEF9C27FCF9C1007BA99C /* ArrayManipulationsTest.swift in Sources */,
 				DECCF05727FCFE49007BA99C /* BSTKthElement.swift in Sources */,
+				FB49A3B62F9F264A0013680A /* LinkedListCycle2Test.swift in Sources */,
 				DE15998F28B7743E0081E2BE /* ArrayPermutationsTest.swift in Sources */,
 				FB49A3872F9D8F7D0013680A /* TwoSum2Test.swift in Sources */,
 				DECA9DF728C95E7500E88CCD /* ChessBoardCellColor.swift in Sources */,
