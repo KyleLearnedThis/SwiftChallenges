@@ -609,6 +609,9 @@
 		FB49A3932F9EC4CA0013680A /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */; };
 		FB49A3942F9EC4CA0013680A /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */; };
 		FB49A3962F9EC7770013680A /* TrappingRainWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3952F9EC7770013680A /* TrappingRainWaterTest.swift */; };
+		FB49A39C2F9F115E0013680A /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A39B2F9F115E0013680A /* ContainsDuplicate.swift */; };
+		FB49A39D2F9F115E0013680A /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A39B2F9F115E0013680A /* ContainsDuplicate.swift */; };
+		FB49A39F2F9F119A0013680A /* ContainsDuplicateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A39E2F9F119A0013680A /* ContainsDuplicateTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1030,6 +1033,8 @@
 		FB49A3902F9DF3CB0013680A /* ContainerWithMostWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTest.swift; sourceTree = "<group>"; };
 		FB49A3922F9EC4CA0013680A /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
 		FB49A3952F9EC7770013680A /* TrappingRainWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWaterTest.swift; sourceTree = "<group>"; };
+		FB49A39B2F9F115E0013680A /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		FB49A39E2F9F119A0013680A /* ContainsDuplicateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -1179,6 +1184,7 @@
 			children = (
 				DECCEFA027FCFA46007BA99C /* DS */,
 				DECCEE1127FCF81F007BA99C /* Lab */,
+				FB49A3982F9F105F0013680A /* NeetCode */,
 				DECCEDFA27FCF814007BA99C /* SwiftChallenges.h */,
 				DECCEDFB27FCF814007BA99C /* SwiftChallenges.docc */,
 			);
@@ -1190,6 +1196,7 @@
 			children = (
 				DECCF00A27FCFC24007BA99C /* DS */,
 				DECCEE1627FCF83C007BA99C /* Lab */,
+				FB49A3972F9F0FE70013680A /* NeetCode */,
 				DECCEE0627FCF814007BA99C /* SwiftChallengesTests.swift */,
 			);
 			path = SwiftChallengesTests;
@@ -1207,11 +1214,9 @@
 				DECCEE3E27FCF8B3007BA99C /* list */,
 				DE71A314281E68510003DD95 /* Meta */,
 				DECCEE1D27FCF8B3007BA99C /* numbers */,
-				FBB267532F95943400CF0DB9 /* SlidingWindow */,
 				DECCEE4C27FCF8B3007BA99C /* swift */,
 				DECCF05A27FCFEE3007BA99C /* texts */,
 				DECCF03D27FCFE49007BA99C /* tree */,
-				FB49A3842F9D8F120013680A /* TwoPointers */,
 			);
 			path = Lab;
 			sourceTree = "<group>";
@@ -1237,11 +1242,9 @@
 				DECCEF4A27FCF9C1007BA99C /* list */,
 				DE71A315281E692E0003DD95 /* Meta */,
 				DECCEEE827FCF9C1007BA99C /* numbers */,
-				FBB267572F9594C300CF0DB9 /* SlidingWindow */,
 				DECCEF1E27FCF9C1007BA99C /* swift */,
 				DECCEF1227FCF9C1007BA99C /* texts */,
 				DECCEF0327FCF9C1007BA99C /* tree */,
-				FB49A3852F9D8F470013680A /* TwoPointers */,
 			);
 			path = Lab;
 			sourceTree = "<group>";
@@ -1310,7 +1313,6 @@
 				DECCF08127FD87F0007BA99C /* SmallerThanCurrent.swift */,
 				DE7979E528D43A3100696ACD /* SummaryRanges.swift */,
 				DE15997428B4C4050081E2BE /* TriangularSum.swift */,
-				DE604CA22806218800C62CE6 /* TwoSum.swift */,
 				DED7962B28507BB5005EF2E7 /* UniqueDigits.swift */,
 			);
 			path = numbers;
@@ -1539,7 +1541,6 @@
 				DECCEEF127FCF9C1007BA99C /* RunningSumArrayTest.swift */,
 				DECCF08427FD8825007BA99C /* SmallerThanCurrentTest.swift */,
 				DE15997728B4C77A0081E2BE /* TriangularSumTest.swift */,
-				DE604CA52808136D00C62CE6 /* TwoSumTest.swift */,
 				DED7963228507D85005EF2E7 /* UniqueDigitsTest.swift */,
 			);
 			path = numbers;
@@ -2119,6 +2120,44 @@
 			path = TwoPointers;
 			sourceTree = "<group>";
 		};
+		FB49A3972F9F0FE70013680A /* NeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				FB49A39A2F9F10CB0013680A /* ArraysHashing */,
+				FBB267572F9594C300CF0DB9 /* SlidingWindow */,
+				FB49A3852F9D8F470013680A /* TwoPointers */,
+			);
+			path = NeetCode;
+			sourceTree = "<group>";
+		};
+		FB49A3982F9F105F0013680A /* NeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				FB49A3992F9F10C40013680A /* ArraysHashing */,
+				FBB267532F95943400CF0DB9 /* SlidingWindow */,
+				FB49A3842F9D8F120013680A /* TwoPointers */,
+			);
+			path = NeetCode;
+			sourceTree = "<group>";
+		};
+		FB49A3992F9F10C40013680A /* ArraysHashing */ = {
+			isa = PBXGroup;
+			children = (
+				DE604CA22806218800C62CE6 /* TwoSum.swift */,
+				FB49A39B2F9F115E0013680A /* ContainsDuplicate.swift */,
+			);
+			path = ArraysHashing;
+			sourceTree = "<group>";
+		};
+		FB49A39A2F9F10CB0013680A /* ArraysHashing */ = {
+			isa = PBXGroup;
+			children = (
+				FB49A39E2F9F119A0013680A /* ContainsDuplicateTest.swift */,
+				DE604CA52808136D00C62CE6 /* TwoSumTest.swift */,
+			);
+			path = ArraysHashing;
+			sourceTree = "<group>";
+		};
 		FBB267532F95943400CF0DB9 /* SlidingWindow */ = {
 			isa = PBXGroup;
 			children = (
@@ -2399,6 +2438,7 @@
 				DECCF07427FCFEE3007BA99C /* IPDefanger.swift in Sources */,
 				DECCEFF027FCFBAE007BA99C /* TreeNode.swift in Sources */,
 				DECCEFE327FCFB99007BA99C /* MergeSort.swift in Sources */,
+				FB49A39C2F9F115E0013680A /* ContainsDuplicate.swift in Sources */,
 				DE4B8F61289B23F100DF9D4C /* LuckyTicket.swift in Sources */,
 				DECCEEA327FCF8B4007BA99C /* Person.swift in Sources */,
 				FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */,
@@ -2543,6 +2583,7 @@
 				DECCEF5827FCF9C1007BA99C /* FindAllPairsGivenSumTest.swift in Sources */,
 				DE15997E28B4C9730081E2BE /* MinimizeMaxPairSum.swift in Sources */,
 				DECCEEC527FCF942007BA99C /* DuplicateNumber.swift in Sources */,
+				FB49A39D2F9F115E0013680A /* ContainsDuplicate.swift in Sources */,
 				DECCEFED27FCFBAE007BA99C /* BinarySearchTree.swift in Sources */,
 				DECCEF6127FCF9C1007BA99C /* RelativeSortArrayTest.swift in Sources */,
 				DE4B8EF8287FFFF400DF9D4C /* PhoneLetterCombinationsTest.swift in Sources */,
@@ -2640,6 +2681,7 @@
 				DED79620284F442A005EF2E7 /* RomanNumerals.swift in Sources */,
 				DECCEF5027FCF9C1007BA99C /* DaysOfYearTest.swift in Sources */,
 				DECCEF6D27FCF9C1007BA99C /* BSTKthElementTest.swift in Sources */,
+				FB49A39F2F9F119A0013680A /* ContainsDuplicateTest.swift in Sources */,
 				DECCEF5F27FCF9C1007BA99C /* RichestCustomerWealthTest.swift in Sources */,
 				DE604CAE2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */,
 				DECCEF6827FCF9C1007BA99C /* BSTPathSumTest.swift in Sources */,
