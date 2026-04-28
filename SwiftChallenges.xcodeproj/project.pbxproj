@@ -632,6 +632,9 @@
 		FB49A3C42FA05FC20013680A /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3C32FA05FC20013680A /* BinarySearch.swift */; };
 		FB49A3C52FA05FC20013680A /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3C32FA05FC20013680A /* BinarySearch.swift */; };
 		FB49A3C72FA061880013680A /* BinarySearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3C62FA061880013680A /* BinarySearchTest.swift */; };
+		FB49A3C92FA0638E0013680A /* SearchRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3C82FA0638E0013680A /* SearchRotatedSortedArray.swift */; };
+		FB49A3CA2FA0638E0013680A /* SearchRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3C82FA0638E0013680A /* SearchRotatedSortedArray.swift */; };
+		FB49A3CC2FA063AC0013680A /* SearchRotatedSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3CB2FA063AC0013680A /* SearchRotatedSortedArrayTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1068,6 +1071,8 @@
 		FB49A3BF2FA058170013680A /* FindDuplicateNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateNumberTest.swift; sourceTree = "<group>"; };
 		FB49A3C32FA05FC20013680A /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		FB49A3C62FA061880013680A /* BinarySearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTest.swift; sourceTree = "<group>"; };
+		FB49A3C82FA0638E0013680A /* SearchRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRotatedSortedArray.swift; sourceTree = "<group>"; };
+		FB49A3CB2FA063AC0013680A /* SearchRotatedSortedArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRotatedSortedArrayTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -2224,6 +2229,7 @@
 			isa = PBXGroup;
 			children = (
 				FB49A3C32FA05FC20013680A /* BinarySearch.swift */,
+				FB49A3C82FA0638E0013680A /* SearchRotatedSortedArray.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -2231,6 +2237,7 @@
 		FB49A3C22FA05F880013680A /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
+				FB49A3CB2FA063AC0013680A /* SearchRotatedSortedArrayTest.swift */,
 				FB49A3C62FA061880013680A /* BinarySearchTest.swift */,
 			);
 			path = BinarySearch;
@@ -2467,6 +2474,7 @@
 				DECCEE6F27FCF8B4007BA99C /* LeadersInArray.swift in Sources */,
 				DECCEE6C27FCF8B4007BA99C /* DestinationCity.swift in Sources */,
 				DECA9DFB28C9EB0400E88CCD /* DepositProfit.swift in Sources */,
+				FB49A3CA2FA0638E0013680A /* SearchRotatedSortedArray.swift in Sources */,
 				DECCEE9E27FCF8B4007BA99C /* Car.swift in Sources */,
 				DECCEE6D27FCF8B4007BA99C /* RankTransformArray.swift in Sources */,
 				DECA9DEB28C94DA900E88CCD /* MineSweeper.swift in Sources */,
@@ -2932,6 +2940,7 @@
 				DECCEEAC27FCF8D7007BA99C /* FizzBuzz.swift in Sources */,
 				FB49A38A2F9DEAAA0013680A /* ThreeSum.swift in Sources */,
 				DEA5C1D9282B34AD004AE296 /* StudentGradingTest.swift in Sources */,
+				FB49A3C92FA0638E0013680A /* SearchRotatedSortedArray.swift in Sources */,
 				DE15998A28B755CB0081E2BE /* BattleShip.swift in Sources */,
 				DECCEF6B27FCF9C1007BA99C /* AllPathsTest.swift in Sources */,
 				DECCEF7727FCF9C1007BA99C /* CharacterExpansionTest.swift in Sources */,
@@ -2939,6 +2948,7 @@
 				DE15997828B4C77A0081E2BE /* TriangularSumTest.swift in Sources */,
 				DE71A318281F484C0003DD95 /* VisibleLeftmostTreeNodes.swift in Sources */,
 				DE4B8F55289A68C400DF9D4C /* HauntedMatrixSumTest.swift in Sources */,
+				FB49A3CC2FA063AC0013680A /* SearchRotatedSortedArrayTest.swift in Sources */,
 				DE4B8EF6287FFF1A00DF9D4C /* PhoneLetterCombinations.swift in Sources */,
 				DEE62542283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
 				DECCEF7D27FCF9C1007BA99C /* FileOpenerTest.swift in Sources */,
