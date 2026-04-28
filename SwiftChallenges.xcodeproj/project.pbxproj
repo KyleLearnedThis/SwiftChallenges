@@ -625,6 +625,10 @@
 		FB49A3B62F9F264A0013680A /* LinkedListCycle2Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */; };
 		FB49A3B82FA0548F0013680A /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3B72FA0548F0013680A /* MiddleOfTheLinkedList.swift */; };
 		FB49A3B92FA0548F0013680A /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3B72FA0548F0013680A /* MiddleOfTheLinkedList.swift */; };
+		FB49A3BB2FA056F80013680A /* MiddleOfTheLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3BA2FA056F80013680A /* MiddleOfTheLinkedListTest.swift */; };
+		FB49A3BD2FA057C70013680A /* FindDuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3BC2FA057C70013680A /* FindDuplicateNumber.swift */; };
+		FB49A3BE2FA057C70013680A /* FindDuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3BC2FA057C70013680A /* FindDuplicateNumber.swift */; };
+		FB49A3C02FA058170013680A /* FindDuplicateNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A3BF2FA058170013680A /* FindDuplicateNumberTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1056,6 +1060,9 @@
 		FB49A3B22F9F1C9F0013680A /* LinkedListCycle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle2.swift; sourceTree = "<group>"; };
 		FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle2Test.swift; sourceTree = "<group>"; };
 		FB49A3B72FA0548F0013680A /* MiddleOfTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedList.swift; sourceTree = "<group>"; };
+		FB49A3BA2FA056F80013680A /* MiddleOfTheLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedListTest.swift; sourceTree = "<group>"; };
+		FB49A3BC2FA057C70013680A /* FindDuplicateNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateNumber.swift; sourceTree = "<group>"; };
+		FB49A3BF2FA058170013680A /* FindDuplicateNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateNumberTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -2186,6 +2193,7 @@
 		FB49A3A02F9F15290013680A /* FastSlowPointers */ = {
 			isa = PBXGroup;
 			children = (
+				FB49A3BC2FA057C70013680A /* FindDuplicateNumber.swift */,
 				FB49A3A72F9F15D80013680A /* ListNode.swift */,
 				FB49A3A12F9F15590013680A /* LinkedListCycle.swift */,
 				FB49A3B22F9F1C9F0013680A /* LinkedListCycle2.swift */,
@@ -2197,8 +2205,10 @@
 		FB49A3A42F9F157E0013680A /* FastSlowPointers */ = {
 			isa = PBXGroup;
 			children = (
-				FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */,
+				FB49A3BF2FA058170013680A /* FindDuplicateNumberTest.swift */,
 				FB49A3A52F9F15990013680A /* LinkedListCycleTest.swift */,
+				FB49A3B52F9F264A0013680A /* LinkedListCycle2Test.swift */,
+				FB49A3BA2FA056F80013680A /* MiddleOfTheLinkedListTest.swift */,
 			);
 			path = FastSlowPointers;
 			sourceTree = "<group>";
@@ -2377,6 +2387,7 @@
 				DEE62541283AF408003EC784 /* DaysOfRussianProgrammer.swift in Sources */,
 				DE300C892852E0B00075B018 /* SortByCriteria.swift in Sources */,
 				DED7962C28507BB5005EF2E7 /* UniqueDigits.swift in Sources */,
+				FB49A3BD2FA057C70013680A /* FindDuplicateNumber.swift in Sources */,
 				FBB267552F95948300CF0DB9 /* MaxProfit.swift in Sources */,
 				DECCF07827FCFEE3007BA99C /* TruncateSentence.swift in Sources */,
 				DE2E0FA0280FF17B006D06FA /* UniformIntegers.swift in Sources */,
@@ -2632,6 +2643,7 @@
 				DECCEEE127FCF96B007BA99C /* Person.swift in Sources */,
 				DECCEEC027FCF93A007BA99C /* MergeSortedArray.swift in Sources */,
 				DECCEEE227FCF96F007BA99C /* ConvertTypes.swift in Sources */,
+				FB49A3BE2FA057C70013680A /* FindDuplicateNumber.swift in Sources */,
 				DEE62556283C5499003EC784 /* PageTurnCountTest.swift in Sources */,
 				DECCEF5827FCF9C1007BA99C /* FindAllPairsGivenSumTest.swift in Sources */,
 				DE15997E28B4C9730081E2BE /* MinimizeMaxPairSum.swift in Sources */,
@@ -2750,6 +2762,7 @@
 				DEA5C1E4282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
 				FBB267672F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift in Sources */,
 				DECCEEB027FCF8E1007BA99C /* ValidParentheses.swift in Sources */,
+				FB49A3C02FA058170013680A /* FindDuplicateNumberTest.swift in Sources */,
 				DECCEEE627FCF97C007BA99C /* SortDictionaryExample.swift in Sources */,
 				DECCEEB627FCF8F2007BA99C /* Fibonacci.swift in Sources */,
 				DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */,
@@ -2772,6 +2785,7 @@
 				DECCEF6327FCF9C1007BA99C /* LargestMissingNumberTest.swift in Sources */,
 				DECCF08D27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00127FCFBD3007BA99C /* Graph.swift in Sources */,
+				FB49A3BB2FA056F80013680A /* MiddleOfTheLinkedListTest.swift in Sources */,
 				DECCEEB827FCF919007BA99C /* ListReverse.swift in Sources */,
 				DEA5C1CF282B254D004AE296 /* MilitaryTimeTest.swift in Sources */,
 				DECCEEDE27FCF966007BA99C /* Phone.swift in Sources */,
