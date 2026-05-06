@@ -644,6 +644,9 @@
 		FB774C072FA998A100B1DC28 /* RangeSumQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774C062FA998A100B1DC28 /* RangeSumQuery.swift */; };
 		FB774C082FA998A100B1DC28 /* RangeSumQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774C062FA998A100B1DC28 /* RangeSumQuery.swift */; };
 		FB774C0A2FA998C300B1DC28 /* RangeSumQueryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774C092FA998C300B1DC28 /* RangeSumQueryTest.swift */; };
+		FB774C0C2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774C0B2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift */; };
+		FB774C0D2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774C0B2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift */; };
+		FB774C0F2FAAE5AB00B1DC28 /* ProductArrayExceptSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774C0E2FAAE5AB00B1DC28 /* ProductArrayExceptSelfTest.swift */; };
 		FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267502F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */; };
 		FBB267522F94892E00CF0DB9 /* LongestConsecutiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */; };
@@ -1088,6 +1091,8 @@
 		FB5E4FB52FA450F40014F0DF /* MedianTwoSortedArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianTwoSortedArraysTest.swift; sourceTree = "<group>"; };
 		FB774C062FA998A100B1DC28 /* RangeSumQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumQuery.swift; sourceTree = "<group>"; };
 		FB774C092FA998C300B1DC28 /* RangeSumQueryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumQueryTest.swift; sourceTree = "<group>"; };
+		FB774C0B2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductArrayExceptSelf.swift; sourceTree = "<group>"; };
+		FB774C0E2FAAE5AB00B1DC28 /* ProductArrayExceptSelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductArrayExceptSelfTest.swift; sourceTree = "<group>"; };
 		FBB2674E2F9488F100CF0DB9 /* LongestConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutive.swift; sourceTree = "<group>"; };
 		FBB267512F94892E00CF0DB9 /* LongestConsecutiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongestConsecutiveTest.swift; path = SwiftChallenges/Lab/collections/LongestConsecutiveTest.swift; sourceTree = SOURCE_ROOT; };
 		FBB267542F95948300CF0DB9 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
@@ -2267,6 +2272,7 @@
 		FB774C012FA997BD00B1DC28 /* PrefixSum */ = {
 			isa = PBXGroup;
 			children = (
+				FB774C0E2FAAE5AB00B1DC28 /* ProductArrayExceptSelfTest.swift */,
 				FB774C092FA998C300B1DC28 /* RangeSumQueryTest.swift */,
 			);
 			path = PrefixSum;
@@ -2276,6 +2282,7 @@
 			isa = PBXGroup;
 			children = (
 				FB774C062FA998A100B1DC28 /* RangeSumQuery.swift */,
+				FB774C0B2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift */,
 			);
 			path = PrefixSum;
 			sourceTree = "<group>";
@@ -2596,6 +2603,7 @@
 				DE4B8F66289B2BE400DF9D4C /* ReverseParentheses.swift in Sources */,
 				DED795BD2849F7C0005EF2E7 /* TrieNode.swift in Sources */,
 				FB49A3B82FA0548F0013680A /* MiddleOfTheLinkedList.swift in Sources */,
+				FB774C0C2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift in Sources */,
 				DED795C7284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */,
 				DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
 				FBB267622F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */,
@@ -2724,6 +2732,7 @@
 				FB49A39D2F9F115E0013680A /* ContainsDuplicate.swift in Sources */,
 				DECCEFED27FCFBAE007BA99C /* BinarySearchTree.swift in Sources */,
 				DECCEF6127FCF9C1007BA99C /* RelativeSortArrayTest.swift in Sources */,
+				FB774C0D2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift in Sources */,
 				DE4B8EF8287FFFF400DF9D4C /* PhoneLetterCombinationsTest.swift in Sources */,
 				FB5E4FAE2FA44C670014F0DF /* MinimumRotatedSortedArrayTest.swift in Sources */,
 				DECCF08827FD8DDD007BA99C /* GoalParser.swift in Sources */,
@@ -2885,6 +2894,7 @@
 				DECCEF9727FCF9C1007BA99C /* ThreeColorSortingTest.swift in Sources */,
 				DECCEEC827FCF942007BA99C /* DegreeOfArray.swift in Sources */,
 				DECCEF7C27FCF9C1007BA99C /* ReverseOnlyLettersTest.swift in Sources */,
+				FB774C0F2FAAE5AB00B1DC28 /* ProductArrayExceptSelfTest.swift in Sources */,
 				FB49A3912F9DF3CB0013680A /* ContainerWithMostWaterTest.swift in Sources */,
 				DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */,
 				DECA9DE928C818C100E88CCD /* BoxBlurTest.swift in Sources */,
