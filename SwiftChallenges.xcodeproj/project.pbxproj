@@ -606,6 +606,9 @@
 		FB2C5DB42FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */; };
 		FB2C5DB52FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */; };
 		FB2C5DB82FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */; };
+		FB2C5DBA2FD4CE49009550A1 /* LargestRectangleHistogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB92FD4CE49009550A1 /* LargestRectangleHistogram.swift */; };
+		FB2C5DBB2FD4CE49009550A1 /* LargestRectangleHistogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB92FD4CE49009550A1 /* LargestRectangleHistogram.swift */; };
+		FB2C5DBD2FD4D141009550A1 /* LargestRectangleHistogramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DBC2FD4D141009550A1 /* LargestRectangleHistogramTest.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1078,6 +1081,8 @@
 		FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStackTest.swift; sourceTree = "<group>"; };
 		FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EvaluateReversePolishNotation.swift; path = SwiftChallenges/NeetCode/Stack/EvaluateReversePolishNotation.swift; sourceTree = SOURCE_ROOT; };
 		FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotationTest.swift; sourceTree = "<group>"; };
+		FB2C5DB92FD4CE49009550A1 /* LargestRectangleHistogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangleHistogram.swift; sourceTree = "<group>"; };
+		FB2C5DBC2FD4D141009550A1 /* LargestRectangleHistogramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangleHistogramTest.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2177,6 +2182,7 @@
 			children = (
 				FB2C5DAD2FD40996009550A1 /* MinStack.swift */,
 				FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */,
+				FB2C5DB92FD4CE49009550A1 /* LargestRectangleHistogram.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -2184,8 +2190,9 @@
 		FB2C5DB02FD409EE009550A1 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */,
 				FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */,
+				FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */,
+				FB2C5DBC2FD4D141009550A1 /* LargestRectangleHistogramTest.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -2521,6 +2528,7 @@
 				DE1CA2FF27FEDCA7001D8BD1 /* PrintTriangle.swift in Sources */,
 				DE2E0F8F280EBF44006D06FA /* BattleshipProbability.swift in Sources */,
 				FB49A3A92F9F15D80013680A /* ListNode.swift in Sources */,
+				FB2C5DBB2FD4CE49009550A1 /* LargestRectangleHistogram.swift in Sources */,
 				DE604CA32806218800C62CE6 /* TwoSum.swift in Sources */,
 				DECCEE7627FCF8B4007BA99C /* HeightChecker.swift in Sources */,
 				DECCEE8927FCF8B4007BA99C /* CountNegativeMatrix.swift in Sources */,
@@ -2795,6 +2803,7 @@
 				DECCEF6527FCF9C1007BA99C /* MoneyInLeetcodeBankTest.swift in Sources */,
 				DE2E0F8D280EBE11006D06FA /* WrongAnswerOnlyTest.swift in Sources */,
 				DEDB4952283DA30E00B2238B /* HurdleRaceTest.swift in Sources */,
+				FB2C5DBA2FD4CE49009550A1 /* LargestRectangleHistogram.swift in Sources */,
 				FBB267562F95948300CF0DB9 /* MaxProfit.swift in Sources */,
 				DECCEFCD27FCFB50007BA99C /* Stack.swift in Sources */,
 				DECCEFE627FCFB99007BA99C /* QuickSort.swift in Sources */,
@@ -2887,6 +2896,7 @@
 				DEA5C1D4282B2E15004AE296 /* MiniMaxSumTest.swift in Sources */,
 				DECCEF6427FCF9C1007BA99C /* RepeatTwoNArrayTest.swift in Sources */,
 				DE7979E228D4364800696ACD /* MinimumFourDigitsSum.swift in Sources */,
+				FB2C5DBD2FD4D141009550A1 /* LargestRectangleHistogramTest.swift in Sources */,
 				DECCEED827FCF95A007BA99C /* HttpJsonExample.swift in Sources */,
 				DECCF07C27FCFF30007BA99C /* Pair.swift in Sources */,
 				DE4B8F45289A21C000DF9D4C /* KeyboardRowTest.swift in Sources */,
