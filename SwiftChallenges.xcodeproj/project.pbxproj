@@ -597,6 +597,9 @@
 		FB1DFB7E2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB7F2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB812FCFD98D00692126 /* ContinuousSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */; };
+		FB2C5DA82FD3FB2B009550A1 /* SubarraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */; };
+		FB2C5DA92FD3FB2B009550A1 /* SubarraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */; };
+		FB2C5DAB2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DAA2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1063,6 +1066,8 @@
 		DEE62555283C5499003EC784 /* PageTurnCountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageTurnCountTest.swift; path = SwiftChallenges/Lab/HackerRank/PageTurnCountTest.swift; sourceTree = SOURCE_ROOT; };
 		FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
+		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
+		FB2C5DAA2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsKTest.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2277,6 +2282,7 @@
 		FB774C012FA997BD00B1DC28 /* PrefixSum */ = {
 			isa = PBXGroup;
 			children = (
+				FB2C5DAA2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift */,
 				FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */,
 				FB774C0E2FAAE5AB00B1DC28 /* ProductArrayExceptSelfTest.swift */,
 				FB774C092FA998C300B1DC28 /* RangeSumQueryTest.swift */,
@@ -2290,6 +2296,7 @@
 				FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */,
 				FB774C0B2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift */,
 				FB774C062FA998A100B1DC28 /* RangeSumQuery.swift */,
+				FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */,
 			);
 			path = PrefixSum;
 			sourceTree = "<group>";
@@ -2374,7 +2381,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2650;
 				TargetAttributes = {
 					DECCEDF627FCF814007BA99C = {
 						CreatedOnToolsVersion = 13.3;
@@ -2554,6 +2561,7 @@
 				DECCEE8027FCF8B4007BA99C /* MedianOfTwoSortedArrays.swift in Sources */,
 				DEC3D828287EC21A00EB14F8 /* RobotOrigin.swift in Sources */,
 				DECCF07627FCFEE3007BA99C /* NumberOfJewelsInStones.swift in Sources */,
+				FB2C5DA92FD3FB2B009550A1 /* SubarraySumEqualsK.swift in Sources */,
 				DE2E0F9B280FEF7E006D06FA /* KaitenzushiPuzzle.swift in Sources */,
 				DE221EE82819473800CAE40D /* SimpleLinkedList.swift in Sources */,
 				DECCEE9227FCF8B4007BA99C /* LongestCommonPrefix.swift in Sources */,
@@ -2977,6 +2985,7 @@
 				DECCF08F27FD90AA007BA99C /* SortingSentenceTest.swift in Sources */,
 				FB49A3962F9EC7770013680A /* TrappingRainWaterTest.swift in Sources */,
 				DE1CA2FB27FED90A001D8BD1 /* NumberPlusMinusTeest.swift in Sources */,
+				FB2C5DAB2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift in Sources */,
 				DECCEF9B27FCF9C1007BA99C /* RansomNotesTest.swift in Sources */,
 				DE71A3392820A7060003DD95 /* MaximumPopulationYearTest.swift in Sources */,
 				DECCEEB227FCF8E6007BA99C /* TopKElements.swift in Sources */,
@@ -2997,6 +3006,7 @@
 				DECCF02E27FCFC36007BA99C /* DijkstraTest.swift in Sources */,
 				FB774C0A2FA998C300B1DC28 /* RangeSumQueryTest.swift in Sources */,
 				DECD6262286B049F000221F6 /* MaximumFrequencyStack.swift in Sources */,
+				FB2C5DA82FD3FB2B009550A1 /* SubarraySumEqualsK.swift in Sources */,
 				DE4B8F67289B2BE400DF9D4C /* ReverseParentheses.swift in Sources */,
 				DECCEF8927FCF9C1007BA99C /* SortDictionaryExampleTest.swift in Sources */,
 				DE71A31D281F92530003DD95 /* PartitionEqualSum.swift in Sources */,
@@ -3103,6 +3113,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -3169,6 +3180,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
