@@ -603,6 +603,9 @@
 		FB2C5DAE2FD40996009550A1 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DAD2FD40996009550A1 /* MinStack.swift */; };
 		FB2C5DAF2FD40996009550A1 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DAD2FD40996009550A1 /* MinStack.swift */; };
 		FB2C5DB22FD40A24009550A1 /* MinStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */; };
+		FB2C5DB42FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */; };
+		FB2C5DB52FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */; };
+		FB2C5DB82FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1073,6 +1076,8 @@
 		FB2C5DAA2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsKTest.swift; sourceTree = "<group>"; };
 		FB2C5DAD2FD40996009550A1 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStackTest.swift; sourceTree = "<group>"; };
+		FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EvaluateReversePolishNotation.swift; path = SwiftChallenges/NeetCode/Stack/EvaluateReversePolishNotation.swift; sourceTree = SOURCE_ROOT; };
+		FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotationTest.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2171,6 +2176,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2C5DAD2FD40996009550A1 /* MinStack.swift */,
+				FB2C5DB32FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -2178,6 +2184,7 @@
 		FB2C5DB02FD409EE009550A1 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				FB2C5DB62FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift */,
 				FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */,
 			);
 			path = Stack;
@@ -2470,6 +2477,7 @@
 				DECA9DF628C95E7500E88CCD /* ChessBoardCellColor.swift in Sources */,
 				DECCEE1527FCF839007BA99C /* NumberToBinary.swift in Sources */,
 				DEDB4954283DF75000B2238B /* UtopianTree.swift in Sources */,
+				FB2C5DB52FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift in Sources */,
 				DECCEE8E27FCF8B4007BA99C /* AirportRoute.swift in Sources */,
 				DECCEE7A27FCF8B4007BA99C /* BusyStudent.swift in Sources */,
 				DECCEE7D27FCF8B4007BA99C /* DailyTemperatures.swift in Sources */,
@@ -2710,6 +2718,7 @@
 				DE604CA92808D9AB00C62CE6 /* NumberOfWays.swift in Sources */,
 				DECCF08527FD8825007BA99C /* SmallerThanCurrentTest.swift in Sources */,
 				DECCEF9527FCF9C1007BA99C /* LongestCommonPrefixTest.swift in Sources */,
+				FB2C5DB42FD4C9CE009550A1 /* EvaluateReversePolishNotation.swift in Sources */,
 				FB49A3AE2F9F1B710013680A /* GroupAnagramsTest.swift in Sources */,
 				DECCEFE027FCFB99007BA99C /* Sorter.swift in Sources */,
 				DE4B8F58289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */,
@@ -3119,6 +3128,7 @@
 				DECCEEC927FCF942007BA99C /* MedianOfTwoSortedArrays.swift in Sources */,
 				DE7979DD28D29B7E00696ACD /* CombinationSumTest.swift in Sources */,
 				DE4B8F69289B2D8B00DF9D4C /* ReverseParenthesesTest.swift in Sources */,
+				FB2C5DB82FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift in Sources */,
 				DECCF03727FCFC36007BA99C /* HeapSortTest.swift in Sources */,
 				DECCEED527FCF94A007BA99C /* BasicCombineExample.swift in Sources */,
 			);
