@@ -600,6 +600,9 @@
 		FB2C5DA82FD3FB2B009550A1 /* SubarraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */; };
 		FB2C5DA92FD3FB2B009550A1 /* SubarraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */; };
 		FB2C5DAB2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DAA2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift */; };
+		FB2C5DAE2FD40996009550A1 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DAD2FD40996009550A1 /* MinStack.swift */; };
+		FB2C5DAF2FD40996009550A1 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DAD2FD40996009550A1 /* MinStack.swift */; };
+		FB2C5DB22FD40A24009550A1 /* MinStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1068,6 +1071,8 @@
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
 		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
 		FB2C5DAA2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsKTest.swift; sourceTree = "<group>"; };
+		FB2C5DAD2FD40996009550A1 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
+		FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStackTest.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2162,6 +2167,22 @@
 			path = dictionary;
 			sourceTree = "<group>";
 		};
+		FB2C5DAC2FD40971009550A1 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C5DAD2FD40996009550A1 /* MinStack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		FB2C5DB02FD409EE009550A1 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C5DB12FD40A24009550A1 /* MinStackTest.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		FB49A3842F9D8F120013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
@@ -2195,6 +2216,7 @@
 				FB49A3A42F9F157E0013680A /* FastSlowPointers */,
 				FB49A3C22FA05F880013680A /* BinarySearch */,
 				FB774C012FA997BD00B1DC28 /* PrefixSum */,
+				FB2C5DB02FD409EE009550A1 /* Stack */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2208,6 +2230,7 @@
 				FB49A3A02F9F15290013680A /* FastSlowPointers */,
 				FB49A3C12FA05F7D0013680A /* BinarySearch */,
 				FB774C052FA9983300B1DC28 /* PrefixSum */,
+				FB2C5DAC2FD40971009550A1 /* Stack */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2571,6 +2594,7 @@
 				DE15998228B6CF260081E2BE /* ArithmeticSubArrays.swift in Sources */,
 				DECCF06827FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
 				FB49A3C52FA05FC20013680A /* BinarySearch.swift in Sources */,
+				FB2C5DAF2FD40996009550A1 /* MinStack.swift in Sources */,
 				DE15998728B754F10081E2BE /* BattleShip.swift in Sources */,
 				DE15997228B4B7F90081E2BE /* SubrectangleQueries.swift in Sources */,
 				DECCEFCC27FCFB4C007BA99C /* Queue.swift in Sources */,
@@ -2951,6 +2975,7 @@
 				DECA9DEC28C94DA900E88CCD /* MineSweeper.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
 				DE2E0FA3280FF350006D06FA /* UniformIntegersTest.swift in Sources */,
+				FB2C5DAE2FD40996009550A1 /* MinStack.swift in Sources */,
 				DE604CB02808E23100C62CE6 /* RevenueMilestonesTest.swift in Sources */,
 				DE604CA62808136D00C62CE6 /* TwoSumTest.swift in Sources */,
 				DEC3D82B287EC26100EB14F8 /* RobotOriginTest.swift in Sources */,
@@ -2988,6 +3013,7 @@
 				FB2C5DAB2FD3FB8E009550A1 /* SubarraySumEqualsKTest.swift in Sources */,
 				DECCEF9B27FCF9C1007BA99C /* RansomNotesTest.swift in Sources */,
 				DE71A3392820A7060003DD95 /* MaximumPopulationYearTest.swift in Sources */,
+				FB2C5DB22FD40A24009550A1 /* MinStackTest.swift in Sources */,
 				DECCEEB227FCF8E6007BA99C /* TopKElements.swift in Sources */,
 				DECCEEB927FCF91C007BA99C /* SumOfTwoLists.swift in Sources */,
 				DE71A30B281D33F40003DD95 /* NSOrderedSetExampleTest.swift in Sources */,
