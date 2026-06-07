@@ -2266,7 +2266,6 @@
 		FB49A3972F9F0FE70013680A /* NeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C5DC92FD53304009550A1 /* LinkedList */,
 				FB49A39A2F9F10CB0013680A /* ArraysHashing */,
 				FB49A3852F9D8F470013680A /* TwoPointers */,
 				FBB267572F9594C300CF0DB9 /* SlidingWindow */,
@@ -2275,6 +2274,7 @@
 				FB774C012FA997BD00B1DC28 /* PrefixSum */,
 				FB2C5DB02FD409EE009550A1 /* Stack */,
 				FB2C5DC22FD527F5009550A1 /* MonotonicStack */,
+				FB2C5DC92FD53304009550A1 /* LinkedList */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2282,7 +2282,6 @@
 		FB49A3982F9F105F0013680A /* NeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C5DC52FD53248009550A1 /* LinkedList */,
 				FB49A3992F9F10C40013680A /* ArraysHashing */,
 				FB49A3842F9D8F120013680A /* TwoPointers */,
 				FBB267532F95943400CF0DB9 /* SlidingWindow */,
@@ -2291,6 +2290,7 @@
 				FB774C052FA9983300B1DC28 /* PrefixSum */,
 				FB2C5DAC2FD40971009550A1 /* Stack */,
 				FB2C5DBE2FD52798009550A1 /* MonotonicStack */,
+				FB2C5DC52FD53248009550A1 /* LinkedList */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
