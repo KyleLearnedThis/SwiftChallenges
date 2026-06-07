@@ -2246,9 +2246,9 @@
 		FB2C5DC92FD53304009550A1 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C5DD42FD54ECB009550A1 /* RemoveNthNodeFromEndOfListTest.swift */,
 				FB2C5DCF2FD53B9F009550A1 /* MergeTwoSortedListsTest.swift */,
 				FB2C5DCA2FD5335D009550A1 /* ReverseLinkedListTest.swift */,
+				FB2C5DD42FD54ECB009550A1 /* RemoveNthNodeFromEndOfListTest.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
