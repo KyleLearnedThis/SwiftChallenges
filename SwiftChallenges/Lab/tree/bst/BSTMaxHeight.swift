@@ -8,7 +8,7 @@
 import Foundation
 
 public class BSTMaxHeight {
-    public func maxDepth(root: TreeNode<Int>?) -> Int {
+    public func maxDepth(root: BSTNode<Int>?) -> Int {
         if root == nil {
             return 0
         }

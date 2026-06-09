@@ -9,7 +9,7 @@ import Foundation
 
 public class BinaryTreePrinter<T: Comparable> {
 
-    public static func maxLevel(node: TreeNode<T>?) -> Int {
+    public static func maxLevel(node: BSTNode<T>?) -> Int {
         if(node != nil) {
             return max(maxLevel(node: node?.left), maxLevel(node: node?.right)) + 1
         } else {
@@ -26,17 +26,17 @@ public class BinaryTreePrinter<T: Comparable> {
         }
     }
 
-    private static func isAllElementsNull(list: [TreeNode<T>?] ) -> Bool {
+    private static func isAllElementsNull(list: [BSTNode<T>?] ) -> Bool {
         return list.allSatisfy{ $0 == nil }
     }
 
-    public static func printNode(root: TreeNode<T>) {
+    public static func printNode(root: BSTNode<T>) {
         let maxLevel = BinaryTreePrinter.maxLevel(node: root)
         let list = [root]
         printNodeInternal(nodes: list, level: 1, maxLevel: maxLevel)
     }
 
-    private static func printNodeInternal(nodes: [TreeNode<T>?], level: Int, maxLevel: Int) {
+    private static func printNodeInternal(nodes: [BSTNode<T>?], level: Int, maxLevel: Int) {
 
         if(nodes.isEmpty || BinaryTreePrinter.isAllElementsNull(list: nodes)){
             return
@@ -48,7 +48,7 @@ public class BinaryTreePrinter<T: Comparable> {
         let betweenSpaces = intValue(value: pow(2, floor + 1)) - 1
         printWhiteSpaces(count: firstSpaces)
 
-        var newNodes: [TreeNode<T>?] = []
+        var newNodes: [BSTNode<T>?] = []
         for node in nodes {
             if(node != nil) {
                 if let val = node?.data {

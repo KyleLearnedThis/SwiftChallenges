@@ -32,7 +32,7 @@ class TwoSum {
     }
 
     // https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-    func findTarget(_ root: TreeNode<Int>?, _ k: Int) -> Bool {
+    func findTarget(_ root: BSTNode<Int>?, _ k: Int) -> Bool {
         var nums: [Int] = []
         var cache: [Int: Bool] = [:]
 
@@ -48,7 +48,7 @@ class TwoSum {
         return false
     }
 
-    private func traverse(_ tree: TreeNode<Int>?, nums: inout [Int]) {
+    private func traverse(_ tree: BSTNode<Int>?, nums: inout [Int]) {
         guard let tree = tree else { return }
         nums.append(tree.data)
         traverse(tree.left, nums: &nums)

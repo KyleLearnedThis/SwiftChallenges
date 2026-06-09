@@ -10,11 +10,11 @@
 class UnivaluedBinaryTree<T: Comparable> {
     var list: [T] = [T]()
 
-    func isUnivalueTree(_ root: TreeNode<T>?) -> Bool {
+    func isUnivalueTree(_ root: BSTNode<T>?) -> Bool {
         return isUnivalueTreeRecursion(root)
     }
 
-    func isUnivalueTreeRecursion(_ root: TreeNode<T>?) -> Bool {
+    func isUnivalueTreeRecursion(_ root: BSTNode<T>?) -> Bool {
         dfs(node: root)
 
         for i in list.indices {
@@ -28,7 +28,7 @@ class UnivaluedBinaryTree<T: Comparable> {
         return true
     }
 
-    private func dfs(node: TreeNode<T>?) {
+    private func dfs(node: BSTNode<T>?) {
         if node != nil {
             list.append(node!.data)
             dfs(node: node?.left)

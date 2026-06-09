@@ -1,5 +1,5 @@
 //
-//  VisibleLeftmostTreeNodes.swift
+//  VisibleLeftmostBSTNodes.swift
 //  SwiftChallenges
 //
 //  Created by KyleLearnedThis on 5/1/22.
@@ -8,7 +8,7 @@
 import Foundation
 
 
-class WidgetNode: TreeNode<Int> {
+class WidgetNode: BSTNode<Int> {
     init(_ data: Int, left: WidgetNode? = nil, right: WidgetNode? = nil) {
         super.init(data: data, leftNode: left, rightNode: right)
     }
@@ -25,9 +25,9 @@ extension WidgetNode {
         if node == nil {
             return 0
         }
-        var queue = [TreeNode<Int>?]()
+        var queue = [BSTNode<Int>?]()
         queue.append(node)
-        var cur: TreeNode<Int>? = nil
+        var cur: BSTNode<Int>? = nil
         while !queue.isEmpty {
             let size = queue.count
             var i = 0
@@ -54,6 +54,6 @@ extension WidgetNode {
     }
 }
 
-class VisibleLeftmostTreeNodes {
+class VisibleLeftmostBSTNodes {
     // Stub only
 }

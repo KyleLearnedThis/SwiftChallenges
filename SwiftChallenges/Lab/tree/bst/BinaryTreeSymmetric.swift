@@ -8,7 +8,7 @@
 import Foundation
 
 class BinaryTreeSymmetric {
-    func isSymmetric(_ root: TreeNode<Int>?) -> Bool {
+    func isSymmetric(_ root: BSTNode<Int>?) -> Bool {
         if root == nil {
             return true
         }
@@ -16,7 +16,7 @@ class BinaryTreeSymmetric {
         return isSymmetricWork(left: root?.left, right: root?.right)
     }
 
-    private func isSymmetricWork(left: TreeNode<Int>?, right: TreeNode<Int>?) -> Bool {
+    private func isSymmetricWork(left: BSTNode<Int>?, right: BSTNode<Int>?) -> Bool {
         if left == nil || right == nil {
             return left === right
         }

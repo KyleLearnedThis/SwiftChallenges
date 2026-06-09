@@ -8,7 +8,7 @@
 import Foundation
 
 public class BinarySearchTree<T: Comparable> {
-    var root : TreeNode<T>? = nil
+    var root : BSTNode<T>? = nil
 
     init() {
         root = nil
@@ -25,7 +25,7 @@ public class BinarySearchTree<T: Comparable> {
     }
 
     func insert(element: T) {
-        let node = TreeNode(data: element)
+        let node = BSTNode(data: element)
         if let rootNode = self.root {
             // starts from root
             self.insertWork(rootNode, node)
@@ -35,7 +35,7 @@ public class BinarySearchTree<T: Comparable> {
         }
     }
 
-    private func insertWork(_ currentNode: TreeNode<T>?, _ node: TreeNode<T>) {
+    private func insertWork(_ currentNode: BSTNode<T>?, _ node: BSTNode<T>) {
         let cur = currentNode
         // If this is dupilcate, don't insert
         guard cur?.data != node.data else { return }
@@ -54,7 +54,7 @@ public class BinarySearchTree<T: Comparable> {
         }
     }
 
-    public func search(searchValue: T) -> TreeNode<T>? {
+    public func search(searchValue: T) -> BSTNode<T>? {
         var cur = root
         while(cur != nil) {
             if searchValue == cur?.data {
@@ -73,7 +73,7 @@ public class BinarySearchTree<T: Comparable> {
         print("")
     }
 
-    func preOrder(node: TreeNode<T>?) {
+    func preOrder(node: BSTNode<T>?) {
         if node == nil {
             return
         }
@@ -89,7 +89,7 @@ public class BinarySearchTree<T: Comparable> {
         print("")
     }
 
-    func inOrder(node: TreeNode<T>?) {
+    func inOrder(node: BSTNode<T>?) {
         if node == nil {
             return
         }
@@ -105,7 +105,7 @@ public class BinarySearchTree<T: Comparable> {
         print("")
     }
 
-    func postOrder(node: TreeNode<T>?) {
+    func postOrder(node: BSTNode<T>?) {
         if node == nil {
             return
         }
@@ -118,11 +118,11 @@ public class BinarySearchTree<T: Comparable> {
 
     func printLevelOrder() {
         guard let node = root else { return }
-        var queue = [TreeNode<T>?]()
+        var queue = [BSTNode<T>?]()
         queue.append(node)
 
         while !queue.isEmpty {
-            let cur: TreeNode<T>? = queue.removeFirst()
+            let cur: BSTNode<T>? = queue.removeFirst()
             printString(cur!.data)
             if let left = cur?.left {
                 queue.append(left)
@@ -138,7 +138,7 @@ public class BinarySearchTree<T: Comparable> {
         print("[\(String(describing: value))]", terminator: " ")
     }
 
-    public func maxLevel(node: TreeNode<T>?) -> Int {
+    public func maxLevel(node: BSTNode<T>?) -> Int {
         if(node != nil) {
             return max(maxLevel(node: node?.left), maxLevel(node: node?.right)) + 1
         } else {
@@ -146,7 +146,7 @@ public class BinarySearchTree<T: Comparable> {
         }
     }
 
-    public func getRoot() -> TreeNode<T>? {
+    public func getRoot() -> BSTNode<T>? {
         return root
     }
 }

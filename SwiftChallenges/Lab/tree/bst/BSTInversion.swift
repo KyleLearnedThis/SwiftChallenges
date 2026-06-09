@@ -8,19 +8,19 @@
 import Foundation
 
 public class BSTInversion {
-    public var root: TreeNode<Int>?
-    public init(node: TreeNode<Int>? = nil) {
+    public var root: BSTNode<Int>?
+    public init(node: BSTNode<Int>? = nil) {
         self.root = node
     }
 
-    public func inversion(node: TreeNode<Int>?) -> TreeNode<Int>? {
+    public func inversion(node: BSTNode<Int>?) -> BSTNode<Int>? {
         if node != nil {
             helper(node: node)
         }
         return node
     }
 
-    private func helper(node: TreeNode<Int>?) {
+    private func helper(node: BSTNode<Int>?) {
         let temp = node?.left
         node?.left = node?.right
         node?.right = temp

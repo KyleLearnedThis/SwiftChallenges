@@ -8,18 +8,18 @@
 import Foundation
 
 class PreOrderBST {
-    func bstFromPreorder(_ input: [Int]) -> TreeNode<Int>? {
+    func bstFromPreorder(_ input: [Int]) -> BSTNode<Int>? {
         guard !input.isEmpty else { return nil }
-        var root: TreeNode<Int>? = nil
+        var root: BSTNode<Int>? = nil
         for item in input {
             push(item, &root)
         }
         return root
     }
 
-    func push(_ item: Int, _ node: inout TreeNode<Int>?) {
+    func push(_ item: Int, _ node: inout BSTNode<Int>?) {
         guard let cur = node else {
-            node = TreeNode(data: item)
+            node = BSTNode(data: item)
             return
         }
         if item > cur.data {

@@ -10,7 +10,7 @@ import Foundation
 
 
 class MergeTwoBST {
-    func mergeTrees(_ t1: TreeNode<Int>?, _ t2: TreeNode<Int>?) -> TreeNode<Int>? {
+    func mergeTrees(_ t1: BSTNode<Int>?, _ t2: BSTNode<Int>?) -> BSTNode<Int>? {
         if t1 == nil {
             return t2
         }

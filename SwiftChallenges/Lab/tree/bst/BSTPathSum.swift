@@ -8,7 +8,7 @@
 import Foundation
 
 class BSTPathSum {
-    func pathSum(_ root: TreeNode<Int>?, sum: Int) -> Array<Array<Int>> {
+    func pathSum(_ root: BSTNode<Int>?, sum: Int) -> Array<Array<Int>> {
         var result = Array<Array<Int>>()
         if root == nil {
             return result
@@ -22,7 +22,7 @@ class BSTPathSum {
         return result
     }
 
-    func dfs(node: TreeNode<Int>?, sum: Int, result: inout Array<Array<Int>>, list: inout Array<Int>) {
+    func dfs(node: BSTNode<Int>?, sum: Int, result: inout Array<Array<Int>>, list: inout Array<Int>) {
         let left = node?.left
         let right = node?.right
 
@@ -48,7 +48,7 @@ class BSTPathSum {
         }
     }
 
-    func hasPathSum(_ node: TreeNode<Int>?,_ sum: Int) -> Bool {
+    func hasPathSum(_ node: BSTNode<Int>?,_ sum: Int) -> Bool {
         let result = pathSum(node, sum: sum)
         return result.count >= 1
     }

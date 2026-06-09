@@ -1,5 +1,5 @@
 //
-//  VisibleLeftmostTreeNodesTest.swift
+//  VisibleLeftmostBSTNodesTest.swift
 //  SwiftChallengesTests
 //
 //  Created by KyleLearnedThis on 5/1/22.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-class VisibleLeftmostTreeNodesTest: XCTestCase {
+class VisibleLeftmostBSTNodesTest: XCTestCase {
     func testBasic01() throws {
         let expected = 4
         let root: WidgetNode? = WidgetNode(8,
