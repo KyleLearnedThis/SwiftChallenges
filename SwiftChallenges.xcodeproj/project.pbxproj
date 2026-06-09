@@ -632,6 +632,8 @@
 		FB2C5DEE2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */; };
 		FB2C5DEF2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */; };
 		FB2C5DF12FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */; };
+		93B48BDB12AD4876A8414F70 /* TreePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000075220BA4121BAC5C8F4 /* TreePrinter.swift */; };
+		C7FBECB1581E4A01B10333B5 /* TreePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000075220BA4121BAC5C8F4 /* TreePrinter.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1121,6 +1123,7 @@
 		FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListIITest.swift; sourceTree = "<group>"; };
 		FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTree.swift; sourceTree = "<group>"; };
 		FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTreeTest.swift; sourceTree = "<group>"; };
+		2000075220BA4121BAC5C8F4 /* TreePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreePrinter.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2306,6 +2309,14 @@
 			path = TreesBfsDfs;
 			sourceTree = "<group>";
 		};
+		FB2C5DF22FD7C1A9009550A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2000075220BA4121BAC5C8F4 /* TreePrinter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FB49A3842F9D8F120013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
@@ -2351,6 +2362,7 @@
 		FB49A3982F9F105F0013680A /* NeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				FB2C5DF22FD7C1A9009550A1 /* Utils */,
 				FB49A3992F9F10C40013680A /* ArraysHashing */,
 				FB49A3842F9D8F120013680A /* TwoPointers */,
 				FBB267532F95943400CF0DB9 /* SlidingWindow */,
@@ -2783,6 +2795,7 @@
 				FB49A3B82FA0548F0013680A /* MiddleOfTheLinkedList.swift in Sources */,
 				FB2C5DEF2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift in Sources */,
 				7B14CEAD741A462F8DE1E064 /* TreeNode.swift in Sources */,
+				93B48BDB12AD4876A8414F70 /* TreePrinter.swift in Sources */,
 				FB774C0C2FAAE53700B1DC28 /* ProductArrayExceptSelf.swift in Sources */,
 				DED795C7284DE7DA005EF2E7 /* BaseOrderedMap.swift in Sources */,
 				DEDB4959283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
@@ -3233,6 +3246,7 @@
 				DE2E0FA1280FF17B006D06FA /* UniformIntegers.swift in Sources */,
 				FB2C5DEE2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift in Sources */,
 				DDC4025CC2D64D59B2746916 /* TreeNode.swift in Sources */,
+				C7FBECB1581E4A01B10333B5 /* TreePrinter.swift in Sources */,
 				DE15998328B6CF260081E2BE /* ArithmeticSubArrays.swift in Sources */,
 				DECCEEAE27FCF8DD007BA99C /* LongestCommonPrefix.swift in Sources */,
 				DECCEFCE27FCFB50007BA99C /* PriorityQueue.swift in Sources */,
