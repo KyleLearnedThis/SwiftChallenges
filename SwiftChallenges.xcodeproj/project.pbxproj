@@ -624,6 +624,9 @@
 		FB2C5DD72FD54FE7009550A1 /* MergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DD62FD54FE7009550A1 /* MergeKSortedLists.swift */; };
 		FB2C5DD82FD54FE7009550A1 /* MergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DD62FD54FE7009550A1 /* MergeKSortedLists.swift */; };
 		FB2C5DDD2FD5506C009550A1 /* MergeKSortedListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DDC2FD5506C009550A1 /* MergeKSortedListsTest.swift */; };
+		FB2C5DE52FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */; };
+		FB2C5DE62FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */; };
+		FB2C5DEA2FD61D2E009550A1 /* ReverseLinkedListIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1108,6 +1111,8 @@
 		FB2C5DD42FD54ECB009550A1 /* RemoveNthNodeFromEndOfListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfListTest.swift; sourceTree = "<group>"; };
 		FB2C5DD62FD54FE7009550A1 /* MergeKSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MergeKSortedLists.swift; path = SwiftChallenges/NeetCode/LinkedList/MergeKSortedLists.swift; sourceTree = SOURCE_ROOT; };
 		FB2C5DDC2FD5506C009550A1 /* MergeKSortedListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedListsTest.swift; sourceTree = "<group>"; };
+		FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListII.swift; sourceTree = "<group>"; };
+		FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListIITest.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2260,6 +2265,22 @@
 			path = LinkedList;
 			sourceTree = "<group>";
 		};
+		FB2C5DE22FD61BC5009550A1 /* ReverseLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */,
+			);
+			path = ReverseLinkedList;
+			sourceTree = "<group>";
+		};
+		FB2C5DE32FD61BD3009550A1 /* ReverseLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */,
+			);
+			path = ReverseLinkedList;
+			sourceTree = "<group>";
+		};
 		FB49A3842F9D8F120013680A /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
@@ -2296,6 +2317,7 @@
 				FB2C5DB02FD409EE009550A1 /* Stack */,
 				FB2C5DC22FD527F5009550A1 /* MonotonicStack */,
 				FB2C5DC92FD53304009550A1 /* LinkedList */,
+				FB2C5DE32FD61BD3009550A1 /* ReverseLinkedList */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2312,6 +2334,7 @@
 				FB2C5DAC2FD40971009550A1 /* Stack */,
 				FB2C5DBE2FD52798009550A1 /* MonotonicStack */,
 				FB2C5DC52FD53248009550A1 /* LinkedList */,
+				FB2C5DE22FD61BC5009550A1 /* ReverseLinkedList */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2605,6 +2628,7 @@
 				DECCF06A27FCFEE3007BA99C /* StringArraysEquivalent.swift in Sources */,
 				FB49A3AB2F9F1B640013680A /* GroupAnagrams.swift in Sources */,
 				FB2C5DD82FD54FE7009550A1 /* MergeKSortedLists.swift in Sources */,
+				FB2C5DE52FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */,
 				DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
@@ -2961,6 +2985,7 @@
 				DEDB495A283E2EEA00B2238B /* CircularArrayQuery.swift in Sources */,
 				DECCEF9A27FCF9C1007BA99C /* CountNegativeMatrixTest.swift in Sources */,
 				DECCEEB127FCF8E3007BA99C /* StockTrading.swift in Sources */,
+				FB2C5DE62FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */,
 				DECCF04D27FCFE49007BA99C /* BSTInversion.swift in Sources */,
 				DECCEF9627FCF9C1007BA99C /* StockTradingTest.swift in Sources */,
 				DECCEEE527FCF97C007BA99C /* MappingTransform.swift in Sources */,
@@ -3182,6 +3207,7 @@
 				DECCF03427FCFC36007BA99C /* BinarySearchTreeTest.swift in Sources */,
 				FB49A3832F9D8D140013680A /* TwoSum2.swift in Sources */,
 				DECCEFCF27FCFB50007BA99C /* Queue.swift in Sources */,
+				FB2C5DEA2FD61D2E009550A1 /* ReverseLinkedListIITest.swift in Sources */,
 				DECCF07B27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DED796252850140A005EF2E7 /* NumberOfIslands.swift in Sources */,
 				DECCEF9D27FCF9C1007BA99C /* DetectCyclicListTest.swift in Sources */,
