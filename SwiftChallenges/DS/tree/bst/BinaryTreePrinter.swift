@@ -5,97 +5,72 @@
 //  Copyright © 2019 kylelearnedthis. All rights reserved.
 //
 
-import Foundation
+public class BinaryTreePrinter<T> {
 
-public class BinaryTreePrinter<T: Comparable> {
-
-    public static func maxLevel(node: BSTNode<T>?) -> Int {
-        if(node != nil) {
-            return max(maxLevel(node: node?.left), maxLevel(node: node?.right)) + 1
-        } else {
-            return 0
-        }
-    }
-
-    private static func printWhiteSpaces(count: Int) {
-        if(count <= 0) {
-            return
-        }
-        for _ in 0..<count {
-            print(" ", terminator: " ")
-        }
-    }
-
-    private static func isAllElementsNull(list: [BSTNode<T>?] ) -> Bool {
-        return list.allSatisfy{ $0 == nil }
+    public static func maxLevel(_ node: BSTNode<T>?) -> Int {
+        guard let node else { return 0 }
+        return max(maxLevel(node.left), maxLevel(node.right)) + 1
     }
 
     public static func printNode(root: BSTNode<T>) {
-        let maxLevel = BinaryTreePrinter.maxLevel(node: root)
-        let list = [root]
-        printNodeInternal(nodes: list, level: 1, maxLevel: maxLevel)
+        let maxLevel = BinaryTreePrinter.maxLevel(root)
+        printInternal(nodes: [Optional(root)], level: 1, maxLevel: maxLevel)
     }
 
-    private static func printNodeInternal(nodes: [BSTNode<T>?], level: Int, maxLevel: Int) {
-
-        if(nodes.isEmpty || BinaryTreePrinter.isAllElementsNull(list: nodes)){
-            return
-        }
+    private static func printInternal(nodes: [BSTNode<T>?], level: Int, maxLevel: Int) {
+        if nodes.isEmpty || nodes.allSatisfy({ $0 == nil }) { return }
 
         let floor = maxLevel - level
-        let edgeLines = intValue(value: pow(2, max(floor - 1, 0)))
-        let firstSpaces = intValue(value: pow(2, floor)) - 1
-        let betweenSpaces = intValue(value: pow(2, floor + 1)) - 1
-        printWhiteSpaces(count: firstSpaces)
+        let edgeLines = 1 << max(floor - 1, 0)
+        let firstSpaces = (1 << floor) - 1
+        let betweenSpaces = (1 << (floor + 1)) - 1
 
-        var newNodes: [BSTNode<T>?] = []
+        printSpaces(firstSpaces)
+
+        var nextNodes: [BSTNode<T>?] = []
         for node in nodes {
-            if(node != nil) {
-                if let val = node?.data {
-                    print(val, terminator: " ")
-                }
-                newNodes.append(node?.left)
-                newNodes.append(node?.right)
+            if let node {
+                print(node.data, terminator: " ")
+                nextNodes.append(node.left)
+                nextNodes.append(node.right)
             } else {
-                newNodes.append(nil)
-                newNodes.append(nil)
                 print(" ", terminator: " ")
+                nextNodes.append(nil)
+                nextNodes.append(nil)
             }
-
-            printWhiteSpaces(count: betweenSpaces)
+            printSpaces(betweenSpaces)
         }
         print("")
 
-        for i in 1...edgeLines {
+        for i in 1...max(edgeLines, 1) {
+            guard edgeLines > 0 else { break }
             for j in 0..<nodes.count {
-                printWhiteSpaces(count: firstSpaces - i)
-                if(nodes[j] == nil) {
-                    printWhiteSpaces(count: edgeLines + edgeLines + i + 1)
+                printSpaces(firstSpaces - i)
+                if nodes[j] == nil {
+                    printSpaces(edgeLines + edgeLines + i + 1)
                     continue
                 }
-
-                if(nodes[j]?.left != nil) {
+                if nodes[j]?.left != nil {
                     print("/", terminator: " ")
                 } else {
-                    printWhiteSpaces(count: 1)
+                    printSpaces(1)
                 }
-
-                printWhiteSpaces(count: i + i - 1)
-
-                if(nodes[j]?.right != nil) {
+                printSpaces(i + i - 1)
+                if nodes[j]?.right != nil {
                     print("\\", terminator: " ")
                 } else {
-                    printWhiteSpaces(count: 1)
+                    printSpaces(1)
                 }
-
-                printWhiteSpaces(count: edgeLines + edgeLines - i)
+                printSpaces(edgeLines + edgeLines - i)
             }
             print("")
         }
-        printNodeInternal(nodes: newNodes, level: level + 1, maxLevel: maxLevel);
+
+        printInternal(nodes: nextNodes, level: level + 1, maxLevel: maxLevel)
     }
 
-    private static func intValue(value: Decimal) -> Int {
-        return NSDecimalNumber(decimal: value).intValue
+    private static func printSpaces(_ count: Int) {
+        guard count > 0 else { return }
+        print(String(repeating: " ", count: count), terminator: "")
     }
 }
