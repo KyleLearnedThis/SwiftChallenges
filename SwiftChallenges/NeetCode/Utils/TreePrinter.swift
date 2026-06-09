@@ -1,36 +1,37 @@
 //
-//  BinaryTreePrinter.swift
-//  SwiftDS
-//
-//  Copyright © 2019 kylelearnedthis. All rights reserved.
+//  TreePrinter.swift
+//  SwiftChallenges
 //
 
-public class BinaryTreePrinter<T> {
+import Foundation
 
-    public static func maxLevel(_ node: BSTNode<T>?) -> Int {
+public class TreePrinter {
+
+    public static func maxLevel(_ node: TreeNode?) -> Int {
         guard let node else { return 0 }
         return max(maxLevel(node.left), maxLevel(node.right)) + 1
     }
 
-    public static func printNode(root: BSTNode<T>) {
-        let maxLevel = BinaryTreePrinter.maxLevel(root)
-        printInternal(nodes: [Optional(root)], level: 1, maxLevel: maxLevel)
+    public static func printTree(_ root: TreeNode?) {
+        guard let root else { return }
+        let maxLevel = TreePrinter.maxLevel(root)
+        printInternal(nodes: [root], level: 1, maxLevel: maxLevel)
     }
 
-    private static func printInternal(nodes: [BSTNode<T>?], level: Int, maxLevel: Int) {
+    private static func printInternal(nodes: [TreeNode?], level: Int, maxLevel: Int) {
         if nodes.isEmpty || nodes.allSatisfy({ $0 == nil }) { return }
 
         let floor = maxLevel - level
-        let edgeLines = 1 << max(floor - 1, 0)
-        let firstSpaces = (1 << floor) - 1
-        let betweenSpaces = (1 << (floor + 1)) - 1
+        let edgeLines = intValue(pow(2, max(floor - 1, 0)))
+        let firstSpaces = intValue(pow(2, floor)) - 1
+        let betweenSpaces = intValue(pow(2, floor + 1)) - 1
 
         printSpaces(firstSpaces)
 
-        var nextNodes: [BSTNode<T>?] = []
+        var nextNodes: [TreeNode?] = []
         for node in nodes {
             if let node {
-                print(node.data, terminator: " ")
+                print(node.val, terminator: " ")
                 nextNodes.append(node.left)
                 nextNodes.append(node.right)
             } else {
@@ -72,5 +73,9 @@ public class BinaryTreePrinter<T> {
     private static func printSpaces(_ count: Int) {
         guard count > 0 else { return }
         print(String(repeating: " ", count: count), terminator: "")
+    }
+
+    private static func intValue(_ value: Decimal) -> Int {
+        return NSDecimalNumber(decimal: value).intValue
     }
 }
