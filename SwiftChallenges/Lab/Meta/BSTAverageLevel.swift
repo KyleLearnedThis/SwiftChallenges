@@ -8,9 +8,9 @@
 import Foundation
 
 class BSTAverageLevel {
-    static func bfs(_ root: TreeNode<Int>?) -> [Double] {
+    static func bfs(_ root: BSTNode<Int>?) -> [Double] {
         var result = [Double]()
-        var queue = [TreeNode<Int>?]()
+        var queue = [BSTNode<Int>?]()
 
         if root == nil {
             return result
@@ -36,7 +36,7 @@ class BSTAverageLevel {
         return result
     }
 
-    static func dfs(_ root: TreeNode<Int>?) -> [Double] {
+    static func dfs(_ root: BSTNode<Int>?) -> [Double] {
         var result = [Double]()
         var map = [Int: [Int]]()
 
@@ -55,7 +55,7 @@ class BSTAverageLevel {
         return result
     }
 
-    static func dfsWork(_ level: Int, _ node: TreeNode<Int>?, _ map: inout [Int: [Int]]) {
+    static func dfsWork(_ level: Int, _ node: BSTNode<Int>?, _ map: inout [Int: [Int]]) {
         if node == nil {
             return
         }
@@ -69,7 +69,7 @@ class BSTAverageLevel {
         dfsWork(level+1, node?.right, &map)
     }
 
-    static func height(node: TreeNode<Int>?) -> Int {
+    static func height(node: BSTNode<Int>?) -> Int {
         if node == nil {
             return 0
         } else {

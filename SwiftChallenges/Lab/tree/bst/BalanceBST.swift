@@ -10,7 +10,7 @@ import Foundation
 
 class BalanceBST {
     var list = [Int]()
-    func balanceBST(_ root: TreeNode<Int>?) -> TreeNode<Int>? {
+    func balanceBST(_ root: BSTNode<Int>?) -> BSTNode<Int>? {
         if root == nil {
             return nil
         }
@@ -24,7 +24,7 @@ class BalanceBST {
         return result
     }
 
-    private func getAllNodes(_ root: TreeNode<Int>?) {
+    private func getAllNodes(_ root: BSTNode<Int>?) {
         if root == nil {
             return
         }

@@ -8,7 +8,7 @@
 
 class BSTKthElement {
     var result = [Int]()
-    func kthSmallest(_ root: TreeNode<Int>?, _ k: Int) -> Int {
+    func kthSmallest(_ root: BSTNode<Int>?, _ k: Int) -> Int {
         inOrderWork(node: root) // k is 1 based index
 
         if !result.isEmpty && result.count >= k && k >= 1{
@@ -17,7 +17,7 @@ class BSTKthElement {
         return -1
     }
 
-    func inOrderWork(node: TreeNode<Int>?) {
+    func inOrderWork(node: BSTNode<Int>?) {
         if let left = node?.left {
             inOrderWork(node: left)
         }

@@ -8,7 +8,7 @@
 import Foundation
 
 class BSTMode {
-    func findMode(_ root: TreeNode<Int>?) -> [Int] {
+    func findMode(_ root: BSTNode<Int>?) -> [Int] {
         var dict = [Int:Int]()
         var result = [Int]()
         findModeWork(root, &dict) // traverse entire tree to build dict
@@ -17,7 +17,7 @@ class BSTMode {
         return result
     }
 
-    private func findModeWork(_ node: TreeNode<Int>?, _ dict: inout [Int:Int]) {
+    private func findModeWork(_ node: BSTNode<Int>?, _ dict: inout [Int:Int]) {
         if node == nil {
             return
         } else {

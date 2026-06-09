@@ -20,9 +20,9 @@ class BSTModeTest: XCTestCase {
     }
 
     func testBasic02() throws {
-        let root = TreeNode<Int>(data: 1)
-        let t1 = TreeNode<Int>(data: 2)
-        let t2 = TreeNode<Int>(data: 2)
+        let root = BSTNode<Int>(data: 1)
+        let t1 = BSTNode<Int>(data: 2)
+        let t2 = BSTNode<Int>(data: 2)
         root.right = t1
         t1.left = t2
         BinaryTreePrinter.printNode(root: root)
@@ -33,8 +33,8 @@ class BSTModeTest: XCTestCase {
     }
 
     func testBasic03() throws {
-        let root = TreeNode<Int>(data: 1)
-        let t1 = TreeNode<Int>(data: 2)
+        let root = BSTNode<Int>(data: 1)
+        let t1 = BSTNode<Int>(data: 2)
         root.right = t1
         BinaryTreePrinter.printNode(root: root)
         let mode = BSTMode()

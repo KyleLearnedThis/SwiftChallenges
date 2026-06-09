@@ -1,5 +1,5 @@
 //
-//  TreeNode.swift
+//  BSTNode.swift
 //  SwiftExercises
 //
 //  Copyright © 2018 kylelearnedthis. All rights reserved.
@@ -7,14 +7,14 @@
 
 import Foundation
 
-public class TreeNode<T> {
+public class BSTNode<T> {
     open var data: T
-    open var left: TreeNode?
-    open var right: TreeNode?
+    open var left: BSTNode?
+    open var right: BSTNode?
 
     public init(data: T,
-        leftNode: TreeNode? = nil,
-        rightNode: TreeNode? = nil) {
+        leftNode: BSTNode? = nil,
+        rightNode: BSTNode? = nil) {
         self.data = data
         self.left = leftNode
         self.right = rightNode

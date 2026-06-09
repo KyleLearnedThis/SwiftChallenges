@@ -8,7 +8,7 @@
 import Foundation
 
 class BSTLowestCommonAncestor {
-    func lowestCommonAncestor(_ root: TreeNode<Int>?, _ p: TreeNode<Int>?, _ q: TreeNode<Int>?) -> TreeNode<Int>? {
+    func lowestCommonAncestor(_ root: BSTNode<Int>?, _ p: BSTNode<Int>?, _ q: BSTNode<Int>?) -> BSTNode<Int>? {
 
         let parentVal = root!.data
         let pVal = p!.data

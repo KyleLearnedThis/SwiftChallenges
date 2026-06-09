@@ -8,19 +8,19 @@
 import Foundation
 
 public class HeightBalancedTree {
-    public func sortedArrayToBST(nums: Array<Int>) -> TreeNode<Int>? {
+    public func sortedArrayToBST(nums: Array<Int>) -> BSTNode<Int>? {
         if nums.isEmpty {
             return nil
         }
         return sortedArrayToBST(nums: nums, low: 0, high: nums.count - 1)
     }
 
-    public func sortedArrayToBST(nums: Array<Int>, low: Int, high: Int) -> TreeNode<Int>? {
+    public func sortedArrayToBST(nums: Array<Int>, low: Int, high: Int) -> BSTNode<Int>? {
         if low > high {
             return nil
         }
         let mid = (high + low) / 2
-        let cur = TreeNode<Int>(data: nums[mid])
+        let cur = BSTNode<Int>(data: nums[mid])
         cur.left = sortedArrayToBST(nums: nums, low: low, high: mid - 1)
         cur.right = sortedArrayToBST(nums: nums, low: mid + 1, high: high)
         return cur

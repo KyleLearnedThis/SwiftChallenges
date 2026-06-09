@@ -7,7 +7,7 @@
 
 
 public class AllPaths {
-    public func binaryTreePaths(root: TreeNode<Int>?) -> Array<String> {
+    public func binaryTreePaths(root: BSTNode<Int>?) -> Array<String> {
         var finalResult: Array<String> = []
         if root == nil {
             return finalResult
@@ -24,7 +24,7 @@ public class AllPaths {
         return finalResult
     }
 
-    func dfs(root: inout TreeNode<Int>?, allPaths: inout Array<Array<String>>, path: inout Array<String>) {
+    func dfs(root: inout BSTNode<Int>?, allPaths: inout Array<Array<String>>, path: inout Array<String>) {
         if let x = root?.data {
             path.append(String(x))
         }
