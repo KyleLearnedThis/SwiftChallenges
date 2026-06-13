@@ -601,6 +601,9 @@
 		FB1543952FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543942FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift */; };
 		FB1543962FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543942FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift */; };
 		FB1543982FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543972FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift */; };
+		FB15439A2FDD247600697F86 /* BinaryTreeMaximumPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */; };
+		FB15439B2FDD247600697F86 /* BinaryTreeMaximumPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */; };
+		FB15439D2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */; };
 		FB1DFB7E2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB7F2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB812FCFD98D00692126 /* ContinuousSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */; };
@@ -640,8 +643,6 @@
 		FB2C5DF42FD7C442009550A1 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */; };
 		FB2C5DF52FD7C442009550A1 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */; };
 		FB2C5DF82FD7C473009550A1 /* InvertBinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DF62FD7C473009550A1 /* InvertBinaryTreeTest.swift */; };
-		93B48BDB12AD4876A8414F70 /* TreePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000075220BA4121BAC5C8F4 /* TreePrinter.swift */; };
-		C7FBECB1581E4A01B10333B5 /* TreePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000075220BA4121BAC5C8F4 /* TreePrinter.swift */; };
 		FB49A37D2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A37E2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */; };
 		FB49A3802F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */; };
@@ -1110,6 +1111,8 @@
 		DEE62555283C5499003EC784 /* PageTurnCountTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageTurnCountTest.swift; path = SwiftChallenges/Lab/HackerRank/PageTurnCountTest.swift; sourceTree = SOURCE_ROOT; };
 		FB1543942FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		FB1543972FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversalTest.swift; sourceTree = "<group>"; };
+		FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeMaximumPathSum.swift; sourceTree = "<group>"; };
+		FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeMaximumPathSumTest.swift; sourceTree = "<group>"; };
 		FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
 		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
@@ -1136,7 +1139,6 @@
 		FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTreeTest.swift; sourceTree = "<group>"; };
 		FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvertBinaryTree.swift; path = SwiftChallenges/NeetCode/TreesBfsDfs/InvertBinaryTree.swift; sourceTree = SOURCE_ROOT; };
 		FB2C5DF62FD7C473009550A1 /* InvertBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTreeTest.swift; sourceTree = "<group>"; };
-		2000075220BA4121BAC5C8F4 /* TreePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreePrinter.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
 		FB49A3812F9D8D140013680A /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
@@ -2311,6 +2313,7 @@
 				FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */,
 				FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */,
 				FB1543942FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift */,
+				FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */,
 			);
 			path = TreesBfsDfs;
 			sourceTree = "<group>";
@@ -2318,6 +2321,7 @@
 		FB2C5DEC2FD7BBAA009550A1 /* TreesBfsDfs */ = {
 			isa = PBXGroup;
 			children = (
+				FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */,
 				FB2C5DF62FD7C473009550A1 /* InvertBinaryTreeTest.swift */,
 				FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */,
 				FB1543972FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift */,
@@ -2795,6 +2799,7 @@
 				DECCEE8727FCF8B4007BA99C /* Fibonacci.swift in Sources */,
 				DECCEE7127FCF8B4007BA99C /* DuplicateZeros.swift in Sources */,
 				DECCEFFE27FCFBD3007BA99C /* GraphError.swift in Sources */,
+				FB15439A2FDD247600697F86 /* BinaryTreeMaximumPathSum.swift in Sources */,
 				DEA5C1DE282B812D004AE296 /* ChocobarSegment.swift in Sources */,
 				DECCEE7327FCF8B4007BA99C /* RunningSumArray.swift in Sources */,
 				DECCEFB727FCFA73007BA99C /* LinkedList.swift in Sources */,
@@ -3160,6 +3165,7 @@
 				DECCEF5927FCF9C1007BA99C /* DailyTemperaturesTest.swift in Sources */,
 				FB49A38F2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */,
 				FB5E4FB42FA450BB0014F0DF /* MedianTwoSortedArrays.swift in Sources */,
+				FB15439D2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift in Sources */,
 				DECA9DEC28C94DA900E88CCD /* MineSweeper.swift in Sources */,
 				DECCEF7327FCF9C1007BA99C /* RestoreStringTest.swift in Sources */,
 				DE2E0FA3280FF350006D06FA /* UniformIntegersTest.swift in Sources */,
@@ -3205,6 +3211,7 @@
 				FB2C5DB22FD40A24009550A1 /* MinStackTest.swift in Sources */,
 				DECCEEB227FCF8E6007BA99C /* TopKElements.swift in Sources */,
 				DECCEEB927FCF91C007BA99C /* SumOfTwoLists.swift in Sources */,
+				FB15439B2FDD247600697F86 /* BinaryTreeMaximumPathSum.swift in Sources */,
 				DE71A30B281D33F40003DD95 /* NSOrderedSetExampleTest.swift in Sources */,
 				DE4B8F73289BB53700DF9D4C /* ArrayChangeTest.swift in Sources */,
 				DECCF03627FCFC36007BA99C /* BaseSortTest.swift in Sources */,
