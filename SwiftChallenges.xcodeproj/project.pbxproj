@@ -604,6 +604,9 @@
 		FB15439A2FDD247600697F86 /* BinaryTreeMaximumPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */; };
 		FB15439B2FDD247600697F86 /* BinaryTreeMaximumPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */; };
 		FB15439D2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */; };
+		FB15439F2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */; };
+		FB1543A02FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */; };
+		FB1543A22FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */; };
 		FB1DFB7E2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB7F2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB812FCFD98D00692126 /* ContinuousSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */; };
@@ -1113,6 +1116,8 @@
 		FB1543972FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversalTest.swift; sourceTree = "<group>"; };
 		FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeMaximumPathSum.swift; sourceTree = "<group>"; };
 		FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeMaximumPathSumTest.swift; sourceTree = "<group>"; };
+		FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeDeserializeBinaryTree.swift; sourceTree = "<group>"; };
+		FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeDeserializeBinaryTreeTest.swift; sourceTree = "<group>"; };
 		FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
 		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
@@ -2314,6 +2319,7 @@
 				FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */,
 				FB1543942FDD1C8A00697F86 /* BinaryTreeLevelOrderTraversal.swift */,
 				FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */,
+				FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */,
 			);
 			path = TreesBfsDfs;
 			sourceTree = "<group>";
@@ -2325,6 +2331,7 @@
 				FB2C5DF62FD7C473009550A1 /* InvertBinaryTreeTest.swift */,
 				FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */,
 				FB1543972FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift */,
+				FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */,
 			);
 			path = TreesBfsDfs;
 			sourceTree = "<group>";
@@ -2705,6 +2712,7 @@
 				DECCF07027FCFEE3007BA99C /* CharacterExpansion.swift in Sources */,
 				DECCEE9027FCF8B4007BA99C /* FizzBuzz.swift in Sources */,
 				DECCEE8227FCF8B4007BA99C /* RichestCustomerWealth.swift in Sources */,
+				FB15439F2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */,
 				DECCEE9F27FCF8B4007BA99C /* Cat.swift in Sources */,
 				DECCF04827FCFE49007BA99C /* BSTMaxHeight.swift in Sources */,
 				DEC3D837287F917900EB14F8 /* StickCut.swift in Sources */,
@@ -3081,6 +3089,7 @@
 				DECCEEE627FCF97C007BA99C /* SortDictionaryExample.swift in Sources */,
 				DECCEEB627FCF8F2007BA99C /* Fibonacci.swift in Sources */,
 				DEE62551283B4DA2003EC784 /* SocksMatchTest.swift in Sources */,
+				FB1543A22FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift in Sources */,
 				DECCF06927FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
 				FBB267632F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */,
 				DE7979E428D4369300696ACD /* MinimumFourDigitsSumTest.swift in Sources */,
@@ -3179,6 +3188,7 @@
 				DE71A311281E645D0003DD95 /* RotaryLock.swift in Sources */,
 				DEDB4950283DA28D00B2238B /* HurdleRace.swift in Sources */,
 				DECA9DF928C95EA200E88CCD /* ChessBoardCellColorTest.swift in Sources */,
+				FB1543A02FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */,
 				DECCEE0727FCF814007BA99C /* SwiftChallengesTests.swift in Sources */,
 				DECCEF5127FCF9C1007BA99C /* DuplicateNumberTest.swift in Sources */,
 				DE564C5528152533000B139A /* PivotIndex.swift in Sources */,
