@@ -22,7 +22,7 @@ class PacificAtlanticWaterFlowTest: XCTestCase {
 
     private func verify(_ heights: [[Int]], expected: [[Int]], file: StaticString = #file, line: UInt = #line) {
         for solve in solutions {
-            XCTAssertEqual(sorted(solve(heights)), expected, file: file, line: line)
+            XCTAssertEqual(sorted(solve(heights)), expected, file: (file), line: line)
         }
     }
 
