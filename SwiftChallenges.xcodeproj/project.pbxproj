@@ -607,6 +607,9 @@
 		FB15439F2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */; };
 		FB1543A02FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */; };
 		FB1543A22FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */; };
+		FB1543A62FDE5A0000697F86 /* NeetNumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */; };
+		FB1543A72FDE5A0000697F86 /* NeetNumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */; };
+		FB1543A92FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */; };
 		FB1DFB7E2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB7F2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB812FCFD98D00692126 /* ContinuousSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */; };
@@ -1118,6 +1121,8 @@
 		FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeMaximumPathSumTest.swift; sourceTree = "<group>"; };
 		FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeDeserializeBinaryTree.swift; sourceTree = "<group>"; };
 		FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeDeserializeBinaryTreeTest.swift; sourceTree = "<group>"; };
+		FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetNumberOfIslands.swift; sourceTree = "<group>"; };
+		FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetNumberOfIslandsTest.swift; sourceTree = "<group>"; };
 		FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
 		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
@@ -1142,7 +1147,7 @@
 		FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListIITest.swift; sourceTree = "<group>"; };
 		FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTree.swift; sourceTree = "<group>"; };
 		FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTreeTest.swift; sourceTree = "<group>"; };
-		FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvertBinaryTree.swift; path = SwiftChallenges/NeetCode/TreesBfsDfs/InvertBinaryTree.swift; sourceTree = SOURCE_ROOT; };
+		FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvertBinaryTree.swift; path = SwiftChallenges/NeetCode/Trees/InvertBinaryTree.swift; sourceTree = SOURCE_ROOT; };
 		FB2C5DF62FD7C473009550A1 /* InvertBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTreeTest.swift; sourceTree = "<group>"; };
 		FB49A37C2F9D823D0013680A /* LongestRepeatingCharacterReplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacement.swift; sourceTree = "<group>"; };
 		FB49A37F2F9D89370013680A /* LongestRepeatingCharacterReplacementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestRepeatingCharacterReplacementTest.swift; sourceTree = "<group>"; };
@@ -2238,6 +2243,22 @@
 			path = dictionary;
 			sourceTree = "<group>";
 		};
+		FB1543A32FDE59A800697F86 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		FB1543A42FDE59B700697F86 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
 		FB2C5DAC2FD40971009550A1 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
@@ -2312,7 +2333,7 @@
 			path = ReverseLinkedList;
 			sourceTree = "<group>";
 		};
-		FB2C5DEB2FD7BB83009550A1 /* TreesBfsDfs */ = {
+		FB2C5DEB2FD7BB83009550A1 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
 				FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */,
@@ -2321,10 +2342,10 @@
 				FB1543992FDD247600697F86 /* BinaryTreeMaximumPathSum.swift */,
 				FB15439E2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift */,
 			);
-			path = TreesBfsDfs;
+			path = Trees;
 			sourceTree = "<group>";
 		};
-		FB2C5DEC2FD7BBAA009550A1 /* TreesBfsDfs */ = {
+		FB2C5DEC2FD7BBAA009550A1 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
 				FB15439C2FDD24D200697F86 /* BinaryTreeMaximumPathSumTest.swift */,
@@ -2333,7 +2354,7 @@
 				FB1543972FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift */,
 				FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */,
 			);
-			path = TreesBfsDfs;
+			path = Trees;
 			sourceTree = "<group>";
 		};
 		FB2C5DF22FD7C1A9009550A1 /* Utils */ = {
@@ -2382,7 +2403,8 @@
 				FB2C5DC22FD527F5009550A1 /* MonotonicStack */,
 				FB2C5DC92FD53304009550A1 /* LinkedList */,
 				FB2C5DE32FD61BD3009550A1 /* ReverseLinkedList */,
-				FB2C5DEC2FD7BBAA009550A1 /* TreesBfsDfs */,
+				FB2C5DEC2FD7BBAA009550A1 /* Trees */,
+				FB1543A42FDE59B700697F86 /* Graphs */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2401,7 +2423,8 @@
 				FB2C5DBE2FD52798009550A1 /* MonotonicStack */,
 				FB2C5DC52FD53248009550A1 /* LinkedList */,
 				FB2C5DE22FD61BC5009550A1 /* ReverseLinkedList */,
-				FB2C5DEB2FD7BB83009550A1 /* TreesBfsDfs */,
+				FB2C5DEB2FD7BB83009550A1 /* Trees */,
+				FB1543A32FDE59A800697F86 /* Graphs */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2850,6 +2873,7 @@
 				DECCEFCA27FCFB4C007BA99C /* Stack.swift in Sources */,
 				DE4B8F52289A64C800DF9D4C /* HauntedMatrixSum.swift in Sources */,
 				DE4B8F4A289A257300DF9D4C /* ClimbStairs.swift in Sources */,
+				FB1543A62FDE5A0000697F86 /* NeetNumberOfIslands.swift in Sources */,
 				DECCEFC527FCFB28007BA99C /* LFUCache.swift in Sources */,
 				DE7979DA28D298FF00696ACD /* CombinationSum.swift in Sources */,
 				DECA9DE628C8188000E88CCD /* BoxBlur.swift in Sources */,
@@ -2928,6 +2952,7 @@
 				DEDB4957283DF8A000B2238B /* UtopianTreeTest.swift in Sources */,
 				DE71A33228208E930003DD95 /* BSTAverageLevel.swift in Sources */,
 				DECCEF9027FCF9C1007BA99C /* ValidParenthesesTest.swift in Sources */,
+				FB1543A72FDE5A0000697F86 /* NeetNumberOfIslands.swift in Sources */,
 				DE604CAB2808DA8E00C62CE6 /* NumberOfWaysTest.swift in Sources */,
 				DECCEECD27FCF942007BA99C /* RichestCustomerWealth.swift in Sources */,
 				DE4B8F43289A1F1F00DF9D4C /* KeyboardRow.swift in Sources */,
@@ -3142,6 +3167,7 @@
 				DECD6264286B07DB000221F6 /* MaximumFrequencyStackTest.swift in Sources */,
 				DECA9DE928C818C100E88CCD /* BoxBlurTest.swift in Sources */,
 				DECCF03A27FCFC36007BA99C /* LRUCacheTest.swift in Sources */,
+				FB1543A92FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift in Sources */,
 				DECCEEC227FCF942007BA99C /* MoveZeroesInArray.swift in Sources */,
 				DECCF05927FCFE49007BA99C /* MergeTwoBST.swift in Sources */,
 				FB1543982FDD1D0800697F86 /* BinaryTreeLevelOrderTraversalTest.swift in Sources */,
