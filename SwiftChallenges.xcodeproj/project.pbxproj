@@ -2269,9 +2269,9 @@
 		FB1543A42FDE59B700697F86 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
-				FB1543BB2FDF4AA400697F86 /* PacificAtlanticWaterFlowTest.swift */,
 				FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */,
 				FB1543B32FDE6AFC00697F86 /* NeetCloneGraphTest.swift */,
+				FB1543BB2FDF4AA400697F86 /* PacificAtlanticWaterFlowTest.swift */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
