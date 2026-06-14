@@ -13,7 +13,7 @@ class LRUCache<T: Comparable> where T: Hashable {
     var capacity = 0
     var queue: LinkedList<T> = LinkedList<T>()
     var cache: [T: Any] = [:]
-    var nodes: [T: Node<T>] = [:]
+    var nodes: [T: LinkedListNode<T>] = [:]
 
     init(capacity: Int = 0) {
         self.capacity = capacity
@@ -39,7 +39,7 @@ class LRUCache<T: Comparable> where T: Hashable {
 
     private func insert(_ key: T, val: Any) {
         cache[key] = val
-        let first = Node<T>(value: key)
+        let first = LinkedListNode<T>(value: key)
         queue.prepend(node: first)
         nodes[key] = first
     }

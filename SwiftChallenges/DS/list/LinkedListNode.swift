@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Node<T: Comparable>: Comparable {
+public class LinkedListNode<T: Comparable>: Comparable {
     var value: T
 
     public func getValue() -> T {
@@ -18,18 +18,18 @@ public class Node<T: Comparable>: Comparable {
         self.value = x
     }
     
-    public var prev: Node<T>? = nil
-    public var next: Node<T>? = nil
+    public var prev: LinkedListNode<T>? = nil
+    public var next: LinkedListNode<T>? = nil
 
     init(value: T) {
         self.value = value
     }
 
-    static public func < <E:Comparable> (lhs:Node<E>, rhs:Node<E>) -> Bool {
+    static public func < <E:Comparable> (lhs:LinkedListNode<E>, rhs:LinkedListNode<E>) -> Bool {
         return lhs.value < rhs.value
     }
 
-    static public func == <E:Comparable> (lhs:Node<E>, rhs:Node<E>) -> Bool {
+    static public func == <E:Comparable> (lhs:LinkedListNode<E>, rhs:LinkedListNode<E>) -> Bool {
         return lhs.value == rhs.value
     }
 }

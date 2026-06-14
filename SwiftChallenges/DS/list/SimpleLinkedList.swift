@@ -9,13 +9,13 @@ import Foundation
 
 
 class SimpleLinkedList {
-    var head: Node<Int>? = nil
+    var head: LinkedListNode<Int>? = nil
 
     func append(value: Int) {
         if head == nil {
-            head = Node(value: value)
+            head = LinkedListNode(value: value)
         } else {
-            let node = Node(value: value)
+            let node = LinkedListNode(value: value)
             last?.next = node
         }
     }
@@ -26,7 +26,7 @@ class SimpleLinkedList {
         }
     }
 
-    var last: Node<Int>? {
+    var last: LinkedListNode<Int>? {
         var cur = head
         while cur?.next != nil {
             cur = cur?.next

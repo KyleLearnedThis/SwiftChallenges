@@ -8,25 +8,25 @@
 import Foundation
 
 public class LinkedList<T: Comparable> {
-    var head: Node<T>? = nil
-    var tail: Node<T>? = nil
+    var head: LinkedListNode<T>? = nil
+    var tail: LinkedListNode<T>? = nil
     var size = 0
 
-    public func getHead() -> Node<T>? {
+    public func getHead() -> LinkedListNode<T>? {
         return self.head
     }
 
-    public func getTail() -> Node<T>? {
+    public func getTail() -> LinkedListNode<T>? {
         return self.tail
     }
     public init(input: Array<T> = []) {
         for i in input {
-            let n = Node<T>(value: i)
+            let n = LinkedListNode<T>(value: i)
             append(node: n)
         }
     }
 
-    public func append(node: Node<T>) {
+    public func append(node: LinkedListNode<T>) {
         if head == nil {
             head = node
             tail = node
@@ -39,11 +39,11 @@ public class LinkedList<T: Comparable> {
     }
 
     public func append(value: T) {
-        let node = Node<T>(value: value)
+        let node = LinkedListNode<T>(value: value)
         append(node: node)
     }
 
-    func prepend(node: Node<T>) {
+    func prepend(node: LinkedListNode<T>) {
         guard self.head != nil else {
             self.head = node
             self.tail = node
@@ -59,11 +59,11 @@ public class LinkedList<T: Comparable> {
     }
 
     func prepend(value: T) {
-        let node = Node<T>(value: value)
+        let node = LinkedListNode<T>(value: value)
         prepend(node: node)
     }
 
-    public func search(searchValue: T) -> Node<T>? {
+    public func search(searchValue: T) -> LinkedListNode<T>? {
         var cur = head
         while cur != nil {
             let n = cur?.getValue()
@@ -76,7 +76,7 @@ public class LinkedList<T: Comparable> {
         return nil
     }
 
-    public func delete(node: Node<T>?) -> Bool {
+    public func delete(node: LinkedListNode<T>?) -> Bool {
         if node != nil {
             let prev = node?.prev
             let next = node?.next
@@ -119,7 +119,7 @@ public class LinkedList<T: Comparable> {
     }
 
     public func printList() {
-        var cur: Node<T>! = head
+        var cur: LinkedListNode<T>! = head
         while(cur != nil) {
             print("\([cur.value])", terminator: " ")
             cur = cur!.next
@@ -128,7 +128,7 @@ public class LinkedList<T: Comparable> {
     }
 
     public func printReverseList() {
-        var cur: Node<T>! = tail
+        var cur: LinkedListNode<T>! = tail
         while(cur != nil) {
             print("\([cur.value])", terminator: " ")
             cur = cur!.prev
