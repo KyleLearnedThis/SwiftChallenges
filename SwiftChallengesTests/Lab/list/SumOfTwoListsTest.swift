@@ -19,7 +19,7 @@ class SumOfTwoListsTest: XCTestCase {
         printList(actual)
     }
 
-    private func printList(_ head: Node<Int>?) {
+    private func printList(_ head: LinkedListNode<Int>?) {
         var cur = head
         while(cur != nil) {
             let value = String(describing: cur!.getValue())

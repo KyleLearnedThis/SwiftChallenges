@@ -413,10 +413,10 @@
 		DECCEF9E27FCF9C1007BA99C /* ListReverseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF4C27FCF9C1007BA99C /* ListReverseTest.swift */; };
 		DECCEF9F27FCF9C1007BA99C /* SumOfTwoListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEF4D27FCF9C1007BA99C /* SumOfTwoListsTest.swift */; };
 		DECCEFB527FCFA73007BA99C /* BasicEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB227FCFA73007BA99C /* BasicEntry.swift */; };
-		DECCEFB627FCFA73007BA99C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB327FCFA73007BA99C /* Node.swift */; };
+		DECCEFB627FCFA73007BA99C /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB327FCFA73007BA99C /* LinkedListNode.swift */; };
 		DECCEFB727FCFA73007BA99C /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB427FCFA73007BA99C /* LinkedList.swift */; };
 		DECCEFB827FCFA7F007BA99C /* BasicEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB227FCFA73007BA99C /* BasicEntry.swift */; };
-		DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB327FCFA73007BA99C /* Node.swift */; };
+		DECCEFB927FCFA7F007BA99C /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB327FCFA73007BA99C /* LinkedListNode.swift */; };
 		DECCEFBA27FCFA7F007BA99C /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFB427FCFA73007BA99C /* LinkedList.swift */; };
 		DECCEFC127FCFB28007BA99C /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFBC27FCFB28007BA99C /* Pair.swift */; };
 		DECCEFC227FCFB28007BA99C /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECCEFBD27FCFB28007BA99C /* LRUCache.swift */; };
@@ -1003,7 +1003,7 @@
 		DECCEF4C27FCF9C1007BA99C /* ListReverseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListReverseTest.swift; sourceTree = "<group>"; };
 		DECCEF4D27FCF9C1007BA99C /* SumOfTwoListsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfTwoListsTest.swift; sourceTree = "<group>"; };
 		DECCEFB227FCFA73007BA99C /* BasicEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEntry.swift; sourceTree = "<group>"; };
-		DECCEFB327FCFA73007BA99C /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		DECCEFB327FCFA73007BA99C /* LinkedListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		DECCEFB427FCFA73007BA99C /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		DECCEFBC27FCFB28007BA99C /* Pair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
 		DECCEFBD27FCFB28007BA99C /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
@@ -1934,7 +1934,7 @@
 			children = (
 				DECCEFB227FCFA73007BA99C /* BasicEntry.swift */,
 				DECCEFB427FCFA73007BA99C /* LinkedList.swift */,
-				DECCEFB327FCFA73007BA99C /* Node.swift */,
+				DECCEFB327FCFA73007BA99C /* LinkedListNode.swift */,
 				DE221EE72819473800CAE40D /* SimpleLinkedList.swift */,
 			);
 			path = list;
@@ -2741,7 +2741,7 @@
 				DEC3D837287F917900EB14F8 /* StickCut.swift in Sources */,
 				DE1CA3452802B39D001D8BD1 /* SpiralTraversal.swift in Sources */,
 				DECCEE7F27FCF8B4007BA99C /* EvenNumberDigits.swift in Sources */,
-				DECCEFB627FCFA73007BA99C /* Node.swift in Sources */,
+				DECCEFB627FCFA73007BA99C /* LinkedListNode.swift in Sources */,
 				DECCEE8D27FCF8B4007BA99C /* DetectCyclicList.swift in Sources */,
 				DECCEE7B27FCF8B4007BA99C /* MoveZeroesInArray.swift in Sources */,
 				FB49A3B42F9F1C9F0013680A /* LinkedListCycle2.swift in Sources */,
@@ -2925,7 +2925,7 @@
 				FB49A3AE2F9F1B710013680A /* GroupAnagramsTest.swift in Sources */,
 				DECCEFE027FCFB99007BA99C /* Sorter.swift in Sources */,
 				DE4B8F58289A6A2300DF9D4C /* AllLongestStrings.swift in Sources */,
-				DECCEFB927FCFA7F007BA99C /* Node.swift in Sources */,
+				DECCEFB927FCFA7F007BA99C /* LinkedListNode.swift in Sources */,
 				DE4B8F4B289A257300DF9D4C /* ClimbStairs.swift in Sources */,
 				DEE62547283B4153003EC784 /* BetweenTwoSets.swift in Sources */,
 				DE15997028B4314E0081E2BE /* IPCheckerTest.swift in Sources */,

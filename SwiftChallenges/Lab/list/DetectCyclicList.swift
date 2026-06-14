@@ -7,7 +7,7 @@
 //
 
 class DetectCyclicList {
-    static func hasCycle(node: Node<Int>? ) -> Bool {
+    static func hasCycle(node: LinkedListNode<Int>? ) -> Bool {
         if node == nil || node?.next == nil {
             return false
         }

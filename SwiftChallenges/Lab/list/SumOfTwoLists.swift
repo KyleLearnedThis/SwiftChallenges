@@ -9,7 +9,7 @@
 import Foundation
 
 class SumOfTwoLists {
-    static func addTwoNumbers(_ l1: Node<Int>?, _ l2: Node<Int>?) -> Node<Int>? {
+    static func addTwoNumbers(_ l1: LinkedListNode<Int>?, _ l2: LinkedListNode<Int>?) -> LinkedListNode<Int>? {
         var n1 = l1
         var n2 = l2
         var carry = 0

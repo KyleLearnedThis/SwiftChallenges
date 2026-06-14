@@ -8,10 +8,10 @@
 import Foundation
 
 class ListReverse {
-    static func reverse(node: Node<Int>?) -> Node<Int>? {
+    static func reverse(node: LinkedListNode<Int>?) -> LinkedListNode<Int>? {
         var current = node
-        var prev: Node<Int>? = nil
-        var next: Node<Int>? = nil
+        var prev: LinkedListNode<Int>? = nil
+        var next: LinkedListNode<Int>? = nil
 
         while current != nil {
             next = current?.next
