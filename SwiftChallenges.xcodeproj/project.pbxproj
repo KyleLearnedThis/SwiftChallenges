@@ -610,6 +610,11 @@
 		FB1543A62FDE5A0000697F86 /* NeetNumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */; };
 		FB1543A72FDE5A0000697F86 /* NeetNumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */; };
 		FB1543A92FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */; };
+		FB1543B12FDE6AD000697F86 /* NeetCloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543B02FDE6AD000697F86 /* NeetCloneGraph.swift */; };
+		FB1543B22FDE6AD000697F86 /* NeetCloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543B02FDE6AD000697F86 /* NeetCloneGraph.swift */; };
+		FB1543B42FDE6AFC00697F86 /* NeetCloneGraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543B32FDE6AFC00697F86 /* NeetCloneGraphTest.swift */; };
+		FB1543B62FDE6B3C00697F86 /* GraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543B52FDE6B3C00697F86 /* GraphNode.swift */; };
+		FB1543B72FDE6B3C00697F86 /* GraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543B52FDE6B3C00697F86 /* GraphNode.swift */; };
 		FB1DFB7E2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB7F2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB812FCFD98D00692126 /* ContinuousSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */; };
@@ -1123,6 +1128,9 @@
 		FB1543A12FDD2A8800697F86 /* SerializeDeserializeBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeDeserializeBinaryTreeTest.swift; sourceTree = "<group>"; };
 		FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetNumberOfIslands.swift; sourceTree = "<group>"; };
 		FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetNumberOfIslandsTest.swift; sourceTree = "<group>"; };
+		FB1543B02FDE6AD000697F86 /* NeetCloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetCloneGraph.swift; sourceTree = "<group>"; };
+		FB1543B32FDE6AFC00697F86 /* NeetCloneGraphTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetCloneGraphTest.swift; sourceTree = "<group>"; };
+		FB1543B52FDE6B3C00697F86 /* GraphNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphNode.swift; sourceTree = "<group>"; };
 		FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
 		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
@@ -2247,6 +2255,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1543A52FDE5A0000697F86 /* NeetNumberOfIslands.swift */,
+				FB1543B02FDE6AD000697F86 /* NeetCloneGraph.swift */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
@@ -2255,6 +2264,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1543A82FDE5A2A00697F86 /* NeetNumberOfIslandsTest.swift */,
+				FB1543B32FDE6AFC00697F86 /* NeetCloneGraphTest.swift */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
@@ -2362,6 +2372,7 @@
 			children = (
 				076B40BB3E2B478B981B501C /* TreeNode.swift */,
 				2000075220BA4121BAC5C8F4 /* TreePrinter.swift */,
+				FB1543B52FDE6B3C00697F86 /* GraphNode.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -2734,6 +2745,7 @@
 				DE7979E128D4364800696ACD /* MinimumFourDigitsSum.swift in Sources */,
 				DECCF07027FCFEE3007BA99C /* CharacterExpansion.swift in Sources */,
 				DECCEE9027FCF8B4007BA99C /* FizzBuzz.swift in Sources */,
+				FB1543B22FDE6AD000697F86 /* NeetCloneGraph.swift in Sources */,
 				DECCEE8227FCF8B4007BA99C /* RichestCustomerWealth.swift in Sources */,
 				FB15439F2FDD2A5800697F86 /* SerializeDeserializeBinaryTree.swift in Sources */,
 				DECCEE9F27FCF8B4007BA99C /* Cat.swift in Sources */,
@@ -2858,6 +2870,7 @@
 				DECCEEA627FCF8B4007BA99C /* Regex.swift in Sources */,
 				DECCF08C27FD9034007BA99C /* SortingSentence.swift in Sources */,
 				DECCF00227FCFBD3007BA99C /* GraphUtils.swift in Sources */,
+				FB1543B62FDE6B3C00697F86 /* GraphNode.swift in Sources */,
 				DECCF05627FCFE49007BA99C /* BSTKthElement.swift in Sources */,
 				DED076F52878E16C005419F1 /* UniquePaths.swift in Sources */,
 				DECCEE9A27FCF8B4007BA99C /* HttpJsonExample.swift in Sources */,
@@ -2997,6 +3010,7 @@
 				DECCEED727FCF95A007BA99C /* HttpClientExample.swift in Sources */,
 				DE71A322281FB5290003DD95 /* EncryptedWords.swift in Sources */,
 				FBB2674F2F9488F100CF0DB9 /* LongestConsecutive.swift in Sources */,
+				FB1543B42FDE6AFC00697F86 /* NeetCloneGraphTest.swift in Sources */,
 				DECCEECA27FCF942007BA99C /* RelativeSortArray.swift in Sources */,
 				DECA9DF428C958DE00E88CCD /* ValidVariableName.swift in Sources */,
 				DECCEEBE27FCF932007BA99C /* ArrayLuckyNumber.swift in Sources */,
@@ -3118,6 +3132,7 @@
 				DECCF06927FCFEE3007BA99C /* ExtractNumberSum.swift in Sources */,
 				FBB267632F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */,
 				DE7979E428D4369300696ACD /* MinimumFourDigitsSumTest.swift in Sources */,
+				FB1543B12FDE6AD000697F86 /* NeetCloneGraph.swift in Sources */,
 				DECCEEBD27FCF92A007BA99C /* LeadersInArray.swift in Sources */,
 				DECCEF7027FCF9C1007BA99C /* FibonacciTest.swift in Sources */,
 				DE71A309281D325F0003DD95 /* NSOrderedSetExample.swift in Sources */,
@@ -3228,6 +3243,7 @@
 				DECCF08327FD87F0007BA99C /* SmallerThanCurrent.swift in Sources */,
 				DECCF00927FCFBD3007BA99C /* Dijkstra.swift in Sources */,
 				FB49A3B92FA0548F0013680A /* MiddleOfTheLinkedList.swift in Sources */,
+				FB1543B72FDE6B3C00697F86 /* GraphNode.swift in Sources */,
 				DECCF03827FCFC36007BA99C /* QuickSortTest.swift in Sources */,
 				DECCEEAB27FCF8D4007BA99C /* ThreeColorSorting.swift in Sources */,
 				DED076F62878E16C005419F1 /* UniquePaths.swift in Sources */,
