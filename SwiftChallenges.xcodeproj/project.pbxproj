@@ -621,6 +621,9 @@
 		FB1543BE2FDF540F00697F86 /* NeetWordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543BD2FDF540F00697F86 /* NeetWordLadder.swift */; };
 		FB1543BF2FDF540F00697F86 /* NeetWordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543BD2FDF540F00697F86 /* NeetWordLadder.swift */; };
 		FB1543C12FDF543F00697F86 /* NeetWordLadderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543C02FDF543F00697F86 /* NeetWordLadderTest.swift */; };
+		FB1543C52FDFB21E00697F86 /* NeetSubsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543C42FDFB21E00697F86 /* NeetSubsets.swift */; };
+		FB1543C62FDFB21E00697F86 /* NeetSubsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543C42FDFB21E00697F86 /* NeetSubsets.swift */; };
+		FB1543C82FDFB27300697F86 /* NeetSubsetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1543C72FDFB27300697F86 /* NeetSubsetsTest.swift */; };
 		FB1DFB7E2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB7F2FCFD94B00692126 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */; };
 		FB1DFB812FCFD98D00692126 /* ContinuousSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */; };
@@ -1141,6 +1144,8 @@
 		FB1543BB2FDF4AA400697F86 /* PacificAtlanticWaterFlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacificAtlanticWaterFlowTest.swift; sourceTree = "<group>"; };
 		FB1543BD2FDF540F00697F86 /* NeetWordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordLadder.swift; sourceTree = "<group>"; };
 		FB1543C02FDF543F00697F86 /* NeetWordLadderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordLadderTest.swift; sourceTree = "<group>"; };
+		FB1543C42FDFB21E00697F86 /* NeetSubsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetSubsets.swift; sourceTree = "<group>"; };
+		FB1543C72FDFB27300697F86 /* NeetSubsetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetSubsetsTest.swift; sourceTree = "<group>"; };
 		FB1DFB7D2FCFD94B00692126 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		FB1DFB802FCFD98D00692126 /* ContinuousSubarraySumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySumTest.swift; sourceTree = "<group>"; };
 		FB2C5DA72FD3FB2B009550A1 /* SubarraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubarraySumEqualsK.swift; sourceTree = "<group>"; };
@@ -2283,6 +2288,22 @@
 			path = Graphs;
 			sourceTree = "<group>";
 		};
+		FB1543C22FDFB1A600697F86 /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+				FB1543C42FDFB21E00697F86 /* NeetSubsets.swift */,
+			);
+			path = Backtracking;
+			sourceTree = "<group>";
+		};
+		FB1543C32FDFB1F000697F86 /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+				FB1543C72FDFB27300697F86 /* NeetSubsetsTest.swift */,
+			);
+			path = Backtracking;
+			sourceTree = "<group>";
+		};
 		FB2C5DAC2FD40971009550A1 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
@@ -2430,6 +2451,7 @@
 				FB2C5DE32FD61BD3009550A1 /* ReverseLinkedList */,
 				FB2C5DEC2FD7BBAA009550A1 /* Trees */,
 				FB1543A42FDE59B700697F86 /* Graphs */,
+				FB1543C32FDFB1F000697F86 /* Backtracking */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2450,6 +2472,7 @@
 				FB2C5DE22FD61BC5009550A1 /* ReverseLinkedList */,
 				FB2C5DEB2FD7BB83009550A1 /* Trees */,
 				FB1543A32FDE59A800697F86 /* Graphs */,
+				FB1543C22FDFB1A600697F86 /* Backtracking */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2747,6 +2770,7 @@
 				FB2C5DD82FD54FE7009550A1 /* MergeKSortedLists.swift in Sources */,
 				FB2C5DE52FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */,
 				DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
+				FB1543C52FDFB21E00697F86 /* NeetSubsets.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3109,6 +3133,7 @@
 				DECCEEE427FCF978007BA99C /* Regex.swift in Sources */,
 				DECCEEB527FCF8EE007BA99C /* ArrayManipulations.swift in Sources */,
 				DECCEF8427FCF9C1007BA99C /* HttpJsonExampleTest.swift in Sources */,
+				FB1543C62FDFB21E00697F86 /* NeetSubsets.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
@@ -3363,6 +3388,7 @@
 				DECCEF9927FCF9C1007BA99C /* EnvironmentFetchTest.swift in Sources */,
 				DE2E0F90280EBF44006D06FA /* BattleshipProbability.swift in Sources */,
 				DEE62544283AF484003EC784 /* DaysOfRussianProgrammerTest.swift in Sources */,
+				FB1543C82FDFB27300697F86 /* NeetSubsetsTest.swift in Sources */,
 				DECCF08A27FD8ED6007BA99C /* GoalParserTest.swift in Sources */,
 				DED795C4284A06CA005EF2E7 /* TrieTest.swift in Sources */,
 				DECCEF8D27FCF9C1007BA99C /* EvenNumberDigitsTest.swift in Sources */,
