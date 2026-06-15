@@ -8,6 +8,8 @@
 class NeetSubsets {
     // Strategy: at each index, make a binary choice — include or exclude the element.
     // Recurse through every index to build all 2^n subsets.
+    // Time: O(n * 2^n) — 2^n subsets, each up to length n to copy into result
+    // Space: O(n) — recursion stack depth and subset buffer (output excluded)
     func subsets(_ nums: [Int]) -> [[Int]] {
         var result = [[Int]]()
         var subset = [Int]()  // current subset being built up (shared, mutated in place)
