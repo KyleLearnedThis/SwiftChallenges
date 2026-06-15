@@ -728,6 +728,9 @@
 		FBB267622F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */; };
 		FBB267632F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */; };
 		FBB267672F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */; };
+		F34226BBEDCB0A771F4C05B9 /* NeetPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F5662C5B56AFFE53A87AC /* NeetPermutations.swift */; };
+		6CABC39C3AA9C7E5F11B3189 /* NeetPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F5662C5B56AFFE53A87AC /* NeetPermutations.swift */; };
+		A68E7D60D9E8F4BE82EA5ED8 /* NeetPermutationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525DADE4A69B4280D2D0B18A /* NeetPermutationsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1215,6 +1218,8 @@
 		FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstringTest.swift; sourceTree = "<group>"; };
 		FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstring.swift; sourceTree = "<group>"; };
 		FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringTest.swift; sourceTree = "<group>"; };
+		A29F5662C5B56AFFE53A87AC /* NeetPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetPermutations.swift; sourceTree = "<group>"; };
+		525DADE4A69B4280D2D0B18A /* NeetPermutationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetPermutationsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2292,6 +2297,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1543C42FDFB21E00697F86 /* NeetSubsets.swift */,
+				A29F5662C5B56AFFE53A87AC /* NeetPermutations.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -2300,6 +2306,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1543C72FDFB27300697F86 /* NeetSubsetsTest.swift */,
+				525DADE4A69B4280D2D0B18A /* NeetPermutationsTest.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -2954,6 +2961,7 @@
 				DECCEE7E27FCF8B4007BA99C /* MoneyInLeetcodeBank.swift in Sources */,
 				DECCEE9D27FCF8B4007BA99C /* Dog.swift in Sources */,
 				DECCEE9627FCF8B4007BA99C /* TopKElements.swift in Sources */,
+				F34226BBEDCB0A771F4C05B9 /* NeetPermutations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3423,6 +3431,8 @@
 				FB2C5DB82FD4CC7E009550A1 /* EvaluateReversePolishNotationTest.swift in Sources */,
 				DECCF03727FCFC36007BA99C /* HeapSortTest.swift in Sources */,
 				DECCEED527FCF94A007BA99C /* BasicCombineExample.swift in Sources */,
+				6CABC39C3AA9C7E5F11B3189 /* NeetPermutations.swift in Sources */,
+				A68E7D60D9E8F4BE82EA5ED8 /* NeetPermutationsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
