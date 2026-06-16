@@ -1,6 +1,6 @@
 ---
 description: Scaffold a new NeetCode problem — generates a solution stub, an empty XCTest file, and registers both into project.pbxproj.
-argument-hint: class=<ClassName> group=<Category>
+argument-hint: problem=<"46. Permutations"> OR class=<ClassName> group=<Category>
 ---
 
 # /leetcode — Scaffold a NeetCode Problem
@@ -9,14 +9,27 @@ Scaffold a new LeetCode/NeetCode problem in this SwiftChallenges Xcode project. 
 
 ## Arguments
 
-`$ARGUMENTS` is a space-separated list of two required key=value pairs (order-insensitive):
+`$ARGUMENTS` accepts **one of two forms**:
 
-- `class=<ClassName>` — solution class & filename (no `.swift` suffix). PascalCase, by convention prefixed with `Neet` for newer problems (e.g. `NeetPermutations`).
-- `group=<Category>` — NeetCode category folder name (e.g. `Backtracking`, `Trees`, `SlidingWindow`).
+### Form A — Auto-resolve from problem identity (preferred)
+- `problem=<identifier>` — accepts a problem number, name, URL slug, or combined (e.g. `problem="46. Permutations"`, `problem="permutations"`, `problem=46`).
+
+When `problem=` is provided, use your training knowledge to resolve:
+- `class` — PascalCase class name prefixed with `Neet` (e.g. `NeetPermutations`)
+- `group` — NeetCode category folder (e.g. `Backtracking`, `Trees`, `SlidingWindow`)
+- `signature` — the exact LeetCode Swift function signature (e.g. `func permute(_ nums: [Int]) -> [[Int]]`)
+
+Use `signature` in the solution template (Step 3) instead of `func solve()`.
+
+### Form B — Explicit (fallback)
+- `class=<ClassName>` — solution class & filename (no `.swift` suffix). PascalCase, prefixed with `Neet`.
+- `group=<Category>` — NeetCode category folder name.
+
+When using Form B, use `func solve()` as the placeholder signature.
 
 The test class name is **always** `<class>Test` and is derived automatically — do not accept a separate `test=` argument.
 
-If `$ARGUMENTS` is missing either key, abort with an error message listing which keys are missing and showing the expected invocation format.
+If `$ARGUMENTS` provides neither `problem=` nor both `class=` and `group=`, abort with an error listing what's missing and showing both valid invocation formats.
 
 ## Steps
 
@@ -46,7 +59,16 @@ Use the bash command `date +%-m/%-d/%y` to get the date in the project's header 
 
 Path: `SwiftChallenges/NeetCode/$group/$class.swift`
 
-Use this template with a `func solve()` placeholder and an empty body:
+**Determine the default return value** from the return type in `$signature`:
+- `-> [[T]]` or `-> [T]` → `return []`
+- `-> Int` → `return 0`
+- `-> String` → `return ""`
+- `-> Bool` → `return false`
+- `-> Double` or `-> Float` → `return 0.0`
+- `-> T?` (any optional) → `return nil`
+- `-> Void` or no return type → omit the return line entirely
+
+Use this template. For Form B use `func solve()` and omit the return line:
 
 ```swift
 //
@@ -58,8 +80,8 @@ Use this template with a `func solve()` placeholder and an empty body:
 
 class $class {
 
-    func solve() {
-
+    $signature {
+        return $default
     }
 }
 ```
@@ -68,7 +90,20 @@ class $class {
 
 Path: `SwiftChallengesTests/NeetCode/$group/${class}Test.swift`
 
-Emit an empty test class — Kyle will fill in test methods after reading the problem page:
+**Form A (problem=):** Generate a full test suite using training knowledge of the problem. Follow this structure:
+
+- **Private helpers** — add only what the comparison strategy requires:
+  - Order-agnostic `[[T]]` results (e.g. permutations, subsets, combinations): add a `sorted()` helper that sorts inner arrays then outer array lexicographically, matching the NeetSubsets style.
+  - Scalar or single-array results with a deterministic order: no helper needed; use `XCTAssertEqual` directly.
+- **`verify()` wrapper** — always include one; it routes through the sut call and passes `file:` and `line:` so failures point to the callsite.
+- **Test methods** — organised with `// MARK:` sections:
+  - `// MARK: - Base cases` — empty input, single element, minimal valid input
+  - `// MARK: - LeetCode examples` — every numbered example from the problem statement (testExample1, testExample2, …)
+  - `// MARK: - Edge cases` — negatives, duplicates, boundary values, or property assertions (count, uniqueness) as appropriate to the problem
+
+Use Swift value literals throughout — no variables, no setup beyond the sut.
+
+**Form B (class= / group=):** Emit an empty test class only:
 
 ```swift
 //
@@ -189,8 +224,8 @@ Print a concise summary:
 
 Next:
   1. Open SwiftChallenges.xcodeproj in Xcode (Cmd+B to confirm the build is clean)
-  2. Fill in the real function signature in $class.swift
-  3. Add testExampleN() methods in ${class}Test.swift
+  2. Solve the algorithm in $class.swift
+  3. Run tests — they should fail until the algorithm is correct
 ```
 
 ## Notes
