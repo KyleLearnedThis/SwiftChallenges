@@ -1,11 +1,11 @@
 ---
-description: Scaffold a new NeetCode problem — generates a solution stub, an empty XCTest file, and registers both into project.pbxproj.
-argument-hint: problem=<"46. Permutations"> OR class=<ClassName> group=<Category>
+description: Scaffold a new LeetCode problem — generates a solution stub, an empty XCTest file, and registers both into project.pbxproj.
+argument-hint: problem=<"46. Permutations"> [prefix=<Prefix>] OR class=<ClassName> group=<Category> [prefix=<Prefix>]
 ---
 
-# /leetcode — Scaffold a NeetCode Problem
+# /leetcode — Scaffold a LeetCode Problem
 
-Scaffold a new LeetCode/NeetCode problem in this SwiftChallenges Xcode project. Generates a solution stub and an empty XCTest file, then inserts both into `SwiftChallenges.xcodeproj/project.pbxproj` so Xcode picks them up automatically.
+Scaffold a new LeetCode problem in this SwiftChallenges Xcode project. Generates a solution stub and an empty XCTest file, then inserts both into `SwiftChallenges.xcodeproj/project.pbxproj` so Xcode picks them up automatically.
 
 ## Arguments
 
@@ -13,17 +13,19 @@ Scaffold a new LeetCode/NeetCode problem in this SwiftChallenges Xcode project. 
 
 ### Form A — Auto-resolve from problem identity (preferred)
 - `problem=<identifier>` — accepts a problem number, name, URL slug, or combined (e.g. `problem="46. Permutations"`, `problem="permutations"`, `problem=46`).
+- `prefix=<string>` — optional. If provided and non-empty, prepend it to the class name (e.g. `prefix="Neet"` → `NeetPermutations`). If omitted or empty, use the bare PascalCase name (e.g. `Permutations`).
 
 When `problem=` is provided, use your training knowledge to resolve:
-- `class` — PascalCase class name prefixed with `Neet` (e.g. `NeetPermutations`)
-- `group` — NeetCode category folder (e.g. `Backtracking`, `Trees`, `SlidingWindow`)
+- `class` — PascalCase class name, then apply prefix if set (e.g. `Permutations` → `NeetPermutations` when `prefix="Neet"`)
+- `group` — category folder (e.g. `Backtracking`, `Trees`, `SlidingWindow`)
 - `signature` — the exact LeetCode Swift function signature (e.g. `func permute(_ nums: [Int]) -> [[Int]]`)
 
 Use `signature` in the solution template (Step 3) instead of `func solve()`.
 
 ### Form B — Explicit (fallback)
-- `class=<ClassName>` — solution class & filename (no `.swift` suffix). PascalCase, prefixed with `Neet`.
-- `group=<Category>` — NeetCode category folder name.
+- `class=<ClassName>` — solution class & filename (no `.swift` suffix). PascalCase; include any desired prefix in the name itself, or use `prefix=` to have it applied automatically.
+- `group=<Category>` — category folder name.
+- `prefix=<string>` — optional. If provided and non-empty, prepend it to `class`.
 
 When using Form B, use `func solve()` as the placeholder signature.
 
@@ -35,7 +37,7 @@ If `$ARGUMENTS` provides neither `problem=` nor both `class=` and `group=`, abor
 
 ### 1. Parse and validate arguments
 
-Extract `class`, `group` from `$ARGUMENTS`. Both are required. Derive `test = "${class}Test"` — never accept it from the user.
+Extract `class`, `group`, and optional `prefix` from `$ARGUMENTS`. `class` and `group` are required. If `prefix` is provided and non-empty, prepend it to `class` now (e.g. `class = prefix + class`). Derive `test = "${class}Test"` — never accept it from the user.
 
 Verify both directories exist:
 - `SwiftChallenges/NeetCode/$group/`
