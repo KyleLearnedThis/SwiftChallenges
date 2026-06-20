@@ -737,6 +737,9 @@
 		FBB267622F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */; };
 		FBB267632F95F19500CF0DB9 /* MinimumWindowSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */; };
 		FBB267672F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */; };
+		78B7DE8BDF99C83BB9D8F0D2 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A13D9047AF1BCEE4A199BA /* NQueens.swift */; };
+		C4325E122A06A582C52E4D17 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A13D9047AF1BCEE4A199BA /* NQueens.swift */; };
+		F64F78A49BC31AD17B88DAAA /* NQueensTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB73CCAFE1AF0FB83123405 /* NQueensTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1230,6 +1233,8 @@
 		FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstringTest.swift; sourceTree = "<group>"; };
 		FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstring.swift; sourceTree = "<group>"; };
 		FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringTest.swift; sourceTree = "<group>"; };
+		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
+		6AB73CCAFE1AF0FB83123405 /* NQueensTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueensTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2310,6 +2315,7 @@
 				D8315683B66F55C64F9E2944 /* NeetPermutations.swift */,
 				A8F70BC4CD3240AB976E47B2 /* NeetCombinationSum.swift */,
 				06ECA24A5B5B8EA3B921D438 /* NeetWordSearch.swift */,
+				03A13D9047AF1BCEE4A199BA /* NQueens.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -2321,6 +2327,7 @@
 				4EAB9708B00CC8B7024BF233 /* NeetPermutationsTest.swift */,
 				D9720A5ACDA71E699F8A573D /* NeetCombinationSumTest.swift */,
 				0C61C027AA7AD0B4D36FE811 /* NeetWordSearchTest.swift */,
+				6AB73CCAFE1AF0FB83123405 /* NQueensTest.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
@@ -2795,6 +2802,7 @@
 				42D58F7AD3D74ED4B6C3A75A /* NeetPermutations.swift in Sources */,
 				80AEC4241B9CAAA3CC9D88E5 /* NeetCombinationSum.swift in Sources */,
 				6D53331E61E7DE60A9E62603 /* NeetWordSearch.swift in Sources */,
+				78B7DE8BDF99C83BB9D8F0D2 /* NQueens.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3161,6 +3169,8 @@
 				AF91A075B7BC0A1FDE3199EE /* NeetPermutations.swift in Sources */,
 				983B56C59FB0CFEAAB31BC77 /* NeetCombinationSum.swift in Sources */,
 				6C1EA81F99E094CEF9C0EFD0 /* NeetWordSearch.swift in Sources */,
+				C4325E122A06A582C52E4D17 /* NQueens.swift in Sources */,
+				F64F78A49BC31AD17B88DAAA /* NQueensTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
