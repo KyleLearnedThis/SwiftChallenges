@@ -53,9 +53,10 @@ class NeetWordSearch {
     }
 
     // Alternative: same algorithm but tracks visited cells in a Set instead of
-    // mutating the board. Trade-off: board stays immutable (no var copy needed),
-    // but visited lookup/insert/remove are O(1) with a small constant overhead,
-    // and Space grows to O(L) for the set on top of O(L) for the call stack.
+    // mutating the board. Board stays immutable; Set ops are O(1) avg.
+    //
+    // Time:  O(m * n * 4^L)  — same traversal as above; Set lookup is O(1) avg so no change
+    // Space: O(L)             — call stack O(L) + visited set holds at most L entries at once
     func exist(_ board: [[Character]], _ word: String) -> Bool {
         let rows = board.count
         let cols = board[0].count
