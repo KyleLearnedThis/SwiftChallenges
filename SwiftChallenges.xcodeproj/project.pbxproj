@@ -740,6 +740,9 @@
 		78B7DE8BDF99C83BB9D8F0D2 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A13D9047AF1BCEE4A199BA /* NQueens.swift */; };
 		C4325E122A06A582C52E4D17 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A13D9047AF1BCEE4A199BA /* NQueens.swift */; };
 		F64F78A49BC31AD17B88DAAA /* NQueensTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB73CCAFE1AF0FB83123405 /* NQueensTest.swift */; };
+		0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
+		2E08EA691A439166BD444F41 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
+		A9DF4F00DE64824847225696 /* CourseScheduleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1235,6 +1238,8 @@
 		FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringTest.swift; sourceTree = "<group>"; };
 		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		6AB73CCAFE1AF0FB83123405 /* NQueensTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueensTest.swift; sourceTree = "<group>"; };
+		C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
+		E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2480,6 +2485,7 @@
 				FB2C5DEC2FD7BBAA009550A1 /* Trees */,
 				FB1543A42FDE59B700697F86 /* Graphs */,
 				FB1543C32FDFB1F000697F86 /* Backtracking */,
+				6B236F157C5761123F4BD54E /* TopologicalSort */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2501,6 +2507,7 @@
 				FB2C5DEB2FD7BB83009550A1 /* Trees */,
 				FB1543A32FDE59A800697F86 /* Graphs */,
 				FB1543C22FDFB1A600697F86 /* Backtracking */,
+				0600CCD466D5A4D18C8E4199 /* TopologicalSort */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2614,6 +2621,22 @@
 				FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */,
 			);
 			path = SlidingWindow;
+			sourceTree = "<group>";
+		};
+		0600CCD466D5A4D18C8E4199 /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */,
+			);
+			path = TopologicalSort;
+			sourceTree = "<group>";
+		};
+		6B236F157C5761123F4BD54E /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */,
+			);
+			path = TopologicalSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2803,6 +2826,7 @@
 				80AEC4241B9CAAA3CC9D88E5 /* NeetCombinationSum.swift in Sources */,
 				6D53331E61E7DE60A9E62603 /* NeetWordSearch.swift in Sources */,
 				78B7DE8BDF99C83BB9D8F0D2 /* NQueens.swift in Sources */,
+				0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3171,6 +3195,8 @@
 				6C1EA81F99E094CEF9C0EFD0 /* NeetWordSearch.swift in Sources */,
 				C4325E122A06A582C52E4D17 /* NQueens.swift in Sources */,
 				F64F78A49BC31AD17B88DAAA /* NQueensTest.swift in Sources */,
+				2E08EA691A439166BD444F41 /* CourseSchedule.swift in Sources */,
+				A9DF4F00DE64824847225696 /* CourseScheduleTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
