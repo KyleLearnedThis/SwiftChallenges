@@ -743,6 +743,9 @@
 		0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
 		2E08EA691A439166BD444F41 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
 		A9DF4F00DE64824847225696 /* CourseScheduleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */; };
+		CDFF2922FF86E401EA420FE6 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */; };
+		4554A0F9C4521E6A3FD68803 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */; };
+		C663984AD8EEE905406C696B /* CourseScheduleIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1240,6 +1243,8 @@
 		6AB73CCAFE1AF0FB83123405 /* NQueensTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueensTest.swift; sourceTree = "<group>"; };
 		C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleTest.swift; sourceTree = "<group>"; };
+		F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
+		DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleIITest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2627,6 +2632,7 @@
 			isa = PBXGroup;
 			children = (
 				C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */,
+				F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -2635,6 +2641,7 @@
 			isa = PBXGroup;
 			children = (
 				E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */,
+				DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -2827,6 +2834,7 @@
 				6D53331E61E7DE60A9E62603 /* NeetWordSearch.swift in Sources */,
 				78B7DE8BDF99C83BB9D8F0D2 /* NQueens.swift in Sources */,
 				0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */,
+				CDFF2922FF86E401EA420FE6 /* CourseScheduleII.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3197,6 +3205,8 @@
 				F64F78A49BC31AD17B88DAAA /* NQueensTest.swift in Sources */,
 				2E08EA691A439166BD444F41 /* CourseSchedule.swift in Sources */,
 				A9DF4F00DE64824847225696 /* CourseScheduleTest.swift in Sources */,
+				4554A0F9C4521E6A3FD68803 /* CourseScheduleII.swift in Sources */,
+				C663984AD8EEE905406C696B /* CourseScheduleIITest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
