@@ -746,6 +746,9 @@
 		CDFF2922FF86E401EA420FE6 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */; };
 		4554A0F9C4521E6A3FD68803 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */; };
 		C663984AD8EEE905406C696B /* CourseScheduleIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */; };
+		2A6D873ED4D31E90FD57D7B1 /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */; };
+		31AFD0D7E15C015BE42432C5 /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */; };
+		EC35B2CF4BBF0A0D652987EA /* MinimumHeightTreesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1245,6 +1248,8 @@
 		E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleTest.swift; sourceTree = "<group>"; };
 		F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleIITest.swift; sourceTree = "<group>"; };
+		6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTrees.swift; sourceTree = "<group>"; };
+		48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTreesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2633,6 +2638,7 @@
 			children = (
 				C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */,
 				F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */,
+				6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -2642,6 +2648,7 @@
 			children = (
 				E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */,
 				DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */,
+				48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -2835,6 +2842,7 @@
 				78B7DE8BDF99C83BB9D8F0D2 /* NQueens.swift in Sources */,
 				0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */,
 				CDFF2922FF86E401EA420FE6 /* CourseScheduleII.swift in Sources */,
+				2A6D873ED4D31E90FD57D7B1 /* MinimumHeightTrees.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3207,6 +3215,8 @@
 				A9DF4F00DE64824847225696 /* CourseScheduleTest.swift in Sources */,
 				4554A0F9C4521E6A3FD68803 /* CourseScheduleII.swift in Sources */,
 				C663984AD8EEE905406C696B /* CourseScheduleIITest.swift in Sources */,
+				31AFD0D7E15C015BE42432C5 /* MinimumHeightTrees.swift in Sources */,
+				EC35B2CF4BBF0A0D652987EA /* MinimumHeightTreesTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
