@@ -749,6 +749,9 @@
 		2A6D873ED4D31E90FD57D7B1 /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */; };
 		31AFD0D7E15C015BE42432C5 /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */; };
 		EC35B2CF4BBF0A0D652987EA /* MinimumHeightTreesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */; };
+		4CC40A3F01BD53EF83B55132 /* AlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */; };
+		99F30862844AE33CC11F771E /* AlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */; };
+		AC9388710BCB7029F4CC6810 /* AlienDictionaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DB499DFDC5DF017BEEC45 /* AlienDictionaryTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1250,6 +1253,8 @@
 		DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleIITest.swift; sourceTree = "<group>"; };
 		6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTrees.swift; sourceTree = "<group>"; };
 		48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTreesTest.swift; sourceTree = "<group>"; };
+		ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDictionary.swift; sourceTree = "<group>"; };
+		7C9DB499DFDC5DF017BEEC45 /* AlienDictionaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDictionaryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2639,6 +2644,7 @@
 				C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */,
 				F7A2D56E6D8F0F3FAB87B624 /* CourseScheduleII.swift */,
 				6F10FC5CB9E4AA24324C8C7B /* MinimumHeightTrees.swift */,
+				ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -2649,6 +2655,7 @@
 				E181B1F037357A5000CB8013 /* CourseScheduleTest.swift */,
 				DB4F3D523932B031873AAC3F /* CourseScheduleIITest.swift */,
 				48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */,
+				7C9DB499DFDC5DF017BEEC45 /* AlienDictionaryTest.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -2843,6 +2850,7 @@
 				0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */,
 				CDFF2922FF86E401EA420FE6 /* CourseScheduleII.swift in Sources */,
 				2A6D873ED4D31E90FD57D7B1 /* MinimumHeightTrees.swift in Sources */,
+				4CC40A3F01BD53EF83B55132 /* AlienDictionary.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3217,6 +3225,8 @@
 				C663984AD8EEE905406C696B /* CourseScheduleIITest.swift in Sources */,
 				31AFD0D7E15C015BE42432C5 /* MinimumHeightTrees.swift in Sources */,
 				EC35B2CF4BBF0A0D652987EA /* MinimumHeightTreesTest.swift in Sources */,
+				99F30862844AE33CC11F771E /* AlienDictionary.swift in Sources */,
+				AC9388710BCB7029F4CC6810 /* AlienDictionaryTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
