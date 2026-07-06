@@ -11,7 +11,7 @@ class NeetWordSearchTest: XCTestCase {
 
     private let sut = NeetWordSearch()
 
-    private func verify(_ board: [[Character]], _ word: String, file: StaticString = #file, line: UInt = #line) -> Bool {
+    private func verify(_ board: [[Character]], _ word: String, file: StaticString = #filePath, line: UInt = #line) -> Bool {
         sut.exist(board, word)
     }
 

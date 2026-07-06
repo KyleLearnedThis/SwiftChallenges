@@ -758,6 +758,9 @@
 		B27EC53E03379A14E1FF7108 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB140F0D32D3658B4853ECA /* HouseRobber.swift */; };
 		9098D5DE302D364CC06E757D /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB140F0D32D3658B4853ECA /* HouseRobber.swift */; };
 		62F2FA0C66FCFE4006860F31 /* HouseRobberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911F1C9E7590CC01E1C576C /* HouseRobberTest.swift */; };
+		35E1227AF475C356BC55155F /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298AD4B33D6C05B7105E04A2 /* CoinChange.swift */; };
+		B8D9E334EFF34FC2B3049B61 /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298AD4B33D6C05B7105E04A2 /* CoinChange.swift */; };
+		08F6CB7CF0E2CAE0A8A9C64C /* CoinChangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1265,6 +1268,8 @@
 		6D0AECFF09758AB9CDB36558 /* ClimbingStairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairsTest.swift; sourceTree = "<group>"; };
 		0EB140F0D32D3658B4853ECA /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		8911F1C9E7590CC01E1C576C /* HouseRobberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobberTest.swift; sourceTree = "<group>"; };
+		298AD4B33D6C05B7105E04A2 /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
+		5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChangeTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2677,6 +2682,7 @@
 			children = (
 				88823EBAC9077A39CB52BEFB /* ClimbingStairs.swift */,
 				0EB140F0D32D3658B4853ECA /* HouseRobber.swift */,
+				298AD4B33D6C05B7105E04A2 /* CoinChange.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -2686,6 +2692,7 @@
 			children = (
 				6D0AECFF09758AB9CDB36558 /* ClimbingStairsTest.swift */,
 				8911F1C9E7590CC01E1C576C /* HouseRobberTest.swift */,
+				5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -2883,6 +2890,7 @@
 				4CC40A3F01BD53EF83B55132 /* AlienDictionary.swift in Sources */,
 				0C66A612E055B4B20E783C4D /* ClimbingStairs.swift in Sources */,
 				B27EC53E03379A14E1FF7108 /* HouseRobber.swift in Sources */,
+				35E1227AF475C356BC55155F /* CoinChange.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3263,6 +3271,8 @@
 				CAD21BCBEE5045CB0F72FE44 /* ClimbingStairsTest.swift in Sources */,
 				9098D5DE302D364CC06E757D /* HouseRobber.swift in Sources */,
 				62F2FA0C66FCFE4006860F31 /* HouseRobberTest.swift in Sources */,
+				B8D9E334EFF34FC2B3049B61 /* CoinChange.swift in Sources */,
+				08F6CB7CF0E2CAE0A8A9C64C /* CoinChangeTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,

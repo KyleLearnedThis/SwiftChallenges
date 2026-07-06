@@ -20,7 +20,7 @@ class PacificAtlanticWaterFlowTest: XCTestCase {
         cells.sorted { $0[0] != $1[0] ? $0[0] < $1[0] : $0[1] < $1[1] }
     }
 
-    private func verify(_ heights: [[Int]], expected: [[Int]], file: StaticString = #file, line: UInt = #line) {
+    private func verify(_ heights: [[Int]], expected: [[Int]], file: StaticString = #filePath, line: UInt = #line) {
         for solve in solutions {
             XCTAssertEqual(sorted(solve(heights)), expected, file: (file), line: line)
         }
