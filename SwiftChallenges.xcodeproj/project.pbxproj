@@ -752,6 +752,9 @@
 		4CC40A3F01BD53EF83B55132 /* AlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */; };
 		99F30862844AE33CC11F771E /* AlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */; };
 		AC9388710BCB7029F4CC6810 /* AlienDictionaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DB499DFDC5DF017BEEC45 /* AlienDictionaryTest.swift */; };
+		0C66A612E055B4B20E783C4D /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88823EBAC9077A39CB52BEFB /* ClimbingStairs.swift */; };
+		608CC66C0F32D98632B7D764 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88823EBAC9077A39CB52BEFB /* ClimbingStairs.swift */; };
+		CAD21BCBEE5045CB0F72FE44 /* ClimbingStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AECFF09758AB9CDB36558 /* ClimbingStairsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1255,6 +1258,8 @@
 		48B65D97CC562070DB14EB8C /* MinimumHeightTreesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTreesTest.swift; sourceTree = "<group>"; };
 		ED419E1B0637B7F53A952D58 /* AlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDictionary.swift; sourceTree = "<group>"; };
 		7C9DB499DFDC5DF017BEEC45 /* AlienDictionaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienDictionaryTest.swift; sourceTree = "<group>"; };
+		88823EBAC9077A39CB52BEFB /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
+		6D0AECFF09758AB9CDB36558 /* ClimbingStairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2501,6 +2506,7 @@
 				FB1543A42FDE59B700697F86 /* Graphs */,
 				FB1543C32FDFB1F000697F86 /* Backtracking */,
 				6B236F157C5761123F4BD54E /* TopologicalSort */,
+				F14FBA533AFBD7FC2ABF689B /* DynamicProgramming */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2523,6 +2529,7 @@
 				FB1543A32FDE59A800697F86 /* Graphs */,
 				FB1543C22FDFB1A600697F86 /* Backtracking */,
 				0600CCD466D5A4D18C8E4199 /* TopologicalSort */,
+				E04F4ADDB0E9152694B9EC57 /* DynamicProgramming */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2658,6 +2665,22 @@
 				7C9DB499DFDC5DF017BEEC45 /* AlienDictionaryTest.swift */,
 			);
 			path = TopologicalSort;
+			sourceTree = "<group>";
+		};
+		E04F4ADDB0E9152694B9EC57 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				88823EBAC9077A39CB52BEFB /* ClimbingStairs.swift */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		F14FBA533AFBD7FC2ABF689B /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				6D0AECFF09758AB9CDB36558 /* ClimbingStairsTest.swift */,
+			);
+			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2851,6 +2874,7 @@
 				CDFF2922FF86E401EA420FE6 /* CourseScheduleII.swift in Sources */,
 				2A6D873ED4D31E90FD57D7B1 /* MinimumHeightTrees.swift in Sources */,
 				4CC40A3F01BD53EF83B55132 /* AlienDictionary.swift in Sources */,
+				0C66A612E055B4B20E783C4D /* ClimbingStairs.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3227,6 +3251,8 @@
 				EC35B2CF4BBF0A0D652987EA /* MinimumHeightTreesTest.swift in Sources */,
 				99F30862844AE33CC11F771E /* AlienDictionary.swift in Sources */,
 				AC9388710BCB7029F4CC6810 /* AlienDictionaryTest.swift in Sources */,
+				608CC66C0F32D98632B7D764 /* ClimbingStairs.swift in Sources */,
+				CAD21BCBEE5045CB0F72FE44 /* ClimbingStairsTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
