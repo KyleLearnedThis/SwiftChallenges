@@ -27,7 +27,7 @@ class AlienDictionaryTest: XCTestCase {
         return true
     }
 
-    private func verify(_ words: [String], file: StaticString = #file, line: UInt = #line) -> String {
+    private func verify(_ words: [String], file: StaticString = #filePath, line: UInt = #line) -> String {
         sut.alienOrder(words)
     }
 
