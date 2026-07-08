@@ -11,7 +11,7 @@ class ClimbingStairsTest: XCTestCase {
 
     private let sut = ClimbingStairs()
 
-    private func verify(_ n: Int, _ expected: Int, file: StaticString = #file, line: UInt = #line) {
+    private func verify(_ n: Int, _ expected: Int, file: StaticString = #filePath, line: UInt = #line) {
         XCTAssertEqual(sut.climbStairs(n), expected, file: file, line: line)
     }
 

@@ -42,7 +42,7 @@
 // KEY LINES (exactly what NeetCode codes in Python, now in Swift):
 //   var dp = Array(repeating: amount + 1, count: amount + 1)
 //   dp[0] = 0
-//   for a in 1...amount { for c in coins { if c <= a { dp[a] = min(dp[a], 1 + dp[a - c]) } } }
+//   for remaining in 1...amount { for coin in coins { if coin <= remaining { dp[remaining] = min(dp[remaining], 1 + dp[remaining - coin]) } } }
 //   return dp[amount] != amount + 1 ? dp[amount] : -1
 //
 // TIME:  O(amount × coins.count)
@@ -98,18 +98,18 @@ class CoinChange {
         guard amount > 0 else { return 0 }
 
         // Outer loop: solve every sub-amount from 1 up to the target.
-        // Think of `a` as "how much do I still need to make?"
-        for a in 1...amount {
+        // Think of `remaining` as "how much do I still need to make?"
+        for remaining in 1...amount {
 
             // Inner loop: try every coin denomination.
-            for c in coins {
+            for coin in coins {
 
                 // Only valid if this coin doesn't overshoot the current amount.
-                if c <= a {
-                    // "If I use coin c once, I already solved dp[a - c].
-                    //  So the total cost is 1 + dp[a - c]."
+                if coin <= remaining {
+                    // "If I use this coin once, I already solved dp[remaining - coin].
+                    //  So the total cost is 1 + dp[remaining - coin]."
                     // Keep the minimum across all coin choices.
-                    dp[a] = min(dp[a], 1 + dp[a - c])
+                    dp[remaining] = min(dp[remaining], 1 + dp[remaining - coin])
                 }
             }
         }
