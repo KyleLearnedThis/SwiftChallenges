@@ -761,6 +761,9 @@
 		35E1227AF475C356BC55155F /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298AD4B33D6C05B7105E04A2 /* CoinChange.swift */; };
 		B8D9E334EFF34FC2B3049B61 /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298AD4B33D6C05B7105E04A2 /* CoinChange.swift */; };
 		08F6CB7CF0E2CAE0A8A9C64C /* CoinChangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */; };
+		F6419997AE3FCC9E8F6858BA /* LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1B78A9748CD9BDC9DCFF3 /* LongestIncreasingSubsequence.swift */; };
+		8B19B5E82C83555552E0CF2C /* LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1B78A9748CD9BDC9DCFF3 /* LongestIncreasingSubsequence.swift */; };
+		5E7AAD5388C167C96C256A42 /* LongestIncreasingSubsequenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22173E0B1E6779B1D7EE7D4B /* LongestIncreasingSubsequenceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1270,6 +1273,8 @@
 		8911F1C9E7590CC01E1C576C /* HouseRobberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobberTest.swift; sourceTree = "<group>"; };
 		298AD4B33D6C05B7105E04A2 /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChangeTest.swift; sourceTree = "<group>"; };
+		A4A1B78A9748CD9BDC9DCFF3 /* LongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestIncreasingSubsequence.swift; sourceTree = "<group>"; };
+		22173E0B1E6779B1D7EE7D4B /* LongestIncreasingSubsequenceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestIncreasingSubsequenceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2683,6 +2688,7 @@
 				88823EBAC9077A39CB52BEFB /* ClimbingStairs.swift */,
 				0EB140F0D32D3658B4853ECA /* HouseRobber.swift */,
 				298AD4B33D6C05B7105E04A2 /* CoinChange.swift */,
+				A4A1B78A9748CD9BDC9DCFF3 /* LongestIncreasingSubsequence.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -2693,6 +2699,7 @@
 				6D0AECFF09758AB9CDB36558 /* ClimbingStairsTest.swift */,
 				8911F1C9E7590CC01E1C576C /* HouseRobberTest.swift */,
 				5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */,
+				22173E0B1E6779B1D7EE7D4B /* LongestIncreasingSubsequenceTest.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -2891,6 +2898,7 @@
 				0C66A612E055B4B20E783C4D /* ClimbingStairs.swift in Sources */,
 				B27EC53E03379A14E1FF7108 /* HouseRobber.swift in Sources */,
 				35E1227AF475C356BC55155F /* CoinChange.swift in Sources */,
+				F6419997AE3FCC9E8F6858BA /* LongestIncreasingSubsequence.swift in Sources */,
 				DEC3D823287EB74100EB14F8 /* ReshapeMatrix.swift in Sources */,
 				DECCF07A27FCFEE3007BA99C /* RestoreString.swift in Sources */,
 				DECCEFD227FCFB76007BA99C /* EratosthenesSieve.swift in Sources */,
@@ -3273,6 +3281,8 @@
 				62F2FA0C66FCFE4006860F31 /* HouseRobberTest.swift in Sources */,
 				B8D9E334EFF34FC2B3049B61 /* CoinChange.swift in Sources */,
 				08F6CB7CF0E2CAE0A8A9C64C /* CoinChangeTest.swift in Sources */,
+				8B19B5E82C83555552E0CF2C /* LongestIncreasingSubsequence.swift in Sources */,
+				5E7AAD5388C167C96C256A42 /* LongestIncreasingSubsequenceTest.swift in Sources */,
 				DE4B8F6C289BACAD00DF9D4C /* ArraySimiliar.swift in Sources */,
 				DE15998D28B773F00081E2BE /* ArrayPermutations.swift in Sources */,
 				DEDB4946283CDD7F00B2238B /* CountValleys.swift in Sources */,
