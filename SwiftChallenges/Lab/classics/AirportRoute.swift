@@ -7,17 +7,14 @@ class AirportRoute {
         var dict = [String:String]()
         for i in input {
             let x = i.components(separatedBy: "-")
-            let key = x[0]
-            let value = x[1]
-            print("====== key: \(key) value: \(value)")
-            dict[key] = value
+            guard x.count == 2 else { continue }
+            dict[x[0]] = x[1]
         }
-        
+
         var start: String = getStartingPoint(dict: dict)
-        print("Start: \(start)")
         result.append(start)
         for _ in 1...input.count {
-            let value = dict[start]!
+            guard let value = dict[start] else { break }
             result.append(value)
             start = value
         }
