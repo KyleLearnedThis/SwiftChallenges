@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5898D391568420DC7FE64DE7 /* BurstBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5615ADB62C6B329D093AC2 /* BurstBalloons.swift */; };
+		07F5EC01CE40CA048B2FAF10 /* BurstBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5615ADB62C6B329D093AC2 /* BurstBalloons.swift */; };
+		06502013C1CB0BAE6849C707 /* BurstBalloonsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692FE13B217DA1C6DCD260E /* BurstBalloonsTest.swift */; };
 		7B14CEAD741A462F8DE1E064 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B40BB3E2B478B981B501C /* TreeNode.swift */; };
 		93B48BDB12AD4876A8414F70 /* TreePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000075220BA4121BAC5C8F4 /* TreePrinter.swift */; };
 		C7FBECB1581E4A01B10333B5 /* TreePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000075220BA4121BAC5C8F4 /* TreePrinter.swift */; };
@@ -780,6 +783,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B5615ADB62C6B329D093AC2 /* BurstBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstBalloons.swift; sourceTree = "<group>"; };
+		9692FE13B217DA1C6DCD260E /* BurstBalloonsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstBalloonsTest.swift; sourceTree = "<group>"; };
 		076B40BB3E2B478B981B501C /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		2000075220BA4121BAC5C8F4 /* TreePrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreePrinter.swift; sourceTree = "<group>"; };
 		DE15996C28B4306C0081E2BE /* IPChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPChecker.swift; sourceTree = "<group>"; };
@@ -2695,6 +2700,7 @@
 				298AD4B33D6C05B7105E04A2 /* CoinChange.swift */,
 				A4A1B78A9748CD9BDC9DCFF3 /* LongestIncreasingSubsequence.swift */,
 				29BE0A6DEF0C358CE88B3654 /* EditDistance.swift */,
+				4B5615ADB62C6B329D093AC2 /* BurstBalloons.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -2707,6 +2713,7 @@
 				5C36F49BD6B9284D49C16C4E /* CoinChangeTest.swift */,
 				22173E0B1E6779B1D7EE7D4B /* LongestIncreasingSubsequenceTest.swift */,
 				BAE92AE1DA756CA00918E0CB /* EditDistanceTest.swift */,
+				9692FE13B217DA1C6DCD260E /* BurstBalloonsTest.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -2828,6 +2835,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5898D391568420DC7FE64DE7 /* BurstBalloons.swift in Sources */,
 				FB5E4FB32FA450BB0014F0DF /* MedianTwoSortedArrays.swift in Sources */,
 				DE604CAD2808E1F700C62CE6 /* RevenueMilestones.swift in Sources */,
 				DECCEE8127FCF8B4007BA99C /* SingleNumber.swift in Sources */,
@@ -3097,6 +3105,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F5EC01CE40CA048B2FAF10 /* BurstBalloons.swift in Sources */,
+				06502013C1CB0BAE6849C707 /* BurstBalloonsTest.swift in Sources */,
 				DECCEF5D27FCF9C1007BA99C /* RankTransformArrayTest.swift in Sources */,
 				DECCEEB327FCF8E9007BA99C /* RansomNotes.swift in Sources */,
 				DE221EEB2819490100CAE40D /* SimpleLinkedListTest.swift in Sources */,
