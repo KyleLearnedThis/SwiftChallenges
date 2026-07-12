@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */; };
+		6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */; };
+		828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */; };
+		D05C6B5094E764EF0D252EF0 /* SumOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */; };
+		B8252DE478FC822991463D36 /* SumOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */; };
+		D6BC46EE8546E1EE36F947ED /* SumOfTwoIntegersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B7D460C451C4948AC1A42 /* SumOfTwoIntegersTest.swift */; };
 		06502013C1CB0BAE6849C707 /* BurstBalloonsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692FE13B217DA1C6DCD260E /* BurstBalloonsTest.swift */; };
 		0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
 		07CD87575D13C1B18210086E /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0080A6351AF7C22CB04E73E /* NumberOf1Bits.swift */; };
@@ -792,6 +798,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegers.swift; sourceTree = "<group>"; };
+		A49B7D460C451C4948AC1A42 /* SumOfTwoIntegersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegersTest.swift; sourceTree = "<group>"; };
+		34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
+		28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberTest.swift; sourceTree = "<group>"; };
 		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		06ECA24A5B5B8EA3B921D438 /* NeetWordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordSearch.swift; sourceTree = "<group>"; };
 		076B40BB3E2B478B981B501C /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -2386,12 +2396,21 @@
 			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
+		88E1ED6CCA605FB6BCF29FCB /* MathGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */,
+			);
+			path = MathGeometry;
+			sourceTree = "<group>";
+		};
 		E5DF15F53210DD3B58956E02 /* BitManipulation */ = {
 			isa = PBXGroup;
 			children = (
 				F0080A6351AF7C22CB04E73E /* NumberOf1Bits.swift */,
 				2ED15ACAB6612B488D6A93E6 /* NeetSingleNumber.swift */,
 				959B652ECE4BD2AE4E3E603B /* ReverseBits.swift */,
+				44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -2409,12 +2428,21 @@
 			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
+		FDF73F5B1508FFFA75DDE559 /* MathGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */,
+			);
+			path = MathGeometry;
+			sourceTree = "<group>";
+		};
 		F881B0A08F6663EF18143409 /* BitManipulation */ = {
 			isa = PBXGroup;
 			children = (
 				2309C7D68FC1ECBBF6EDFDF0 /* NumberOf1BitsTest.swift */,
 				134ED134D2B1A6C1DDC5364E /* NeetSingleNumberTest.swift */,
 				4670FF829920033EC115F6C6 /* ReverseBitsTest.swift */,
+				A49B7D460C451C4948AC1A42 /* SumOfTwoIntegersTest.swift */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -2616,6 +2644,7 @@
 				6B236F157C5761123F4BD54E /* TopologicalSort */,
 				F14FBA533AFBD7FC2ABF689B /* DynamicProgramming */,
 				F881B0A08F6663EF18143409 /* BitManipulation */,
+				FDF73F5B1508FFFA75DDE559 /* MathGeometry */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2640,6 +2669,7 @@
 				0600CCD466D5A4D18C8E4199 /* TopologicalSort */,
 				E04F4ADDB0E9152694B9EC57 /* DynamicProgramming */,
 				E5DF15F53210DD3B58956E02 /* BitManipulation */,
+				88E1ED6CCA605FB6BCF29FCB /* MathGeometry */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2872,6 +2902,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */,
+				D05C6B5094E764EF0D252EF0 /* SumOfTwoIntegers.swift in Sources */,
 				07CD87575D13C1B18210086E /* NumberOf1Bits.swift in Sources */,
 				17D02B3B691F78670A1BE634 /* NeetSingleNumber.swift in Sources */,
 				6F44147C2D17DDA424D143BE /* ReverseBits.swift in Sources */,
@@ -3145,6 +3177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */,
+				828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */,
+				B8252DE478FC822991463D36 /* SumOfTwoIntegers.swift in Sources */,
+				D6BC46EE8546E1EE36F947ED /* SumOfTwoIntegersTest.swift in Sources */,
 				C31F71391B5242A26795EC98 /* NumberOf1Bits.swift in Sources */,
 				6466FBC5326207274F224534 /* NumberOf1BitsTest.swift in Sources */,
 				67B93FA433D046FF4C1FDEE0 /* NeetSingleNumber.swift in Sources */,
