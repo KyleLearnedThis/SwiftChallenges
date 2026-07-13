@@ -702,6 +702,9 @@
 		0C9C9E3A9C51A6AD9D6AA475 /* NeetDailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DE7FEF43C2E560D7826FA /* NeetDailyTemperatures.swift */; };
 		178DCF1689FB6F84F61A2522 /* NeetDailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7DE7FEF43C2E560D7826FA /* NeetDailyTemperatures.swift */; };
 		E9D3C6020A68359350EC95AE /* NeetDailyTemperaturesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AA66B2463A2D62D960414 /* NeetDailyTemperaturesTest.swift */; };
+		3D5845760B6DAEBD0FE99989 /* OnlineStockSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35D5D82252E80028A15E20 /* OnlineStockSpan.swift */; };
+		14553FC13303F242DCCBDF24 /* OnlineStockSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35D5D82252E80028A15E20 /* OnlineStockSpan.swift */; };
+		594DA7E078B5162878C5CDCA /* OnlineStockSpanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A37A97D17AA3B366FEB5B8 /* OnlineStockSpanTest.swift */; };
 		FB2C5DC72FD53283009550A1 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DC62FD53283009550A1 /* ReverseLinkedList.swift */; };
 		FB2C5DC82FD53283009550A1 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DC62FD53283009550A1 /* ReverseLinkedList.swift */; };
 		FB2C5DCB2FD5335D009550A1 /* ReverseLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DCA2FD5335D009550A1 /* ReverseLinkedListTest.swift */; };
@@ -1258,6 +1261,8 @@
 		FB2C5DC32FD5281B009550A1 /* NextGreaterElementITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGreaterElementITest.swift; sourceTree = "<group>"; };
 		4B7DE7FEF43C2E560D7826FA /* NeetDailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetDailyTemperatures.swift; sourceTree = "<group>"; };
 		E17AA66B2463A2D62D960414 /* NeetDailyTemperaturesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetDailyTemperaturesTest.swift; sourceTree = "<group>"; };
+		4B35D5D82252E80028A15E20 /* OnlineStockSpan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStockSpan.swift; sourceTree = "<group>"; };
+		C0A37A97D17AA3B366FEB5B8 /* OnlineStockSpanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStockSpanTest.swift; sourceTree = "<group>"; };
 		FB2C5DC62FD53283009550A1 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		FB2C5DCA2FD5335D009550A1 /* ReverseLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListTest.swift; sourceTree = "<group>"; };
 		FB2C5DCC2FD537C2009550A1 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
@@ -2523,6 +2528,7 @@
 			children = (
 				FB2C5DBF2FD527D2009550A1 /* NextGreaterElementI.swift */,
 				4B7DE7FEF43C2E560D7826FA /* NeetDailyTemperatures.swift */,
+				4B35D5D82252E80028A15E20 /* OnlineStockSpan.swift */,
 			);
 			path = MonotonicStack;
 			sourceTree = "<group>";
@@ -2532,6 +2538,7 @@
 			children = (
 				FB2C5DC32FD5281B009550A1 /* NextGreaterElementITest.swift */,
 				E17AA66B2463A2D62D960414 /* NeetDailyTemperaturesTest.swift */,
+				C0A37A97D17AA3B366FEB5B8 /* OnlineStockSpanTest.swift */,
 			);
 			path = MonotonicStack;
 			sourceTree = "<group>";
@@ -3020,6 +3027,7 @@
 				FB49A3B42F9F1C9F0013680A /* LinkedListCycle2.swift in Sources */,
 				FB2C5DC12FD527D2009550A1 /* NextGreaterElementI.swift in Sources */,
 				0C9C9E3A9C51A6AD9D6AA475 /* NeetDailyTemperatures.swift in Sources */,
+				3D5845760B6DAEBD0FE99989 /* OnlineStockSpan.swift in Sources */,
 				DEA5C1E3282B8676004AE296 /* DivisibleSumPairs.swift in Sources */,
 				DECCEFCB27FCFB4C007BA99C /* PriorityQueue.swift in Sources */,
 				FB49A38E2F9DF3950013680A /* ContainerWithMostWater.swift in Sources */,
@@ -3295,6 +3303,7 @@
 				DE2E0F8D280EBE11006D06FA /* WrongAnswerOnlyTest.swift in Sources */,
 				FB2C5DC02FD527D2009550A1 /* NextGreaterElementI.swift in Sources */,
 				178DCF1689FB6F84F61A2522 /* NeetDailyTemperatures.swift in Sources */,
+				14553FC13303F242DCCBDF24 /* OnlineStockSpan.swift in Sources */,
 				DEDB4952283DA30E00B2238B /* HurdleRaceTest.swift in Sources */,
 				FB2C5DBA2FD4CE49009550A1 /* LargestRectangleHistogram.swift in Sources */,
 				FB1543C12FDF543F00697F86 /* NeetWordLadderTest.swift in Sources */,
@@ -3621,6 +3630,7 @@
 				DEE62549283B4186003EC784 /* BetweenTwoSetsTest.swift in Sources */,
 				FB2C5DC42FD5281B009550A1 /* NextGreaterElementITest.swift in Sources */,
 				E9D3C6020A68359350EC95AE /* NeetDailyTemperaturesTest.swift in Sources */,
+				594DA7E078B5162878C5CDCA /* OnlineStockSpanTest.swift in Sources */,
 				DEC3D838287F917900EB14F8 /* StickCut.swift in Sources */,
 				FB1543BF2FDF540F00697F86 /* NeetWordLadder.swift in Sources */,
 				DE1CA2F927FED812001D8BD1 /* NumberPlusMinus.swift in Sources */,
