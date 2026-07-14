@@ -10,6 +10,9 @@
 		A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */; };
 		6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */; };
 		828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */; };
+		ED6417E669BD944EA70887F4 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3847D0D325153FA3319751 /* RotateImage.swift */; };
+		3CA6DC0BA0B3F918E68D1251 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3847D0D325153FA3319751 /* RotateImage.swift */; };
+		49D388E20D9CB8B3C0B3070F /* RotateImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05160229E3F38A7C40DDB71 /* RotateImageTest.swift */; };
 		D05C6B5094E764EF0D252EF0 /* SumOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */; };
 		B8252DE478FC822991463D36 /* SumOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */; };
 		D6BC46EE8546E1EE36F947ED /* SumOfTwoIntegersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B7D460C451C4948AC1A42 /* SumOfTwoIntegersTest.swift */; };
@@ -808,6 +811,8 @@
 		A49B7D460C451C4948AC1A42 /* SumOfTwoIntegersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegersTest.swift; sourceTree = "<group>"; };
 		34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumberTest.swift; sourceTree = "<group>"; };
+		2A3847D0D325153FA3319751 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		F05160229E3F38A7C40DDB71 /* RotateImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTest.swift; sourceTree = "<group>"; };
 		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		06ECA24A5B5B8EA3B921D438 /* NeetWordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordSearch.swift; sourceTree = "<group>"; };
 		076B40BB3E2B478B981B501C /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -2410,6 +2415,7 @@
 			isa = PBXGroup;
 			children = (
 				34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */,
+				2A3847D0D325153FA3319751 /* RotateImage.swift */,
 			);
 			path = MathGeometry;
 			sourceTree = "<group>";
@@ -2442,6 +2448,7 @@
 			isa = PBXGroup;
 			children = (
 				28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */,
+				F05160229E3F38A7C40DDB71 /* RotateImageTest.swift */,
 			);
 			path = MathGeometry;
 			sourceTree = "<group>";
@@ -2917,6 +2924,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */,
+				ED6417E669BD944EA70887F4 /* RotateImage.swift in Sources */,
 				D05C6B5094E764EF0D252EF0 /* SumOfTwoIntegers.swift in Sources */,
 				07CD87575D13C1B18210086E /* NumberOf1Bits.swift in Sources */,
 				17D02B3B691F78670A1BE634 /* NeetSingleNumber.swift in Sources */,
@@ -3195,6 +3203,8 @@
 			files = (
 				6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */,
 				828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */,
+				3CA6DC0BA0B3F918E68D1251 /* RotateImage.swift in Sources */,
+				49D388E20D9CB8B3C0B3070F /* RotateImageTest.swift in Sources */,
 				B8252DE478FC822991463D36 /* SumOfTwoIntegers.swift in Sources */,
 				D6BC46EE8546E1EE36F947ED /* SumOfTwoIntegersTest.swift in Sources */,
 				C31F71391B5242A26795EC98 /* NumberOf1Bits.swift in Sources */,
