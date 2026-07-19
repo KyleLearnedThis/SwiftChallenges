@@ -15,6 +15,9 @@
 		2F477566B1C4A4940A9EFDA8 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F191A657B61E944C4CA54 /* SpiralMatrix.swift */; };
 		8F543616F38F2DEE616687E9 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F191A657B61E944C4CA54 /* SpiralMatrix.swift */; };
 		4769408FD3436E1564CB1DC3 /* SpiralMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE785E3ECF0D8A74DDB268B /* SpiralMatrixTest.swift */; };
+		29FE8E812BA2C0C9339CFD88 /* PowXN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03968801FBD969CF3E2E95 /* PowXN.swift */; };
+		A6968873A031723A13330A97 /* PowXN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03968801FBD969CF3E2E95 /* PowXN.swift */; };
+		9B4F7D87CBAD4533F0A08ACA /* PowXNTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9287F9FA4CB1E4C983560 /* PowXNTest.swift */; };
 		49D388E20D9CB8B3C0B3070F /* RotateImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05160229E3F38A7C40DDB71 /* RotateImageTest.swift */; };
 		D05C6B5094E764EF0D252EF0 /* SumOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */; };
 		B8252DE478FC822991463D36 /* SumOfTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */; };
@@ -817,6 +820,8 @@
 		2A3847D0D325153FA3319751 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		9C6F191A657B61E944C4CA54 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		DEE785E3ECF0D8A74DDB268B /* SpiralMatrixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrixTest.swift; sourceTree = "<group>"; };
+		7B03968801FBD969CF3E2E95 /* PowXN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowXN.swift; sourceTree = "<group>"; };
+		4AC9287F9FA4CB1E4C983560 /* PowXNTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowXNTest.swift; sourceTree = "<group>"; };
 		F05160229E3F38A7C40DDB71 /* RotateImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTest.swift; sourceTree = "<group>"; };
 		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		06ECA24A5B5B8EA3B921D438 /* NeetWordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordSearch.swift; sourceTree = "<group>"; };
@@ -2422,6 +2427,7 @@
 				34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */,
 				2A3847D0D325153FA3319751 /* RotateImage.swift */,
 				9C6F191A657B61E944C4CA54 /* SpiralMatrix.swift */,
+				7B03968801FBD969CF3E2E95 /* PowXN.swift */,
 			);
 			path = MathGeometry;
 			sourceTree = "<group>";
@@ -2456,6 +2462,7 @@
 				28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */,
 				F05160229E3F38A7C40DDB71 /* RotateImageTest.swift */,
 				DEE785E3ECF0D8A74DDB268B /* SpiralMatrixTest.swift */,
+				4AC9287F9FA4CB1E4C983560 /* PowXNTest.swift */,
 			);
 			path = MathGeometry;
 			sourceTree = "<group>";
@@ -2933,6 +2940,7 @@
 				A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */,
 				ED6417E669BD944EA70887F4 /* RotateImage.swift in Sources */,
 				2F477566B1C4A4940A9EFDA8 /* SpiralMatrix.swift in Sources */,
+				29FE8E812BA2C0C9339CFD88 /* PowXN.swift in Sources */,
 				D05C6B5094E764EF0D252EF0 /* SumOfTwoIntegers.swift in Sources */,
 				07CD87575D13C1B18210086E /* NumberOf1Bits.swift in Sources */,
 				17D02B3B691F78670A1BE634 /* NeetSingleNumber.swift in Sources */,
@@ -3214,6 +3222,8 @@
 				3CA6DC0BA0B3F918E68D1251 /* RotateImage.swift in Sources */,
 				8F543616F38F2DEE616687E9 /* SpiralMatrix.swift in Sources */,
 				4769408FD3436E1564CB1DC3 /* SpiralMatrixTest.swift in Sources */,
+				A6968873A031723A13330A97 /* PowXN.swift in Sources */,
+				9B4F7D87CBAD4533F0A08ACA /* PowXNTest.swift in Sources */,
 				49D388E20D9CB8B3C0B3070F /* RotateImageTest.swift in Sources */,
 				B8252DE478FC822991463D36 /* SumOfTwoIntegers.swift in Sources */,
 				D6BC46EE8546E1EE36F947ED /* SumOfTwoIntegersTest.swift in Sources */,
