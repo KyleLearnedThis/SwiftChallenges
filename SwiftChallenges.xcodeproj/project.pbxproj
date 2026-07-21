@@ -729,6 +729,9 @@
 		FB2C5DE52FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */; };
 		FB2C5DE62FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */; };
 		FB2C5DEA2FD61D2E009550A1 /* ReverseLinkedListIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */; };
+		242A78949A87E0D53709D0B7 /* ReverseNodesInKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A782E15E23D3091DB6AB /* ReverseNodesInKGroup.swift */; };
+		0C43E5807B6B869B799826D5 /* ReverseNodesInKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A782E15E23D3091DB6AB /* ReverseNodesInKGroup.swift */; };
+		C78A8FD9AC6AD4406F7714EB /* ReverseNodesInKGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D0DF33BD598BF7E5BFDD3 /* ReverseNodesInKGroupTest.swift */; };
 		FB2C5DEE2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */; };
 		FB2C5DEF2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */; };
 		FB2C5DF12FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */; };
@@ -1288,6 +1291,8 @@
 		FB2C5DDC2FD5506C009550A1 /* MergeKSortedListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKSortedListsTest.swift; sourceTree = "<group>"; };
 		FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListII.swift; sourceTree = "<group>"; };
 		FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListIITest.swift; sourceTree = "<group>"; };
+		A1C0A782E15E23D3091DB6AB /* ReverseNodesInKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseNodesInKGroup.swift; sourceTree = "<group>"; };
+		C57D0DF33BD598BF7E5BFDD3 /* ReverseNodesInKGroupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseNodesInKGroupTest.swift; sourceTree = "<group>"; };
 		FB2C5DED2FD7BBF9009550A1 /* MaximumDepthBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTree.swift; sourceTree = "<group>"; };
 		FB2C5DF02FD7BE07009550A1 /* MaximumDepthBinaryTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthBinaryTreeTest.swift; sourceTree = "<group>"; };
 		FB2C5DF32FD7C442009550A1 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvertBinaryTree.swift; path = SwiftChallenges/NeetCode/Trees/InvertBinaryTree.swift; sourceTree = SOURCE_ROOT; };
@@ -2590,6 +2595,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2C5DE42FD61C5D009550A1 /* ReverseLinkedListII.swift */,
+				A1C0A782E15E23D3091DB6AB /* ReverseNodesInKGroup.swift */,
 			);
 			path = ReverseLinkedList;
 			sourceTree = "<group>";
@@ -2598,6 +2604,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2C5DE92FD61D2E009550A1 /* ReverseLinkedListIITest.swift */,
+				C57D0DF33BD598BF7E5BFDD3 /* ReverseNodesInKGroupTest.swift */,
 			);
 			path = ReverseLinkedList;
 			sourceTree = "<group>";
@@ -3010,6 +3017,7 @@
 				FB49A3AB2F9F1B640013680A /* GroupAnagrams.swift in Sources */,
 				FB2C5DD82FD54FE7009550A1 /* MergeKSortedLists.swift in Sources */,
 				FB2C5DE52FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */,
+				242A78949A87E0D53709D0B7 /* ReverseNodesInKGroup.swift in Sources */,
 				DEA5C1DB282B7E83004AE296 /* PersonalScoresCount.swift in Sources */,
 				FB1543C52FDFB21E00697F86 /* NeetSubsets.swift in Sources */,
 				42D58F7AD3D74ED4B6C3A75A /* NeetPermutations.swift in Sources */,
@@ -3443,6 +3451,8 @@
 				DECCEF9A27FCF9C1007BA99C /* CountNegativeMatrixTest.swift in Sources */,
 				DECCEEB127FCF8E3007BA99C /* StockTrading.swift in Sources */,
 				FB2C5DE62FD61C5D009550A1 /* ReverseLinkedListII.swift in Sources */,
+				0C43E5807B6B869B799826D5 /* ReverseNodesInKGroup.swift in Sources */,
+				C78A8FD9AC6AD4406F7714EB /* ReverseNodesInKGroupTest.swift in Sources */,
 				DECCF04D27FCFE49007BA99C /* BSTInversion.swift in Sources */,
 				DECCEF9627FCF9C1007BA99C /* StockTradingTest.swift in Sources */,
 				DECCEEE527FCF97C007BA99C /* MappingTransform.swift in Sources */,
