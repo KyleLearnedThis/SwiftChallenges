@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D210FAC58C1CE2EE1EBD2BF /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E680500CC8660A986ECD51 /* MeetingRooms.swift */; };
+		7687B5BFB423028C522653D6 /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E680500CC8660A986ECD51 /* MeetingRooms.swift */; };
+		F28D7EC478ED1CD6AB21208A /* MeetingRoomsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */; };
 		A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */; };
 		6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */; };
 		828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E9E305D0A33152385CD9F3 /* HappyNumberTest.swift */; };
@@ -816,6 +819,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20E680500CC8660A986ECD51 /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
+		DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsTest.swift; sourceTree = "<group>"; };
 		44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegers.swift; sourceTree = "<group>"; };
 		A49B7D460C451C4948AC1A42 /* SumOfTwoIntegersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegersTest.swift; sourceTree = "<group>"; };
 		34B6A98466E4AE704A8FBD49 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
@@ -2667,6 +2672,22 @@
 			path = TwoPointers;
 			sourceTree = "<group>";
 		};
+		19ECFFC2BD62F4916624CB7A /* Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				20E680500CC8660A986ECD51 /* MeetingRooms.swift */,
+			);
+			path = Intervals;
+			sourceTree = "<group>";
+		};
+		0436099BC1C8F159D07C9CAD /* Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */,
+			);
+			path = Intervals;
+			sourceTree = "<group>";
+		};
 		FB49A3972F9F0FE70013680A /* NeetCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -2687,6 +2708,7 @@
 				F14FBA533AFBD7FC2ABF689B /* DynamicProgramming */,
 				F881B0A08F6663EF18143409 /* BitManipulation */,
 				FDF73F5B1508FFFA75DDE559 /* MathGeometry */,
+				0436099BC1C8F159D07C9CAD /* Intervals */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2712,6 +2734,7 @@
 				E04F4ADDB0E9152694B9EC57 /* DynamicProgramming */,
 				E5DF15F53210DD3B58956E02 /* BitManipulation */,
 				88E1ED6CCA605FB6BCF29FCB /* MathGeometry */,
+				19ECFFC2BD62F4916624CB7A /* Intervals */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2945,6 +2968,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */,
+				0D210FAC58C1CE2EE1EBD2BF /* MeetingRooms.swift in Sources */,
 				ED6417E669BD944EA70887F4 /* RotateImage.swift in Sources */,
 				2F477566B1C4A4940A9EFDA8 /* SpiralMatrix.swift in Sources */,
 				29FE8E812BA2C0C9339CFD88 /* PowXN.swift in Sources */,
@@ -3226,6 +3250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */,
+				7687B5BFB423028C522653D6 /* MeetingRooms.swift in Sources */,
+				F28D7EC478ED1CD6AB21208A /* MeetingRoomsTest.swift in Sources */,
 				828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */,
 				3CA6DC0BA0B3F918E68D1251 /* RotateImage.swift in Sources */,
 				8F543616F38F2DEE616687E9 /* SpiralMatrix.swift in Sources */,
