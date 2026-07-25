@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2640602BB28756F999413E2 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85610A990431DC56E8C7E101 /* MergeIntervals.swift */; };
+		4B5FD2C5C380839F0F99F0DC /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85610A990431DC56E8C7E101 /* MergeIntervals.swift */; };
+		56AF47B9E8593076F1F975E8 /* MergeIntervalsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB772471AD98C7B82EFB70 /* MergeIntervalsTest.swift */; };
 		0D210FAC58C1CE2EE1EBD2BF /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E680500CC8660A986ECD51 /* MeetingRooms.swift */; };
 		7687B5BFB423028C522653D6 /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E680500CC8660A986ECD51 /* MeetingRooms.swift */; };
 		F28D7EC478ED1CD6AB21208A /* MeetingRoomsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */; };
@@ -819,6 +822,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85610A990431DC56E8C7E101 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		4FEB772471AD98C7B82EFB70 /* MergeIntervalsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTest.swift; sourceTree = "<group>"; };
 		20E680500CC8660A986ECD51 /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
 		DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsTest.swift; sourceTree = "<group>"; };
 		44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegers.swift; sourceTree = "<group>"; };
@@ -2676,6 +2681,7 @@
 			isa = PBXGroup;
 			children = (
 				20E680500CC8660A986ECD51 /* MeetingRooms.swift */,
+				85610A990431DC56E8C7E101 /* MergeIntervals.swift */,
 			);
 			path = Intervals;
 			sourceTree = "<group>";
@@ -2684,6 +2690,7 @@
 			isa = PBXGroup;
 			children = (
 				DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */,
+				4FEB772471AD98C7B82EFB70 /* MergeIntervalsTest.swift */,
 			);
 			path = Intervals;
 			sourceTree = "<group>";
@@ -2968,6 +2975,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */,
+				F2640602BB28756F999413E2 /* MergeIntervals.swift in Sources */,
 				0D210FAC58C1CE2EE1EBD2BF /* MeetingRooms.swift in Sources */,
 				ED6417E669BD944EA70887F4 /* RotateImage.swift in Sources */,
 				2F477566B1C4A4940A9EFDA8 /* SpiralMatrix.swift in Sources */,
@@ -3250,6 +3258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F858E13E99D31FA38904C26 /* HappyNumber.swift in Sources */,
+				4B5FD2C5C380839F0F99F0DC /* MergeIntervals.swift in Sources */,
+				56AF47B9E8593076F1F975E8 /* MergeIntervalsTest.swift in Sources */,
 				7687B5BFB423028C522653D6 /* MeetingRooms.swift in Sources */,
 				F28D7EC478ED1CD6AB21208A /* MeetingRoomsTest.swift in Sources */,
 				828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */,
