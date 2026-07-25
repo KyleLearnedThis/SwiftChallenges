@@ -13,6 +13,9 @@
 		D1A9351DC1B4D28E0D8FCFA5 /* InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6917423F1FDC2D21BBE1B3BA /* InsertInterval.swift */; };
 		CC2E86D50BA8C1545DA321E5 /* InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6917423F1FDC2D21BBE1B3BA /* InsertInterval.swift */; };
 		FA9C0A865A2DE5852A6ADB8E /* InsertIntervalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9488F8E655C60D85C632C3 /* InsertIntervalTest.swift */; };
+		4B8D7D68A2729BA82E75CA2D /* NonOverlappingIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99F772F915FB794B17F881 /* NonOverlappingIntervals.swift */; };
+		25B9EE06B1988F0CA21C25E1 /* NonOverlappingIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99F772F915FB794B17F881 /* NonOverlappingIntervals.swift */; };
+		96479297EBE05E685F638A29 /* NonOverlappingIntervalsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73BD82AD434AA0750EA4BA /* NonOverlappingIntervalsTest.swift */; };
 		0D210FAC58C1CE2EE1EBD2BF /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E680500CC8660A986ECD51 /* MeetingRooms.swift */; };
 		7687B5BFB423028C522653D6 /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E680500CC8660A986ECD51 /* MeetingRooms.swift */; };
 		F28D7EC478ED1CD6AB21208A /* MeetingRoomsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */; };
@@ -829,6 +832,8 @@
 		4FEB772471AD98C7B82EFB70 /* MergeIntervalsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTest.swift; sourceTree = "<group>"; };
 		6917423F1FDC2D21BBE1B3BA /* InsertInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertInterval.swift; sourceTree = "<group>"; };
 		3F9488F8E655C60D85C632C3 /* InsertIntervalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertIntervalTest.swift; sourceTree = "<group>"; };
+		AF99F772F915FB794B17F881 /* NonOverlappingIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonOverlappingIntervals.swift; sourceTree = "<group>"; };
+		CE73BD82AD434AA0750EA4BA /* NonOverlappingIntervalsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonOverlappingIntervalsTest.swift; sourceTree = "<group>"; };
 		20E680500CC8660A986ECD51 /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
 		DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsTest.swift; sourceTree = "<group>"; };
 		44FA636537735481449A54B0 /* SumOfTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoIntegers.swift; sourceTree = "<group>"; };
@@ -2688,6 +2693,7 @@
 				20E680500CC8660A986ECD51 /* MeetingRooms.swift */,
 				85610A990431DC56E8C7E101 /* MergeIntervals.swift */,
 				6917423F1FDC2D21BBE1B3BA /* InsertInterval.swift */,
+				AF99F772F915FB794B17F881 /* NonOverlappingIntervals.swift */,
 			);
 			path = Intervals;
 			sourceTree = "<group>";
@@ -2698,6 +2704,7 @@
 				DF82E04745704EFD44ED9245 /* MeetingRoomsTest.swift */,
 				4FEB772471AD98C7B82EFB70 /* MergeIntervalsTest.swift */,
 				3F9488F8E655C60D85C632C3 /* InsertIntervalTest.swift */,
+				CE73BD82AD434AA0750EA4BA /* NonOverlappingIntervalsTest.swift */,
 			);
 			path = Intervals;
 			sourceTree = "<group>";
@@ -2984,6 +2991,7 @@
 				A93DC3E0411299F517F576DF /* HappyNumber.swift in Sources */,
 				F2640602BB28756F999413E2 /* MergeIntervals.swift in Sources */,
 				D1A9351DC1B4D28E0D8FCFA5 /* InsertInterval.swift in Sources */,
+				4B8D7D68A2729BA82E75CA2D /* NonOverlappingIntervals.swift in Sources */,
 				0D210FAC58C1CE2EE1EBD2BF /* MeetingRooms.swift in Sources */,
 				ED6417E669BD944EA70887F4 /* RotateImage.swift in Sources */,
 				2F477566B1C4A4940A9EFDA8 /* SpiralMatrix.swift in Sources */,
@@ -3270,6 +3278,8 @@
 				56AF47B9E8593076F1F975E8 /* MergeIntervalsTest.swift in Sources */,
 				CC2E86D50BA8C1545DA321E5 /* InsertInterval.swift in Sources */,
 				FA9C0A865A2DE5852A6ADB8E /* InsertIntervalTest.swift in Sources */,
+				25B9EE06B1988F0CA21C25E1 /* NonOverlappingIntervals.swift in Sources */,
+				96479297EBE05E685F638A29 /* NonOverlappingIntervalsTest.swift in Sources */,
 				7687B5BFB423028C522653D6 /* MeetingRooms.swift in Sources */,
 				F28D7EC478ED1CD6AB21208A /* MeetingRoomsTest.swift in Sources */,
 				828DFD4EA258F20AAC39E92D /* HappyNumberTest.swift in Sources */,
