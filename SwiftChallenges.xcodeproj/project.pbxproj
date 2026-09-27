@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F09216AB9654EF585B02BC9B /* KthLargestElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5478408BDD012B28DB39069F /* KthLargestElementInArray.swift */; };
+		7B65E09AE8BCA4E0DA8A6BBA /* KthLargestElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5478408BDD012B28DB39069F /* KthLargestElementInArray.swift */; };
+		695569F195DEEE941C18FB37 /* KthLargestElementInArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F15271F4B0887323201C4E /* KthLargestElementInArrayTest.swift */; };
 		02088047C9716047DC90B88E /* FirstMissingPositiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A806AA9B428AEA1C74FD4 /* FirstMissingPositiveTest.swift */; };
 		06502013C1CB0BAE6849C707 /* BurstBalloonsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692FE13B217DA1C6DCD260E /* BurstBalloonsTest.swift */; };
 		0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
@@ -843,6 +846,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5478408BDD012B28DB39069F /* KthLargestElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArray.swift; sourceTree = "<group>"; };
+		E2F15271F4B0887323201C4E /* KthLargestElementInArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArrayTest.swift; sourceTree = "<group>"; };
 		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		06ECA24A5B5B8EA3B921D438 /* NeetWordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordSearch.swift; sourceTree = "<group>"; };
 		076B40BB3E2B478B981B501C /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -1453,6 +1458,7 @@
 		3F31B1D0E2E437EF84C68F32 /* HeapPriorityQueue */ = {
 			isa = PBXGroup;
 			children = (
+				5478408BDD012B28DB39069F /* KthLargestElementInArray.swift */,
 				5EAAE4EBD684ABE7342A0A39 /* TopKFrequentElements.swift */,
 			);
 			path = HeapPriorityQueue;
@@ -1461,6 +1467,7 @@
 		6AFC144D41CD6FA2D594449D /* HeapPriorityQueue */ = {
 			isa = PBXGroup;
 			children = (
+				E2F15271F4B0887323201C4E /* KthLargestElementInArrayTest.swift */,
 				E4E6F3019084411CA625872B /* TopKFrequentElementsTest.swift */,
 			);
 			path = HeapPriorityQueue;
@@ -3055,6 +3062,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09216AB9654EF585B02BC9B /* KthLargestElementInArray.swift in Sources */,
 				7439E6F6D1FCD8531775E866 /* TopKFrequentElements.swift in Sources */,
 				94699E558B1FD862C1B707C6 /* MissingNumber.swift in Sources */,
 				FD9E816BBB65473873BA8C9E /* FindAllNumbersDisappearedInArray.swift in Sources */,
@@ -3345,6 +3353,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B65E09AE8BCA4E0DA8A6BBA /* KthLargestElementInArray.swift in Sources */,
+				695569F195DEEE941C18FB37 /* KthLargestElementInArrayTest.swift in Sources */,
 				AA69967551C47A62429683F2 /* TopKFrequentElements.swift in Sources */,
 				B1C2A0137C098019B16E99F6 /* TopKFrequentElementsTest.swift in Sources */,
 				D15CCEDED12924F77A90B6F5 /* MissingNumber.swift in Sources */,
