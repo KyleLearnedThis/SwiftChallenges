@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC6734715A66559A45C5F30 /* HeapMergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14103700D3EE57B5BF1C9E3 /* HeapMergeKSortedLists.swift */; };
+		61D202807A61CBF62DB7B822 /* HeapMergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14103700D3EE57B5BF1C9E3 /* HeapMergeKSortedLists.swift */; };
+		BBD0370D9F4976D756AC76B6 /* HeapMergeKSortedListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50934DF65EDABB1EA33288 /* HeapMergeKSortedListsTest.swift */; };
 		02088047C9716047DC90B88E /* FirstMissingPositiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A806AA9B428AEA1C74FD4 /* FirstMissingPositiveTest.swift */; };
 		06502013C1CB0BAE6849C707 /* BurstBalloonsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692FE13B217DA1C6DCD260E /* BurstBalloonsTest.swift */; };
 		0740FC6E87029AD5DAB42D15 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486AA15563A4867D9BC9F85 /* CourseSchedule.swift */; };
@@ -849,6 +852,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D14103700D3EE57B5BF1C9E3 /* HeapMergeKSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapMergeKSortedLists.swift; sourceTree = "<group>"; };
+		1D50934DF65EDABB1EA33288 /* HeapMergeKSortedListsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapMergeKSortedListsTest.swift; sourceTree = "<group>"; };
 		03A13D9047AF1BCEE4A199BA /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		06ECA24A5B5B8EA3B921D438 /* NeetWordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeetWordSearch.swift; sourceTree = "<group>"; };
 		076B40BB3E2B478B981B501C /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -1466,6 +1471,7 @@
 				5478408BDD012B28DB39069F /* KthLargestElementInArray.swift */,
 				5EAAE4EBD684ABE7342A0A39 /* TopKFrequentElements.swift */,
 				4AD46A8C2EF817976EE86E3E /* FindMedianFromDataStream.swift */,
+				D14103700D3EE57B5BF1C9E3 /* HeapMergeKSortedLists.swift */,
 			);
 			path = HeapPriorityQueue;
 			sourceTree = "<group>";
@@ -1476,6 +1482,7 @@
 				E2F15271F4B0887323201C4E /* KthLargestElementInArrayTest.swift */,
 				E4E6F3019084411CA625872B /* TopKFrequentElementsTest.swift */,
 				40A07B12858FE7E92DF9F98D /* FindMedianFromDataStreamTest.swift */,
+				1D50934DF65EDABB1EA33288 /* HeapMergeKSortedListsTest.swift */,
 			);
 			path = HeapPriorityQueue;
 			sourceTree = "<group>";
@@ -3069,6 +3076,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC6734715A66559A45C5F30 /* HeapMergeKSortedLists.swift in Sources */,
 				F09216AB9654EF585B02BC9B /* KthLargestElementInArray.swift in Sources */,
 				3C778FC9CBEAA3B49B799C45 /* FindMedianFromDataStream.swift in Sources */,
 				7439E6F6D1FCD8531775E866 /* TopKFrequentElements.swift in Sources */,
@@ -3361,6 +3369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D202807A61CBF62DB7B822 /* HeapMergeKSortedLists.swift in Sources */,
+				BBD0370D9F4976D756AC76B6 /* HeapMergeKSortedListsTest.swift in Sources */,
 				7B65E09AE8BCA4E0DA8A6BBA /* KthLargestElementInArray.swift in Sources */,
 				695569F195DEEE941C18FB37 /* KthLargestElementInArrayTest.swift in Sources */,
 				8F7896FF1DACD217E28BE844 /* FindMedianFromDataStream.swift in Sources */,
