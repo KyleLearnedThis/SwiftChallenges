@@ -13,6 +13,7 @@ class RedundantConnectionTest: XCTestCase {
 
     private func verify(_ edges: [[Int]], _ expected: [Int], file: StaticString = #filePath, line: UInt = #line) {
         XCTAssertEqual(sut.findRedundantConnection(edges), expected, file: file, line: line)
+        XCTAssertEqual(sut.unionFindRedundantConnection(edges), expected, file: file, line: line)
     }
 
     // MARK: - Base cases

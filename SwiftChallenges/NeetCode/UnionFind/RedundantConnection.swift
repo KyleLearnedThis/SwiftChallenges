@@ -31,4 +31,25 @@ class RedundantConnection {
         }
         return []
     }
+
+    func unionFindRedundantConnection(_ edges: [[Int]]) -> [Int] {
+        var parent = Array(0...edges.count) // parent[i] = i, every node is its own root
+
+        func find(_ x: Int) -> Int {
+            if parent[x] != x {
+                parent[x] = find(parent[x]) // path compression
+            }
+            return parent[x]
+        }
+
+        for edge in edges {
+            let rootU = find(edge[0])
+            let rootV = find(edge[1])
+            if rootU == rootV {
+                return edge
+            }
+            parent[rootU] = rootV
+        }
+        return []
+    }
 }
