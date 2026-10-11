@@ -839,6 +839,9 @@
 		FBB267672F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */; };
 		FD9E816BBB65473873BA8C9E /* FindAllNumbersDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09222047DC6EBE1B8259C169 /* FindAllNumbersDisappearedInArray.swift */; };
 		FE23A7FF0DB18415F0B3EC44 /* FindAllDuplicatesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8053B63B4ABCBE0A4AA03D /* FindAllDuplicatesInArray.swift */; };
+		CEA04591278FF7B49229E628 /* RedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F5D0253FFAC19ADF685F2C /* RedundantConnection.swift */; };
+		210509625E6393ED6C35BFA6 /* RedundantConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F5D0253FFAC19ADF685F2C /* RedundantConnection.swift */; };
+		1A1496A129D4E4002018F7A0 /* RedundantConnectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA552C946601086CBF88A24 /* RedundantConnectionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1400,6 +1403,8 @@
 		FBB2675F2F959B2100CF0DB9 /* LengthOfLongestSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstringTest.swift; sourceTree = "<group>"; };
 		FBB267612F95F19500CF0DB9 /* MinimumWindowSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstring.swift; sourceTree = "<group>"; };
 		FBB267662F95F21000CF0DB9 /* MinimumWindowSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringTest.swift; sourceTree = "<group>"; };
+		81F5D0253FFAC19ADF685F2C /* RedundantConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedundantConnection.swift; sourceTree = "<group>"; };
+		9AA552C946601086CBF88A24 /* RedundantConnectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedundantConnectionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1421,6 +1426,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66AEF34BF2638A2ACE69ADCB /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+				81F5D0253FFAC19ADF685F2C /* RedundantConnection.swift */,
+			);
+			path = UnionFind;
+			sourceTree = "<group>";
+		};
+		CEF737FCA29441860A16DCF0 /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+				9AA552C946601086CBF88A24 /* RedundantConnectionTest.swift */,
+			);
+			path = UnionFind;
+			sourceTree = "<group>";
+		};
 		0436099BC1C8F159D07C9CAD /* Intervals */ = {
 			isa = PBXGroup;
 			children = (
@@ -2805,6 +2826,7 @@
 				0436099BC1C8F159D07C9CAD /* Intervals */,
 				E7DCE1F3519F74A4E2629D2B /* CyclicSort */,
 				6AFC144D41CD6FA2D594449D /* HeapPriorityQueue */,
+				CEF737FCA29441860A16DCF0 /* UnionFind */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -2833,6 +2855,7 @@
 				19ECFFC2BD62F4916624CB7A /* Intervals */,
 				105282432D8585E131CEB97D /* CyclicSort */,
 				3F31B1D0E2E437EF84C68F32 /* HeapPriorityQueue */,
+				66AEF34BF2638A2ACE69ADCB /* UnionFind */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -3076,6 +3099,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA04591278FF7B49229E628 /* RedundantConnection.swift in Sources */,
 				3DC6734715A66559A45C5F30 /* HeapMergeKSortedLists.swift in Sources */,
 				F09216AB9654EF585B02BC9B /* KthLargestElementInArray.swift in Sources */,
 				3C778FC9CBEAA3B49B799C45 /* FindMedianFromDataStream.swift in Sources */,
@@ -3369,6 +3393,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210509625E6393ED6C35BFA6 /* RedundantConnection.swift in Sources */,
+				1A1496A129D4E4002018F7A0 /* RedundantConnectionTest.swift in Sources */,
 				61D202807A61CBF62DB7B822 /* HeapMergeKSortedLists.swift in Sources */,
 				BBD0370D9F4976D756AC76B6 /* HeapMergeKSortedListsTest.swift in Sources */,
 				7B65E09AE8BCA4E0DA8A6BBA /* KthLargestElementInArray.swift in Sources */,
